@@ -3,7 +3,9 @@ id: "parasito-paludisme"
 slug: "parasito-paludisme"
 title: "Paludisme : la fièvre du retour de voyage"
 description: "Reconnaître, diagnostiquer en urgence et traiter un accès palustre — le réflexe internat."
-track: "parasito"
+track: "section-IV"
+programItem: "IV-14"
+theme: "Parasitologie"
 order: 10
 duration: "13 min"
 tags: ["parasitologie", "paludisme", "fièvre", "voyage"]

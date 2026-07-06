@@ -1,6 +1,8 @@
 <script>
   import { base } from '$app/paths';
   import { pathologies, allKeywords, keywordCat } from '$lib/content/lexique';
+  import { casLexique } from '$lib/content/casCliniques';
+  import CasClinique from '$lib/components/ui/CasClinique.svelte';
 
   /** @type {string[]} mots-clés sélectionnés */
   let sel = [];
@@ -98,6 +100,14 @@
   </div>
 </section>
 
+<section class="sujets">
+  <h2>Sujets d'entraînement</h2>
+  <p class="shint">Lisez l'énoncé, <strong>soulignez les indices</strong> (les termes qui orientent), puis <strong>révélez la réponse</strong>.</p>
+  <div class="caslist">
+    {#each casLexique as c}<CasClinique cas={c} />{/each}
+  </div>
+</section>
+
 <style>
   .head { max-width: 760px; margin-bottom: var(--space-8); }
   h1 { font-size: var(--text-3xl); margin: var(--space-2) 0; }
@@ -136,4 +146,8 @@
   .tag.sel { background: color-mix(in srgb, var(--accent-pk) 15%, var(--bg-primary)); color: var(--accent-pk); border-color: var(--accent-pk); }
   .golink { font-family: var(--font-mono); font-size: var(--text-xs); color: var(--accent-pk); text-decoration: none; }
   .golink:hover { text-decoration: underline; }
+  .sujets { margin-top: var(--space-16); border-top: 1px solid var(--border-subtle); padding-top: var(--space-8); }
+  .sujets h2 { font-size: var(--text-xl); margin: 0 0 var(--space-2); }
+  .shint { color: var(--text-secondary); font-size: var(--text-sm); margin: 0 0 var(--space-4); }
+  .caslist { display: grid; gap: var(--space-4); max-width: 820px; }
 </style>

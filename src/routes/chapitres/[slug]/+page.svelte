@@ -6,7 +6,9 @@
   import { trackById } from '$lib/content/tracks';
   import Quiz from '$lib/components/ui/Quiz.svelte';
   import ExerciseBlock from '$lib/components/ui/ExerciseBlock.svelte';
+  import CasClinique from '$lib/components/ui/CasClinique.svelte';
   import { exercisesForChapter } from '$lib/content/exercises';
+  import { casForChapter } from '$lib/content/casCliniques';
   import { fade, fly } from 'svelte/transition';
   import { cubicOut } from 'svelte/easing';
   import vizMap, { availableVizKeys } from '$lib/content/vizRegistry';
@@ -18,6 +20,7 @@
   $: prev = idx > 0 ? chapters[idx - 1] : null;
   $: next = idx >= 0 && idx < chapters.length - 1 ? chapters[idx + 1] : null;
   $: chapterExercises = chapter ? exercisesForChapter(chapter.slug) : [];
+  $: chapterCas = chapter ? casForChapter(chapter.slug) : [];
 
   // Rappels : prérequis (liens) + termes du glossaire.
   $: prereqs = (chapter?.prerequisites ?? [])
@@ -148,15 +151,22 @@
 
       {#if chapter.quiz?.length}
         <section class="step quiz-step">
-          <p class="step-kicker">Vérifier ses acquis</p>
-          <Quiz title="Quiz" questions={chapter.quiz} />
+          <p class="step-kicker">QCM · épreuve 1</p>
+          <Quiz title="QCM" questions={chapter.quiz} />
         </section>
       {/if}
 
       {#if chapterExercises.length}
         <section class="step ex-step">
-          <p class="step-kicker">Exercices</p>
+          <p class="step-kicker">Exercices d'application · épreuve 2</p>
           <ExerciseBlock items={chapterExercises} />
+        </section>
+      {/if}
+
+      {#if chapterCas.length}
+        <section class="step ex-step">
+          <p class="step-kicker">Dossiers cliniques · épreuve 3</p>
+          <div class="caslist">{#each chapterCas as c}<CasClinique cas={c} />{/each}</div>
         </section>
       {/if}
 
@@ -254,6 +264,7 @@
 
   .quiz-step, .ex-step { min-height: auto; opacity: 1; }
   .ex-step { max-width: 760px; }
+  .caslist { display: grid; gap: var(--space-4); }
   .chap-nav { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-4); margin-top: var(--space-8); }
   .nav-card { display: flex; flex-direction: column; gap: 2px; text-decoration: none; padding: var(--space-4); border: 1px solid var(--border-subtle); border-radius: var(--radius); background: var(--bg-tertiary); transition: border-color 0.2s ease, transform 0.2s ease; }
   .nav-card:hover { border-color: var(--accent-pk); transform: translateY(-2px); }

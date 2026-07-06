@@ -3,7 +3,9 @@ id: "pharmaco-pk-base"
 slug: "pharmaco-pk-base"
 title: "Paramètres pharmacocinétiques de base"
 description: "Clairance, volume de distribution, demi-vie et biodisponibilité : les quatre chiffres qui gouvernent une dose."
-track: "pharmaco"
+track: "section-V"
+programItem: "V-4"
+theme: "Pharmacocinétique"
 order: 10
 duration: "12 min"
 tags: ["pharmacologie", "pharmacocinétique", "clairance", "demi-vie"]

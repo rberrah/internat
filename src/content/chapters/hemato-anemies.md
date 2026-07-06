@@ -3,7 +3,9 @@ id: "hemato-anemies"
 slug: "hemato-anemies"
 title: "Démarche diagnostique devant une anémie"
 description: "Confirmer, classer par VGM puis réticulocytes, et explorer le fer : l'algorithme complet."
-track: "hemato"
+track: "section-IV"
+programItem: "IV-22"
+theme: "Hématologie"
 order: 20
 duration: "16 min"
 tags: ["hématologie", "anémie", "fer", "réticulocytes", "VGM"]

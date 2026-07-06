@@ -3,7 +3,9 @@ id: "hemato-hemogramme"
 slug: "hemato-hemogramme"
 title: "Lire un hémogramme (NFS)"
 description: "Les trois lignées, les valeurs normales et la démarche devant une anémie."
-track: "hemato"
+track: "section-IV"
+programItem: "IV-22"
+theme: "Hématologie"
 order: 10
 duration: "12 min"
 tags: ["hématologie", "NFS", "anémie", "VGM"]

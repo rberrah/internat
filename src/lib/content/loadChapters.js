@@ -83,6 +83,8 @@ function parseChapter(path, raw) {
     description: data.description ?? '',
     order: Number(data.order ?? 999),
     duration: data.duration ?? '',
+    programItem: data.programItem ?? '',
+    theme: data.theme ?? '',
     tags: data.tags ?? [],
     prerequisites: data.prerequisites ?? [],
     glossary: data.glossary ?? [],

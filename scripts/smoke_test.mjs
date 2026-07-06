@@ -25,6 +25,10 @@ const { tracks } = await import(url.pathToFileURL(path.join(root, 'src/lib/conte
 const { exercises, exercisesForChapter } = await import(url.pathToFileURL(path.join(root, 'src/lib/content/exercises.js')));
 const { glossary } = await import(url.pathToFileURL(path.join(root, 'src/lib/content/glossary.js')));
 const { pathologies, allKeywords, keywordToPathologies } = await import(url.pathToFileURL(path.join(root, 'src/lib/content/lexique.js')));
+const { itemIndex } = await import(url.pathToFileURL(path.join(root, 'src/lib/content/programme.js')));
+const { casCliniques } = await import(url.pathToFileURL(path.join(root, 'src/lib/content/casCliniques.js')));
+const { fiches } = await import(url.pathToFileURL(path.join(root, 'src/lib/content/fiches.js')));
+const { markedTerms } = await import(url.pathToFileURL(path.join(root, 'src/lib/content/marks.js')));
 
 // 1. slugs uniques
 check(new Set(slugs).size === slugs.length, `${slugs.length} slugs uniques`);
@@ -77,6 +81,38 @@ check(revOk, `${allKeywords.length} mots-clés : index inverse bidirectionnel co
 // liens chapitre du lexique résolus
 const badLexChap = pathologies.filter((p) => p.chapter && !slugSet.has(p.chapter));
 check(badLexChap.length === 0, `liens chapitre du lexique tous résolus`);
+
+// 9. programme officiel : chaque chapitre pointe vers un item existant
+const badItem = chapters.filter((c) => c.data.programItem && !itemIndex[c.data.programItem]);
+check(badItem.length === 0, `chapitres → items du programme officiel tous résolus`);
+
+// 10. cas cliniques : marques [[...]] ⇔ indices, liens chapitre résolus
+let casMarkOk = true;
+for (const c of casCliniques) {
+  const marks = new Set(markedTerms(c.enonce));
+  const idx = new Set((c.indices ?? []).map((i) => i.mot));
+  for (const m of marks) if (!idx.has(m)) casMarkOk = false;
+  for (const i of idx) if (!marks.has(i)) casMarkOk = false;
+  if (!c.reponse || !c.question) casMarkOk = false;
+}
+check(casMarkOk, `${casCliniques.length} cas cliniques : marques [[...]] ⇔ indices cohérentes`);
+const badCasChap = casCliniques.filter((c) => c.chapter && !slugSet.has(c.chapter));
+check(badCasChap.length === 0, `liens chapitre des cas cliniques tous résolus`);
+
+// 11. exercices : marques [[...]] ⇔ indices (quand présents)
+let exoMarkOk = true;
+for (const e of exercises) {
+  const marks = new Set(markedTerms(e.q));
+  const idx = new Set((e.indices ?? []).map((i) => i.mot));
+  for (const i of idx) if (!marks.has(i)) exoMarkOk = false;
+}
+check(exoMarkOk, `indices des exercices cohérents avec les marques du sujet`);
+
+// 12. fiches : structure + liens chapitre
+const badFiche = fiches.filter((f) => !f.titre || !f.section || !Array.isArray(f.blocs) || !f.blocs.length);
+check(badFiche.length === 0, `${fiches.length} fiches : structure valide`);
+const badFicheChap = fiches.filter((f) => f.chapter && !slugSet.has(f.chapter));
+check(badFicheChap.length === 0, `liens chapitre des fiches tous résolus`);
 
 if (fail.length) {
   console.error('\nSmoke tests ÉCHOUÉS :\n' + fail.map((m) => '  ✗ ' + m).join('\n'));

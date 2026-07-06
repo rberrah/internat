@@ -7,8 +7,9 @@
 
   const links = [
     { href: '/', key: 'home', label: 'Accueil' },
-    { href: '/chapitres', key: 'course', label: 'Disciplines' },
-    { href: '/exercices', key: 'exercises', label: 'Exercices' },
+    { href: '/chapitres', key: 'course', label: 'Programme' },
+    { href: '/fiches', key: 'fiches', label: 'Fiches' },
+    { href: '/exercices', key: 'exercises', label: 'Entraînement' },
     { href: '/lexique', key: 'lexique', label: 'Lexique clinique' },
     { href: '/glossaire', key: 'glossary', label: 'Glossaire' },
     { href: '/a-propos', key: 'about', label: 'À propos' }

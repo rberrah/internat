@@ -19,7 +19,7 @@
     <a class="btn btn-primary" href={`${base}/chapitres`}>Explorer les disciplines</a>
     <a class="btn btn-outline" href={`${base}/exercices`}>S'entraîner</a>
   </div>
-  <p class="stat">{total} chapitre{total > 1 ? 's' : ''} · {tracks.length} disciplines</p>
+  <p class="stat">{total} chapitre{total > 1 ? 's' : ''} · programme officiel (5 sections)</p>
 </section>
 
 <section class="grid">

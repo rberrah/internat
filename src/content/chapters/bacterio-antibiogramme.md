@@ -3,7 +3,9 @@ id: "bacterio-antibiogramme"
 slug: "bacterio-antibiogramme"
 title: "Antibiogramme, CMI et indices PK/PD"
 description: "De la CMI à la catégorisation S/I/R, et pourquoi le schéma d'administration dépend de la famille."
-track: "bacterio"
+track: "section-IV"
+programItem: "IV-10"
+theme: "Bactériologie"
 order: 10
 duration: "13 min"
 tags: ["bactériologie", "antibiogramme", "CMI", "PK/PD"]

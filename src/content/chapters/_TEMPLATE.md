@@ -3,8 +3,10 @@ id: "discipline-sujet"
 slug: "discipline-sujet"
 title: "Titre du chapitre"
 description: "Une phrase qui résume le chapitre (affichée dans les listes)."
-track: "hemato"        # id d'une discipline défini dans src/lib/content/tracks.js
-order: 20              # ordre d'affichage au sein de la discipline
+track: "section-IV"    # parcours : "transversal" ou "section-I".."section-V"
+programItem: "IV-22"   # item du programme officiel (voir programme.js), ex. "IV-22"
+theme: "Hématologie"   # sous-thème d'affichage
+order: 20              # ordre d'affichage au sein du parcours
 duration: "10 min"
 tags: ["mot-clé"]
 prerequisites: []      # slugs d'autres chapitres (affichés en « Rappels »)
