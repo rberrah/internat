@@ -4,6 +4,7 @@
 // Édition libre : ajoutez/retirez des disciplines selon votre programme.
 
 export const tracks = [
+  { id: 'transversal',   label: 'Transversal',   title: 'Notions transversales',          tagline: "Les concepts qui reviennent partout : demi-vie (biophysique ↔ PK), Michaelis-Menten (enzymo ↔ PK), pH/pKa, ordres de réaction.", accent: '#3730a3', status: 'available' },
   { id: 'hemato',        label: 'Discipline 1',  title: 'Hématologie',                    tagline: "Hémogramme, anémies, hémostase, hémopathies et transfusion.",                         accent: '#b23b4a', status: 'available' },
   { id: 'bacterio',      label: 'Discipline 2',  title: 'Bactériologie & Virologie',      tagline: "Diagnostic microbiologique, antibiogramme, résistances et principaux agents.",         accent: '#1f7a6d', status: 'available' },
   { id: 'parasito',      label: 'Discipline 3',  title: 'Parasitologie & Mycologie',      tagline: "Paludisme, parasitoses digestives, mycoses et diagnostic direct.",                    accent: '#2f7d54', status: 'planned' },

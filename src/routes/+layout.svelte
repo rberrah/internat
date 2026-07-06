@@ -9,6 +9,7 @@
     { href: '/', key: 'home', label: 'Accueil' },
     { href: '/chapitres', key: 'course', label: 'Disciplines' },
     { href: '/exercices', key: 'exercises', label: 'Exercices' },
+    { href: '/lexique', key: 'lexique', label: 'Lexique clinique' },
     { href: '/glossaire', key: 'glossary', label: 'Glossaire' },
     { href: '/a-propos', key: 'about', label: 'À propos' }
   ];

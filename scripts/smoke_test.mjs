@@ -24,6 +24,7 @@ const slugs = chapters.map((c) => c.data.slug);
 const { tracks } = await import(url.pathToFileURL(path.join(root, 'src/lib/content/tracks.js')));
 const { exercises, exercisesForChapter } = await import(url.pathToFileURL(path.join(root, 'src/lib/content/exercises.js')));
 const { glossary } = await import(url.pathToFileURL(path.join(root, 'src/lib/content/glossary.js')));
+const { pathologies, allKeywords, keywordToPathologies } = await import(url.pathToFileURL(path.join(root, 'src/lib/content/lexique.js')));
 
 // 1. slugs uniques
 check(new Set(slugs).size === slugs.length, `${slugs.length} slugs uniques`);
@@ -64,6 +65,18 @@ check(noTrain.length === 0, `chaque chapitre a un quiz ou des exercices`);
 const glossTerms = new Set(glossary.map((g) => g.term));
 const badGloss = chapters.flatMap((c) => (c.data.glossary ?? []).filter((t) => !glossTerms.has(t)));
 check(badGloss.length === 0, `termes de glossaire référencés tous définis`);
+
+// 8. lexique clinique : structure + index inverse + liens vers chapitres
+const badPatho = pathologies.filter((p) => !p.id || !p.nom || !p.orientation || !Array.isArray(p.cles) || p.cles.length === 0);
+check(badPatho.length === 0, `${pathologies.length} pathologies du lexique : structure valide`);
+const uniqPathoId = new Set(pathologies.map((p) => p.id));
+check(uniqPathoId.size === pathologies.length, `identifiants de pathologies uniques`);
+// index inverse cohérent (chaque mot-clé pointe vers ≥ 1 pathologie qui le contient)
+const revOk = allKeywords.every((m) => keywordToPathologies[m]?.length && keywordToPathologies[m].every((p) => p.cles.includes(m)));
+check(revOk, `${allKeywords.length} mots-clés : index inverse bidirectionnel cohérent`);
+// liens chapitre du lexique résolus
+const badLexChap = pathologies.filter((p) => p.chapter && !slugSet.has(p.chapter));
+check(badLexChap.length === 0, `liens chapitre du lexique tous résolus`);
 
 if (fail.length) {
   console.error('\nSmoke tests ÉCHOUÉS :\n' + fail.map((m) => '  ✗ ' + m).join('\n'));
