@@ -24,7 +24,7 @@ quiz:
   - prompt: "Une anémie régénérative se reconnaît sur…"
     options:
       - "un VGM bas"
-      - "des réticulocytes élevés (> ~150 G/L)"
+      - "des réticulocytes élevés (> ~120 G/L)"
       - "des plaquettes basses"
     correct: 1
 ---
@@ -41,7 +41,7 @@ Le principe : trois **lignées** sanguines, chacune avec ses valeurs de référe
 - **Lignée plaquettaire** (hémostase primaire) : plaquettes.
 
 :::key
-Valeurs usuelles de l'adulte : **Hb** 13–17 g/dL (homme) / 12–16 (femme) · **VGM** 80–100 fL · **leucocytes** 4–10 G/L · **PNN** 1,5–7 G/L · **plaquettes** 150–400 G/L · **réticulocytes** 25–100 G/L.
+Valeurs usuelles de l'adulte : **Hb** 13–17 g/dL (homme) / 12–16 (femme) · **VGM** 80–100 fL · **leucocytes** 4–10 G/L · **PNN** 1,5–7 G/L · **plaquettes** 150–400 G/L · **réticulocytes** 20–80 G/L.
 :::
 
 Les indices se recalculent entre eux :
@@ -53,7 +53,7 @@ $$ \text{VGM} = \frac{\text{Ht}}{\text{nombre d'hématies}}, \qquad \text{CCMH} 
 Une **anémie** (Hb basse) se classe en croisant **deux axes**, et deux seulement :
 
 1. **le VGM** → microcytaire (< 80), normocytaire (80–100) ou macrocytaire (> 100) ;
-2. **les réticulocytes** → régénérative (> ~150 G/L : la moelle répond) ou arégénérative (< 150 : origine centrale).
+2. **les réticulocytes** → régénérative (> ~120 G/L : la moelle répond) ou arégénérative (< 120 : origine centrale).
 
 :::howto
 **Comment lire le schéma.** Déplacez le VGM (axe horizontal, les trois zones de couleur) et les réticulocytes (axe vertical, seuil de régénération en pointillés). Le point du patient tombe dans une case, et l'orientation diagnostique s'affiche.

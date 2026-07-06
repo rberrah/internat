@@ -26,6 +26,24 @@ export const exercises = [
     explain: "Réticulocytes > ~150 G/L = régénérative (moelle qui répond : hémolyse, hémorragie). En dessous = arégénérative (origine centrale)."
   },
 
+  {
+    cat: 'Hématologie', chapter: 'hemato-anemies', type: 'num', unit: '%', answer: 5, tol: 0.05,
+    q: "Fer sérique = 5 µmol/L, transferrine = 4 g/L. Calculez le coefficient de saturation (CS). Rappel : CTF = transferrine × 25.",
+    explain: "CTF = 4 × 25 = 100 µmol/L. CS = fer / CTF × 100 = 5 / 100 × 100 = 5 % (effondré → oriente vers une carence martiale)."
+  },
+  {
+    cat: 'Hématologie', chapter: 'hemato-anemies', type: 'mcq', correct: 1,
+    q: "Anémie microcytaire, ferritine à 180 µg/L, CRP à 60 mg/L, fer sérique bas. Le diagnostic le plus probable est…",
+    options: ['une carence martiale', 'une anémie inflammatoire', 'une carence en folates'],
+    explain: "Ferritine normale/haute + CRP élevée + fer bas = anémie inflammatoire (la ferritine, protéine de l'inflammation, n'est pas effondrée). Le RsTfR aiderait à démasquer une carence associée."
+  },
+  {
+    cat: 'Hématologie', chapter: 'hemato-anemies', type: 'mcq', correct: 0,
+    q: "Anémie macrocytaire (VGM 118 fL) arégénérative avec signes neurologiques. On évoque en premier…",
+    options: ['une carence en vitamine B12', 'une carence martiale', 'une hémolyse'],
+    explain: "Macrocytaire + arégénérative + neuro → carence en B12 (souvent maladie de Biermer). La carence martiale est microcytaire ; l'hémolyse est régénérative."
+  },
+
   // ─── Bactériologie ───
   {
     cat: 'Bactériologie & Virologie', chapter: 'bacterio-antibiogramme', type: 'mcq', correct: 0,

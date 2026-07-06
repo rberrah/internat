@@ -6,21 +6,21 @@
 
   $: micro = vgm < 80;
   $: macro = vgm > 100;
-  $: regen = retic >= 150; // seuil usuel de régénération
+  $: regen = retic >= 120; // seuil de régénération (programme internat)
 
   $: categorie = micro ? 'Microcytaire' : macro ? 'Macrocytaire' : 'Normocytaire';
   $: regenLabel = regen ? 'régénérative' : 'arégénérative';
 
   $: causes = (() => {
-    if (micro) return ['Carence martiale (ferriprive) +++', 'Thalassémie (β/α)', 'Anémie inflammatoire (parfois normocytaire)'];
+    if (micro) return ['Carence martiale (ferritine ↓) — la + fréquente', 'Anémie inflammatoire (ferritine N/↑, CRP ↑)', 'Thalassémie · anémie sidéroblastique'];
     if (macro)
       return regen
-        ? ['Hémolyse ou hémorragie avec forte réticulocytose', '(macrocytose « de régénération »)']
-        : ['Carence en B9 / B12 (mégaloblastique)', 'Myélodysplasie', 'Alcool, hypothyroïdie, médicaments'];
+        ? ['Hémolyse ou hémorragie (réticulocytose)', '(macrocytose « de régénération »)']
+        : ['Carence B12 / folates (mégaloblastose)', 'Myélodysplasie', 'Alcool, hypothyroïdie, antifoliques'];
     // normocytaire
     return regen
-      ? ['Hémorragie aiguë', 'Hémolyse (à confirmer : LDH, haptoglobine, bilirubine)']
-      : ['Insuffisance rénale (défaut d’EPO)', 'Anémie inflammatoire', 'Envahissement / aplasie médullaire', 'Début de carence'];
+      ? ['Hémorragie aiguë', 'Hémolyse (bili. libre ↑, haptoglobine ↓)']
+      : ['Insuffisance rénale (défaut d’EPO)', 'Inflammation chronique', 'Envahissement / aplasie médullaire', 'Chimiothérapie'];
   })();
 
   const W = 440, H = 250, m = { top: 12, right: 14, bottom: 32, left: 44 };
@@ -43,8 +43,8 @@
       <text x={(xOf(100) + iW) / 2} y="14" class="zlbl">Macro</text>
 
       <!-- seuil régénération -->
-      <line x1="0" x2={iW} y1={yOf(150)} y2={yOf(150)} class="thr" />
-      <text x="2" y={yOf(150) - 4} class="thrlbl">150 G/L — seuil de régénération</text>
+      <line x1="0" x2={iW} y1={yOf(120)} y2={yOf(120)} class="thr" />
+      <text x="2" y={yOf(120) - 4} class="thrlbl">120 G/L — seuil de régénération</text>
 
       <!-- axes -->
       <line x1="0" x2="0" y1="0" y2={iH} class="axis" />

@@ -7,7 +7,9 @@
 /** @type {GlossaryEntry[]} */
 export const glossary = [
   { term: 'VGM', def: "Volume Globulaire Moyen : taille moyenne des hématies (fL). < 80 microcytaire, 80–100 normocytaire, > 100 macrocytaire.", tags: ['hemato'] },
-  { term: 'Réticulocytes', def: "Hématies jeunes. Leur nombre (G/L) juge le caractère régénératif d'une anémie (> ~150 G/L = régénérative).", tags: ['hemato'] },
+  { term: 'Réticulocytes', def: "Hématies jeunes. Leur nombre (usuel 20–80 G/L) juge le caractère régénératif d'une anémie : seuil de régénération ≈ 120 G/L.", tags: ['hemato'] },
+  { term: 'Ferritine', def: "Protéine de réserve du fer ; reflète les réserves. Effondrée = carence martiale. Mais c'est aussi une protéine de l'inflammation : elle peut être faussement normale/haute.", tags: ['hemato'] },
+  { term: 'Coefficient de saturation', def: "CS = fer sérique / capacité totale de fixation de la transferrine × 100 (%). Bas dans la carence martiale ; aide à distinguer carence et inflammation.", tags: ['hemato'] },
   { term: 'CMI', def: "Concentration Minimale Inhibitrice : plus faible concentration d'antibiotique inhibant la croissance visible du germe.", tags: ['bacterio'] },
   { term: 'Antibiogramme', def: "Test de sensibilité d'une souche aux antibiotiques ; catégorise en S (sensible), I (sensible à forte exposition), R (résistant).", tags: ['bacterio'] },
   { term: '%T > CMI', def: "Fraction de l'intervalle de dose pendant laquelle la concentration reste au-dessus de la CMI. Indice clé des antibiotiques temps-dépendants.", tags: ['bacterio'] },
