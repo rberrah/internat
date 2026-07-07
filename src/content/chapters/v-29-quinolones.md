@@ -30,7 +30,7 @@ quiz:
     correct: 0
 ---
 
-<!-- step:title="Pourquoi ce chapitre" -->
+<!-- step:title="Pourquoi ce chapitre" viz="Antibiogramme" -->
 Les **fluoroquinolones** (ciprofloxacine, ofloxacine, lévofloxacine, moxifloxacine) sont de puissants antibiotiques à excellente diffusion, mais dont l'usage est désormais **restreint** en raison d'effets indésirables graves.
 
 Bien les connaître, c'est savoir profiter de leurs atouts sans exposer inutilement le patient.

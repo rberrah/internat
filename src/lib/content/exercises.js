@@ -40,6 +40,46 @@ export const exercises = [
       { mot: 'volume de distribution V = 20 L', pourquoi: "Après un bolus IV, C₀ = Dose / V." }
     ],
     explain: "C₀ = Dose / V = 100 / 20 = 5 mg/L."
+  },
+  {
+    cat: 'Chimie analytique', chapter: 'i-8-pression-osmotique', type: 'num', unit: 'mOsm/L', answer: 308, tol: 0.03,
+    q: "Une solution de NaCl à [[9 g/L]] (masse molaire 58,5 g/mol). Calculez son osmolarité (NaCl se dissocie en 2 ions).",
+    indices: [
+      { mot: '9 g/L', pourquoi: "Concentration molaire c = masse / M, puis osmolarité = c × nombre de particules dissociées." }
+    ],
+    explain: "c = 9 / 58,5 = 0,154 mol/L. NaCl → Na⁺ + Cl⁻ (2 particules) : osmolarité = 0,154 × 2 = 0,308 osmol/L ≈ 308 mOsm/L."
+  },
+  {
+    cat: 'Chimie analytique', chapter: 'i-3-spectrophotometrie-uv-visible', type: 'num', unit: 'µmol/L', answer: 100, tol: 0.02,
+    q: "Spectrophotométrie : absorbance A = 0,60, coefficient ε = 6000 L·mol⁻¹·cm⁻¹, trajet [[l = 1 cm]]. Calculez la concentration.",
+    indices: [
+      { mot: 'l = 1 cm', pourquoi: "Loi de Beer-Lambert : A = ε·l·c, donc c = A / (ε·l)." }
+    ],
+    explain: "c = A / (ε·l) = 0,60 / (6000 × 1) = 1,0×10⁻⁴ mol/L = 100 µmol/L."
+  },
+  {
+    cat: 'Statistiques', chapter: 'i-16-statistique-descriptive-estimation', type: 'num', unit: '', answer: 1.96, tol: 0.03,
+    q: "Moyenne 50, écart-type 10, [[n = 100]]. Quelle est la demi-largeur de l'intervalle de confiance à 95 % de la moyenne (z = 1,96) ?",
+    indices: [
+      { mot: 'n = 100', pourquoi: "IC95 % de la moyenne : ± 1,96 × σ / √n (l'incertitude diminue avec √n)." }
+    ],
+    explain: "Demi-largeur = 1,96 × σ/√n = 1,96 × 10/√100 = 1,96 × 1 = 1,96."
+  },
+  {
+    cat: 'Néphrologie', chapter: 'iv-42-troubles-acidobasiques', type: 'num', unit: 'mmol/L', answer: 28, tol: 0.02,
+    q: "Ionogramme : Na⁺ = 140, Cl⁻ = 100, [[HCO₃⁻ = 12]] mmol/L. Calculez le trou anionique.",
+    indices: [
+      { mot: 'HCO₃⁻ = 12', pourquoi: "Trou anionique = Na⁺ − (Cl⁻ + HCO₃⁻) ; augmenté, il oriente vers une acidose métabolique." }
+    ],
+    explain: "TA = Na⁺ − (Cl⁻ + HCO₃⁻) = 140 − (100 + 12) = 28 mmol/L (augmenté → acidose métabolique à trou anionique élevé)."
+  },
+  {
+    cat: 'Néphrologie', chapter: 'iv-46-insuffisance-renale', type: 'num', unit: 'mL/min', answer: 76.5, tol: 0.05,
+    q: "Homme de 60 ans, [[70 kg]], créatininémie 90 µmol/L. Estimez la clairance de la créatinine (Cockcroft, k = 1,23 chez l'homme).",
+    indices: [
+      { mot: '70 kg', pourquoi: "Formule de Cockcroft : (140 − âge) × poids × k / créatininémie (µmol/L)." }
+    ],
+    explain: "ClCr = (140 − 60) × 70 × 1,23 / 90 = 80 × 70 × 1,23 / 90 ≈ 76,5 mL/min."
   }
 ];
 

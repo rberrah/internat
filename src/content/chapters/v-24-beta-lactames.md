@@ -30,7 +30,7 @@ quiz:
     correct: 0
 ---
 
-<!-- step:title="Pourquoi ce chapitre" -->
+<!-- step:title="Pourquoi ce chapitre" viz="Antibiogramme" -->
 Les **bêta-lactames** sont la famille d'antibiotiques la plus prescrite. Toutes partagent le **cycle bêta-lactame** et un même mécanisme, mais leur spectre s'élargit de la pénicilline G aux carbapénèmes.
 
 Les maîtriser, c'est comprendre un traitement de première ligne et son principal écueil : l'**allergie**.

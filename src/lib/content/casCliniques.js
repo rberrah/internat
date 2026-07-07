@@ -89,6 +89,89 @@ export const casCliniques = [
     question: "Quel diagnostic évoquez-vous et quels examens confirment ?",
     reponse: "Endocardite infectieuse (streptocoque, porte d'entrée dentaire).",
     raisonnement: "Fièvre prolongée + souffle + hémocultures positives = endocardite (critères de Duke). Confirmation : hémocultures répétées + échocardiographie (végétations). Antibiothérapie prolongée adaptée."
+  },
+  {
+    id: 'cas-acidocetose', titre: 'Diabétique de type 1 essoufflée', discipline: 'Endocrinologie', chapter: 'iv-39-diabetes', lexique: true,
+    enonce: "Une femme de 24 ans, diabétique de type 1, présente depuis 24 h des [[nausées]], une [[douleur abdominale]], une [[polyurie]] et une [[polydipsie]]. Elle a une [[respiration ample et rapide]]. La glycémie capillaire est [[très élevée]] et la bandelette urinaire montre une [[cétonurie]].",
+    indices: [
+      { mot: 'nausées', pourquoi: "Signe digestif fréquent de l'acidose." },
+      { mot: 'douleur abdominale', pourquoi: "Peut simuler un abdomen chirurgical au cours de l'acidocétose." },
+      { mot: 'polyurie', pourquoi: "Glycosurie osmotique." },
+      { mot: 'polydipsie', pourquoi: "Compense les pertes hydriques." },
+      { mot: 'respiration ample et rapide', pourquoi: "Dyspnée de Kussmaul = compensation de l'acidose métabolique." },
+      { mot: 'très élevée', pourquoi: "Hyperglycémie franche." },
+      { mot: 'cétonurie', pourquoi: "Cétose : signe la carence en insuline." }
+    ],
+    question: "Quel diagnostic et quelle prise en charge urgente ?",
+    reponse: "Acidocétose diabétique.",
+    raisonnement: "Hyperglycémie + cétose + acidose (dyspnée de Kussmaul) = acidocétose. Urgence : réhydratation, insulinothérapie IV, apport de potassium (attention à la kaliémie), recherche du facteur déclenchant (infection, arrêt d'insuline)."
+  },
+  {
+    id: 'cas-sca', titre: 'Douleur thoracique chez un fumeur', discipline: 'Cardiologie', chapter: 'iv-47-sca-insuffisance-cardiaque', lexique: true,
+    enonce: "Un homme de 60 ans, [[tabagique]] et [[hypertendu]], présente depuis 1 h une [[douleur thoracique constrictive]] rétrosternale avec [[irradiation dans le bras gauche]] et des [[sueurs]]. La [[troponine est élevée]].",
+    indices: [
+      { mot: 'tabagique', pourquoi: "Facteur de risque cardiovasculaire majeur." },
+      { mot: 'hypertendu', pourquoi: "Facteur de risque cardiovasculaire." },
+      { mot: 'douleur thoracique constrictive', pourquoi: "Douleur angineuse typique." },
+      { mot: 'irradiation dans le bras gauche', pourquoi: "Irradiation évocatrice d'origine coronarienne." },
+      { mot: 'sueurs', pourquoi: "Signe neurovégétatif accompagnant le SCA." },
+      { mot: 'troponine est élevée', pourquoi: "Marque la nécrose myocardique (infarctus)." }
+    ],
+    question: "Quel diagnostic et quels examens immédiats ?",
+    reponse: "Syndrome coronarien aigu (infarctus).",
+    raisonnement: "Douleur thoracique typique + terrain à risque + troponine élevée = SCA. ECG immédiat (recherche d'un sus-décalage ST) + troponine. Prise en charge en urgence : reperfusion (angioplastie) si ST+, antiagrégants, anticoagulant."
+  },
+  {
+    id: 'cas-paracetamol', titre: 'Ingestion volontaire de paracétamol', discipline: 'Toxicologie', chapter: 'v-47-toxicologie-antalgiques', lexique: false,
+    enonce: "Un adolescent est amené 6 h après une [[ingestion volontaire de paracétamol]] à forte dose. Il est encore [[asymptomatique]]. On prélève une [[paracétamolémie]].",
+    indices: [
+      { mot: 'ingestion volontaire de paracétamol', pourquoi: "Le paracétamol en surdosage forme le NAPQI, hépatotoxique." },
+      { mot: 'asymptomatique', pourquoi: "Piège : la phase initiale est silencieuse, avant la cytolyse (24-72 h)." },
+      { mot: 'paracétamolémie', pourquoi: "Reportée sur le nomogramme (Rumack) selon l'heure d'ingestion pour décider du traitement." }
+    ],
+    question: "Quel est le risque et l'antidote ?",
+    reponse: "Hépatotoxicité (NAPQI) — antidote : N-acétylcystéine.",
+    raisonnement: "Le risque est l'hépatite cytolytique retardée. On administre la N-acétylcystéine (précurseur du glutathion) selon le nomogramme, sans attendre les signes de cytolyse. Ne pas se laisser rassurer par la phase asymptomatique."
+  },
+  {
+    id: 'cas-avk', titre: 'INR élevé sous AVK', discipline: 'Hématologie', chapter: 'iv-37-surveillance-heparines-avk', lexique: false,
+    enonce: "Un patient sous [[AVK]] pour fibrillation atriale a un [[INR à 6]] sans [[saignement]]. Il a récemment débuté un [[antibiotique]].",
+    indices: [
+      { mot: 'AVK', pourquoi: "Anticoagulant à marge étroite, surveillé par l'INR." },
+      { mot: 'INR à 6', pourquoi: "Surdosage (cible habituelle 2-3) : risque hémorragique." },
+      { mot: 'saignement', pourquoi: "Son absence oriente vers une conduite sans antidote lourd." },
+      { mot: 'antibiotique', pourquoi: "Interaction fréquente potentialisant les AVK (explique le surdosage)." }
+    ],
+    question: "Quelle conduite tenir ?",
+    reponse: "Surdosage asymptomatique en AVK — adapter selon l'INR.",
+    raisonnement: "INR 6 sans saignement : sauter une prise, contrôler l'INR, vitamine K orale à faible dose selon le protocole. Rechercher la cause (interaction avec l'antibiotique). En cas d'hémorragie grave : CCP (concentré de complexe prothrombinique) + vitamine K."
+  },
+  {
+    id: 'cas-drepano', titre: 'Crise douloureuse chez un enfant', discipline: 'Hématologie', chapter: 'iv-26-hemoglobinopathies', lexique: false,
+    enonce: "Un enfant [[originaire d'Afrique]] présente des [[douleurs osseuses]] intenses lors d'un épisode fébrile. Il a une [[anémie]] connue avec [[hémolyse]] chronique.",
+    indices: [
+      { mot: 'originaire d\'Afrique', pourquoi: "Terrain évocateur d'hémoglobinopathie (drépanocytose)." },
+      { mot: 'douleurs osseuses', pourquoi: "Crise vaso-occlusive : occlusion de la microcirculation par les hématies falciformes." },
+      { mot: 'anémie', pourquoi: "Anémie hémolytique chronique de la drépanocytose." },
+      { mot: 'hémolyse', pourquoi: "Les hématies falciformes ont une durée de vie raccourcie." }
+    ],
+    question: "Quel diagnostic et quel examen confirme ?",
+    reponse: "Crise vaso-occlusive drépanocytaire.",
+    raisonnement: "Terrain + anémie hémolytique + crises douloureuses osseuses = drépanocytose. Crise vaso-occlusive : hydratation, antalgiques (parfois morphiniques), oxygène, recherche d'un facteur déclenchant (infection). Diagnostic : électrophorèse de l'hémoglobine (HbS)."
+  },
+  {
+    id: 'cas-basedow', titre: 'Amaigrissement et palpitations', discipline: 'Endocrinologie', chapter: 'iv-51-dysthyroidie', lexique: true,
+    enonce: "Une femme de 35 ans a [[maigri]] malgré un appétit conservé, avec [[palpitations]], [[tremblements]] et [[thermophobie]]. La [[TSH est effondrée]].",
+    indices: [
+      { mot: 'maigri', pourquoi: "Amaigrissement malgré un appétit conservé = hypermétabolisme." },
+      { mot: 'palpitations', pourquoi: "Tachycardie de la thyrotoxicose." },
+      { mot: 'tremblements', pourquoi: "Signe d'hyperactivité adrénergique." },
+      { mot: 'thermophobie', pourquoi: "Intolérance à la chaleur de la thyrotoxicose." },
+      { mot: 'TSH est effondrée', pourquoi: "TSH basse = hyperthyroïdie (rétrocontrôle)." }
+    ],
+    question: "Quel diagnostic biologique et étiologie la plus fréquente ?",
+    reponse: "Thyrotoxicose (maladie de Basedow chez la femme jeune).",
+    raisonnement: "Amaigrissement + palpitations + tremblements + thermophobie + TSH effondrée = thyrotoxicose. Cause la plus fréquente chez la femme jeune : maladie de Basedow (anticorps anti-récepteur de la TSH). Traitement : antithyroïdiens de synthèse, bêtabloquant symptomatique."
   }
 ];
 

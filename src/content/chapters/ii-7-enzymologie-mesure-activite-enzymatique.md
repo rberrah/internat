@@ -30,7 +30,7 @@ quiz:
     correct: 0
 ---
 
-<!-- step:title="Pourquoi ce chapitre" -->
+<!-- step:title="Pourquoi ce chapitre" viz="MichaelisMenten" -->
 Doser une enzyme, ce n'est pas peser une protéine : on mesure son **activité catalytique**, c'est-à-dire la **vitesse** de la réaction qu'elle catalyse. Encore faut-il que cette vitesse soit **proportionnelle** à la quantité d'enzyme — ce qui impose des conditions précises.
 <!-- /step -->
 

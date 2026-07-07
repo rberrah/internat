@@ -30,7 +30,7 @@ quiz:
     correct: 0
 ---
 
-<!-- step:title="Pourquoi ce chapitre" -->
+<!-- step:title="Pourquoi ce chapitre" viz="Antibiogramme" -->
 Les **aminosides** (gentamicine, amikacine, tobramycine) sont des bactéricides puissants et rapides, réservés aux infections sévères, souvent en association.
 
 Leur maniement illustre parfaitement la PK/PD : une **dose unique journalière** maximise l'efficacité et limite la toxicité.

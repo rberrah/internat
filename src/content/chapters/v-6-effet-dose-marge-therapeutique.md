@@ -30,7 +30,7 @@ quiz:
     correct: 0
 ---
 
-<!-- step:title="Pourquoi ce chapitre" -->
+<!-- step:title="Pourquoi ce chapitre" viz="DoseEffet" -->
 Augmenter la dose augmente l'effet… jusqu'à un plafond, puis fait apparaître la toxicité. La **relation dose-effet** décrit ce compromis.
 
 Elle fournit trois notions clés de l'internat : **puissance**, **efficacité** et **index thérapeutique** — indispensables pour comprendre pourquoi certains médicaments se dosent dans le sang.

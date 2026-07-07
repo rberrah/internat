@@ -30,7 +30,7 @@ quiz:
     correct: 0
 ---
 
-<!-- step:title="Pourquoi ce chapitre" -->
+<!-- step:title="Pourquoi ce chapitre" viz="BilanMartial" -->
 Le fer circule lié à la **transferrine** et se stocke sous forme de **ferritine**. Un même bilan martial doit permettre de trancher entre trois situations : **carence**, **inflammation** et **surcharge**. Tout repose sur la lecture croisée de la ferritine, du coefficient de saturation et de la CRP.
 <!-- /step -->
 

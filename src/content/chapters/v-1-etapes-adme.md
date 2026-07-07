@@ -30,7 +30,7 @@ quiz:
     correct: 0
 ---
 
-<!-- step:title="Pourquoi ce chapitre" -->
+<!-- step:title="Pourquoi ce chapitre" viz="DecroissanceExpo" -->
 Le sort d'un médicament dans l'organisme se résume par un acronyme : **ADME** — **A**bsorption, **D**istribution, **M**étabolisme (biotransformation), **E**xcrétion.
 
 Ces quatre étapes gouvernent la concentration au site d'action, donc l'effet. Les comprendre, c'est savoir pourquoi une dose orale n'équivaut pas à une dose IV, et pourquoi l'insuffisance d'organe impose d'adapter la posologie.
