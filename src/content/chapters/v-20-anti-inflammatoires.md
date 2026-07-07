@@ -58,6 +58,8 @@ Ils découlent de la baisse des prostaglandines protectrices :
 :::clinical
 Contre-indications : **ulcère évolutif**, insuffisance rénale ou cardiaque sévère, **3e trimestre de grossesse** (fermeture du canal artériel).
 :::
+
+Interactions : ne pas associer un AINS aux **anticoagulants / autres antiagrégants** (risque hémorragique) ; l'**ibuprofène** peut **antagoniser l'effet antiagrégant de l'aspirine** (compétition sur la COX-1).
 <!-- /step -->
 
 <!-- step:title="Corticoïdes : mécanisme et effets" -->

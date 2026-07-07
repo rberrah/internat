@@ -35,7 +35,7 @@ Les **groupes sanguins** définissent les **antigènes** portés par la membrane
 <!-- /step -->
 
 <!-- step:title="Le système ABO" -->
-Deux antigènes possibles (**A** et **B**) définissent quatre groupes : **A, B, AB, O**.
+Deux antigènes possibles (**A** et **B**) définissent quatre groupes : **A, B, AB, O**. Ces antigènes sont de nature **glucidique** (ajoutés à la substance H) ; le groupe **O** n'exprime que la substance H, sans sucre terminal.
 
 :::key
 Particularité de l'ABO : les **anticorps sont naturels et réguliers**, présents **constamment** sans immunisation préalable, dirigés contre l'antigène **absent** : groupe A → anti-B ; groupe B → anti-A ; groupe O → anti-A **et** anti-B ; groupe AB → aucun.

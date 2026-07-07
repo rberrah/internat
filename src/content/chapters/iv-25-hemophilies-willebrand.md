@@ -54,6 +54,8 @@ Sévérité corrélée au taux de facteur : **sévère < 1 %**, **modérée 1–
 Orientation : **TP normal**, **TCA allongé** **corrigé** par l'épreuve de mélange (M+T), temps de saignement et **PFA normaux**, plaquettes normales. Puis **dosage des facteurs** : FVIII (hémophilie A) ou FIX (hémophilie B) abaissé, avec **VWF normal** (à distinguer de la maladie de Willebrand).
 :::
 
+Attention : dans les formes **mineures**, le **TCA peut être normal ou peu allongé** — c'est le **dosage du facteur** qui fait le diagnostic.
+
 Rappel des demi-vies utiles au traitement : **FVIII ≈ 12 h**, **FIX ≈ 24 h**.
 <!-- /step -->
 

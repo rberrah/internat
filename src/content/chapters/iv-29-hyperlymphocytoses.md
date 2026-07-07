@@ -68,6 +68,8 @@ Prolifération clonale de **lymphocytes B matures CD5+** accumulés (blocage de 
 Diagnostic : **lymphocytose B monotypique > 5 G/L** persistante, avec **score de Matutes 4 ou 5** (CD5+, CD23+, FMC7−, CD22/CD79b faible, Ig de surface faible). Frottis : petits lymphocytes matures + **ombres de Gümprecht** (noyaux nus).
 :::
 
+Une lymphocytose B monotypique **< 5 G/L** sans autre anomalie = **lymphocytose B monoclonale (MBL)**, considérée comme un état pré-LLC (surveillance).
+
 Bilan complémentaire : électrophorèse des protéines (**hypogammaglobulinémie**), LDH.
 <!-- /step -->
 

@@ -58,7 +58,7 @@ Les **AINS** (autre option de palier 1) ajoutent un effet anti-inflammatoire mai
 <!-- step:title="Opioïdes des paliers 2 et 3" -->
 Les opioïdes sont des **agonistes des récepteurs mu**.
 
-- **Codéine** : prodrogue transformée en **morphine par le CYP2D6** (efficacité variable selon le génotype).
+- **Codéine** : prodrogue transformée en **morphine par le CYP2D6** (efficacité variable selon le génotype) ; **contre-indiquée avant 12 ans** et pendant l'allaitement (métaboliseurs ultra-rapides → surdosage morphinique).
 - **Tramadol** : opioïde faible **+ inhibition de la recapture de sérotonine et noradrénaline** → risque de **syndrome sérotoninergique** et de **convulsions** ; contre-indiqué avec les IMAO.
 - **Morphine** : référence du palier 3. Métabolites **M6G (actif)** et M3G ; élimination rénale.
 <!-- /step -->

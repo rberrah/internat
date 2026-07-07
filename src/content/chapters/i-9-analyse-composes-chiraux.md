@@ -41,6 +41,8 @@ Les **stéréoisomères** ont la même formule développée mais une disposition
 - **Énantiomères** : images l'une de l'autre dans un miroir, **non superposables** (au moins un carbone asymétrique). Propriétés physiques **identiques**, sauf action **opposée** sur la lumière polarisée.
 - **Diastéréoisomères** : non images dans un miroir. Propriétés physiques **différentes** (point de fusion, solubilité, RMN) → séparables sur phase **achirale**.
 :::
+
+En milieu **chiral** (récepteurs, enzymes, protéines plasmatiques), deux énantiomères se comportent **différemment** : activité, toxicité et pharmacocinétique peuvent diverger (eutomère actif / distomère).
 <!-- /step -->
 
 <!-- step:title="Pouvoir rotatoire" -->

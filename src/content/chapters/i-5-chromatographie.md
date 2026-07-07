@@ -50,7 +50,7 @@ Grandeur sans dimension, elle permet de comparer la rétention entre systèmes d
 
 $$ N = 5{,}54 \left(\frac{t_R}{\delta}\right)^2 = 16\left(\frac{t_R}{w}\right)^2 $$
 
-où $\delta$ est la largeur à mi-hauteur et $w$ la largeur à la base.
+où $\delta$ est la largeur à mi-hauteur et $w$ la largeur à la base. En pratique, on recherche un $k'$ compris entre **1 et 10** (compromis entre résolution et durée d'analyse).
 <!-- /step -->
 
 <!-- step:title="Résolution" -->

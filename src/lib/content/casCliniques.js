@@ -172,6 +172,87 @@ export const casCliniques = [
     question: "Quel diagnostic biologique et étiologie la plus fréquente ?",
     reponse: "Thyrotoxicose (maladie de Basedow chez la femme jeune).",
     raisonnement: "Amaigrissement + palpitations + tremblements + thermophobie + TSH effondrée = thyrotoxicose. Cause la plus fréquente chez la femme jeune : maladie de Basedow (anticorps anti-récepteur de la TSH). Traitement : antithyroïdiens de synthèse, bêtabloquant symptomatique."
+  },
+  {
+    id: 'cas-myelome', titre: 'Douleurs osseuses et pic monoclonal', discipline: 'Hématologie', chapter: 'iv-27-myelome-dysglobulinemies', lexique: false,
+    enonce: "Un homme de 68 ans a des [[douleurs osseuses]] du rachis, une [[anémie]], une [[insuffisance rénale]] et une [[hypercalcémie]]. L'électrophorèse des protéines montre un [[pic monoclonal]] étroit.",
+    indices: [
+      { mot: 'douleurs osseuses', pourquoi: "Lésions ostéolytiques du myélome (« B » de CRAB)." },
+      { mot: 'anémie', pourquoi: "Envahissement médullaire plasmocytaire (« A » de CRAB)." },
+      { mot: 'insuffisance rénale', pourquoi: "Néphropathie à cylindres (chaînes légères) — « R » de CRAB." },
+      { mot: 'hypercalcémie', pourquoi: "Ostéolyse — « C » de CRAB." },
+      { mot: 'pic monoclonal', pourquoi: "Immunoglobuline monoclonale : marqueur du myélome." }
+    ],
+    question: "Quel diagnostic évoquez-vous ?",
+    reponse: "Myélome multiple.",
+    raisonnement: "Tétrade CRAB (hyperCalcémie, Rein, Anémie, os/Bone) + pic monoclonal = myélome. Confirmation : immunofixation, myélogramme (plasmocytose), protéinurie de Bence-Jones (chaînes légères)."
+  },
+  {
+    id: 'cas-lmc', titre: 'Splénomégalie et hyperleucocytose', discipline: 'Hématologie', chapter: 'iv-24-leucemie-myeloide-chronique', lexique: false,
+    enonce: "Un patient de 50 ans présente une [[splénomégalie]] volumineuse et une [[hyperleucocytose]] majeure avec une [[myélémie]] (toute la lignée granuleuse) sur l'hémogramme.",
+    indices: [
+      { mot: 'splénomégalie', pourquoi: "Signe classique du syndrome myéloprolifératif." },
+      { mot: 'hyperleucocytose', pourquoi: "Prolifération de la lignée granuleuse." },
+      { mot: 'myélémie', pourquoi: "Passage de précurseurs granuleux dans le sang : évocateur de LMC." }
+    ],
+    question: "Quel diagnostic et quel marqueur le confirme ?",
+    reponse: "Leucémie myéloïde chronique (BCR-ABL).",
+    raisonnement: "Splénomégalie + hyperleucocytose avec myélémie = LMC. Confirmation : transcrit BCR-ABL / chromosome Philadelphie t(9;22). Traitement : inhibiteurs de tyrosine kinase (imatinib)."
+  },
+  {
+    id: 'cas-surrenale', titre: 'Malaise après arrêt des corticoïdes', discipline: 'Endocrinologie', chapter: 'iv-50-corticosurrenale', lexique: false,
+    enonce: "Un patient sous [[corticothérapie prolongée]] brutalement arrêtée présente une [[hypotension]], des [[vomissements]], une [[hyponatrémie]] et une [[hyperkaliémie]].",
+    indices: [
+      { mot: 'corticothérapie prolongée', pourquoi: "Freine l'axe corticotrope ; l'arrêt brutal démasque une insuffisance surrénale." },
+      { mot: 'hypotension', pourquoi: "Déficit en cortisol (et minéralocorticoïdes)." },
+      { mot: 'vomissements', pourquoi: "Signe digestif de l'insuffisance surrénale aiguë." },
+      { mot: 'hyponatrémie', pourquoi: "Déficit minéralocorticoïde." },
+      { mot: 'hyperkaliémie', pourquoi: "Déficit minéralocorticoïde (rétention de K+)." }
+    ],
+    question: "Quel diagnostic urgent et quel traitement ?",
+    reponse: "Insuffisance surrénale aiguë.",
+    raisonnement: "Arrêt brutal d'une corticothérapie prolongée → insuffisance surrénale aiguë. Urgence : hydrocortisone IV + sérum salé isotonique + resucrage. Ne jamais arrêter brutalement une corticothérapie longue (décroissance progressive)."
+  },
+  {
+    id: 'cas-pancreatite', titre: 'Douleur épigastrique transfixiante', discipline: 'Hépato-gastro', chapter: 'iv-49-pancreatite-aigue', lexique: false,
+    enonce: "Un patient [[alcoolique]] présente une [[douleur épigastrique transfixiante]] intense avec [[vomissements]]. La [[lipasémie]] est à 5 fois la normale.",
+    indices: [
+      { mot: 'alcoolique', pourquoi: "Alcool et lithiase biliaire = principales causes de pancréatite aiguë." },
+      { mot: 'douleur épigastrique transfixiante', pourquoi: "Douleur typique irradiant dans le dos." },
+      { mot: 'vomissements', pourquoi: "Signe d'accompagnement fréquent." },
+      { mot: 'lipasémie', pourquoi: "Lipase > 3 N = diagnostic de pancréatite aiguë." }
+    ],
+    question: "Quel diagnostic et comment juger la gravité ?",
+    reponse: "Pancréatite aiguë.",
+    raisonnement: "Douleur transfixiante + lipase > 3 N = pancréatite aiguë. La lipase ne juge PAS la gravité : on utilise la CRP à 48 h et le scanner (score de Balthazar) à 48-72 h."
+  },
+  {
+    id: 'cas-anaphylaxie', titre: 'Urticaire et malaise après piqûre', discipline: 'Immunologie', chapter: 'iv-32-asthme-allergies', lexique: false,
+    enonce: "Quelques minutes après une [[piqûre d'hyménoptère]], un patient présente une [[urticaire]] généralisée, un [[bronchospasme]] et une [[hypotension]].",
+    indices: [
+      { mot: 'piqûre d\'hyménoptère', pourquoi: "Allergène déclenchant une réaction IgE-dépendante immédiate." },
+      { mot: 'urticaire', pourquoi: "Manifestation cutanée de l'anaphylaxie." },
+      { mot: 'bronchospasme', pourquoi: "Atteinte respiratoire de l'anaphylaxie." },
+      { mot: 'hypotension', pourquoi: "Vasoplégie : choc anaphylactique." }
+    ],
+    question: "Quel diagnostic et quel traitement immédiat ?",
+    reponse: "Choc anaphylactique — adrénaline IM.",
+    raisonnement: "Hypersensibilité immédiate (type I, IgE) : urticaire + bronchospasme + hypotension = anaphylaxie. Traitement immédiat : adrénaline intramusculaire, oxygène, remplissage vasculaire ; puis éviction et trousse d'urgence."
+  },
+  {
+    id: 'cas-legionellose', titre: 'Pneumopathie qui résiste aux bêta-lactamines', discipline: 'Infectiologie', chapter: 'iv-5-infections-orl-respiratoires', lexique: false,
+    enonce: "Au décours d'un [[voyage avec climatisation]], un homme de 60 ans a une [[pneumopathie]] fébrile avec [[troubles digestifs]], une [[confusion]] et une [[hyponatrémie]]. Les [[bêta-lactamines]] sont inefficaces.",
+    indices: [
+      { mot: 'voyage avec climatisation', pourquoi: "Legionella se développe dans les réseaux d'eau (climatisation, douches)." },
+      { mot: 'pneumopathie', pourquoi: "Atteinte pulmonaire au premier plan." },
+      { mot: 'troubles digestifs', pourquoi: "Signe extra-respiratoire évocateur de légionellose." },
+      { mot: 'confusion', pourquoi: "Signe neurologique évocateur." },
+      { mot: 'hyponatrémie', pourquoi: "Fréquente au cours de la légionellose." },
+      { mot: 'bêta-lactamines', pourquoi: "Inefficaces car Legionella est un germe intracellulaire." }
+    ],
+    question: "Quel diagnostic et quel examen le confirme ?",
+    reponse: "Légionellose (Legionella pneumophila).",
+    raisonnement: "Pneumopathie + signes extra-respiratoires (digestifs, neuro, hyponatrémie) + contexte hydrique + inefficacité des bêta-lactamines (germe intracellulaire) = légionellose. Diagnostic : antigénurie Legionella. Traitement : macrolide ou fluoroquinolone."
   }
 ];
 

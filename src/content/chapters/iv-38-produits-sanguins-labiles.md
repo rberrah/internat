@@ -66,6 +66,8 @@ Avant de poser un CGR : vérifier l'identité du patient, la concordance des doc
 :::
 
 Chaque acte est **tracé** (traçabilité) et tout incident déclaré à l'**hémovigilance**. La transfusion est surveillée (constantes, tolérance) pendant et après l'acte.
+
+Rappel de compatibilité **ABO** : pour les **CGR**, **O = donneur universel** et **AB = receveur universel** (règle **inversée** pour le plasma).
 <!-- /step -->
 
 <!-- step:title="Complications transfusionnelles" -->

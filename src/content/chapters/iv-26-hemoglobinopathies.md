@@ -62,6 +62,8 @@ L'**étude de l'hémoglobine** confirme le diagnostic, par au moins **deux méth
 
 Sur le frottis : **drépanocytes**, cellules cibles, corps de Jolly (asplénie). Bilan d'hémolyse : haptoglobine effondrée, LDH et bilirubine libre augmentées.
 
+Réaliser l'étude de l'Hb **à distance de toute transfusion** (le sang transfusé fausse le profil). En France, la drépanocytose fait l'objet d'un **dépistage néonatal généralisé**.
+
 :::clinical
 Prise en charge : hydratation, **antalgiques**, oxygène ; prévention par **pénicilline** prophylactique, **vaccination antipneumococcique**, folates, **hydroxyurée** (formes graves) ; **échange transfusionnel** en cas de crise sévère. Les transfusions répétées exposent à la **surcharge en fer** → chélation.
 :::

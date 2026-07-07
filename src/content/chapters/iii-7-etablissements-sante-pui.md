@@ -59,7 +59,7 @@ Gouvernance d'un EPS : **directeur** (chef d'établissement), **directoire** (ex
 **PUI (art. L.5126-1 CSP)** : elle répond aux besoins pharmaceutiques de l'établissement. Missions : **gestion, approvisionnement, préparation, contrôle, détention et dispensation** des médicaments, produits et DM stériles.
 :::
 
-- **Obligatoire** dans tout établissement de santé et **dirigée par un pharmacien**.
+- **Obligatoire** dans tout établissement de santé, **dirigée par un pharmacien** (gérant) ; sa création et son fonctionnement sont soumis à **autorisation de l'ARS**.
 - Peut desservir plusieurs établissements dans le cadre d'un **GHT** ou d'un **GCS**.
 <!-- /step -->
 

@@ -64,6 +64,8 @@ Dans un capillaire de silice sous **10 à 30 kV** : très haute **efficacité** 
 <!-- step:title="Applications" -->
 :::clinical
 Électrophorèse capillaire en routine : protéines sériques, **hémoglobines** (dépistage des hémoglobinopathies, à confirmer par une 2ᵉ méthode), **immunoglobulines** (immunosoustraction), **transferrine désialylée** (CDT) marqueur d'alcoolisme chronique. Sur gel : lipoprotéinogramme, Western/Southern/Northern blot.
+
+Sur l'électrophorégramme des protéines sériques (pH alcalin ≈ 8,6), les protéines sont anioniques et migrent vers l'anode : **albumine** en tête (la plus rapide), puis **α1, α2, β, γ-globulines**.
 :::
 <!-- /step -->
 

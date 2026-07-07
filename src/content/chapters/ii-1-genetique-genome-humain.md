@@ -36,7 +36,7 @@ Le **génome humain** est l'ensemble du matériel génétique d'une cellule. Le 
 
 <!-- step:title="Deux génomes dans une cellule" -->
 - **Génome nucléaire** : ~**3,2 × 10⁹ pb** à l'état haploïde, 22 paires d'autosomes + 1 paire de gonosomes, ~20 000 gènes codant des protéines. Seuls **~2 %** sont codants.
-- **Génome mitochondrial** : petit ADN **circulaire, bicaténaire**, à transmission **maternelle**, codant ARNt, ARNr et quelques protéines de la chaîne respiratoire.
+- **Génome mitochondrial** : petit ADN **circulaire, bicaténaire** (~16,5 kb, 37 gènes, sans intron), à transmission **maternelle**, codant ARNt, ARNr et quelques protéines de la chaîne respiratoire ; **taux de mutation élevé**.
 
 :::key
 Tout ce qui est transcrit n'est pas traduit : gènes codants, mais aussi ARNr, ARNt, miRNA (régulateurs négatifs) et longues régions non codantes.
@@ -50,7 +50,7 @@ Un gène alterne **exons** (retrouvés dans l'ARNm mature) et **introns** (élim
 <!-- step:title="Les séquences répétées" -->
 Près de **50 %** du génome est répété :
 
-- **répétées dispersées** (rétrotransposons) : **LINEs** (L1, autonomes, avec ORF), **SINEs** (Alu, ~1/5 kb, non autonomes), **HERV** (rétrovirus endogènes) ;
+- **répétées dispersées** (rétrotransposons) : **LINEs** (L1, autonomes, avec ORF), **SINEs** (Alu, ~0,3 kb, non autonomes), **HERV** (rétrovirus endogènes) ;
 - **répétées en tandem** : ADN **satellite** (centromères), **mini-** et **microsatellites** de type (CA)n, télomères (**TTAGGG** répété, raccourci à chaque division).
 <!-- /step -->
 

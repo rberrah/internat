@@ -45,6 +45,8 @@ Les BZD sont des **modulateurs allostériques positifs** du récepteur **GABA-A*
 :::key
 On distingue les BZD par leur **demi-vie**. Les demi-vies **courtes** servent d'hypnotiques ; les **longues** (diazépam) exposent à une accumulation, surtout chez le sujet âgé et l'insuffisant hépatique.
 :::
+
+Chez le **sujet âgé** ou l'**insuffisant hépatique**, préférer une BZD **sans métabolite actif** à demi-vie courte (oxazépam, lorazépam).
 <!-- /step -->
 
 <!-- step:title="Indications et regles de prescription" -->

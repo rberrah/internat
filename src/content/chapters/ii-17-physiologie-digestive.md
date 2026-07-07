@@ -47,7 +47,7 @@ L'estomac possède plusieurs types cellulaires :
 <!-- /step -->
 
 <!-- step:title="La régulation gastrique" -->
-La sécrétion d'HCl par la cellule pariétale est déclenchée par trois agents **synergiques** : l'**acétylcholine** (parasympathique), l'**histamine** et la **gastrine**. Une seule suffit peu ; les trois ensemble maximisent la sécrétion.
+La sécrétion d'HCl par la cellule pariétale est déclenchée par trois agents **synergiques** : l'**acétylcholine** (parasympathique), l'**histamine** et la **gastrine**. Une seule suffit peu ; les trois ensemble maximisent la sécrétion. À l'inverse, la **somatostatine** (cellules D) freine la sécrétion acide.
 
 :::key
 Le **réflexe entéro-gastrique** freine l'estomac : l'arrivée d'acide et de nutriments dans le duodénum libère **sécrétine, CCK, GIP, VIP**, qui **inhibent** la motilité, la vidange et la sécrétion acide.

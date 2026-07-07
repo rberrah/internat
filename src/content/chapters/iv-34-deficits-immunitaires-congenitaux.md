@@ -52,7 +52,7 @@ Les plus fréquents (~70 %) : infections **bactériennes** ORL/respiratoires à 
 Atteinte cellulaire (~20 %) : infections **opportunistes** (pneumocystose, candidose, CMV, mycobactéries), **diarrhée chronique**, **cassure de la courbe staturo-pondérale**.
 
 :::key
-Le **DICS** (déficit immunitaire combiné sévère) est la **forme la plus grave** : **lymphopénie T** profonde, infections graves **avant l'âge de 1 an**. Traitement = **greffe de moelle** (curatif) ± thérapie génique.
+Le **DICS** (déficit immunitaire combiné sévère) est la **forme la plus grave** : **lymphopénie T** profonde, infections graves **avant l'âge de 1 an**. Toute **lymphopénie profonde du nourrisson** doit faire évoquer un DICS (**urgence** : isolement, pas de vaccin vivant, transfusions **irradiées**). Traitement = **greffe de moelle** (curatif) ± thérapie génique.
 :::
 
 Déficits combinés syndromiques : **syndrome de Di George** (délétion **22q11** : aplasie thymique, cardiopathie, hypoparathyroïdie, dysmorphie), **syndrome de Wiskott-Aldrich** (XR : eczéma + **thrombopénie à microplaquettes** + infections), **ataxie-télangiectasie**, **syndrome hyper-IgM** (déficit en CD40L).

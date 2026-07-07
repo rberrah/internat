@@ -58,6 +58,7 @@ Démarche : poser H0/H1 → vérifier les conditions → choisir la statistique 
 - **Comparer deux moyennes**, petits échantillons, variances égales → test **t de Student** à $n_1+n_2-2$ ddl (variance commune $s^2$).
 - **Grands échantillons** ou variances connues → test **Z** (loi normale centrée réduite).
 - **Séries appariées** (avant/après chez les mêmes sujets) → test $t$ sur les **différences**.
+- **Plus de deux moyennes** → **analyse de variance (ANOVA)**, qui évite l'inflation du risque α des comparaisons multiples.
 <!-- /step -->
 
 <!-- step:title="Piege classique" -->

@@ -50,7 +50,7 @@ Le débit cardiaque et la pression se décomposent en facteurs simples :
 
 $$ DC = FC \times VES, \qquad PAM = DC \times RPT $$
 
-VES ≈ 60–80 mL/battement, FC ≈ 70/min, soit DC ≈ 5 L/min. Les résistances suivent la **loi de Poiseuille**, dominée par le rayon :
+VES ≈ 60–80 mL/battement, FC ≈ 70/min, soit DC ≈ 5 L/min. En clinique, la PAM s'estime aussi par $PAM \approx PAD + \frac{1}{3}(PAS - PAD)$ (la diastole dure plus longtemps que la systole). Les résistances suivent la **loi de Poiseuille**, dominée par le rayon :
 
 $$ RPT = \frac{8\,\eta\,L}{\pi\,r^{4}} $$
 

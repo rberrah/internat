@@ -61,7 +61,7 @@ La **LOD** est la plus petite quantité **détectable** (signal distinct du brui
 - **Ajouts dosés** : on ajoute des quantités croissantes d'analyte à la matrice elle-même → **corrige l'effet de matrice**, la concentration inconnue se lit par extrapolation.
 
 :::clinical
-En bioanalyse (plasma, urines), l'étalon interne et les ajouts dosés sont incontournables car la matrice modifie fortement le signal.
+En bioanalyse (plasma, urines), l'étalon interne et les ajouts dosés sont incontournables car la matrice modifie fortement le signal. On évalue aussi le **rendement d'extraction (recouvrement)** et la **stabilité** de l'analyte dans la matrice.
 :::
 <!-- /step -->
 

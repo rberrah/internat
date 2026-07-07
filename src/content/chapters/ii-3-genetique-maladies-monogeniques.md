@@ -51,7 +51,7 @@ Deux nuances fréquentes : la **pénétrance incomplète** (un porteur non attei
 <!-- /step -->
 
 <!-- step:title="Liée au chromosome X" -->
-- **Récessive liée à l'X** : touche les **hommes** (hémizygotes), transmise par les **femmes conductrices** saines. Pas de transmission père-fils. Exemple : hémophilie.
+- **Récessive liée à l'X** : touche les **hommes** (hémizygotes), transmise par les **femmes conductrices** saines. Pas de transmission père-fils ; un homme atteint rend en revanche **toutes ses filles conductrices**. Exemple : hémophilie.
 - **Dominante liée à l'X** : s'exprime aussi chez la femme hétérozygote ; un père atteint transmet à **100 %** de ses filles.
 <!-- /step -->
 

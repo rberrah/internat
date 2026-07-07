@@ -55,7 +55,7 @@ La protéolyse sépare deux types de fragments aux rôles distincts :
 La classe (isotype) dépend de la chaîne lourde :
 
 - **IgG** : la plus **abondante** du sérum, **traverse le placenta**, réponse **secondaire**, opsonisation et complément.
-- **IgA** : sécrétions (muqueuses, lait) sous forme **dimérique**.
+- **IgA** : sécrétions (muqueuses, lait) sous forme **dimérique** avec **pièce sécrétoire** ; c'est l'isotype le plus produit chaque jour.
 - **IgM** : **pentamère**, première produite (réponse **primaire**), puissant activateur du complément.
 - **IgE** : allergie et parasites (fixée aux mastocytes).
 - **IgD** : récepteur des lymphocytes B naïfs.

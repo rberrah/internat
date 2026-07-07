@@ -60,7 +60,7 @@ Sa sécrétion est commandée surtout par le **système rénine-angiotensine** e
 Le **cortisol** est régulé par l'**axe corticotrope** : **CRH** (hypothalamus) → **ACTH** (hypophyse) → cortisol, avec **rétrocontrôle négatif**.
 
 :::key
-Effets : **hyperglycémiant** (néoglucogenèse, résistance à l'insuline), catabolisme protéique, **anti-inflammatoire** et immunosuppresseur, permissif pour les catécholamines. Sa sécrétion suit un **rythme circadien** (pic matinal).
+Effets : **hyperglycémiant** (néoglucogenèse, résistance à l'insuline), catabolisme protéique, **anti-inflammatoire** et immunosuppresseur, permissif pour les catécholamines. Sa sécrétion suit un **rythme circadien** (pic matinal). Dans le sang, il circule lié à la **transcortine (CBG)** : seule la fraction libre est active.
 :::
 <!-- /step -->
 

@@ -57,7 +57,7 @@ La **distribution** répartit le médicament entre le sang et les tissus.
 <!-- step:title="Biotransformation" -->
 La **biotransformation** (métabolisme), surtout **hépatique**, rend le médicament plus hydrosoluble pour l'éliminer.
 
-- **Phase I** — fonctionnalisation (oxydation, réduction, hydrolyse), assurée par les **cytochromes P450**.
+- **Phase I** — fonctionnalisation (oxydation, réduction, hydrolyse), assurée par les **cytochromes P450** (le **CYP3A4** est l'isoenzyme la plus impliquée).
 - **Phase II** — conjugaison (glucurono-, sulfo-conjugaison, acétylation), qui greffe une molécule hydrosoluble.
 
 :::note

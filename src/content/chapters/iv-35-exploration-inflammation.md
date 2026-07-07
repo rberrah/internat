@@ -35,6 +35,8 @@ La réaction inflammatoire modifie la synthèse hépatique des **protéines de l
 
 :::key
 Protéines **positives** (augmentées) : **CRP**, **fibrinogène**, haptoglobine, orosomucoïde, **ferritine**. Protéines **négatives** (diminuées) : **albumine**, transferrine.
+
+Piège : l'**haptoglobine** (protéine de l'inflammation) est **effondrée en cas d'hémolyse**.
 :::
 <!-- /step -->
 

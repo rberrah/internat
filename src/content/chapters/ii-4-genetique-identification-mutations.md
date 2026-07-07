@@ -54,6 +54,8 @@ Les deux amorces sont incorporées au produit et fixent sa taille. La PCR étudi
 La méthode enzymatique de **Sanger** synthétise, à partir d'un ADN simple brin et d'une amorce, de nouveaux brins en présence de dNTP et d'une faible quantité de **ddNTP** (didésoxyribonucléotides, dépourvus de groupement 3'OH). L'incorporation d'un ddNTP **arrête** l'élongation.
 
 On obtient une collection de fragments de tailles croissantes, séparés à un nucléotide près par électrophorèse. Les ddNTP sont marqués par **quatre fluorochromes**, lus par un laser sous forme d'**électrophorégramme**. C'est la référence pour détecter substitutions, petites délétions et insertions.
+
+Le **séquençage haut débit (NGS)** analyse en parallèle de nombreux gènes (panels, exome, génome entier) et complète aujourd'hui largement Sanger, réservé à la validation ciblée.
 <!-- /step -->
 
 <!-- step:title="Hybrider : Southern, Northern et FISH" -->

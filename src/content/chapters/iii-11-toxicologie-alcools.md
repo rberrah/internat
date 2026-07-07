@@ -75,4 +75,5 @@ Même antidote (**fomépizole/éthanol**) + hémodialyse. La présence de crista
 - ADH métabolise les trois alcools ; la toxicité vient des **métabolites**.
 - **Méthanol** → acide formique → acidose + **cécité**. **Éthylène-glycol** → oxalate → acidose + **IRA**.
 - Antidote commun : **fomépizole (ou éthanol)** = inhibiteur de l'ADH ; + **hémodialyse**.
+- Biologie : **trou anionique ET trou osmolaire** augmentés ; cofacteurs adjuvants (**acide folinique** pour le méthanol, **thiamine + pyridoxine** pour l'éthylène-glycol).
 <!-- /step -->

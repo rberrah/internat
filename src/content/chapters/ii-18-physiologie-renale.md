@@ -57,7 +57,7 @@ La barrière filtre selon la **taille** (PM < 70 kDa), la **charge** (elle repou
 <!-- step:title="Réabsorption et sécrétion tubulaires" -->
 - **Tube proximal** : réabsorption massive et peu sélective — **Na⁺ ~75 %**, bicarbonates ~85 %, glucose et acides aminés ; sécrétion de H⁺, NH4⁺ et de nombreux médicaments. Le moteur est la **Na⁺/K⁺-ATPase** basolatérale.
 - **Anse de Henlé** : **système multiplicateur à contre-courant** qui bâtit le **gradient cortico-papillaire** (300 → 1200 mosmol/kg), grâce à l'imperméabilité à l'eau de la branche ascendante.
-- **Tube distal et collecteur** : ajustement fin. L'**aldostérone** stimule la réabsorption de Na⁺ et la sécrétion de K⁺ (cellules principales) ; l'**ADH** rend le collecteur perméable à l'eau (concentration des urines).
+- **Tube distal et collecteur** : ajustement fin. L'**aldostérone** stimule la réabsorption de Na⁺ et la sécrétion de K⁺ (cellules principales) ; l'**ADH** rend le collecteur perméable à l'eau via l'insertion d'**aquaporines (AQP2)** (concentration des urines).
 
 :::pitfall
 Le glucose est une substance **à seuil** : au-delà du transport maximal (Tm ≈ 350 mg/min, seuil ≈ 1,8 g/L), il apparaît dans les urines (glycosurie). En dessous, sa clairance est nulle.

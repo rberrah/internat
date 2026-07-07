@@ -59,6 +59,7 @@ Source intense (lampe xénon), **monochromateur d'excitation**, cuve, puis **mon
 <!-- step:title="Facteurs et limites" -->
 - **Fluorophores** : molécules rigides, planes, aromatiques conjuguées (quinine, fluorescéine).
 - **Extinction (quenching)** : collisions, oxygène, température ; à forte concentration, **auto-extinction** qui rompt la linéarité.
+- **Milieu** : le pH, la polarité du solvant et la viscosité modifient l'intensité et le spectre de fluorescence.
 - Applications : dosage de traces, **immunoessais** fluorescents, détection en CLHP et électrophorèse capillaire, analyse chirale après dérivation fluorescente.
 <!-- /step -->
 

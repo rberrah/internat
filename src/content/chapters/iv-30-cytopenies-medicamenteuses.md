@@ -42,7 +42,7 @@ Deux grands mécanismes : **toxique** (atteinte **centrale**, souvent **dose-dé
 La **neutropénie** devient une **agranulocytose** quand les **PNN < 0,5 G/L** : risque infectieux majeur.
 
 :::key
-Mécanismes : **immuno-allergique** (anticorps anti-PNN, idiosyncrasique) ou **toxique** (blocage de maturation de la lignée granuleuse). Médicaments classiques : **ticlopidine**, **phénylbutazone** (AINS), **carbamazépine**, antibiotiques (**pénicillines**, sulfamides), antithyroïdiens de synthèse, **clozapine**.
+Mécanismes : **immuno-allergique** (anticorps anti-PNN, idiosyncrasique) ou **toxique** (blocage de maturation de la lignée granuleuse). Médicaments classiques : **ticlopidine**, **phénylbutazone** (AINS), **carbamazépine**, antibiotiques (**pénicillines**, sulfamides), antithyroïdiens de synthèse, **noramidopyrine (métamizole)**, **clozapine** (surveillance NFS obligatoire).
 :::
 
 Le **myélogramme** montre une atteinte **isolée** de la lignée granuleuse (blocage de maturation ou disparition), les autres lignées étant normales.

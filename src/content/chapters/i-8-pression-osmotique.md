@@ -63,6 +63,8 @@ Les propriétés colligatives (cryoscopie, ébullioscopie, tonométrie, pression
 L'osmolalité plasmatique normale est de **285 à 295 mosmol·kg⁻¹**. On l'estime par :
 $$ \text{Osm}_{calc} \approx 2\,[\text{Na}^+] + \text{glycémie} + \text{urée} $$
 
+L'osmolalité **efficace** (tonicité) s'estime **sans l'urée** : $\approx 2\,[\text{Na}^+] + \text{glycémie}$.
+
 :::clinical
 Le **trou osmotique** = osmolalité mesurée − calculée. Il augmente en présence d'osmoles non prises en compte : **intoxications par méthanol, éthylène glycol, éthanol**. Un trou osmotique élevé oriente le toxicologue.
 :::

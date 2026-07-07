@@ -57,6 +57,10 @@ $$ V = \frac{V_{max}\,[S]}{K_m + [S]}, \qquad K_m = [S] \text{ quand } V = \frac
 :::key
 On mesure toujours en **excès de substrat** : la vitesse atteint **Vmax**, qui ne dépend plus que de la quantité d'enzyme. Le **Km** renseigne sur l'affinité (Km faible = forte affinité).
 :::
+
+:::note
+Un **inhibiteur compétitif** augmente le Km apparent sans modifier la Vmax ; un **inhibiteur non compétitif** abaisse la Vmax sans modifier le Km.
+:::
 <!-- /step -->
 
 <!-- step:title="Contrôler les conditions" -->

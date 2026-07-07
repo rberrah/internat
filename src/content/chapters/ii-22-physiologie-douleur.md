@@ -63,7 +63,7 @@ Le message n'est pas transmis passivement : il est **modulé**.
 
 :::key
 - **Théorie du portillon (gate control)** : les grosses fibres du toucher **Aβ** activées inhibent, dans la corne dorsale, la transmission nociceptive (« frotter pour calmer »).
-- **Contrôles inhibiteurs descendants** : des voies venues de la **substance grise périaqueducale** et du **raphé magnus** freinent la transmission spinale.
+- **Contrôles inhibiteurs descendants** : des voies venues de la **substance grise périaqueducale** et du **raphé magnus** freinent la transmission spinale (médiateurs : **sérotonine** et **noradrénaline**).
 - **Opioïdes endogènes** : β-endorphine (issue de la **POMC**), enképhalines (proenképhaline), dynorphine, agissant sur les récepteurs **μ, δ, κ**.
 :::
 <!-- /step -->

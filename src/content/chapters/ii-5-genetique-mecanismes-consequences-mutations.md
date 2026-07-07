@@ -37,7 +37,7 @@ Une mutation délétère est une modification de séquence qui altère la foncti
 <!-- step:title="Les mutations ponctuelles" -->
 Une **mutation ponctuelle** est la substitution d'un nucléotide :
 
-- **transition** : purine → purine ou pyrimidine → pyrimidine (A↔G, C↔T) ; c'est le type le plus fréquent, **C→T** en tête ;
+- **transition** : purine → purine ou pyrimidine → pyrimidine (A↔G, C↔T) ; c'est le type le plus fréquent, **C→T** en tête (désamination des **cytosines méthylées** des dinucléotides CpG, points chauds de mutation) ;
 - **transversion** : purine ↔ pyrimidine.
 
 Selon sa position, la substitution est **faux sens** (change l'acide aminé), **non sens** (crée un codon STOP → protéine tronquée) ou silencieuse. Une mutation ponctuelle correspond à un **SNP** si elle est fréquente dans la population.

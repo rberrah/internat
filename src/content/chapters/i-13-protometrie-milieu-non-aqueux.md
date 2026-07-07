@@ -53,6 +53,8 @@ Solvant **acide acétique glacial** (protogène), titrant **acide perchlorique**
 :::note
 Dans l'acide acétique, HClO₄ est un acide **fort** alors que l'acétate est une base faible : le milieu creuse les écarts et permet de titrer des amines, alcaloïdes et sels d'amines très peu basiques.
 :::
+
+Pour titrer un **chlorhydrate** (halogénure d'amine), on ajoute de l'**acétate mercurique** : il bloque l'ion halogénure (base gênante en milieu acétique) sous forme de HgX₂ non dissocié.
 <!-- /step -->
 
 <!-- step:title="Doser les acides faibles" -->

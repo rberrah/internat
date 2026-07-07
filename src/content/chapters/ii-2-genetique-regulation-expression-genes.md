@@ -59,7 +59,7 @@ La maturation de l'ARN pré-messager offre plusieurs leviers :
 Le contrôle se poursuit sur la protéine : choix du **site d'initiation** de la traduction, **clivage protéolytique** (peptide signal, propeptide), **modifications chimiques** (ponts disulfures, glycosylation, acétylation).
 
 :::note
-Un cas particulier : l'**empreinte parentale**. Certains gènes ne sont exprimés qu'à partir de l'allèle paternel ou maternel, selon des marques épigénétiques apposées dans les cellules germinales.
+Un cas particulier : l'**empreinte parentale**. Certains gènes ne sont exprimés qu'à partir de l'allèle paternel ou maternel, selon des marques épigénétiques apposées dans les cellules germinales. L'**inactivation de l'X** (lyonisation) chez la femme en est un autre exemple : un des deux X est éteint au hasard (**corps de Barr**).
 :::
 <!-- /step -->
 

@@ -66,6 +66,8 @@ Un **LABA** ne doit **jamais être utilisé seul** dans l'asthme (surmortalité)
 :::clinical
 **Bêta-2 mimétiques** : tremblements, tachycardie, palpitations, **hypokaliémie**. **Corticoïdes inhalés** : **candidose oropharyngée** et dysphonie → **rincer la bouche** après inhalation. **Antihistaminiques H1 de 1re génération** : sédation et effets **atropiniques** (bouche sèche, rétention urinaire).
 :::
+
+Les **bêta-bloquants non cardiosélectifs** sont **contre-indiqués dans l'asthme** (risque de bronchospasme).
 <!-- /step -->
 
 <!-- step:title="À retenir" -->

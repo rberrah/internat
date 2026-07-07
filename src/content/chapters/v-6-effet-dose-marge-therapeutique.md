@@ -68,6 +68,8 @@ Plus l'index est **grand**, plus le médicament est maniable. Une **marge théra
 :::clinical
 Médicaments à marge étroite : **digoxine, lithium, AVK, aminosides, théophylline, immunosuppresseurs**. Ils justifient un **suivi thérapeutique pharmacologique** (dosages plasmatiques).
 :::
+
+En clinique, on raisonne plutôt en **fenêtre thérapeutique** : l'écart entre concentration minimale efficace et concentration toxique.
 <!-- /step -->
 
 <!-- step:title="Piège classique" -->

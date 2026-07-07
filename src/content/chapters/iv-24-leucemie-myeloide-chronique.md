@@ -68,8 +68,8 @@ Une **myélémie réactionnelle** (infection sévère, régénération médullai
 Sans traitement, la LMC évolue en trois temps :
 
 1. **phase chronique** (stable, bien contrôlée) ;
-2. **phase accélérée** ;
-3. **transformation aiguë** (acutisation en **leucémie aiguë**, le plus souvent myéloïde), de mauvais pronostic.
+2. **phase accélérée** (**10–19 % de blastes**) ;
+3. **transformation aiguë** (acutisation en **leucémie aiguë** — **blastes ≥ 20 %** —, le plus souvent myéloïde), de mauvais pronostic.
 
 L'objectif du traitement est de maintenir la maladie en phase chronique et d'obtenir une **réponse moléculaire** profonde.
 <!-- /step -->

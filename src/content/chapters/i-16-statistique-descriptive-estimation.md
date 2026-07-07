@@ -58,6 +58,8 @@ L'**IC à 95 %** encadre le paramètre avec 95 % de confiance.
 - **Moyenne**, grand échantillon : $\bar{x} \pm z_{\alpha}\dfrac{\sigma}{\sqrt{n}}$ (avec $z_{0{,}05} = 1{,}96$). Petit échantillon et $\sigma$ inconnue : loi de **Student** ($t$) à $n-1$ ddl.
 - **Proportion** : $p \pm z_{\alpha}\sqrt{\dfrac{p(1-p)}{n}}$, valable si $np > 5$ et $n(1-p) > 5$.
 
+Le **théorème central limite** justifie l'approximation normale de la moyenne pour $n$ grand, même si la variable étudiée n'est pas normale.
+
 :::key
 La précision augmente en $\sqrt{n}$ : pour **diviser par 2** la largeur de l'IC, il faut **multiplier par 4** l'effectif.
 :::

@@ -42,6 +42,8 @@ Loi de Beer-Lambert :
 $$ A = \log\frac{I_0}{I} = -\log T = \varepsilon\,l\,C $$
 $A$ absorbance (sans dimension), $\varepsilon$ coefficient d'extinction molaire (L·mol⁻¹·cm⁻¹), $l$ trajet optique (cm), $C$ concentration (mol·L⁻¹), $T = I/I_0$ transmittance.
 :::
+
+Conditions de validité : **lumière monochromatique**, **solution diluée** et absence d'interaction chimique (association, dimérisation, fluorescence).
 <!-- /step -->
 
 <!-- step:title="Coefficients d absorption" -->

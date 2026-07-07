@@ -78,7 +78,7 @@ Si probabilité intermédiaire/forte : recherche d'anticorps **anti-PF4** (ELISA
 <!-- step:title="CIVD et autres causes de consommation" -->
 La **CIVD** associe thrombopénie, **baisse du TP**, **allongement du TCA**, chute du **fibrinogène** et **D-dimères** élevés, dans un contexte évocateur (sepsis, obstétrical, cancer, LA). Traitement : celui de la **cause** + support (PFC, plaquettes si < 50 G/L) ; le **PPSB est contre-indiqué**.
 
-Autres causes périphériques : hypersplénisme, lupus, syndromes lymphoprolifératifs, microangiopathies thrombotiques (schizocytes).
+Autres causes périphériques : hypersplénisme, lupus, syndromes lymphoprolifératifs, **microangiopathies thrombotiques** (PTT/SHU, schizocytes) — où la **transfusion de plaquettes est contre-indiquée** (sauf hémorragie vitale).
 <!-- /step -->
 
 <!-- step:title="A retenir" -->

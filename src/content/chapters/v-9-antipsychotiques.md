@@ -59,6 +59,8 @@ La **clozapine** (schizophrénies résistantes) expose à une **agranulocytose**
 - **Anticholinergiques**, hypotension orthostatique, **allongement du QT**.
 - **Hyperprolactinémie**.
 
+Les **dyskinésies tardives** (traitement prolongé) sont souvent **irréversibles**. Certains antiémétiques neuroleptiques (**métoclopramide**, métopimazine) exposent aussi aux effets extrapyramidaux.
+
 :::pitfall
 Urgence à connaître : le **syndrome malin des neuroleptiques** — **hyperthermie + rigidité + troubles de conscience + CPK élevées**. Arrêt immédiat du neuroleptique, réanimation.
 :::

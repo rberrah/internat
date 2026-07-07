@@ -46,6 +46,8 @@ Le principe : trois **lignées** sanguines, chacune avec ses valeurs de référe
 Valeurs usuelles de l'adulte : **Hb** 13–17 g/dL (homme) / 12–16 (femme) · **VGM** 80–100 fL · **leucocytes** 4–10 G/L · **PNN** 1,5–7 G/L · **plaquettes** 150–400 G/L · **réticulocytes** 20–80 G/L.
 :::
 
+Seuils d'alerte : **neutropénie < 1,5 G/L** (**agranulocytose < 0,5**), **lymphopénie < 1 G/L**, **thrombopénie < 150 G/L**.
+
 Les indices se recalculent entre eux :
 
 $$ \text{VGM} = \frac{\text{Ht}}{\text{nombre d'hématies}}, \qquad \text{CCMH} = \frac{\text{Hb}}{\text{Ht}} $$

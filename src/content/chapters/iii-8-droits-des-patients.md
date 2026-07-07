@@ -52,7 +52,7 @@ Le consentement se recueille **avant** l'acte ; il est **révocable** à tout mo
 <!-- /step -->
 
 <!-- step:title="Dossier, personne de confiance et secret" -->
-- **Accès direct au dossier médical** : le patient peut le consulter (dans un délai réglementaire).
+- **Accès direct au dossier médical** : le patient peut le consulter dans un délai de **8 jours** (porté à **2 mois** si les informations datent de plus de 5 ans), après un délai de réflexion de 48 h.
 - **Personne de confiance** : désignée **par écrit**, elle **accompagne** le patient et est **consultée** (avis, non décision) s'il ne peut plus s'exprimer.
 - **Secret professionnel** : couvre tout ce qui est venu à la connaissance du soignant ; opposable, avec dérogations légales.
 - Droits associés : **dignité**, **non-discrimination**, **prise en charge de la douleur**.

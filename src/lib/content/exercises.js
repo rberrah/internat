@@ -80,6 +80,38 @@ export const exercises = [
       { mot: '70 kg', pourquoi: "Formule de Cockcroft : (140 − âge) × poids × k / créatininémie (µmol/L)." }
     ],
     explain: "ClCr = (140 − 60) × 70 × 1,23 / 90 = 80 × 70 × 1,23 / 90 ≈ 76,5 mL/min."
+  },
+  {
+    cat: 'Chimie analytique', chapter: 'i-12-acide-base-ph-tampons', type: 'num', unit: '', answer: 5.8, tol: 0.02,
+    q: "Un tampon d'acide faible de pKa = 4,8, dans lequel [[le rapport base/acide vaut 10]]. Calculez le pH (Henderson-Hasselbalch).",
+    indices: [
+      { mot: 'le rapport base/acide vaut 10', pourquoi: "Henderson-Hasselbalch : pH = pKa + log([base]/[acide])." }
+    ],
+    explain: "pH = pKa + log([base]/[acide]) = 4,8 + log(10) = 4,8 + 1 = 5,8."
+  },
+  {
+    cat: 'Biophysique', chapter: 'i-11-rayons-x-radio-isotopes', type: 'num', unit: 'MBq', answer: 12.5, tol: 0.02,
+    q: "Un radio-isotope de période T = 6 h a une activité initiale de 100 MBq. Quelle est son activité après [[18 heures]] ?",
+    indices: [
+      { mot: '18 heures', pourquoi: "18 h = 3 périodes ; à chaque période l'activité est divisée par 2 : A = A₀ / 2ⁿ." }
+    ],
+    explain: "18 h = 3 × 6 h = 3 périodes. A = 100 / 2³ = 100 / 8 = 12,5 MBq."
+  },
+  {
+    cat: 'Pharmacocinétique', chapter: 'pharmaco-pk-base', type: 'num', unit: 'mg/L', answer: 5, tol: 0.02,
+    q: "Perfusion IV continue à débit [[R0 = 20 mg/h]], clairance CL = 4 L/h. Quelle est la concentration à l'équilibre Css ?",
+    indices: [
+      { mot: 'R0 = 20 mg/h', pourquoi: "À l'équilibre, entrée = sortie : Css = R0 / CL (indépendant du volume)." }
+    ],
+    explain: "Css = R0 / CL = 20 / 4 = 5 mg/L."
+  },
+  {
+    cat: 'Épidémiologie', chapter: 'iii-5-methodologie-epidemiologique', type: 'num', unit: '', answer: 4, tol: 0.02,
+    q: "Étude de cohorte : incidence de la maladie [[chez les exposés 20 %]], chez les non-exposés 5 %. Calculez le risque relatif (RR).",
+    indices: [
+      { mot: 'chez les exposés 20 %', pourquoi: "RR = incidence chez les exposés / incidence chez les non-exposés." }
+    ],
+    explain: "RR = 20 / 5 = 4 : les exposés ont 4 fois plus de risque (association forte)."
   }
 ];
 

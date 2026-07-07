@@ -61,7 +61,7 @@ Bilan d'orientation : **dosage de l'EPO**, gaz du sang (SaO₂), échographie ab
 Syndrome **myéloprolifératif** : les progéniteurs érythroïdes deviennent **indépendants de l'EPO** (colonies endogènes).
 
 :::key
-Critères OMS 2016 (3 majeurs, ou 2 majeurs + le mineur) : **1)** Hb/Ht élevés ou VGT > 25 % ; **2)** biopsie ostéomédullaire (hyperplasie des 3 lignées) ; **3)** mutation **JAK2 V617F** (ou exon 12) ; critère mineur : **EPO basse ou normale**.
+Critères OMS 2016 (3 majeurs, ou 2 majeurs + le mineur) : **1)** Hb/Ht élevés ou VGT > 25 % ; **2)** biopsie ostéomédullaire (hyperplasie des 3 lignées) ; **3)** mutation **JAK2 V617F** (ou exon 12), présente dans **~95 %** des cas ; critère mineur : **EPO basse ou normale**.
 :::
 
 Clinique évocatrice : **érythrose faciale**, **prurit à l'eau** (aquagénique), érythromélalgies, splénomégalie, céphalées, vertiges. Souvent hyperleucocytose et thrombocytose associées.

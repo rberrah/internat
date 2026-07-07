@@ -40,7 +40,7 @@ Les **héparines** potentialisent l'**antithrombine (AT)**, inhibant les facteur
 
 <!-- step:title="HNF, HBPM, fondaparinux" -->
 - **HNF** (héparine non fractionnée, calcique/sodique) : activité **anti-IIa = anti-Xa**, demi-vie courte (~90 min), forte liaison aux protéines → effet **peu prévisible**. Surveillance d'efficacité par **TCA** (ou héparinémie anti-Xa).
-- **HBPM** : rapport **anti-Xa/anti-IIa > 1,5**, biodisponibilité SC **> 90 %**, effet **prévisible**, élimination **rénale** (risque d'accumulation si insuffisance rénale). Surveillance par **activité anti-Xa au pic**.
+- **HBPM** : rapport **anti-Xa/anti-IIa > 1,5**, biodisponibilité SC **> 90 %**, effet **prévisible**, élimination **rénale** (risque d'accumulation si insuffisance rénale — **HNF à privilégier si DFG < 30**). Surveillance par **activité anti-Xa au pic**.
 - **Fondaparinux** : activité **anti-Xa exclusive** (via AT), synthétique.
 
 :::pitfall

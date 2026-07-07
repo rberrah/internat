@@ -56,6 +56,8 @@ Anse et thiazidiques font **fuir le potassium** (→ hypokaliémie). Les épargn
 :::clinical
 Surveiller **ionogramme et fonction rénale**. Anse et thiazidiques : hypokaliémie, hyponatrémie, déshydratation, hyperuricémie (crise de goutte), hyperglycémie. Les **thiazidiques sont inefficaces si DFG < 30 mL/min**. La **spironolactone** expose à l'hyperkaliémie et à la **gynécomastie** (effet anti-androgène).
 :::
+
+Différence sur le calcium : les **thiazidiques diminuent la calciurie** (hypercalcémie possible, utiles dans les calculs calciques) tandis que les **diurétiques de l'anse augmentent la calciurie**.
 <!-- /step -->
 
 <!-- step:title="Piege classique" -->

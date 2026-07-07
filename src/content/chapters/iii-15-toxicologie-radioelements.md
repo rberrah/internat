@@ -48,7 +48,7 @@ Unités : **Becquerel** (activité), **Gray** (dose absorbée), **Sievert** (dos
 
 <!-- step:title="Effets déterministes et stochastiques" -->
 :::note
-- **Effets déterministes (obligatoires)** : apparaissent au-delà d'une **dose-seuil**, gravité **proportionnelle** à la dose. Ex. **syndrome aigu d'irradiation** (atteintes hématopoïétique, puis gastro-intestinale, puis neurologique), radiodermite.
+- **Effets déterministes (obligatoires)** : apparaissent au-delà d'une **dose-seuil**, gravité **proportionnelle** à la dose. Ex. **syndrome aigu d'irradiation** (forme **hématopoïétique dès ~1 Gy**, puis gastro-intestinale, puis neurologique aux fortes doses), radiodermite.
 - **Effets stochastiques (aléatoires)** : **sans seuil**, la **probabilité** croît avec la dose (pas la gravité). Ex. **cancers** et effets héréditaires, souvent différés.
 :::
 <!-- /step -->

@@ -60,7 +60,7 @@ Le dépistage repère une maladie chez des sujets **asymptomatiques**. Un test d
 **Critères de Wilson et Jungner (OMS, 1968)** : maladie fréquente et grave, phase latente détectable, test simple/acceptable/fiable, traitement efficace disponible à ce stade, et rapport coût/bénéfice favorable.
 :::
 
-Dépistages **organisés** en France : **cancer du sein** (mammographie 50–74 ans), **cancer colorectal** (test immunologique fécal 50–74 ans), **cancer du col** (frottis puis test HPV).
+Dépistages **organisés** en France : **cancer du sein** (mammographie 50–74 ans), **cancer colorectal** (test immunologique fécal 50–74 ans), **cancer du col** (cytologie de 25 à 29 ans, puis **test HPV-HR** tous les 5 ans de 30 à 65 ans).
 <!-- /step -->
 
 <!-- step:title="Promotion de la santé et éducation thérapeutique" -->

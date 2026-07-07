@@ -63,6 +63,10 @@ Le **cycle de l'urée** se déroule dans l'**hépatocyte** (zone périportale), 
 3. citrulline + **aspartate** + ATP → **argininosuccinate** (cytosol) ;
 4. argininosuccinate → **arginine** + **fumarate** ;
 5. arginine + H₂O → **urée** + ornithine (**arginase**), régénérant l'ornithine.
+
+:::pitfall
+Ne pas confondre la **CPS I** mitochondriale (cycle de l'urée, substrat **NH₄⁺**, activée par le N-acétylglutamate) et la **CPS II** cytosolique (synthèse des pyrimidines, substrat **glutamine**).
+:::
 <!-- /step -->
 
 <!-- step:title="Bilan et élimination" -->

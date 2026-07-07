@@ -40,7 +40,7 @@ Deux familles s'opposent par leur pouvoir d'expansion : **cristalloïdes** et **
 Solutions d'électrolytes qui **diffusent dans l'interstitium** : seul environ **un quart** du volume perfusé reste en intravasculaire (pouvoir d'expansion faible, ≈ 0,25).
 
 - **NaCl 0,9 %** (sérum physiologique) — isotonique (≈ 308 mOsm/L) ; excès → acidose hyperchlorémique.
-- **Ringer Lactate** — composition proche du plasma ; le lactate est transformé en bicarbonate par le foie. Contient du **potassium** → à éviter si hyperkaliémie.
+- **Ringer Lactate** — composition proche du plasma ; le lactate est transformé en bicarbonate par le foie. Contient du **potassium** (à éviter si hyperkaliémie) et du **calcium** (ne pas perfuser sur la même voie qu'une transfusion : coagulation avec le citrate).
 
 :::key
 Le **sérum glucosé 5 %** n'est **pas** un soluté de remplissage : le glucose est métabolisé et l'eau libre se répartit dans tout l'organisme, sans expansion intravasculaire durable.

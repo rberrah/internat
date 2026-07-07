@@ -39,6 +39,7 @@ Selon **Brønsted**, un acide cède un proton, une base le capte : $\text{AH} \r
 
 - Acide **fort** : $pH = -\log C$. Base **forte** : $pH = 14 + \log C$.
 - Acide **faible** : $pH = \tfrac{1}{2}(pK_a - \log C)$.
+- Base **faible** : $pH = 7 + \tfrac{1}{2}(pK_a + \log C)$ ($pK_a$ du couple acide conjugué / base).
 - Un acide est d'autant plus fort que son $pK_a$ est **bas**.
 
 :::key

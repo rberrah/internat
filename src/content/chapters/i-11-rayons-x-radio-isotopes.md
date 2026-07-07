@@ -70,7 +70,7 @@ La période effective $T_E$ est toujours **inférieure** à la plus courte des d
 
 <!-- step:title="Applications et radioprotection" -->
 :::clinical
-Isotopes clés : **⁹⁹ᵐTc** (scintigraphies, T ≈ 6 h), **¹⁸F-FDG** (TEP, T ≈ 110 min, β⁺), **¹³¹I** (hyperthyroïdie et cancer thyroïdien, β⁻ + γ), **²⁰¹Tl** (perfusion myocardique). Radioprotection : jouer sur la **distance** (le débit de dose décroît en 1/d²), le **temps** d'exposition et l'**écran** (plomb pour X et γ).
+Isotopes clés : **⁹⁹ᵐTc** (scintigraphies, T ≈ 6 h), **¹⁸F-FDG** (TEP, T ≈ 110 min, β⁺), **¹³¹I** (hyperthyroïdie et cancer thyroïdien, β⁻ + γ), **²⁰¹Tl** (perfusion myocardique). Le **⁹⁹ᵐTc** est obtenu au lit du patient par un **générateur** ⁹⁹Mo/⁹⁹ᵐTc : le ⁹⁹Mo père (T ≈ 66 h) régénère en continu le ⁹⁹ᵐTc fils (équilibre radioactif). Radioprotection : jouer sur la **distance** (le débit de dose décroît en 1/d²), le **temps** d'exposition et l'**écran** (plomb pour X et γ).
 :::
 <!-- /step -->
 

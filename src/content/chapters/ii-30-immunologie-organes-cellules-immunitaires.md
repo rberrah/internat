@@ -38,7 +38,7 @@ La réponse immunitaire adaptative repose sur des **cellules** (les lymphocytes)
 Ce sont les lieux de **production et de maturation** des lymphocytes, indépendamment de tout antigène.
 
 :::key
-La **moelle osseuse** produit toutes les cellules sanguines et assure la maturation des **lymphocytes B**. Le **thymus** assure la maturation des **lymphocytes T** (le « T » de thymus), avec sélection des clones utiles et non auto-réactifs.
+La **moelle osseuse** produit toutes les cellules sanguines et assure la maturation des **lymphocytes B**. Le **thymus** assure la maturation des **lymphocytes T** (le « T » de thymus), avec **sélection positive** (reconnaissance du CMH du soi) puis **sélection négative** (élimination des clones auto-réactifs).
 :::
 <!-- /step -->
 

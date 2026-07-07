@@ -62,7 +62,7 @@ Avant une biothérapie : rechercher une **tuberculose latente** (IDR/IGRA, radio
 Maladie multifactorielle, **9 femmes / 1 homme**, en période d'activité génitale. Atteinte articulaire (polyarthrite **non déformante, non érosive**), **cutanée** (rash malaire en vespertilio, **photosensibilité**), **rénale** (glomérulonéphrite lupique, **pronostique**), hématologique, neurologique.
 
 :::key
-Biologie : **dissociation VS accélérée / CRP normale** (sauf sérite ou infection), **cytopénies auto-immunes** (anémie, lymphopénie, thrombopénie). Auto-Ac : **anti-nucléaires (AAN/FAN)** par IFI sur cellules Hep2 (**> 99 %**, dépistage, peu spécifiques) ; **anti-ADN natif** (Farr, Crithidia, ELISA — **spécifique**, corrélé à l'atteinte rénale, marqueur de **suivi**) ; **anti-Sm** (très spécifique mais rare), anti-SSA/SSB/RNP ; **hypocomplémentémie** (CH50, C3, C4 abaissés lors des poussées).
+Biologie : **dissociation VS accélérée / CRP normale** (sauf sérite ou infection), **cytopénies auto-immunes** (anémie, lymphopénie, thrombopénie). Auto-Ac : **anti-nucléaires (AAN/FAN)** par IFI sur cellules Hep2 (**> 99 %**, dépistage, peu spécifiques) ; **anti-ADN natif** (Farr, Crithidia, ELISA — **spécifique**, corrélé à l'atteinte rénale, marqueur de **suivi**) ; **anti-Sm** (très spécifique mais rare), anti-SSA/SSB/RNP, **anti-histones** (évocateurs d'un **lupus induit médicamenteux**) ; **hypocomplémentémie** (CH50, C3, C4 abaissés lors des poussées).
 :::
 <!-- /step -->
 

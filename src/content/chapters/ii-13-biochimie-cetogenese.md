@@ -63,7 +63,7 @@ Le **foie produit** les corps cétoniques mais **ne les utilise pas** : il lui m
 Les tissus **périphériques** (cerveau, cœur, muscle squelettique, cortex rénal) les captent, régénèrent l'acétoacétyl-CoA grâce à la **thiophorase**, puis deux acétyl-CoA qui alimentent le **cycle de Krebs**.
 
 :::key
-Lors du jeûne prolongé, le cerveau, incapable d'oxyder les acides gras, tire une grande part de son énergie des corps cétoniques : cette épargne du glucose est vitale.
+Lors du jeûne prolongé, le cerveau, incapable d'oxyder les acides gras, tire une grande part de son énergie des corps cétoniques (jusqu'à environ **deux tiers** de ses besoins après quelques semaines) : cette épargne du glucose est vitale.
 :::
 <!-- /step -->
 

@@ -61,6 +61,8 @@ La **photométrie de flamme** dose facilement Na⁺, K⁺, Li⁺ (éléments fac
 <!-- step:title="Piege classique" -->
 :::pitfall
 Absorption = atomes **fondamentaux** qui absorbent une source externe ; émission = atomes **excités** qui rayonnent. Les éléments à basse énergie d'excitation (alcalins) se prêtent bien à l'émission ; la majorité des métaux se dosent en absorption.
+
+À la température des flammes, la **grande majorité des atomes reste à l'état fondamental** (loi de Boltzmann) : l'absorption est donc en général plus sensible et moins dépendante de la température que l'émission.
 :::
 <!-- /step -->
 

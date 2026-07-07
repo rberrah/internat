@@ -53,7 +53,7 @@ Sur un cycle de 28 jours :
 
 <!-- step:title="Œstrogènes et progestérone" -->
 - **Œstradiol** : effet trophique sur le tractus génital, prolifération de l'endomètre, glaire cervicale filante favorable à la fécondation ; effets systémiques (stimulation ostéoblastique, rétention hydrosodée, profil lipidique favorable).
-- **Progestérone** : nécessite une imprégnation œstrogénique préalable ; rend l'endomètre **sécrétoire** ( dentelle utérine ), diminue les contractions du myomètre (maintien de la grossesse), élève la **température** basale de 0,5 °C (décalage lutéal).
+- **Progestérone** : nécessite une imprégnation œstrogénique préalable ; rend l'endomètre **sécrétoire** (dentelle utérine), diminue les contractions du myomètre (maintien de la grossesse), élève la **température** basale de 0,5 °C (décalage lutéal).
 
 :::key
 Le décalage thermique de 0,5 °C en deuxième partie de cycle signe l'action de la progestérone et donc l'ovulation.
@@ -64,7 +64,7 @@ Le décalage thermique de 0,5 °C en deuxième partie de cycle signe l'action de
 Après **fécondation** et **implantation**, le **trophoblaste** se différencie en **syncytiotrophoblaste** et cytotrophoblaste, formant les villosités du **placenta**, interface mère-fœtus.
 
 - Le **placenta** assure les échanges (O₂, glucose, acides aminés par diffusion ou transporteurs ; épuration du CO₂ et de l'urée) ; les sangs maternel et fœtal **ne se mélangent pas** ; les **IgG** maternelles traversent.
-- L'**hCG**, sécrétée par le trophoblaste, **maintient le corps jaune** et sa production de progestérone en début de grossesse. Son taux **double toutes les 48 heures**, sert au diagnostic et au suivi (baisse dans une grossesse extra-utérine ou une fausse couche). Le placenta prend ensuite le relais pour la progestérone et les œstrogènes.
+- L'**hCG** (glycoprotéine dosée par sa sous-unité **β-hCG**), sécrétée par le trophoblaste, **maintient le corps jaune** et sa production de progestérone en début de grossesse. Son taux **double toutes les 48 heures**, sert au diagnostic et au suivi (baisse dans une grossesse extra-utérine ou une fausse couche). Le placenta prend ensuite le relais pour la progestérone et les œstrogènes.
 <!-- /step -->
 
 <!-- step:title="Modifications maternelles" -->

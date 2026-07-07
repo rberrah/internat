@@ -72,6 +72,8 @@ Les interactions pharmacocinétiques agissent surtout sur le **métabolisme** :
 - **Inhibition enzymatique** (macrolides, antifongiques azolés, jus de pamplemousse) → **augmente** les concentrations, avec un **effet rapide**.
 - **Compétition** sur la liaison protéique et sur les transporteurs (P-glycoprotéine).
 
+Cas particulier des **prodrogues** : un **inhibiteur** enzymatique **diminue** leur effet (codéine → moins de morphine, clopidogrel → moins d'antiagrégation) au lieu de l'augmenter.
+
 :::clinical
 Exemple type : la **rifampicine** (inducteur) diminue l'efficacité des contraceptifs oraux et des AVK ; un **azolé** (inhibiteur) majore le risque de surdosage.
 :::

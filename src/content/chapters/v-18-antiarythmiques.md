@@ -56,6 +56,8 @@ Antiarythmique de **classe III** très efficace, à **demi-vie très longue** et
 :::clinical
 Toxicité pluriorganique justifiant une surveillance : **dysthyroïdie** (hypo- ou hyperthyroïdie → TSH), **pneumopathie interstitielle / fibrose pulmonaire** (radio thoracique), **hépatotoxicité** (transaminases), **dépôts cornéens**, **photosensibilité** et **dyschromie cutanée** bleu-gris, allongement du **QT**.
 :::
+
+Interactions : l'amiodarone **augmente les concentrations des AVK et de la digoxine** (réduire leurs doses) et majore le risque de torsades avec les autres médicaments allongeant le QT.
 <!-- /step -->
 
 <!-- step:title="Effets indésirables et risque pro-arythmogène" -->

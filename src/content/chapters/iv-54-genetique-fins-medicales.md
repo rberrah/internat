@@ -31,7 +31,7 @@ quiz:
 ---
 
 <!-- step:title="Pourquoi ce chapitre" -->
-Un examen génétique n'est pas un examen biologique comme les autres : il touche à l'identité, à la famille et à l'avenir. Son cadre est **strictement encadré par la loi de bioéthique**.
+Un examen génétique n'est pas un examen biologique comme les autres : il touche à l'identité, à la famille et à l'avenir. Son cadre est **strictement encadré par la loi de bioéthique** (dernière révision : **loi du 2 août 2021**).
 
 L'objectif : savoir **quand** on prescrit, **comment** (consentement, information) et **quels examens** répondent à quelle question.
 <!-- /step -->

@@ -50,7 +50,7 @@ Bilan indispensable au diagnostic : myélogramme (cytologie), **cytochimie MPO**
 <!-- /step -->
 
 <!-- step:title="LAM et LAL" -->
-- **LAM** (leucémie aiguë myéloïde) : MPO+, marqueurs CD34/CD13/CD33. Anomalies récurrentes de **bon pronostic** : **t(8;21)**, **t(15;17)** (LAM3, sensible à l'**ATRA**), inv(16). Le syndrome de lyse (hyperK⁺, hyperphosphorémie, hyperuricémie) est à prévenir (hyperhydratation + urate-oxydase).
+- **LAM** (leucémie aiguë myéloïde) : MPO+, marqueurs CD34/CD13/CD33. Anomalies récurrentes de **bon pronostic** : **t(8;21)**, **t(15;17)/PML-RARA** (LAM3 = leucémie aiguë promyélocytaire, **urgence** par CIVD, traitée par **ATRA + arsenic**), inv(16). Le syndrome de lyse (hyperK⁺, hyperphosphorémie, hyperuricémie) est à prévenir (hyperhydratation + urate-oxydase).
 - **LAL** (leucémie aiguë lymphoblastique) : MPO−, TdT+, CD34+. Origine **B** (CD19, CD22) ou **T** (CD3). Le **t(9;22)** (chromosome Philadelphie) est de mauvais pronostic mais accessible à l'**imatinib**.
 
 :::clinical

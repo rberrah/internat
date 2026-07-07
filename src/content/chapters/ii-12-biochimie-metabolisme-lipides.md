@@ -37,7 +37,7 @@ Les lipides sont **insolubles** dans l'eau : leur métabolisme combine stockage 
 <!-- step:title="Acides gras et triglycérides" -->
 Les **triglycérides (TG)** sont des **triesters du glycérol** : la principale **réserve d'énergie**, stockée dans les **adipocytes**.
 
-- **β-oxydation** (mitochondrie) : dégradation des acides gras en **acétyl-CoA** → énergie (ATP).
+- **β-oxydation** (mitochondrie) : dégradation des acides gras en **acétyl-CoA** → énergie (ATP) ; l'entrée des acides gras à longue chaîne exige la **navette carnitine** (CPT1, inhibée par le malonyl-CoA).
 - **Lipogenèse** : synthèse d'acides gras à partir de l'acétyl-CoA en cas d'excès énergétique.
 
 :::note

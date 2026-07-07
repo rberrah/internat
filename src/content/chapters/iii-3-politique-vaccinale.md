@@ -56,7 +56,7 @@ Un vaccin induit une **immunité active** durable : mémoire immunitaire (lympho
 Fixé chaque année par le **ministre de la Santé** après avis de la **HAS**.
 
 :::note
-Depuis le **1er janvier 2018**, **11 vaccinations obligatoires** avant 2 ans : diphtérie, tétanos, poliomyélite (les 3 « historiques »), coqueluche, **Haemophilus influenzae b**, hépatite B, pneumocoque, méningocoque C, et **rougeole-oreillons-rubéole (ROR)**.
+Depuis le **1er janvier 2018**, **11 vaccinations obligatoires** avant 2 ans : diphtérie, tétanos, poliomyélite (les 3 « historiques »), coqueluche, **Haemophilus influenzae b**, hépatite B, pneumocoque, méningocoque C, et **rougeole-oreillons-rubéole (ROR)**. Depuis le **1er janvier 2025**, le méningocoque **C est remplacé par le vaccin ACWY** et le **méningocoque B** devient lui aussi obligatoire chez le nourrisson.
 :::
 
 DTP reste obligatoire à vie (rappels) ; les autres vaccins sont **recommandés** (grippe et pneumocoque chez les sujets à risque, HPV, zona…).
@@ -79,7 +79,7 @@ Contre-indications générales : allergie grave à un composant, épisode fébri
 
 <!-- step:title="À retenir" -->
 - Vaccin = immunité **active** durable ; **immunité de groupe** au-dessus d'un seuil de couverture.
-- **11 obligations** du nourrisson depuis 2018 (dont ROR, Hib, hépatite B, pneumocoque, méningocoque C).
+- **11 obligations** du nourrisson depuis 2018 (dont ROR, Hib, hépatite B, pneumocoque) ; méningocoque **ACWY + B** obligatoires depuis 2025.
 - Vaccins **vivants atténués** contre-indiqués chez la **femme enceinte** et l'**immunodéprimé**.
 - Calendrier fixé par le ministre (avis HAS).
 <!-- /step -->

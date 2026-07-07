@@ -55,7 +55,7 @@ La **T3** est **3 à 4 fois plus active** que la T4 mais provient surtout de la 
 <!-- /step -->
 
 <!-- step:title="La régulation : axe thyréotrope" -->
-L'**hypothalamus** libère la **TRH**, qui stimule l'**hypophyse** à sécréter la **TSH**, laquelle active toutes les étapes thyroïdiennes (captation d'iode, synthèse, sécrétion).
+L'**hypothalamus** libère la **TRH**, qui stimule l'**hypophyse** à sécréter la **TSH**, laquelle active toutes les étapes thyroïdiennes (captation d'iode, synthèse, sécrétion). La **TSH** est une glycoprotéine dont la sous-unité α est commune à la FSH, la LH et l'hCG.
 
 :::key
 Le **rétrocontrôle négatif** est central : quand T3/T4 libres augmentent, elles **freinent** la TSH (hypophyse) et la TRH (hypothalamus). La **TSH** est ainsi le marqueur le plus sensible de la fonction thyroïdienne.

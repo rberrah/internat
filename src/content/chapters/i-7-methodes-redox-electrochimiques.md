@@ -48,7 +48,7 @@ $$ E = E^0 + \frac{0{,}06}{n}\log\frac{[\text{Ox}]}{[\text{Red}]} $$
 - **Référence** (potentiel fixe) : au **calomel** (Hg₂Cl₂) ou **Ag/AgCl** (≈ 0,20 V vs ENH). L'Ag/AgCl remplace le calomel (sels de mercure).
 - **Indicatrices** : métalliques (**Pt** redox, **Ag** argentométrie), **électrode de verre** (pH), électrodes à **membrane sélective** (ions : F⁻, K⁺…) et à enzymes (glucose-oxydase).
 
-On suit ainsi une **titrimétrie potentiométrique** : le point d'équivalence correspond au saut de potentiel.
+On suit ainsi une **titrimétrie potentiométrique** : le point d'équivalence correspond au saut de potentiel. L'électrode de verre a une réponse **nernstienne** : son potentiel varie de ≈ **−59 mV par unité de pH** à 25 °C.
 <!-- /step -->
 
 <!-- step:title="Ampérométrie" -->

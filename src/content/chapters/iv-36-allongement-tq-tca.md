@@ -77,6 +77,8 @@ Le contexte guide : **anticoagulant lupique** (thromboses, pertes fœtales, SAPL
 :::
 
 Rappel : le foie **ne synthétise pas** le facteur **Willebrand** ni le **t-PA**.
+
+Enfin, les **anticoagulants oraux directs** faussent ces tests : les **anti-Xa** (rivaroxaban, apixaban) allongent surtout le **TQ**, l'**anti-IIa** (dabigatran) surtout le **TCA**.
 <!-- /step -->
 
 <!-- step:title="A retenir" -->

@@ -56,7 +56,7 @@ Le continuum va de l'**usage simple** au **mésusage** (usage à risque ou nocif
 
 <!-- step:title="Repères cliniques" -->
 - **Tabac** : **première cause de mortalité évitable** en France (~75 000 décès/an). Dépendance à la nicotine (test de Fagerström).
-- **Alcool** : deuxième cause de mortalité évitable ; repères de consommation à moindre risque (≤ 10 verres/semaine, pas plus de 2/jour). Complications aiguës (ivresse) et chroniques (hépatiques, neurologiques).
+- **Alcool** : deuxième cause de mortalité évitable (~41 000 décès/an) ; repères de consommation à moindre risque (≤ 10 verres/semaine, pas plus de 2/jour). Complications aiguës (ivresse) et chroniques (hépatiques, neurologiques).
 - **Cannabis** : substance illicite la plus consommée ; risques psychiatriques et sur la conduite.
 
 :::clinical

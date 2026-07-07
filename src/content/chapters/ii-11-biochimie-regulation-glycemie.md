@@ -40,6 +40,10 @@ Sécrétée par les **cellules β** des **îlots de Langerhans** en réponse à 
 :::key
 Elle fait **entrer le glucose** dans le muscle et l'adipocyte (transporteur **GLUT4**), stimule la **glycogénogenèse** et la **lipogenèse**, et **inhibe** la néoglucogenèse. C'est l'hormone de l'état **nourri**.
 :::
+
+:::note
+Seul **GLUT4** (muscle, adipocyte) est **insulino-dépendant**. **GLUT2** (foie, cellule β) et **GLUT1/GLUT3** (cerveau, hématies) sont **insulino-indépendants** : le glucose entre dans le cerveau quel que soit le niveau d'insuline.
+:::
 <!-- /step -->
 
 <!-- step:title="Le glucagon, hormone du jeûne" -->

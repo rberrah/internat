@@ -44,7 +44,7 @@ Vocabulaire clé : le **danger** est intrinsèque à un agent ; le **risque** es
 <!-- step:title="Les enquetes epidemiologiques" -->
 - **Cohorte** — longitudinale : on suit des sujets **exposés vs non exposés** initialement indemnes → **incidence**, **risque relatif**. Prospective (longue, coûteuse) ou rétrospective. Peu adaptée aux maladies rares.
 - **Cas-témoins** — on compare l'exposition **passée** de malades (cas) et de non-malades (témoins) → **odds ratio**. Rétrospective, rapide, idéale pour maladies **rares**.
-- **Transversale** — population à un instant donné → **prévalence** (ne prouve pas la chronologie exposition-maladie).
+- **Transversale** — population à un instant donné → **prévalence** (ne prouve pas la chronologie exposition-maladie) ; rappel : **prévalence ≈ incidence × durée** de la maladie.
 <!-- /step -->
 
 <!-- step:title="Mesures d association" -->

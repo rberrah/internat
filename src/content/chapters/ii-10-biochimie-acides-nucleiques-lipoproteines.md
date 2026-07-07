@@ -44,7 +44,7 @@ Les nucléotides sont reliés par des liaisons **phosphodiester** 3'–5', donna
 <!-- /step -->
 
 <!-- step:title="ADN et ARN" -->
-- **ADN** : pentose **désoxyribose**, base **thymine**, structure en **double hélice** de deux brins **antiparallèles** et **complémentaires**. Appariements : **A–T** (2 liaisons hydrogène) et **G–C** (3 liaisons). Le nombre de purines égale celui des pyrimidines (règle de Chargaff).
+- **ADN** : pentose **désoxyribose**, base **thymine**, structure en **double hélice** de deux brins **antiparallèles** et **complémentaires**. Appariements : **A–T** (2 liaisons hydrogène) et **G–C** (3 liaisons). Le nombre de purines égale celui des pyrimidines (règle de Chargaff). Plus la teneur en **G–C** est forte, plus la **température de fusion (Tm)** est élevée.
 - **ARN** : pentose **ribose**, base **uracile**, généralement **simple brin**. Trois types principaux : **ARNm** (messager), **ARNt** (transfert) et **ARNr** (ribosomal).
 
 :::key
@@ -82,7 +82,7 @@ Cofacteurs : **apoC-II** active la lipoprotéine lipase ; **apoE** est un ligand
 $$ \text{LDL-cholestérol} = \text{cholestérol total} - \text{HDL-cholestérol} - \frac{\text{triglycérides}}{2{,}2} \quad (\text{mmol/L}) $$
 :::
 
-La formule de **Friedewald** n'est valable qu'en l'absence de chylomicrons et pour des triglycérides < 3,9 mmol/L.
+La formule de **Friedewald** n'est valable qu'en l'absence de chylomicrons (prélèvement à jeun) et pour des triglycérides **< 4,6 mmol/L** (soit < 4 g/L).
 <!-- /step -->
 
 <!-- step:title="À retenir" -->

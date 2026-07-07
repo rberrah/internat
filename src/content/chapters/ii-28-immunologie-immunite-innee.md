@@ -46,7 +46,7 @@ Les cellules innées reconnaissent des **motifs moléculaires conservés** des p
 - **Polynucléaires neutrophiles** : phagocytes de première urgence, recrutés en masse.
 - **Macrophages** : phagocytose, sécrétion de cytokines, présentation d'antigène.
 - **Cellules dendritiques** : sentinelles, **pont** vers l'immunité adaptative.
-- **Cellules NK** : tuent les cellules infectées ou tumorales.
+- **Cellules NK** : tuent les cellules infectées ou tumorales (reconnaissance du **« soi manquant »** : perte du CMH I).
 - **Mastocytes / polynucléaires basophiles** : libèrent l'**histamine**.
 
 :::note

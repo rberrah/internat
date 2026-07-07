@@ -54,7 +54,7 @@ Réaction d'hypersensibilité de type I **systémique**, grave, gradée de I à 
 :::clinical
 Tableau : urticaire/angio-œdème (**œdème de Quincke**), **bronchospasme**, **hypotension/collapsus**, tachycardie, désaturation, sensation de mort imminente. Déclencheurs fréquents : **β-lactamines**, curares, aliments, venins.
 
-**Traitement d'urgence : ADRÉNALINE** (IM, à répéter), arrêt de l'allergène, oxygène, remplissage vasculaire, β2-mimétiques si bronchospasme. Les **antihistaminiques et corticoïdes ne sont PAS le traitement d'urgence**.
+**Traitement d'urgence : ADRÉNALINE** (**IM, 0,5 mg chez l'adulte**, à répéter toutes les 5–10 min), arrêt de l'allergène, oxygène, remplissage vasculaire, β2-mimétiques si bronchospasme. Les **antihistaminiques et corticoïdes ne sont PAS le traitement d'urgence**.
 :::
 
 Bilan biologique : **tryptase** (~1h30) et **histamine** (15–30 min) au moment du choc ; à distance (4–6 semaines) : IgE spécifiques, tests cutanés, test d'activation des basophiles.

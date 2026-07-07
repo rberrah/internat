@@ -56,6 +56,8 @@ Objectif : abaisser l'uricémie sous un seuil cible pour **dissoudre** les dép�
 :::key
 On **n'instaure pas** un hypo-uricémiant **pendant** une crise (risque de la prolonger), mais on **poursuit** celui déjà en cours. À l'initiation, on **couvre** par colchicine/AINS pour éviter de déclencher une crise.
 :::
+
+Pensez aux causes **iatrogènes** d'hyperuricémie : **diurétiques** (thiazidiques, de l'anse), **aspirine à faible dose**, ciclosporine.
 <!-- /step -->
 
 <!-- step:title="Piege classique" -->

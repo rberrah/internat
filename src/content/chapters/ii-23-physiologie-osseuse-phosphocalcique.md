@@ -53,7 +53,7 @@ L'os est un tissu **vivant**, remodelé en permanence, et un immense **réservoi
 - Les **ostéoblastes** **forment** la matrice (tissu ostéoïde) puis la minéralisent.
 - Les **ostéoclastes** **résorbent** l'os et libèrent du calcium.
 
-Le couplage formation/résorption maintient la masse osseuse. Les **phosphatases alcalines (PAL)** sont un marqueur de l'activité ostéoblastique.
+Le couplage formation/résorption maintient la masse osseuse : les ostéoblastes pilotent les ostéoclastes via le système **RANKL/RANK**, freiné par l'**ostéoprotégérine (OPG)**. Les **phosphatases alcalines (PAL)** sont un marqueur de l'activité ostéoblastique.
 :::
 <!-- /step -->
 

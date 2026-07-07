@@ -70,7 +70,7 @@ Danger aigu majeur : **sensibilisation du myocarde aux catécholamines** → **t
 :::
 
 - **Hépato- et néphrotoxicité** (tétrachlorure de carbone, chloroforme → radicaux libres).
-- **Trichloréthylène** : cancérogène (rein).
+- **Trichloréthylène** : **cancérogène CIRC 1** (rein).
 - **Dichlorométhane** : métabolisé en **CO** → carboxyhémoglobine.
 <!-- /step -->
 

@@ -57,6 +57,8 @@ Pour les composés ionisables, seule la forme **neutre** (non ionisée) passe bi
 :::clinical
 On **ajuste le pH** en conséquence : un **acide faible** s'extrait en milieu **acide** ($pH < pK_a$, forme AH neutre) ; une **base faible** en milieu **basique** ($pH > pK_a$, forme B neutre). Ce contrôle du pH permet aussi de séparer sélectivement acides, bases et neutres.
 :::
+
+En pratique, on se place à **au moins 2 unités de pH** du $pK_a$ (plus de 99 % de forme neutre) ; le **relargage** (ajout de NaCl) diminue la solubilité aqueuse et favorise le passage en phase organique.
 <!-- /step -->
 
 <!-- step:title="Piege classique" -->

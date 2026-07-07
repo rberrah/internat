@@ -44,6 +44,8 @@ La liaison antigène-anticorps est **spécifique**, **non covalente** et **réve
 - **Immunoprécipitation** en gel : double diffusion (Ouchterlony), **immunoélectrophorèse**, immunofixation (arcs de précipitation).
 - **Néphélémétrie / turbidimétrie** : les complexes immuns diffusent ou atténuent la lumière ; le signal quantifie l'antigène soluble.
 - **Agglutination** : antigènes particulaires (hématies, particules de latex).
+
+La précipitation est maximale à la **zone d'équivalence** (courbe de Heidelberger) : un **excès d'antigène** (ou d'anticorps) diminue les complexes formés — à rapprocher de l'effet crochet.
 <!-- /step -->
 
 <!-- step:title="Immunoanalyse avec marquage" -->

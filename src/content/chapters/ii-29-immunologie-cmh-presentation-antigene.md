@@ -47,7 +47,7 @@ Deux classes présentent des peptides aux lymphocytes T : le **CMH I** et le **C
 Exprimé par **toutes les cellules nucléées**, le **CMH I** présente des **peptides endogènes** (protéines du cytosol, notamment virales ou tumorales) aux **lymphocytes T CD8** cytotoxiques.
 :::
 
-Il permet ainsi à toute cellule de « montrer » ce qu'elle fabrique : une cellule infectée présente des peptides viraux et sera détruite.
+Il permet ainsi à toute cellule de « montrer » ce qu'elle fabrique : une cellule infectée présente des peptides viraux et sera détruite. Structurellement, le CMH I associe une chaîne α à la **β2-microglobuline**.
 <!-- /step -->
 
 <!-- step:title="Le CMH de classe II" -->

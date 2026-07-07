@@ -46,6 +46,8 @@ Le choix se fait selon les comorbidités (diabète, insuffisance cardiaque, coro
 :::key
 IEC et ARA II agissent sur le **même axe** rénine-angiotensine : les IEC en **amont** (inhibent la formation d'angiotensine II), les sartans en **aval** (bloquent le récepteur AT1). On ne les **associe jamais** entre eux.
 :::
+
+Le choix se guide sur les comorbidités : chez le **diabétique avec albuminurie/néphropathie**, un **bloqueur du SRAA** (IEC ou ARA II) est **néphroprotecteur**.
 <!-- /step -->
 
 <!-- step:title="Effets indesirables par classe" -->

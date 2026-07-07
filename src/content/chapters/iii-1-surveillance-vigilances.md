@@ -70,7 +70,7 @@ Une vigilance est un système de **surveillance continue** des événements ind�
 <!-- step:title="La pharmacovigilance en pratique" -->
 - **Qui ?** Déclaration **obligatoire** pour médecins, chirurgiens-dentistes, sages-femmes et pharmaciens ; **ouverte** aux autres professionnels, aux **patients** et associations agréées.
 - **Quoi ?** Tout effet **grave** (mortel, invalidant, hospitalisant, malformatif) ou **inattendu** (non conforme au RCP), y compris surdosage, mésusage, erreur médicamenteuse.
-- **Quand ?** **Immédiatement** pour le grave et l'inattendu.
+- **Quand ?** **Immédiatement** pour le grave et l'inattendu, via le portail **signalement-sante.gouv.fr** ; la déclaration est reçue et expertisée par le **CRPV** (centre régional de pharmacovigilance).
 
 :::clinical
 Le **Plan de gestion des risques (PGR)**, exigé dès l'AMM, identifie et minimise les risques en vie réelle (études post-AMM, surveillance renforcée). Les médicaments sous surveillance particulière portent un **triangle noir inversé**.

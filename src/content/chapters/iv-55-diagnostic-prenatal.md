@@ -46,7 +46,7 @@ Le **dépistage combiné du 1er trimestre** calcule un **risque** à partir de t
 Si le risque dépasse un seuil, on propose une étape suivante.
 
 :::key
-Le **DPNI** (dépistage prénatal non invasif) analyse l'**ADN fœtal libre circulant** dans le sang maternel : très **sensible** pour la T21, il a réduit le recours aux gestes invasifs. Il reste un **dépistage** : un résultat positif doit être **confirmé**.
+Le **DPNI** (dépistage prénatal non invasif) analyse l'**ADN fœtal libre circulant** dans le sang maternel : très **sensible** pour la T21, il est proposé quand le risque du dépistage combiné est **≥ 1/1000** et a réduit le recours aux gestes invasifs. Il reste un **dépistage** : un résultat positif doit être **confirmé**.
 :::
 <!-- /step -->
 

@@ -44,6 +44,8 @@ Bilan d'une Ig monoclonale : **EPS + immunofixation sérique ET urinaire**, dosa
 :::
 
 Le pic monoclonal accélère la **VS** (hématies en rouleaux) et peut créer une **dissociation VS/CRP**.
+
+Dans le **myélome à chaînes légères** (~20 %), l'**EPS sérique peut être normale** (pas de pic) : d'où l'intérêt de l'**immunofixation urinaire** et des **chaînes légères libres sériques**.
 <!-- /step -->
 
 <!-- step:title="MGUS ou myélome" -->

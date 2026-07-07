@@ -69,7 +69,7 @@ Urgence vitale, symptomatique + antidotes.
 
 :::clinical
 - **Décontamination** (déshabillage, lavage cutané) avec **protection des soignants** ; support ventilatoire.
-- **Atropine** : antidote des effets **muscariniques**, à **doses répétées** jusqu'à **atropinisation** (assèchement des sécrétions bronchiques, cible principale).
+- **Atropine** : antidote des effets **muscariniques**, à **doses répétées** jusqu'à **atropinisation** (assèchement des sécrétions bronchiques = cible ; la **mydriase n'est pas** le critère de titration).
 - **Pralidoxime** : **réactivateur de la cholinestérase**, pour les **OP**, à administrer **précocement** (avant le vieillissement) ; peu/pas indiquée pour les **carbamates**.
 - **Benzodiazépines** si convulsions.
 :::

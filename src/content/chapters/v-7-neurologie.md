@@ -40,6 +40,7 @@ Objectif : **réduire l'hyperexcitabilité** neuronale (blocage des canaux Na⁺
 - **Valproate** (large spectre) — **tératogène majeur**, contre-indiqué chez la femme en âge de procréer sans contraception (spina bifida, troubles neurodéveloppementaux).
 - **Carbamazépine, lamotrigine, lévétiracétam**, **benzodiazépines** (crise/état de mal).
 - Nombreux **inducteurs enzymatiques** (carbamazépine) → interactions.
+- La **lamotrigine** impose une **titration lente** (risque de syndrome de Stevens-Johnson / DRESS).
 <!-- /step -->
 
 <!-- step:title="Migraine et maladie de Parkinson" -->

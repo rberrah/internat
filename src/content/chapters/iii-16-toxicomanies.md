@@ -51,7 +51,7 @@ Syndrome **sympathomimétique** : **tachycardie, HTA, mydriase, hyperthermie, ag
 - Complications : troubles du rythme, **syndrome coronarien** (cocaïne), convulsions, AVC.
 
 :::clinical
-Prise en charge surtout **symptomatique** (benzodiazépines pour l'agitation, refroidissement). Pas d'antidote spécifique.
+Prise en charge surtout **symptomatique** (benzodiazépines pour l'agitation et les douleurs thoraciques, refroidissement) ; **éviter les β-bloquants** dans le syndrome coronarien cocaïnique (risque de vasospasme). Pas d'antidote spécifique.
 :::
 <!-- /step -->
 

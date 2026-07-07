@@ -63,7 +63,7 @@ Par ordre de fréquence : **infections urinaires** (les plus fréquentes, souven
 La mesure la plus efficace est l'**hygiène des mains** par **friction hydro-alcoolique**, complétée par les **précautions standard** (et complémentaires : contact, gouttelettes, air) et le **bon usage des antibiotiques**.
 
 :::key
-Dans chaque établissement : **EOH** (équipe opérationnelle d'hygiène) et **CLIN** historique, avec des **indicateurs** publics (ex. **ICALIN**, consommation de SHA). Le signalement des IAS est **obligatoire** pour les cas graves ou groupés.
+Dans chaque établissement : **EOH** (équipe opérationnelle d'hygiène) et **CLIN** historique, avec des **indicateurs** publics (ex. **ICALIN**, **ICSHA** = consommation de solutions hydro-alcooliques). Le signalement des IAS est **obligatoire** pour les cas graves ou groupés.
 :::
 <!-- /step -->
 

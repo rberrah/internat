@@ -38,7 +38,7 @@ L'hémostase arrête un saignement tout en gardant le sang **fluide** ailleurs. 
 En réponse à la brèche vasculaire :
 
 1. **Vasoconstriction** réflexe locale.
-2. **Adhésion** des plaquettes au sous-endothélium exposé (collagène) via le **facteur von Willebrand**, qui sert de pont avec la glycoprotéine plaquettaire **GPIb**.
+2. **Adhésion** des plaquettes au sous-endothélium exposé (collagène) via le **facteur von Willebrand**, qui sert de pont avec la glycoprotéine plaquettaire **GPIb** (le vWF transporte aussi le **facteur VIII** dans le plasma).
 3. **Activation** et sécrétion (ADP, thromboxane A2), changement de forme.
 4. **Agrégation** : le **fibrinogène** relie les plaquettes entre elles via la **GPIIb/IIIa**.
 

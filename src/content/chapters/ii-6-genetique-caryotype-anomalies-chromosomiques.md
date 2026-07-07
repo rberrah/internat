@@ -59,7 +59,7 @@ La résolution du caryotype standard est d'environ 5 à 10 Mb : il voit les anom
 - **Polyploïdie** : anomalie de l'ensemble du lot — **triploïdie** (3n) ou **tétraploïdie** (4n).
 - **Aneuploïdie** : anomalie d'un chromosome unique — **monosomie**, **trisomie**, nullisomie. Elles résultent d'une **non-disjonction** méiotique.
 
-Exemples : **trisomie 21** libre (47,XX,+21), **monosomie X** ou syndrome de Turner (45,X), syndrome de Klinefelter (47,XXY). Une non-disjonction précoce après fécondation donne une **mosaïque** (46,XX/47,XX,+21).
+Exemples : **trisomie 21** libre (47,XX,+21), **monosomie X** ou syndrome de Turner (45,X), syndrome de Klinefelter (47,XXY). Une non-disjonction précoce après fécondation donne une **mosaïque** (46,XX/47,XX,+21). La trisomie 21 existe sous trois formes : **libre** (~95 %), par **translocation robertsonienne** (souvent 14;21) et en **mosaïque**.
 <!-- /step -->
 
 <!-- step:title="Les anomalies de structure" -->

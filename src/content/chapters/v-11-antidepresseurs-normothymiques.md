@@ -67,6 +67,8 @@ Le **lithium** est le thymorégulateur de référence (traitement curatif et **p
 Le lithium a une **marge thérapeutique très étroite** : surveiller la **lithémie**. Toute **déshydratation, régime sans sel, IEC/ARA, AINS ou diurétique** réduit son élimination rénale et peut provoquer un **surdosage** (tremblements, confusion, troubles digestifs, coma). Surveiller aussi **thyroïde et fonction rénale**.
 :::
 
+Le **lithium** est **tératogène** (anomalie d'Ebstein) : contraception et réévaluation du rapport bénéfice/risque chez la femme en âge de procréer.
+
 Autres normothymiques : **valproate, lamotrigine, carbamazépine**, certains antipsychotiques atypiques.
 <!-- /step -->
 

@@ -40,6 +40,10 @@ L'hémoglobine est un **tétramère** : **4 chaînes de globine**, chacune porta
 :::key
 Chaque hème fixe **une molécule d'O2** sur le Fe²⁺ : une hémoglobine transporte donc **0 à 4 O2**. La structure quaternaire permet la **coopérativité** (fixation facilitée de proche en proche) → courbe de saturation **sigmoïde**. **1 g d'Hb fixe 1,34 mL d'O2**.
 :::
+
+:::note
+L'affinité pour l'O2 **diminue** (courbe décalée à droite) quand augmentent le **2,3-DPG**, la PCO₂, la température ou les **H⁺** (effet **Bohr**), ce qui libère l'O2 aux tissus. La **HbF** fixe peu le 2,3-DPG, d'où son affinité plus élevée.
+:::
 <!-- /step -->
 
 <!-- step:title="Les hémoglobines normales" -->

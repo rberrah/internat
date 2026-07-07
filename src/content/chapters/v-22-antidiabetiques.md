@@ -66,6 +66,10 @@ Classes plus récentes, sans hypoglycémie en monothérapie :
 - **Analogues du GLP-1** (liraglutide, sémaglutide, exénatide) : injectables, **perte de poids**, bénéfice cardiovasculaire.
 - **Inhibiteurs de SGLT2** (gliflozines : dapagliflozine, empagliflozine) → **glycosurie** provoquée, bénéfice **cardio-rénal**.
 - **Inhibiteurs des alpha-glucosidases** (acarbose) → ralentissent l'absorption des glucides.
+
+:::clinical
+Effets indésirables à connaître : **gliflozines** → infections génito-urinaires, **acidocétose euglycémique** (rare) ; **analogues du GLP-1** → nausées, à interrompre en cas de **pancréatite**.
+:::
 <!-- /step -->
 
 <!-- step:title="Les insulines" -->

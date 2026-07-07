@@ -89,7 +89,7 @@ Devant une anémie microcytaire, un seul examen tranche d'abord : la **ferritine
 :::
 
 :::clinical
-Traitement de la carence martiale : **sels ferreux per os** 100–200 mg/j pendant **4–6 mois** (jusqu'à normalisation de la ferritine). Les réticulocytes remontent en 5–10 jours ; l'hémogramme se normalise en ~1 mois. Toujours traiter **la cause** (le saignement).
+Traitement de la carence martiale : **sels ferreux per os** 100–200 mg/j pendant **4–6 mois** (jusqu'à normalisation de la ferritine). Les réticulocytes remontent en 5–10 jours ; l'hémogramme se normalise en ~1 mois. Toujours traiter **la cause** (le saignement). Une carence **résistante au fer oral** doit faire évoquer une **malabsorption** (maladie cœliaque) ou un saignement persistant.
 :::
 <!-- /step -->
 

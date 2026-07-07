@@ -48,7 +48,7 @@ L'action cesse par **recapture**, dégradation enzymatique ou diffusion.
 <!-- step:title="Les monoamines" -->
 Synthétisées à partir d'un acide aminé :
 
-- **Catécholamines** (noyau catéchol), dérivées de la **tyrosine** : **dopamine** → **noradrénaline** → **adrénaline**. La dopamine contrôle la motricité (déficit : maladie de Parkinson) ; la noradrénaline est le transmetteur du système orthosympathique.
+- **Catécholamines** (noyau catéchol), dérivées de la **tyrosine** : **dopamine** → **noradrénaline** → **adrénaline** (étape limitante : **tyrosine hydroxylase**). La dopamine contrôle la motricité (déficit : maladie de Parkinson) ; la noradrénaline est le transmetteur du système orthosympathique.
 - **Sérotonine (5-HT)**, dérivée du **tryptophane** en deux étapes (hydroxylation puis décarboxylation) ; régule sommeil et humeur.
 - **Histamine**, dérivée de l'**histidine**.
 

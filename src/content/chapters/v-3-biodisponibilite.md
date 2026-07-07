@@ -57,6 +57,8 @@ Deux grands obstacles réduisent F par voie orale :
 :::clinical
 Certains médicaments (dérivés nitrés, propranolol, morphine) ont un premier passage si intense que la dose orale doit être bien supérieure à la dose IV pour un même effet.
 :::
+
+Les voies **sublinguale, transdermique et rectale** (en partie) **contournent le premier passage hépatique** et améliorent la biodisponibilité (ex. trinitrine sublinguale).
 <!-- /step -->
 
 <!-- step:title="Bioéquivalence et génériques" -->

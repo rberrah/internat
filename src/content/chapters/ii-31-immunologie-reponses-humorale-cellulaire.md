@@ -38,7 +38,7 @@ Une fois l'antigène présenté, l'immunité **adaptative** se déploie selon de
 L'activation d'un lymphocyte naïf exige la **reconnaissance** de son antigène **plus** des signaux de **co-stimulation** fournis par la cellule présentatrice.
 
 :::key
-Le **lymphocyte T CD4 auxiliaire** est le **chef d'orchestre** : activé par un antigène présenté sur le **CMH II**, il sécrète des **cytokines** qui aident aussi bien les lymphocytes B (réponse humorale) que les T CD8 (réponse cellulaire).
+Le **lymphocyte T CD4 auxiliaire** est le **chef d'orchestre** : activé par un antigène présenté sur le **CMH II**, il sécrète des **cytokines** qui aident aussi bien les lymphocytes B (réponse humorale) que les T CD8 (réponse cellulaire). Selon les cytokines, il se polarise en **Th1** (immunité cellulaire) ou **Th2** (immunité humorale et allergie).
 :::
 <!-- /step -->
 

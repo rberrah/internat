@@ -30,7 +30,7 @@ quiz:
     correct: 0
 ---
 
-<!-- step:title="Pourquoi ce chapitre" -->
+<!-- step:title="Pourquoi ce chapitre" viz="AcideBase" -->
 L'équilibre acidobasique se lit sur trois chiffres du gaz du sang : **pH**, **bicarbonates** et **PCO2**. Une méthode systématique — pH puis origine puis compensation puis trou anionique — permet de résoudre n'importe quel dossier.
 <!-- /step -->
 

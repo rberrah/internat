@@ -51,7 +51,7 @@ Seuls **certains** bêta-bloquants ont l'AMM dans l'IC. Ils s'introduisent **à 
 
 <!-- step:title="Traitement symptomatique" -->
 - **Diurétiques de l'anse** (furosémide) : soulagent la **congestion** (dyspnée, œdèmes) mais **n'améliorent pas la survie**.
-- **Sacubitril/valsartan** (ARNI) : remplace l'IEC/ARA chez les patients restant symptomatiques.
+- **Sacubitril/valsartan** (ARNI) : remplace l'IEC/ARA chez les patients restant symptomatiques ; **jamais associé à un IEC** (respecter un délai de 36 h, risque d'angio-œdème).
 - **Ivabradine** : ralentit le nœud sinusal (courant If) si FC élevée en rythme sinusal.
 - **Digoxine** : inotrope positif, utile si fibrillation atriale associée ; **pas** en première intention.
 <!-- /step -->

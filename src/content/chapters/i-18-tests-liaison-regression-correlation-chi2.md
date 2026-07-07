@@ -42,6 +42,7 @@ $$ r = \frac{\text{cov}(x,y)}{s_x\,s_y}, \qquad -1 \leq r \leq 1 $$
 - $r$ proche de $\pm 1$ : liaison linéaire forte ; $r \approx 0$ : pas de liaison linéaire.
 - Le signe donne le sens (croissante ou décroissante).
 - Un test permet de juger si $r$ diffère significativement de 0.
+- Liaison **monotone non linéaire** ou variables **ordinales** → corrélation des rangs de **Spearman** (non paramétrique).
 <!-- /step -->
 
 <!-- step:title="Regression lineaire" -->
@@ -60,7 +61,7 @@ $$ \chi^2 = \sum \frac{(O - E)^2}{E}, \qquad ddl = (l-1)(c-1) $$
 On rejette l'indépendance si $\chi^2$ calculé dépasse le quantile de la table.
 
 :::key
-Condition de validité : effectifs théoriques $E \geq 5$ dans chaque case (sinon regroupement ou test exact de Fisher). Le chi-deux existe aussi en version **conformité / ajustement** (comparer une distribution observée à une distribution théorique).
+Condition de validité : effectifs théoriques $E \geq 5$ dans chaque case (sinon regroupement ou test exact de Fisher) ; pour un tableau **2 × 2**, on applique la **correction de continuité de Yates**. Le chi-deux existe aussi en version **conformité / ajustement** (comparer une distribution observée à une distribution théorique).
 :::
 <!-- /step -->
 

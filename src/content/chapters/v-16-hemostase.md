@@ -53,6 +53,8 @@ Ils inhibent la **coagulation** (formation de fibrine).
 
 - **Héparines** — potentialisent l'**antithrombine**. HNF (inhibe IIa et Xa, IV, surveillance **TCA**, risque de **thrombopénie induite à l'héparine**, antidote **protamine**) ; **HBPM** (anti-Xa surtout, SC, surveillance plaquettes ± activité anti-Xa).
 - **AVK** (warfarine, fluindione, acénocoumarol) — inhibent la régénération de la vitamine K → baisse des facteurs **II, VII, IX, X**. Voie orale, **délai d'action**, surveillance **INR** (cible 2-3), nombreuses interactions, antidote **vitamine K**.
+
+À l'**instauration d'un AVK**, un **relais par héparine** est nécessaire : le délai d'action et la baisse initiale de la **protéine C** créent une phase transitoirement prothrombogène.
 <!-- /step -->
 
 <!-- step:title="Anticoagulants oraux directs (AOD)" -->

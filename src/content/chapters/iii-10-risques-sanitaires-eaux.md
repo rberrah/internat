@@ -67,7 +67,7 @@ Indicateurs de **contamination fécale** : **Escherichia coli** et **entérocoqu
 Traitement de potabilisation : **clarification** (coagulation-floculation, décantation, filtration) puis **désinfection** (chloration, ozonation, UV) qui laisse un **résiduel** protégeant le réseau.
 
 :::clinical
-À l'hôpital, l'eau doit répondre à des exigences renforcées : **eau bactériologiquement maîtrisée**, **eau pour hémodialyse** (ultrapure), et surveillance des **légionelles** dans les réseaux d'eau chaude (patients immunodéprimés).
+À l'hôpital, l'eau doit répondre à des exigences renforcées : **eau bactériologiquement maîtrisée**, **eau pour hémodialyse** (ultrapure), et surveillance des **légionelles** dans les réseaux d'eau chaude (seuil cible **< 10³ UFC/L**, renforcé pour les patients immunodéprimés).
 :::
 <!-- /step -->
 

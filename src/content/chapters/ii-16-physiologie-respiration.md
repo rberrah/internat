@@ -48,7 +48,7 @@ Le **surfactant** (phospholipides des pneumocytes II) **abaisse la tension super
 <!-- step:title="Échanges et transport des gaz" -->
 Les gaz diffusent à travers la **membrane alvéolo-capillaire** selon leur gradient de pression partielle : PO2 alvéolaire ≈ 100 mmHg, sang veineux ≈ 40 mmHg ; PCO2 artérielle ≈ 40, veineuse ≈ 46 mmHg.
 
-- **O2** : fixé sur le fer **ferreux (Fe²⁺)** de l'hème. **1 g d'Hb fixe 1,34 mL d'O2**. La courbe de saturation est sigmoïde ; l'**effet Bohr** (acidose, hausse de PCO2, chaleur) décale la courbe à droite et **libère l'O2** aux tissus.
+- **O2** : fixé sur le fer **ferreux (Fe²⁺)** de l'hème. **1 g d'Hb fixe 1,34 mL d'O2**. La courbe de saturation est sigmoïde ; l'**effet Bohr** (acidose, hausse de PCO2, chaleur, **2,3-DPG**) décale la courbe à droite et **libère l'O2** aux tissus.
 - **CO2** : transporté surtout en **bicarbonates (~70 %)**, un peu sous forme **carbaminée** liée à l'Hb (~23 %) et **dissous** (~7 %).
 
 :::note

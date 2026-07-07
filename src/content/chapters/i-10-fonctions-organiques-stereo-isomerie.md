@@ -10,7 +10,7 @@ order: 110
 duration: "12 min"
 tags: ["chimie analytique", "fonctions organiques", "pKa", "dérivatisation", "stéréo-isomérie"]
 quiz:
-  - prompt: "En acidité croissante, l'ordre des pKa est…"
+  - prompt: "Par acidité décroissante (du plus acide au moins acide), l'ordre est…"
     options:
       - "acide carboxylique (≈4) > phénol (≈9) > alcool (≈16)"
       - "alcool > phénol > acide carboxylique"
@@ -76,7 +76,7 @@ Ne pas confondre les nomenclatures : **R/S** (configuration absolue, CIP), **D/L
 <!-- /step -->
 
 <!-- step:title="À retenir" -->
-- Acidité : acide (≈4) > phénol (≈9) > thiol ≈ alcool très faible (16).
+- Acidité : acide (≈4) > thiol ≈ phénol (≈9-10) > alcool très faible (16).
 - Alcool Iaire → aldéhyde → acide ; IIaire → cétone ; aldéhydes réducteurs.
 - Dérivatisation = introduire chromophore/fluorophore (DNPH, chlorures d'acide).
 - $2^n$ stéréoisomères ; R/S, D/L et +/− sont indépendants.

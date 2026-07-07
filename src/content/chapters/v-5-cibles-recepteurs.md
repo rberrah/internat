@@ -67,6 +67,8 @@ La liaison ligand-récepteur est le plus souvent **réversible**.
 :::note
 Un **agoniste inverse** produit l'effet opposé à l'agoniste sur un récepteur à activité constitutive.
 :::
+
+Une stimulation prolongée d'un récepteur entraîne sa **désensibilisation** (down-regulation), un blocage prolongé une **up-regulation** (hypersensibilité) : c'est le mécanisme de l'**effet rebond** à l'arrêt brutal (ex. bêta-bloquants).
 <!-- /step -->
 
 <!-- step:title="Piège classique" -->

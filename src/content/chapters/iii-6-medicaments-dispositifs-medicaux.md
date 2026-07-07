@@ -69,7 +69,7 @@ Après l'AMM, un circuit d'acteurs :
 :::
 
 - **4 classes de risque** : **I** (faible : compresses, seringues), **IIa** (moyen), **IIb** (élevé), **III** (très élevé : implants, DM implantables actifs).
-- Mise sur le marché = **marquage CE** apposé par le fabricant, avec intervention d'un **organisme notifié** (ex. **G-MED**) pour les DM à risque.
+- Mise sur le marché = **marquage CE** apposé par le fabricant, avec intervention d'un **organisme notifié** (ex. **G-MED**) pour les DM à risque ; le **règlement (UE) 2017/745 (MDR)**, applicable depuis 2021, a renforcé ces exigences.
 - Remboursement en ville ou en sus : inscription sur la **LPPR** (5 titres) après avis de la **CNEDiMTS** (service attendu **SA** / amélioration **ASA**).
 <!-- /step -->
 

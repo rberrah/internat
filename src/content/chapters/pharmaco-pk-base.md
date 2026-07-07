@@ -19,10 +19,10 @@ quiz:
     correct: 0
   - prompt: "La demi-vie d'élimination dépend…"
     options:
+      - "à la fois du volume et de la clairance"
       - "de la clairance seule"
       - "du volume seul"
-      - "à la fois du volume et de la clairance"
-    correct: 2
+    correct: 0
   - prompt: "La biodisponibilité absolue F d'une forme orale se calcule en comparant…"
     options:
       - "son AUC à l'AUC de la voie IV"
@@ -66,6 +66,7 @@ Lisez la demi-vie comme un **rapport** : elle **augmente** si le volume grandit 
 - CL = 6 L/h, V = 30 L → $t_{1/2} = 0{,}693 \times 30 / 6 \approx 3{,}5$ h.
 - Doubler la dose **double l'AUC** (CL inchangée) mais **ne change pas** la demi-vie.
 - En insuffisance rénale, un médicament à élimination rénale voit sa **CL chuter** → AUC et t½ augmentent → il faut **réduire la dose** ou **espacer** les prises.
+- En administration répétée, il faut **4 à 5 demi-vies** pour atteindre l'**état d'équilibre** (plateau des concentrations).
 
 :::clinical
 Pour atteindre vite l'équilibre, on utilise parfois une **dose de charge** (elle dépend du **volume** : $\text{Dose de charge} = C_{cible} \times V / F$), puis une **dose d'entretien** (elle dépend de la **clairance**).

@@ -53,7 +53,7 @@ Le **plomb** (peintures anciennes, canalisations) inhibe des enzymes de la **syn
 - douleurs abdominales (« coliques de plomb »), liseré gingival de Burton.
 
 :::clinical
-Diagnostic : **plombémie**. Saturnisme infantile = **maladie à déclaration obligatoire**. Traitement des formes sévères : **chélateurs** (EDTA calcique, DMSA) + éviction de la source.
+Diagnostic : **plombémie** ; le saturnisme infantile est une **maladie à déclaration obligatoire** (seuil **≥ 50 µg/L**). Traitement des formes sévères : **chélateurs** (EDTA calcique, DMSA) + éviction de la source.
 :::
 <!-- /step -->
 
@@ -63,7 +63,7 @@ Certains toxiques (nitrites, nitrés, aniline, certains médicaments comme les s
 - Clinique : **cyanose** ne répondant pas à l'O2, sang « chocolat », dyspnée.
 
 :::key
-Antidote : **bleu de méthylène** (réduit la méthémoglobine), si taux élevé/symptomatique.
+Antidote : **bleu de méthylène** (réduit la méthémoglobine) si taux élevé/symptomatique — **contre-indiqué en cas de déficit en G6PD** (inefficace et risque hémolytique).
 :::
 <!-- /step -->
 

@@ -59,6 +59,8 @@ La **trinitrine sublinguale** traite la crise en quelques minutes. Le traitement
 :::clinical
 Les **dérivés nitrés** sont **contre-indiqués avec les inhibiteurs de la PDE5** (sildénafil, tadalafil) : risque de **collapsus** par hypotension sévère. Les **bêta-bloquants** sont contre-indiqués dans l'asthme sévère, le BAV de haut degré et l'insuffisance cardiaque décompensée.
 :::
+
+Dans l'**angor spastique (Prinzmetal)**, on privilégie les **inhibiteurs calciques** : les bêta-bloquants peuvent aggraver le spasme coronaire.
 <!-- /step -->
 
 <!-- step:title="Piège classique" -->

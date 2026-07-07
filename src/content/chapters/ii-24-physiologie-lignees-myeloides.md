@@ -46,7 +46,7 @@ Le progéniteur myéloïde commun donne les lignées **érythrocytaire, granulo-
 De l'érythroblaste au globule rouge : maturation avec **synthèse d'hémoglobine** puis **expulsion du noyau**. Le dernier stade médullaire, le **réticulocyte**, gagne le sang et perd ses ribosomes en ~24 h.
 
 :::key
-L'**érythropoïétine (EPO)**, produite par le **rein** en réponse à l'**hypoxie**, stimule l'érythropoïèse. Le globule rouge mature vit environ **120 jours**.
+L'**érythropoïétine (EPO)**, produite par le **rein** en réponse à l'**hypoxie**, stimule l'érythropoïèse, qui requiert aussi **fer, vitamine B12 et folates**. Le globule rouge mature vit environ **120 jours**.
 :::
 <!-- /step -->
 
