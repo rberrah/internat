@@ -49,6 +49,7 @@ Le **métronidazole** entraîne un **effet antabuse** : l'association à l'**alc
 <!-- step:title="Anthelminthiques (nématodes)" -->
 - **Benzimidazolés** : **albendazole**, flubendazole, mébendazole → inhibent la polymérisation de la **β-tubuline** du parasite et son absorption de glucose. Large spectre : **oxyures, ascaris, ankylostomes**.
 - **Pyrantel** (Combantrin) : bloqueur neuromusculaire dépolarisant → **paralysie spastique** du ver.
+- **Ivermectine** (Stromectol) : traitement de référence de l'**anguillulose** (*Strongyloides stercoralis*), également actif dans la **gale** et l'**onchocercose**.
 
 :::clinical
 **Oxyurose** : traiter **tout l'entourage** et **répéter la prise à 2-3 semaines** (auto-réinfestation par voie ano-orale), avec mesures d'hygiène (ongles courts, linge). Les **benzimidazolés sont tératogènes** → contre-indiqués pendant la grossesse.

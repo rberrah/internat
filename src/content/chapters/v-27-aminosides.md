@@ -42,6 +42,10 @@ Les aminosides se fixent sur la **sous-unité 30S du ribosome** → **inhibition
 - PK/PD : **concentration-dépendants** (indice **Cmax/CMI**), avec un **effet post-antibiotique** prolongé.
 - Spectre : **bacilles à Gram négatif aérobies** (dont *Pseudomonas* pour tobramycine et amikacine), staphylocoques ; **synergie** avec les bêta-lactamines sur streptocoques et entérocoques.
 - **Inactifs sur les anaérobies** (pénétration cellulaire dépendante de l'oxygène).
+
+:::note
+Particularité : bien qu'ils ciblent le **ribosome (30S)** comme les cyclines, les aminosides sont **bactéricides** (et non bactériostatiques) — ils provoquent des **erreurs de lecture** de l'ARNm et bloquent l'initiation de la traduction.
+:::
 <!-- /step -->
 
 <!-- step:title="Pharmacocinétique et administration" -->

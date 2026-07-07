@@ -73,7 +73,7 @@ Traitement (mère et enfant) : **pénicilline G** (benzathine benzylpénicilline
 - **VHB** : transmission verticale à l'accouchement → **sérovaccination du nouveau-né** (vaccin + immunoglobulines) si mère Ag HBs positive.
 
 :::note
-La **rubéole** et la **toxoplasmose** complètent le tableau des embryofœtopathies dépistées pendant la grossesse.
+La **rubéole** et la **toxoplasmose** complètent le tableau des embryofœtopathies dépistées pendant la grossesse. En cas de **séroconversion toxoplasmique**, on débute la **spiramycine** (± **pyriméthamine-sulfadiazine** si atteinte fœtale confirmée) ; la prévention est **hygiéno-diététique** (viande bien cuite, lavage des légumes, éviction du contact avec les chats).
 :::
 <!-- /step -->
 

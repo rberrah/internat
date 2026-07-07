@@ -72,7 +72,7 @@ Facteurs de risque : âge, tabac, HTA, diabète, hérédité, HDL bas.
 
 <!-- step:title="Traitements" -->
 :::clinical
-- **Hypercholestérolémie** (IIa, IIb) → **statines** (inhibiteurs de l'HMG-CoA réductase), après règles hygiéno-diététiques ; surveillance du LDL, des transaminases et des CPK.
+- **Hypercholestérolémie** (IIa, IIb) → **statines** (inhibiteurs de l'HMG-CoA réductase), après règles hygiéno-diététiques ; surveillance du LDL, des transaminases et des CPK. Si cible non atteinte : ajout d'**ézétimibe** (inhibiteur de l'absorption) puis d'un **inhibiteur de PCSK9**.
 - **Hypertriglycéridémie** (IV, V) → régime (glucides, alcool), **fibrates** ; type IV **glucido- et éthanolo-dépendant**.
 :::
 

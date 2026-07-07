@@ -51,7 +51,7 @@ La natrémie mesure l'**eau**, pas le sodium total. Elle gouverne l'osmolarité,
 - **Hyponatrémie** → l'eau entre dans la cellule → **hyperhydratation intracellulaire** (nausées, troubles neurologiques).
 - **Hypernatrémie** → l'eau sort → **déshydratation intracellulaire** (soif, sécheresse des muqueuses, hypotonie oculaire).
 
-Régulation par l'**ADH** (réabsorption d'eau).
+Régulation par l'**ADH** (réabsorption d'eau). Une hyponatrémie s'analyse selon l'état extracellulaire : hypovolémique (pertes), hypervolémique (œdèmes) ou **normovolémique → SIADH** (sécrétion inappropriée d'ADH : natriurèse conservée, osmolarité urinaire élevée).
 <!-- /step -->
 
 <!-- step:title="Le secteur extracellulaire" -->

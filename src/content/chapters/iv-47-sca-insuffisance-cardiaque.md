@@ -41,12 +41,12 @@ La **troponine cardiaque hypersensible** (cTnT ou cTnI) est le marqueur de la n�
 Seuils **TnT hs** : < 14 ng/L = exclusion ; 14–50 = zone d'observation ; > 50 ng/L = haut risque. Une élévation au-delà du **99ᵉ percentile** signe le dommage.
 :::
 
-Le résultat est **cinétique** : en zone d'observation, une **variation > 30 % entre H0 et H3** confirme le SCA. On distingue **SCA ST+** (sus-décalage de ST, onde Q de nécrose) et **SCA ST−**.
+Le résultat est **cinétique** : la troponine s'élève dès **H3–H4**, culmine vers H24 et se normalise en plusieurs jours ; en zone d'observation, une **variation > 30 % entre H0 et H3** confirme le SCA. On distingue **SCA ST+** (sus-décalage de ST, onde Q de nécrose) et **SCA ST−**.
 <!-- /step -->
 
 <!-- step:title="Prise en charge du SCA" -->
 :::clinical
-Urgence : **aspirine** + **anticoagulant (HBPM/héparine)**, puis **reperfusion** — angioplastie (coronarographie) ou **thrombolyse**. Prévention secondaire : **statine** (LDL cible < 0,55 g/L en risque très élevé, ESC 2019), contrôle des facteurs de risque, arrêt du tabac.
+Urgence : **aspirine** + **anticoagulant (HBPM/héparine)**, puis **reperfusion** du SCA ST+ en urgence — **angioplastie primaire** (idéalement < 120 min) ou, à défaut, **thrombolyse**. Prévention secondaire : **statine** (LDL cible < 0,55 g/L en risque très élevé, ESC 2019), contrôle des facteurs de risque, arrêt du tabac.
 :::
 
 La troponine n'est **pas spécifique** de la coronaropathie : elle s'élève aussi dans l'embolie pulmonaire, la myocardite, le sepsis, l'IC sévère et l'**insuffisance rénale**.

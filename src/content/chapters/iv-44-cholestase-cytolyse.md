@@ -39,7 +39,7 @@ Libération enzymatique par lyse des hépatocytes : **transaminases (ALAT, ASAT)
 
 :::key
 - **ALAT > ASAT** : hépatites **virales** (aiguë = transaminases les plus élevées, > 10 N) et chroniques.
-- **ASAT > ALAT** (rapport > 1) : hépatite **alcoolique**, infarctus du myocarde (ASAT non spécifique).
+- **ASAT > ALAT** (rapport de De Ritis > 1, souvent > 2) : hépatite **alcoolique** et cirrhose, infarctus du myocarde (ASAT non spécifique).
 :::
 
 L'ALAT est la plus **spécifique** du foie.
@@ -51,6 +51,8 @@ Obstacle à l'écoulement de la bile :
 :::key
 Augmentation des **phosphatases alcalines (PAL)** et de la **GGT**, de la **bilirubine conjuguée**, des **acides biliaires** (→ **prurit**) et du cholestérol.
 :::
+
+Cliniquement, une cholestase **extrahépatique** (obstacle) donne un **ictère avec urines foncées et selles décolorées**.
 
 Piège : une **PAL élevée sans GGT** oriente vers une origine **osseuse**, pas hépatique. La GGT isolée (sans PAL) évoque un éthylisme ou une induction enzymatique.
 <!-- /step -->

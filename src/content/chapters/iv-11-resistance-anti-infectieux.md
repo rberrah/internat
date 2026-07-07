@@ -55,9 +55,9 @@ C'est le cœur du programme. Deux grandes voies :
 
 - **Bêta-lactamases** (inactivation enzymatique) :
   - **Pénicillinase** : hydrolyse les **aminopénicillines**, **inhibée par l'acide clavulanique** → **amoxicilline R / amox-clav S** (staphylocoque, *H. influenzae*, *E. coli*).
-  - **BLSE** (spectre étendu) : hydrolyse en plus les **C3G et le céfépime**, **inhibée par l'acide clavulanique** ; **épargne** la céfoxitine et les **carbapénèmes**. Support **plasmidique**, transfert horizontal.
+  - **BLSE** (spectre étendu) : hydrolyse en plus les **C3G et le céfépime**, **inhibée par l'acide clavulanique** ; **épargne** la céfoxitine et les **carbapénèmes**. Support **plasmidique**, transfert horizontal ; enzymes de type **CTX-M** aujourd'hui prédominantes.
   - **Céphalosporinase (AmpC) hyperproduite** : R aux C3G et céfoxitine, **non** inhibée par l'acide clavulanique (céfépime souvent conservé).
-  - **Carbapénémase** : hydrolyse les carbapénèmes → **impasse thérapeutique** (bactérie hautement résistante).
+  - **Carbapénémase** (types **OXA-48, NDM, KPC**) : hydrolyse les carbapénèmes → **impasse thérapeutique** (bactérie hautement résistante).
 
 - **Modification de la cible (PLP)** :
   - **SARM** : **PLP2a** codée par le gène ***mecA*** → résistance à **toutes les bêta-lactamines**.

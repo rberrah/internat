@@ -37,7 +37,7 @@ Le métabolisme osseux repose sur un trio hormonal — **PTH**, **vitamine D**, 
 <!-- step:title="Regulation phosphocalcique" -->
 :::key
 - **PTH** : **hypercalcémiante** (résorption osseuse, réabsorption rénale du Ca, activation de la vitamine D) et **hypophosphatémiante** (baisse du TRP, réabsorption tubulaire des phosphates).
-- **Vitamine D** : calcidiol (25-OH) → calcitriol (1,25-OH₂) ; augmente l'**absorption intestinale** de Ca et P.
+- **Vitamine D** : calcidiol (25-OH) → calcitriol (1,25-OH₂) ; augmente l'**absorption intestinale** de Ca et P. C'est le **25-OH (calcidiol)** que l'on dose pour juger des réserves (carence si < 20 ng/mL).
 :::
 
 Le **calcium ionisé** est la forme active. Toujours interpréter la calcémie totale avec l'albumine.
@@ -77,7 +77,7 @@ Maladie du squelette avec **baisse de la densité osseuse** et fragilité. Diagn
 - **≤ -2,5** : ostéoporose ; avec fracture : ostéoporose **sévère**.
 :::
 
-Facteurs de risque : **ménopause** (carence œstrogénique), IMC bas, corticothérapie, tabac, alcool, antécédent de fracture. Décision de traiter aidée par le **FRAX**. Traitement : **calcium + vitamine D**, **bisphosphonates**.
+Facteurs de risque : **ménopause** (carence œstrogénique), IMC bas, corticothérapie, tabac, alcool, antécédent de fracture. Décision de traiter aidée par le **FRAX**. Traitement : **calcium + vitamine D**, **bisphosphonates** (ou **dénosumab**, anticorps anti-RANKL).
 <!-- /step -->
 
 <!-- step:title="Piege classique" -->

@@ -60,6 +60,7 @@ Effets indésirables limitants :
 - **tendinopathies** avec risque de **rupture du tendon d'Achille** (majoré par l'âge, les corticoïdes) ;
 - **photosensibilité** ;
 - **allongement du QT** (torsades de pointes) ;
+- risque d'**anévrisme et de dissection aortique** (mise en garde ANSM/EMA) ;
 - troubles neurologiques (**convulsions**, confusion), **dysglycémies**.
 
 :::clinical

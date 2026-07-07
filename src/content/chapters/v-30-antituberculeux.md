@@ -60,6 +60,10 @@ L'association vise deux buts : **prévenir les résistances** (plusieurs cibles 
 - **Pyrazinamide** : **hépatotoxicité**, **hyperuricémie** (goutte).
 - **Éthambutol** : **névrite optique rétrobulbaire** (surveillance ophtalmologique, vision des couleurs).
 
+:::note
+L'isoniazide est métabolisé par **acétylation** (polymorphisme génétique) : les **acétyleurs lents** sont davantage exposés à la **neuropathie** et à l'hépatotoxicité.
+:::
+
 :::clinical
 Surveillance **hépatique** régulière (trois molécules hépatotoxiques). La tuberculose est une **maladie à déclaration obligatoire**.
 :::

@@ -68,6 +68,8 @@ Les deux donnent une anémie et un fer sérique bas — la **ferritine** et la *
 | Transferrine / CTF | augmentées | **diminuées** |
 | CRP, fibrinogène | normaux | **élevés** |
 
+Le mécanisme : l'inflammation augmente l'**hepcidine** (bloque le fer dans les macrophages et l'entérocyte), d'où un fer sérique bas malgré des réserves pleines.
+
 Une **microcytose avec fer sérique élevé** oriente vers thalassémie, saturnisme, ou carence traitée par fer.
 <!-- /step -->
 

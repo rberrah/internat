@@ -37,7 +37,7 @@ Certaines infections se **guérissent** (VHC), d'autres se **contrôlent** au lo
 <!-- /step -->
 
 <!-- step:title="Herpès et CMV" -->
-- **Herpès (HSV) et zona (VZV)** : **aciclovir** — analogue nucléosidique de la guanosine, activé par la **thymidine kinase virale** → inhibe l'**ADN polymérase virale**. **Valaciclovir** = prodrogue à meilleure biodisponibilité orale. EI : néphrotoxicité (cristallurie → **hydrater**), neurotoxicité.
+- **Herpès (HSV) et zona (VZV)** : **aciclovir** — analogue nucléosidique de la guanosine, activé par la **thymidine kinase virale** → inhibe l'**ADN polymérase virale**. **Valaciclovir** = prodrogue à meilleure biodisponibilité orale. EI : néphrotoxicité (cristallurie → **hydrater**), neurotoxicité. Résistance (immunodéprimé) = virus **déficients en thymidine kinase** → recours au **foscarnet**.
 - **CMV** de l'immunodéprimé (rétinite, colite) : **ganciclovir** (IV), **valganciclovir** (prodrogue orale). EI : **hématotoxicité** (neutropénie, thrombopénie → NFS). En cas de résistance : **foscarnet, cidofovir** (néphrotoxiques).
 
 :::key

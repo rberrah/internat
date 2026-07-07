@@ -61,7 +61,7 @@ Le sérotypage suit la classification de **Kauffmann-White** (antigènes **O** =
 ***Campylobacter jejuni*** : **bacille Gram négatif incurvé**, mobilité « en vol de mouette », **microaérophile**, thermophile (42 °C). Fréquent chez l'**enfant** ; diarrhée invasive fébrile.
 
 :::pitfall
-On traite le Campylobacter surtout pour prévenir ses **complications** — le **syndrome de Guillain-Barré** ++, les bactériémies. Traitement : **azithromycine** (macrolide). *Shigella* donne une diarrhée invasive (syndrome dysentérique).
+On traite le Campylobacter surtout pour prévenir ses **complications** — le **syndrome de Guillain-Barré** ++, les bactériémies. Traitement : **azithromycine** (macrolide). *Shigella* donne une diarrhée invasive (syndrome dysentérique). Devant une diarrhée **glairo-sanglante de l'enfant**, penser à ***E. coli* entérohémorragique** (**EHEC**, shiga-toxine) : risque de **syndrome hémolytique et urémique (SHU)** ; **ne pas donner d'antibiotique** (majore le risque de SHU).
 :::
 <!-- /step -->
 
@@ -69,7 +69,7 @@ On traite le Campylobacter surtout pour prévenir ses **complications** — le *
 ***Clostridioides difficile*** : **bacille Gram positif sporulé, anaérobie strict**. Responsable de la **diarrhée post-antibiotique** et de la **colite pseudomembraneuse**.
 
 :::clinical
-Facteurs de risque : **antibiothérapie récente** (dysbiose), **âge > 65 ans**, hospitalisation/institution. Diagnostic sur les selles : **antigène GDH + toxines** (test immuno-enzymatique) ± PCR. Traitement : **métronidazole ou vancomycine PO** (fidaxomicine si récidive), **arrêt de l'antibiotique** en cause, **isolement contact** et nettoyage **sporicide**.
+Facteurs de risque : **antibiothérapie récente** (dysbiose), **âge > 65 ans**, hospitalisation/institution. Diagnostic sur les selles : **antigène GDH + toxines** (test immuno-enzymatique) ± PCR. Traitement : **vancomycine PO ou fidaxomicine** en 1ʳᵉ intention (le **métronidazole** n'est plus recommandé qu'en l'absence d'alternative), **arrêt de l'antibiotique** en cause, **isolement contact** et nettoyage **sporicide**.
 :::
 <!-- /step -->
 

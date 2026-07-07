@@ -60,14 +60,14 @@ Déficit en cortisol : asthénie, hypotension, amaigrissement, hypoglycémie.
 - **Secondaire (corticotrope)** : ACTH basse, **pas de mélanodermie**, aldostérone conservée. Cause fréquente : arrêt d'une **corticothérapie** prolongée.
 :::
 
-L'insuffisance surrénale **aiguë** est une **urgence** (collapsus).
+L'insuffisance surrénale **aiguë** est une **urgence** (collapsus) : **hydrocortisone IV** + réhydratation par sérum salé isotonique glucosé, sans attendre la confirmation.
 <!-- /step -->
 
 <!-- step:title="Hyperaldosteronisme" -->
 Excès de minéralocorticoïdes → rétention de Na⁺, fuite de K⁺ et H⁺ :
 
 :::key
-**HTA + hypokaliémie + alcalose métabolique**, avec rapport **Na/K urinaire inversé**. Le couple **aldostérone/rénine** tranche : **primaire (Conn)** = aldostérone ↑, **rénine basse** (adénome) ; secondaire = rénine ↑ (HTA rénovasculaire, œdèmes).
+**HTA + hypokaliémie + alcalose métabolique**, avec rapport **Na/K urinaire inversé**. Le couple **aldostérone/rénine** tranche : **primaire (Conn)** = aldostérone ↑, **rénine basse**, donc **rapport aldostérone/rénine (RAR) élevé** (test de dépistage) ; secondaire = rénine ↑ (HTA rénovasculaire, œdèmes).
 :::
 
 Traitement du Conn : **spironolactone** (anti-aldostérone) ± chirurgie de l'adénome.

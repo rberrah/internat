@@ -67,6 +67,8 @@ Toxicités à connaître :
 
 :::clinical
 Contre-indications : allergie aux sulfamides, **déficit en G6PD**, **grossesse à terme et nouveau-né**, association au **méthotrexate** (majoration de la toxicité hématologique).
+
+Interaction classique : **potentialisation des AVK et des sulfamides hypoglycémiants** (déplacement de la liaison aux protéines plasmatiques) → renforcer la surveillance.
 :::
 <!-- /step -->
 

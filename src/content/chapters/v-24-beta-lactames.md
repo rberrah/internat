@@ -69,6 +69,7 @@ Associer un **inhibiteur de bêta-lactamase** (acide clavulanique, tazobactam) r
 La tolérance est globalement bonne, mais :
 
 - **allergie** : de l'éruption au **choc anaphylactique** ; risque de **réaction croisée** pénicillines/céphalosporines ;
+- **éruption maculopapuleuse** quasi constante quand une **aminopénicilline** (amoxicilline) est donnée au cours d'une **mononucléose infectieuse (EBV)** : réaction **non allergique**, à ne pas confondre avec une vraie allergie ;
 - troubles digestifs, **colite à Clostridioides difficile** ;
 - **convulsions** à fortes doses (surtout imipénème, terrain rénal).
 

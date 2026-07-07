@@ -53,13 +53,13 @@ Le poids seul est **peu informatif** (œdèmes, obésité, ascite peuvent masque
 - baisse des protéines nutritionnelles.
 :::
 
-La composition corporelle peut être mesurée (impédancemétrie, absorptiométrie).
+La composition corporelle peut être mesurée (impédancemétrie, absorptiométrie). Le diagnostic (HAS) associe **au moins un critère phénotypique** (perte de poids, IMC bas, fonte musculaire) **et un critère étiologique** (réduction des apports, malabsorption, agression/hypercatabolisme).
 <!-- /step -->
 
 <!-- step:title="Marqueurs biologiques" -->
 Deux protéines de synthèse hépatique, à demi-vies différentes :
 
-- **Albumine** : demi-vie **longue (~20 j)** → dénutrition **chronique** (VU 35–50 g/L).
+- **Albumine** : demi-vie **longue (~20 j)** → dénutrition **chronique** (VU 35–50 g/L ; < 30 g/L = **dénutrition sévère**).
 - **Préalbumine (transthyrétine)** : demi-vie **courte (~2 j)** → dépistage précoce et **suivi** de la renutrition.
 
 :::clinical

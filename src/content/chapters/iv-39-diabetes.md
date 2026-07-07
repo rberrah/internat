@@ -62,7 +62,7 @@ Le type 1 est **insulinodépendant** d'emblée ; le type 2 relève d'abord des a
 L'**HbA1c** (fraction glyquée de l'hémoglobine) reflète la glycémie moyenne des **2 à 3 derniers mois** (durée de vie du globule rouge ≈ 120 jours).
 
 :::clinical
-Cible usuelle **HbA1c < 7 %** (à individualiser). Contrôle **tous les 3 mois**. Surveillance annuelle des complications : fond d'œil (rétinopathie), microalbuminurie (néphropathie), pieds (neuropathie), bilan lipidique.
+Cible usuelle **HbA1c < 7 %** (à individualiser). Contrôle **tous les 3 mois**. Surveillance annuelle des complications **micro-angiopathiques** : fond d'œil (rétinopathie), microalbuminurie (néphropathie), pieds (neuropathie), et du risque **macro-angiopathique** (coronaropathie, AOMI, AVC — 1ʳᵉ cause de mortalité) via le bilan lipidique.
 :::
 
 Piège : une **hémolyse** ou une hémoglobinopathie fausse l'HbA1c.
@@ -71,7 +71,7 @@ Piège : une **hémolyse** ou une hémoglobinopathie fausse l'HbA1c.
 <!-- step:title="Comas et complications aigues" -->
 :::key
 - **Acidocétose** (type 1, carence **absolue**) : lipolyse → corps cétoniques (acides forts) → **acidose métabolique à trou anionique augmenté**, cétonurie, déshydratation, hyperkaliémie. Traitement : insuline IV + réhydratation + K⁺.
-- **Coma hyperosmolaire** (type 2, sujet âgé) : hyperglycémie majeure **> 5,5 g/L (30 mmol/L)**, osmolarité **> 320 mOsm/kg**, déshydratation massive, cétose faible. Traitement : réhydratation prioritaire puis insuline.
+- **Coma hyperosmolaire** (type 2, sujet âgé) : hyperglycémie majeure **> 6 g/L (33 mmol/L)**, osmolarité **> 320 mOsm/kg**, déshydratation massive, cétose faible. Traitement : réhydratation prioritaire puis insuline.
 - **Acidose lactique** : biguanides + insuffisance rénale (facteur favorisant : produit de contraste, sepsis).
 - **Hypoglycémie** : iatrogène (insuline, sulfamides).
 :::

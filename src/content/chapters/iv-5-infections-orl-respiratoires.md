@@ -67,6 +67,10 @@ Devant fièvre + toux + foyer radiologique :
 :::clinical
 En cas d'échec du traitement, on utilise une **fluoroquinolone anti-pneumococcique** (**lévofloxacine**) ou la pristinamycine. Toujours réévaluer à **48–72 h**.
 :::
+
+:::note
+À distinguer de la **bronchite aiguë** du sujet sain, **virale** : **pas d'antibiotique**, traitement symptomatique.
+:::
 <!-- /step -->
 
 <!-- step:title="Legionellose" -->
@@ -82,5 +86,5 @@ Diagnostic rapide = **antigénurie** (*L. pneumophila* sérogroupe 1). Culture s
 - **OMA** : *pneumocoque* / *H. influenzae* → **amoxicilline** ; **amox-clav** si conjonctivite ou échec.
 - **PAC** : **pneumocoque** → **amoxicilline** ; atypiques → **macrolide** ; échec → **lévofloxacine**.
 - **Légionellose** : contexte (cure thermale, digestif), **antigénurie**, **macrolide**, **DO**.
-- Toujours **réévaluer à 48–72 h**.
+- **Bronchite aiguë** du sujet sain = **virale**, **pas d'antibiotique** ; toujours **réévaluer à 48–72 h**.
 <!-- /step -->

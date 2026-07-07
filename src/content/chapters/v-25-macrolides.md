@@ -61,6 +61,7 @@ L'**azithromycine** a une demi-vie longue (traitements courts) et **peu d'intera
 - **Digestifs** : nausées, douleurs (effet pro-cinétique de l'érythromycine).
 - **Allongement du QT** → torsades de pointes (attention aux associations).
 - **Hépatotoxicité** (cholestase).
+- **Clindamycine** (lincosamide) : utile sur les **anaérobies** et pour son effet **antitoxinique** (infections nécrosantes), mais **risque majeur de colite à *Clostridioides difficile***.
 
 :::pitfall
 Érythromycine et clarithromycine sont de puissants **inhibiteurs du CYP3A4** : associées aux **statines**, elles exposent à la **rhabdomyolyse** ; prudence aussi avec la colchicine, la ciclosporine, certains anticoagulants. L'azithromycine échappe largement à ce risque.

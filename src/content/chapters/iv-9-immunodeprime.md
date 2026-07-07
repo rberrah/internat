@@ -44,7 +44,11 @@ Autre règle : les infections sont souvent **graves, rapides et atypiques** (peu
 :::
 
 :::clinical
-La **neutropénie fébrile** est une **urgence** : antibiothérapie **à large spectre immédiate** (bêta-lactamine anti-*Pseudomonas*) sans attendre les résultats microbiologiques.
+La **neutropénie fébrile** est une **urgence** : antibiothérapie **à large spectre immédiate** (bêta-lactamine anti-*Pseudomonas* : pipéracilline-tazobactam ou céfépime) sans attendre les résultats microbiologiques.
+:::
+
+:::note
+L'**asplénie / splénectomie** expose au **sepsis fulminant à germes encapsulés** (OPSI) : elle justifie une **vaccination** (pneumocoque, méningocoque, *Haemophilus*) et une **antibioprophylaxie par pénicilline V (oracilline)** au long cours.
 :::
 <!-- /step -->
 

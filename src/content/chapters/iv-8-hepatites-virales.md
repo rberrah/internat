@@ -84,6 +84,10 @@ Virus à **ARN** monocaténaire, **enveloppé** (*Flaviviridae*), transmission s
 :::clinical
 Traitement par **antiviraux à action directe (AAD) pangénotypiques**, per os, très efficaces : **sofosbuvir + velpatasvir** (12 sem) ou **glécaprévir + pibrentasvir** (8 sem). **Guérison = SVR12** : ARN VHC **indétectable 12 semaines après l'arrêt**. Il n'existe **pas de vaccin**.
 :::
+
+:::note
+**Ne pas oublier :** le **VHD** (delta, virus à ARN **défectif**) n'infecte qu'en présence du **VHB** (co-infection ou surinfection, aggravation), d'où l'intérêt de la vaccination VHB ; le **VHE** (ARN, transmission **féco-orale**) donne une hépatite aiguë **grave chez la femme enceinte** et parfois **chronique chez l'immunodéprimé**.
+:::
 <!-- /step -->
 
 <!-- step:title="A retenir" -->

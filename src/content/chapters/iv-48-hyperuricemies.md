@@ -76,12 +76,12 @@ Une hyperuricémie prolongée donne des **tophus** (dépôts d'urate), une **art
   - **uricolytiques** : uricase recombinante (formes sévères).
 :::
 
-Adapter la posologie de l'allopurinol en cas d'**insuffisance rénale**.
+Adapter la posologie de l'allopurinol en cas d'**insuffisance rénale**. Cible du traitement de fond : **uricémie < 360 µmol/L** (< 300 si tophus).
 <!-- /step -->
 
 <!-- step:title="Piege classique" -->
 :::pitfall
-Ne **jamais introduire** un hypo-uricémiant en pleine crise : la mobilisation des dépôts d'urate **aggrave et prolonge** la crise. On le débute à froid, sous colchicine. À l'inverse, on **ne modifie pas** un traitement de fond déjà en cours pendant une crise.
+Ne **jamais introduire** un hypo-uricémiant en pleine crise : la mobilisation des dépôts d'urate **aggrave et prolonge** la crise. On le débute à froid, sous colchicine. À l'inverse, on **ne modifie pas** un traitement de fond déjà en cours pendant une crise. Enfin, une **uricémie normale pendant l'accès aigu n'élimine pas** la goutte (elle peut chuter en crise).
 :::
 <!-- /step -->
 

@@ -58,14 +58,14 @@ Femme sans facteur de risque : **pollakiurie**, **brûlures mictionnelles**, ± 
 - BU suffit (ECBU inutile hors récidive ou FR).
 
 :::clinical
-Traitement de 1ʳᵉ intention : **fosfomycine-trométamol en monodose**. Guérison clinique rapide. En cas de récidive précoce (échec probable), on fait un **ECBU** et on traite selon l'antibiogramme.
+Traitement de 1ʳᵉ intention : **fosfomycine-trométamol en monodose** ; **pivmécillinam (5 j)** en 2ᵉ intention. Guérison clinique rapide. En cas de récidive précoce (échec probable), on fait un **ECBU** et on traite selon l'antibiogramme.
 :::
 <!-- /step -->
 
 <!-- step:title="Formes febriles" -->
 La **fièvre** fait sortir de la cystite :
 
-- **Pyélonéphrite aiguë** : fièvre + **douleur lombaire** ± signes de cystite. ECBU + hémocultures ; traitement probabiliste par **C3G (céfotaxime/ceftriaxone) ou fluoroquinolone**, puis relais adapté.
+- **Pyélonéphrite aiguë** : fièvre + **douleur lombaire** ± signes de cystite. ECBU + hémocultures ; traitement probabiliste par **C3G (céfotaxime/ceftriaxone) ou fluoroquinolone**, puis relais adapté. Durée **7 jours** (FQ ou C3G parentérale), **10 jours** avec les autres molécules.
 - **Infection urinaire masculine (prostatite)** : toute fièvre avec signes urinaires chez l'homme est une **prostatite jusqu'à preuve du contraire**.
 
 :::key

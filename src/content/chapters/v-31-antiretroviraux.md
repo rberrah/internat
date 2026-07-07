@@ -58,6 +58,10 @@ Le **booster** (ritonavir ou cobicistat) n'a **aucune activité antivirale propr
 - **INTI** en général : **toxicité mitochondriale** (acidose lactique, lipoatrophie).
 - **Éfavirenz** (INNTI) : troubles **neuropsychiques** (rêves, vertiges).
 - **IP** : **troubles métaboliques** (dyslipidémie, insulinorésistance, lipodystrophie), diarrhée.
+
+:::note
+**Ténofovir, emtricitabine et lamivudine** sont aussi actifs sur le **VHB** : utiles en cas de **coinfection**, mais leur **arrêt brutal** peut déclencher une **exacerbation de l'hépatite B**.
+:::
 <!-- /step -->
 
 <!-- step:title="Interactions" -->

@@ -71,7 +71,7 @@ Le diagnostic est **sérologique**, en 2 temps : **test tréponémique (TT)** de
 <!-- /step -->
 
 <!-- step:title="Traitement et prevention" -->
-- **Urétrite/cervicite** (probabiliste, en **monodose** pour l'observance) : **ceftriaxone IM** (anti-gonocoque) **+ azithromycine PO monodose ou doxycycline 7 j** (anti-chlamydia).
+- **Urétrite/cervicite** (probabiliste, en **monodose** pour l'observance) : **ceftriaxone IM** (anti-gonocoque, en 1ʳᵉ intention car le gonocoque est **résistant** aux pénicillines et aux fluoroquinolones) **+ doxycycline 7 j** (anti-chlamydia, désormais préférée à l'azithromycine du fait des résistances de *M. genitalium*).
 - **Syphilis** : **pénicilline G** — **benzathine benzylpénicilline IM** (1 injection si précoce ; schéma prolongé si tardive/neurosyphilis). Prévenir la **réaction de Herxheimer**.
 - **Trichomonas vaginalis** (protozoaire, leucorrhées verdâtres mousseuses) : **métronidazole**.
 

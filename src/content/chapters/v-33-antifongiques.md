@@ -60,7 +60,7 @@ Les azolés sont de puissants **inhibiteurs enzymatiques** (CYP) → interaction
 
 <!-- step:title="Échinocandines et flucytosine" -->
 - **Échinocandines** (caspofungine, micafungine, anidulafungine) : inhibent la **bêta-1,3-glucane synthase** → paroi fongique. **Fongicides sur *Candida***, fongistatiques sur *Aspergillus*. **IV uniquement**, **très bonne tolérance**, peu d'interactions : **1re intention des candidémies**.
-- **5-fluorocytosine** (flucytosine) : inhibe la synthèse des **acides nucléiques**, bonne diffusion LCR. **Toujours en association** (résistance rapide seule), notamment avec l'amphotéricine B dans la cryptococcose neuroméningée.
+- **5-fluorocytosine** (flucytosine) : inhibe la synthèse des **acides nucléiques**, bonne diffusion LCR. **Toujours en association** (résistance rapide seule), notamment avec l'amphotéricine B dans la cryptococcose neuroméningée. EI : **toxicité hématologique** (aplasie médullaire) → surveillance de la NFS et adaptation à la fonction rénale.
 <!-- /step -->
 
 <!-- step:title="Piège classique" -->

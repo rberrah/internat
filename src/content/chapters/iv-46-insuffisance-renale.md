@@ -41,6 +41,8 @@ La créatinine estime le DFG mais le **surestime** (sécrétion tubulaire). Form
 - **IRA** : élévation **récente** de la créatinine.
 - **IRC** : élévation confirmée **> 3 mois**, avec en faveur : **anémie** (défaut d'EPO), **hypocalcémie** (défaut de vitamine D active), reins de petite taille, contexte (diabète, HTA).
 :::
+
+Sévérité de l'IRC selon le **DFG** (KDIGO) : stade 1 (≥ 90, marqueurs d'atteinte) → stade 3 (30–59) → **stade 5 (< 15 mL/min)** = terminal (dialyse/greffe). Complications : **hyperkaliémie**, **acidose métabolique**, **hyperphosphatémie** et **hyperparathyroïdie secondaire**, HTA.
 <!-- /step -->
 
 <!-- step:title="Les trois IRA" -->

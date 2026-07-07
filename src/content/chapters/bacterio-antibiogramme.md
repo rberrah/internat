@@ -68,6 +68,7 @@ L'efficacité d'un antibiotique se prédit par un **indice PK/PD** qui rapporte 
 - **Bêta-lactamine** sur un germe à CMI limite : fractionner les doses ou **prolonger la perfusion** augmente le %T > CMI sans changer la dose totale.
 - **Aminoside** : une **dose unique journalière** élevée maximise le Cmax/CMI et, grâce à l'effet post-antibiotique, limite la toxicité (moins de temps à concentration résiduelle).
 - **Fluoroquinolone** sur un bacille à Gram négatif : cible classique **AUC/CMI ≈ 125**.
+- **Glycopeptide** (vancomycine) : indice **AUC/CMI** (cible ≈ 400), d'où l'intérêt du **suivi des concentrations résiduelles**.
 
 :::clinical
 La CMI seule ne dit pas si « ça va marcher » : il faut la **concentration au site d'infection** (LCR, os, urines…) et l'état du patient. Un même germe « S » peut être un échec si le site est mal pénétré.

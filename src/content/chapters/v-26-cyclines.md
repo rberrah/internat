@@ -61,6 +61,10 @@ Grâce à leur diffusion et leur spectre :
 :::pitfall
 Les cyclines sont **chélatées par les cations divalents** : calcium (**produits laitiers**), **fer**, magnésium, **antiacides**. Prises ensemble, leur absorption s'effondre → **espacer les prises**.
 :::
+
+:::note
+La **doxycycline** a une élimination **non rénale** : elle ne nécessite **pas d'adaptation en cas d'insuffisance rénale**, à la différence de nombreux autres antibiotiques.
+:::
 <!-- /step -->
 
 <!-- step:title="À retenir" -->

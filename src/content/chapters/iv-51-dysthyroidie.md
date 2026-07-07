@@ -49,7 +49,7 @@ Carence en hormones thyroïdiennes : **TSH ↑**, T4L basse (ou normale si frust
 
 - Clinique : asthénie, **prise de poids**, frilosité, **bradycardie**, constipation, dépression, **myxœdème**, raucité de la voix.
 - Biologie associée : anémie, **hyponatrémie** de dilution, LDL-cholestérol ↑, CPK ↑.
-- Étiologie principale : **thyroïdite de Hashimoto** (auto-immune → **anticorps anti-TPO**). Iatrogène : **amiodarone** (effet Wolff-Chaikoff), lithium, interférons.
+- Étiologie principale : **thyroïdite de Hashimoto** (auto-immune → **anticorps anti-TPO**). Iatrogène : **amiodarone** (riche en iode, peut donner hypo- **ou** hyperthyroïdie), lithium, interférons.
 <!-- /step -->
 
 <!-- step:title="Hyperthyroidie" -->

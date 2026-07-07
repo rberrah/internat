@@ -64,6 +64,10 @@ Germes selon la porte d'entrée :
 - ***Staphylococcus aureus*** : **toxicomanie IV**, cathéters, peau. **Cocci Gram + en amas**, catalase **+**, **coagulase +**, oxydase **−**.
 - **Streptocoques oraux** (groupe *viridans*) : porte d'entrée **bucco-dentaire**, sur valve lésée.
 - **Entérocoques** ; ***Streptococcus gallolyticus* (bovis)** → faire chercher une **lésion colique**.
+
+:::pitfall
+Une **endocardite à hémocultures négatives** (patient déjà sous antibiotiques, ou germes exigeants) fait rechercher par **sérologie et PCR** : bactéries du groupe **HACEK**, ***Coxiella burnetii*** (fièvre Q) et ***Bartonella***.
+:::
 <!-- /step -->
 
 <!-- step:title="Traitement" -->

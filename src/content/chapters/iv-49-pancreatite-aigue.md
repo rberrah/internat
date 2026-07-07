@@ -52,7 +52,7 @@ Autres : **hypertriglycéridémie** majeure (types I et V), hypercalcémie, méd
 <!-- /step -->
 
 <!-- step:title="Gravite et complications" -->
-La gravité conditionne le pronostic (scores clinico-biologiques, **CRP**, défaillance d'organe) :
+La gravité conditionne le pronostic : **CRP > 150 mg/L à 48 h**, défaillance d'organe, et **TDM injectée à 48–72 h** (score de Balthazar / nécrose). Le taux de **lipase ne juge PAS la gravité**.
 
 :::clinical
 Complications : **nécrose** pancréatique, pseudokyste, choc, SDRA, **insuffisance rénale aiguë**, **hypocalcémie** (saponification des graisses). Prise en charge : mise à jeun, antalgiques, réhydratation, traitement de la cause.

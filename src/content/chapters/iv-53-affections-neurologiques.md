@@ -57,7 +57,7 @@ Dégénérescence des neurones **dopaminergiques** de la **substance noire**.
 Triade motrice : **tremblement de repos**, **rigidité** (hypertonie), **akinésie/bradykinésie**.
 :::
 
-Traitement substitutif : **L-DOPA** (associée à un inhibiteur de la décarboxylase périphérique) et **agonistes dopaminergiques**.
+Traitement substitutif : **L-DOPA** (associée à un inhibiteur de la décarboxylase périphérique) et **agonistes dopaminergiques**. Au long cours, la L-DOPA expose aux **fluctuations motrices** (effet on-off) et aux **dyskinésies**.
 <!-- /step -->
 
 <!-- step:title="Sclerose en plaques" -->

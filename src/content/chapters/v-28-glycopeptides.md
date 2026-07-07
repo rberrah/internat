@@ -42,6 +42,10 @@ Les glycopeptides **inhibent la synthèse de la paroi** en se fixant sur l'extr�
 :::key
 Spectre **limité aux bactéries à Gram positif** : la molécule est trop grosse pour franchir la **membrane externe** des bacilles à Gram négatif (qui sont donc naturellement résistants).
 :::
+
+:::note
+Résistance acquise : les **entérocoques résistants aux glycopeptides (ERG / VRE)** remplacent la cible **D-Ala-D-Ala** par **D-Ala-D-Lactate**, ce qui effondre l'affinité de la vancomycine.
+:::
 <!-- /step -->
 
 <!-- step:title="Indications" -->

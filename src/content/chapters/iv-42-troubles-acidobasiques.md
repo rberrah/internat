@@ -76,7 +76,11 @@ Toute modification du pH déclenche une **compensation** par l'organe non attein
 - désordre **métabolique** → compensation **respiratoire immédiate** (l'acidose métabolique donne une **hyperventilation** qui abaisse la PCO2) ;
 - désordre **respiratoire** → compensation **rénale lente** (réabsorption d'HCO3⁻, élimination d'H⁺ sous forme de NH4⁺).
 
-La compensation ramène le pH vers la normale mais ne le **normalise jamais** totalement.
+La compensation ramène le pH vers la normale mais ne le **normalise jamais** totalement. Dans l'acidose métabolique, la PCO2 attendue se prédit (formule de Winter) : si la PCO2 mesurée s'en écarte, suspecter un **trouble mixte**.
+
+:::math
+PCO2 attendue (mmHg) $\approx 1{,}5 \times [\text{HCO}_3^-] + 8 \; (\pm 2)$.
+:::
 <!-- /step -->
 
 <!-- step:title="Piege classique" -->

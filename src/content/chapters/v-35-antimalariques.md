@@ -66,7 +66,7 @@ Toujours associée à la **protection anti-vectorielle** (répulsifs, moustiquai
 :::clinical
 - **Artésunate** : **anémie hémolytique retardée post-artésunate (PADH)** → surveillance de la **NFS** jusqu'à J28.
 - **Quinine** : cinchonisme (acouphènes, vertiges), **hypoglycémie**, cardiotoxicité (allongement du QT).
-- **Méfloquine** : troubles **neuropsychiatriques**.
+- **Méfloquine** : troubles **neuropsychiatriques** → **contre-indiquée** en cas d'antécédents **psychiatriques ou convulsifs**.
 - **Primaquine / tafénoquine** : **hémolyse si déficit en G6PD** (à doser avant).
 - **Chloroquine** : rétinopathie au long cours.
 :::

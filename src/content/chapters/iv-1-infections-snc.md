@@ -53,6 +53,10 @@ La PL tranche entre méningite **bactérienne (purulente)** et **virale (claire)
 :::
 
 L'**examen direct (Gram)** oriente d'emblée le germe. On complète par la **culture**, les **antigènes solubles** et la **PCR** (approche syndromique). Valeurs usuelles : < 5 éléments/mm³, protéinorachie 0,15–0,40 g/L.
+
+:::pitfall
+Un **scanner cérébral avant la PL** s'impose s'il existe des signes de **focalisation**, des **troubles de la conscience** (Glasgow < 11) ou des **crises convulsives** (risque d'engagement). La PL est aussi différée en cas de **troubles de l'hémostase** ou d'**instabilité hémodynamique** : dans ces cas, on débute l'antibiothérapie **avant** la PL.
+:::
 <!-- /step -->
 
 <!-- step:title="Le germe selon le terrain" -->
@@ -71,7 +75,7 @@ Un LCR **panaché** ou lymphocytaire avec **hypoglycorachie** doit faire évoque
 <!-- step:title="Traitement et prophylaxie" -->
 - **Antibiothérapie probabiliste immédiate** : **C3G IV à dose méningée** (céfotaxime ou ceftriaxone). On y ajoute l'**amoxicilline** si Listeria suspectée (nouveau-né, terrain, LCR panaché).
 - **Dexaméthasone** : corticoïde adjuvant débuté **avec ou juste avant** la première dose d'antibiotique (pneumocoque, *Haemophilus*).
-- Durée adaptée au germe ; désescalade selon la CMI.
+- Durée adaptée au germe (méningocoque 4–7 j, pneumocoque 10–14 j, Listeria ≥ 21 j) ; désescalade selon la CMI.
 
 :::note
 **Autour du cas :** le méningocoque est une **maladie à déclaration obligatoire**. **Antibioprophylaxie de l'entourage proche** : **rifampicine 600 mg × 2/j pendant 2 jours** (+ **vaccination** selon le sérogroupe). Pour le **pneumocoque**, **pas** d'antibioprophylaxie de l'entourage.
