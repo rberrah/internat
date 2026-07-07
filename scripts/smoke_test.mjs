@@ -29,6 +29,7 @@ const { itemIndex } = await import(url.pathToFileURL(path.join(root, 'src/lib/co
 const { casCliniques } = await import(url.pathToFileURL(path.join(root, 'src/lib/content/casCliniques.js')));
 const { fiches } = await import(url.pathToFileURL(path.join(root, 'src/lib/content/fiches.js')));
 const { markedTerms } = await import(url.pathToFileURL(path.join(root, 'src/lib/content/marks.js')));
+const { arbres } = await import(url.pathToFileURL(path.join(root, 'src/lib/content/decisionTrees.js')));
 
 // 1. slugs uniques
 check(new Set(slugs).size === slugs.length, `${slugs.length} slugs uniques`);
@@ -113,6 +114,19 @@ const badFiche = fiches.filter((f) => !f.titre || !f.section || !Array.isArray(f
 check(badFiche.length === 0, `${fiches.length} fiches : structure valide`);
 const badFicheChap = fiches.filter((f) => f.chapter && !slugSet.has(f.chapter));
 check(badFicheChap.length === 0, `liens chapitre des fiches tous résolus`);
+
+// 13. arbres de décision : structure récursive + liens chapitre
+function nodeOk(n) {
+  if (!n || typeof n !== 'object') return false;
+  if (n.result) return typeof n.result === 'string';
+  if (!n.q || !Array.isArray(n.options) || n.options.length === 0) return false;
+  return n.options.every((o) => o && typeof o.label === 'string' && nodeOk(o.node));
+}
+const badTree = arbres.filter((a) => !a.id || !a.titre || !nodeOk(a.tree));
+check(badTree.length === 0, `${arbres.length} arbres de décision : structure valide`);
+check(new Set(arbres.map((a) => a.id)).size === arbres.length, `identifiants d'arbres uniques`);
+const badTreeChap = arbres.filter((a) => a.chapter && !slugSet.has(a.chapter));
+check(badTreeChap.length === 0, `liens chapitre des arbres de décision tous résolus`);
 
 if (fail.length) {
   console.error('\nSmoke tests ÉCHOUÉS :\n' + fail.map((m) => '  ✗ ' + m).join('\n'));
