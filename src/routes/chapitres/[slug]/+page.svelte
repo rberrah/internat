@@ -7,6 +7,7 @@
   import Quiz from '$lib/components/ui/Quiz.svelte';
   import ExerciseBlock from '$lib/components/ui/ExerciseBlock.svelte';
   import CasClinique from '$lib/components/ui/CasClinique.svelte';
+  import MemoPanel from '$lib/components/ui/MemoPanel.svelte';
   import { exercisesForChapter } from '$lib/content/exercises';
   import { casForChapter } from '$lib/content/casCliniques';
   import { fade, fly } from 'svelte/transition';
@@ -21,6 +22,8 @@
   $: next = idx >= 0 && idx < chapters.length - 1 ? chapters[idx + 1] : null;
   $: chapterExercises = chapter ? exercisesForChapter(chapter.slug) : [];
   $: chapterCas = chapter ? casForChapter(chapter.slug) : [];
+  // Synthèse « À retenir » du chapitre (utilisée comme mémo visuel quand pas de schéma).
+  $: synthese = chapter?.steps?.find((s) => /retenir/i.test(s.title))?.html ?? '';
 
   // Rappels : prérequis (liens) + termes du glossaire.
   $: prereqs = (chapter?.prerequisites ?? [])
@@ -195,7 +198,7 @@
             <p class="keys">{availableVizKeys.join(' · ')}</p>
           </div>
         {:else}
-          <div class="viz-empty"><p>Ce chapitre se lit sans schéma interactif — ajoutez <code>viz="…"</code> à une étape pour en afficher un.</p></div>
+          <MemoPanel title={chapter.title} html={synthese} accent={track?.accent} />
         {/if}
       </div>
     </aside>
