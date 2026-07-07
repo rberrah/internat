@@ -43,7 +43,7 @@ Elle résulte d'une **primo-infection maternelle pendant la grossesse** → pass
 - Séquelles : **neurologiques** (calcifications intracrâniennes, hydrocéphalie) et **oculaires** (choriorétinite, parfois retardée).
 
 :::key
-Le **dépistage sérologique est obligatoire** en France. Chez une femme **séronégative** : sérologie **mensuelle** (IgG **et** IgM) jusqu'à l'accouchement. Une **séroconversion** = passage d'une sérologie négative à positive (apparition d'IgM puis d'IgG).
+Le **dépistage sérologique est obligatoire** en France. Chez une femme **séronégative** : sérologie **mensuelle** (IgG **et** IgM) jusqu'à l'accouchement. Une **séroconversion** = passage d'une sérologie négative à positive (apparition d'IgM puis d'IgG). Devant des **IgM positives** d'emblée, l'**avidité des IgG** permet de dater l'infection : une **forte avidité** élimine une contamination récente (moins de ~4 mois).
 :::
 <!-- /step -->
 

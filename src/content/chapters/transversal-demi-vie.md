@@ -61,7 +61,7 @@ Même équation, seul le nom de la constante change ($\lambda$, $k$, $k_e$). Rec
 
 <!-- step:title="À quoi ça sert" -->
 - **Radioactivité** : dater (carbone 14), choisir un radiopharmaceutique (période adaptée à l'examen), gérer la radioprotection (décroissance des déchets).
-- **PK** : prévoir le temps pour atteindre l'**état d'équilibre** (~5 t½) ou pour éliminer un médicament (~5 t½), et fixer l'**intervalle** entre deux prises.
+- **PK** : prévoir le temps pour atteindre l'**état d'équilibre** (~5 t½) ou pour éliminer un médicament (~5 t½), et fixer l'**intervalle** entre deux prises. Une **dose de charge** permet d'atteindre d'emblée le plateau sans attendre ces ~5 demi-vies.
 
 :::clinical
 En administration répétée, on atteint le plateau (steady state) après **~5 demi-vies**, quel que soit le rythme. Même règle, dans l'autre sens, pour le temps de « wash-out » à l'arrêt.

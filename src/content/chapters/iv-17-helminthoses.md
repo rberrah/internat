@@ -37,7 +37,7 @@ Trois grands groupes : **cestodes** (téniasis, hydatidose), **trématodes** (bi
 <!-- /step -->
 
 <!-- step:title="Transmission orale : téniasis, oxyurose, hydatidose" -->
-- **Téniasis à *Taenia saginata*** (« ver solitaire ») : contamination par **viande de bœuf** crue/peu cuite (tartare, larve cysticerque). Découverte d'**anneaux** (proglottis) mobiles dans les sous-vêtements, prurit anal. Diagnostic : **EPS + anneaux** ; **pas d'éosinophilie**. Traitement : **praziquantel**.
+- **Téniasis à *Taenia saginata*** (« ver solitaire ») : contamination par **viande de bœuf** crue/peu cuite (tartare, larve cysticerque). Découverte d'**anneaux** (proglottis) mobiles dans les sous-vêtements, prurit anal. Diagnostic : **EPS + anneaux** ; **pas d'éosinophilie**. Traitement : **praziquantel**. À distinguer du ***Taenia solium*** (**viande de porc**), qui expose en plus, si l'on ingère ses œufs, à la **cysticercose** (dont la redoutable **neurocysticercose**).
 - **Oxyurose (*Enterobius vermicularis*)** : nématode **cosmopolite**, très fréquent chez l'**enfant**, transmission oro-fécale (auto-infestation). **Prurit anal nocturne**. Diagnostic : **scotch-test anal** (test de Graham) le matin → œufs asymétriques. Traitement : **albendazole** (ou flubendazole/pyrantel), à **répéter à 2–3 semaines** et **traiter l'entourage**.
 - **Hydatidose (*Echinococcus granulosus*)** : voir ci-dessous.
 <!-- /step -->

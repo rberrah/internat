@@ -60,7 +60,7 @@ Chez l'immunodéprimé, la **recherche d'anticorps n'a pas de place** dans l'API
 <!-- /step -->
 
 <!-- step:title="Traitement et prévention" -->
-- **1re intention (API)** : **voriconazole** (fongicide sur *Aspergillus*). Alternatives : **amphotéricine B liposomale**, isavuconazole ; **caspofungine** en 2e ligne.
+- **1re intention (API)** : **voriconazole** (fongicide sur *Aspergillus*). Alternatives : **amphotéricine B liposomale**, isavuconazole ; **caspofungine** en 2e ligne. Le voriconazole impose un **suivi des concentrations plasmatiques** (marge étroite), expose à des **troubles visuels** et à une **photosensibilité**, et présente de nombreuses **interactions** (CYP).
 - **Aspergillome** : traitement **chirurgical**.
 
 :::clinical

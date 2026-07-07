@@ -76,6 +76,7 @@ Un seul critère de gravité = **accès grave** → hospitalisation en réanimat
 <!-- step:title="Traitement et prévention" -->
 - **Accès simple à *P. falciparum*** (1ʳᵉ intention) : une **combinaison à base d'artémisinine (ACT)** — artéméther-luméfantrine, arténimol-pipéraquine — ou atovaquone-proguanil. La **chloroquine** n'est plus utilisée (résistances) ; la quinine est réservée à certaines situations.
 - **Accès grave** : **artésunate IV**.
+- **Accès à *P. vivax* / *P. ovale*** : traitement de l'accès (chloroquine, encore active, ou ACT) **+ primaquine** pour détruire les **hypnozoïtes hépatiques** (formes dormantes responsables de **rechutes** tardives), après recherche d'un **déficit en G6PD**.
 - **Prévention** : **chimioprophylaxie** adaptée au pays **+** protection personnelle anti-vectorielle (répulsifs cutanés, **moustiquaires imprégnées**).
 
 :::note

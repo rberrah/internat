@@ -39,7 +39,7 @@ C'est aussi un **parasite opportuniste de l'immunodéprimé** (co-infection VIH)
 <!-- step:title="Transmission et clinique" -->
 Maladie **vectorielle** : le vecteur est le **phlébotome** femelle (un petit moucheron), **pas l'anophèle**. Le **chien** est le principal **réservoir** (zoonose).
 
-Le parasite (forme **amastigote**) infecte les macrophages du système réticulo-endothélial (moelle, foie, rate). Après une incubation longue :
+Le parasite existe sous deux formes : **promastigote** (flagellé, mobile — chez le phlébotome et en culture) et **amastigote** (non flagellé, intracellulaire — chez l'homme). La forme **amastigote** infecte les macrophages du système réticulo-endothélial (moelle, foie, rate). Après une incubation longue :
 
 - **fièvre** prolongée, **amaigrissement**, altération de l'état général ;
 - **splénomégalie** (souvent volumineuse), hépatomégalie ;

@@ -31,7 +31,7 @@ quiz:
 ---
 
 <!-- step:title="Pourquoi ce chapitre" -->
-Deux protozoaires digestifs (embranchement des **Sarcomastigophora**) transmis par le **péril fécal** (kystes ingérés, mains sales, eau/aliments souillés), au retour de voyage ou en France. Leurs tableaux s'opposent : **dysenterie** (glairo-sanglante) pour l'amœbose, **malabsorption** (selles décolorées) pour la giardiose. Le diagnostic commun est l'**examen parasitologique des selles (EPS)**.
+Deux protozoaires digestifs (embranchement des **Sarcomastigophora**) transmis par le **péril fécal** (kystes ingérés, mains sales, eau/aliments souillés), au retour de voyage ou en France. Leurs tableaux s'opposent : **dysenterie** (glairo-sanglante) pour l'amœbose, **malabsorption** (selles décolorées) pour la giardiose. Le diagnostic commun est l'**examen parasitologique des selles (EPS)**. Dans les deux cas, le **kyste** est la forme de **résistance et de contamination** (ingéré, il survit dans le milieu extérieur) et le **trophozoïte** la forme **végétative** fragile, pathogène.
 <!-- /step -->
 
 <!-- step:title="Amœbose intestinale" -->

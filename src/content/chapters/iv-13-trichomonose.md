@@ -60,6 +60,7 @@ Le diagnostic repose sur la **mobilité** observée à l'**état frais** : d'où
 - **Nitro-5-imidazolé** : **métronidazole**, tinidazole ou secnidazole, **à répéter 2 semaines plus tard**.
 - **Traitement systématique du/des partenaire(s)**, à la même dose et en même temps.
 - **Rapports protégés** ; dépistage des autres IST associées.
+- **Éviter l'alcool** pendant la cure et quelques jours après (**effet antabuse** des nitro-5-imidazolés).
 
 :::pitfall
 Ne pas traiter le partenaire expose à la **réinfestation** immédiate (« ping-pong »). Comme toute IST, la trichomonose se traite **en couple**, même si le partenaire est asymptomatique.

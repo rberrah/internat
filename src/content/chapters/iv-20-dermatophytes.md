@@ -52,7 +52,7 @@ Atteinte du **cuir chevelu**, chez l'**enfant** :
 - Formes **suppurées** (kérion) inflammatoires.
 
 :::clinical
-L'alopécie des teignes tondantes **régresse** après traitement (non définitive, sauf teigne favique). Le traitement associe **voie locale + voie générale**, avec **éviction scolaire**.
+L'alopécie des teignes tondantes **régresse** après traitement (non définitive, sauf teigne favique). Le traitement associe **voie locale + voie générale**, avec **éviction scolaire**. Pour une teigne **zoophile** (*M. canis*), rechercher et traiter l'**animal source** (chat, chien).
 :::
 <!-- /step -->
 

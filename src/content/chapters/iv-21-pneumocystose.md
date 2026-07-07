@@ -44,7 +44,7 @@ C'est un opportuniste du **déficit de l'immunité cellulaire** :
 Le facteur de risque est le déficit de l'immunité **cellulaire T**, **pas la neutropénie**. La transmission est **aérienne** et **interhumaine**.
 :::
 
-Clinique (pneumopathie) : **toux sèche**, **dyspnée** d'aggravation progressive, fièvre, **hypoxémie**. Radiographie : **syndrome interstitiel diffus bilatéral**.
+Clinique (pneumopathie) : **toux sèche**, **dyspnée** d'aggravation progressive, fièvre, **hypoxémie** (majorée à l'effort). Radiographie : **syndrome interstitiel diffus bilatéral**. Biologie évocatrice : **élévation des LDH**.
 <!-- /step -->
 
 <!-- step:title="Diagnostic biologique" -->

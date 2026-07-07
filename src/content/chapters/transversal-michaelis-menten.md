@@ -50,7 +50,7 @@ $$ v = \frac{V_{max}\,[S]}{K_m + [S]} $$
 <!-- /step -->
 
 <!-- step:title="La même chose, deux fois" -->
-- **Enzymologie** : $v$ = vitesse de la réaction enzymatique. Km et Vmax caractérisent l'enzyme ; l'inhibition compétitive **augmente Km** (sans changer Vmax), l'inhibition non compétitive **abaisse Vmax**.
+- **Enzymologie** : $v$ = vitesse de la réaction enzymatique. Km et Vmax caractérisent l'enzyme ; l'inhibition compétitive **augmente Km** (sans changer Vmax), l'inhibition non compétitive **abaisse Vmax**. En pratique, Km et Vmax se déterminent par **linéarisation** (double inverse de **Lineweaver-Burk** : $1/v$ en fonction de $1/[S]$).
 - **Pharmacocinétique** : la vitesse d'**élimination** d'un médicament métabolisé par une enzyme suit la même loi. La clairance devient $CL = \dfrac{V_{max}}{K_m + C}$ : elle **diminue** quand la concentration monte.
 
 :::key

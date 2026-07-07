@@ -66,7 +66,7 @@ Levure **capsulée** (capsule polysaccharidique), **cosmopolite**, présente dan
 - **Entretien / consolidation** : relais par **fluconazole**.
 
 :::clinical
-Les **échinocandines (caspofungine) sont inactives** sur *Cryptococcus*. Chez le patient VIH, l'entretien par fluconazole est poursuivi jusqu'à restauration immunitaire (CD4).
+Les **échinocandines (caspofungine) sont inactives** sur *Cryptococcus*. Chez le patient VIH, l'entretien par fluconazole est poursuivi jusqu'à restauration immunitaire (CD4). La prise en charge de l'**hypertension intracrânienne** (ponctions lombaires évacuatrices répétées) conditionne le pronostic.
 :::
 <!-- /step -->
 
