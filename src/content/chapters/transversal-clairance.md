@@ -38,7 +38,7 @@ quiz:
 $$ CL = \frac{\text{quantité éliminée par unité de temps}}{\text{concentration plasmatique}} $$
 
 :::key
-La clairance est un **débit** (mL/min ou L/h). Elle mesure une **capacité d'épuration**, indépendamment de la quantité présente. Elle s'additionne par voie : $CL_{tot} = CL_{rénale} + CL_{hépatique} + \dots$
+La clairance est un **débit** (mL/min ou L/h). Elle mesure une **capacité d'épuration**, indépendamment de la quantité présente. Elle s'additionne par voie : $CL_{\text{tot}} = CL_{\text{rénale}} + CL_{\text{hépatique}} + \dots$
 :::
 <!-- /step -->
 

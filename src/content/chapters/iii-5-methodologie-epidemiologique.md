@@ -65,7 +65,7 @@ Elles répondent aux **questions de santé publique** : combien de cas éviterai
 - **Risque attribuable** (excès de risque) : $ RA = P(M/E^+) - P(M/E^-) $.
 - **Fraction étiologique du risque (FER)** : proportion de cas dus au facteur.
 
-$$ FER_{exposés} = \frac{RR - 1}{RR}, \qquad FER_{population} = \frac{P_E(RR-1)}{P_E(RR-1)+1} $$
+$$ FER_{\text{exposés}} = \frac{RR - 1}{RR}, \qquad FER_{\text{population}} = \frac{P_E(RR-1)}{P_E(RR-1)+1} $$
 
 Ces mesures **n'ont de sens que si le lien est causal** et dépendent de la **prévalence de l'exposition**.
 <!-- /step -->
