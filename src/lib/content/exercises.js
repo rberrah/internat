@@ -112,6 +112,22 @@ export const exercises = [
       { mot: 'chez les exposés 20 %', pourquoi: "RR = incidence chez les exposés / incidence chez les non-exposés." }
     ],
     explain: "RR = 20 / 5 = 4 : les exposés ont 4 fois plus de risque (association forte)."
+  },
+  {
+    cat: 'Épidémiologie', chapter: 'iii-5-methodologie-epidemiologique', type: 'num', unit: '', answer: 6, tol: 0.02,
+    q: "Étude cas-témoins, tableau 2×2 : exposés malades a = 40, exposés sains b = 10, non-exposés malades c = 20, [[non-exposés sains d = 30]]. Calculez l'odds ratio (OR).",
+    indices: [
+      { mot: 'non-exposés sains d = 30', pourquoi: "OR = (a × d) / (b × c) dans une enquête cas-témoins." }
+    ],
+    explain: "OR = (a × d) / (b × c) = (40 × 30) / (10 × 20) = 1200 / 200 = 6."
+  },
+  {
+    cat: 'Pharmacocinétique', chapter: 'v-3-biodisponibilite', type: 'num', unit: 'mg·h/L', answer: 10, tol: 0.02,
+    q: "Dose orale = 500 mg, biodisponibilité [[F = 0,5]], clairance CL = 25 L/h. Calculez l'AUC.",
+    indices: [
+      { mot: 'F = 0,5', pourquoi: "AUC = F × Dose / CL (la fraction F seule atteint la circulation générale)." }
+    ],
+    explain: "AUC = F × Dose / CL = 0,5 × 500 / 25 = 250 / 25 = 10 mg·h/L."
   }
 ];
 

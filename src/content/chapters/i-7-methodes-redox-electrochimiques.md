@@ -30,7 +30,7 @@ quiz:
     correct: 0
 ---
 
-<!-- step:title="Pourquoi ce chapitre" -->
+<!-- step:title="Pourquoi ce chapitre" viz="Nernst" -->
 Mesure du pH, ionogramme, détection en CLHP, dosages redox : les méthodes électrochimiques exploitent l'échange d'électrons. Deux familles à distinguer nettement — la **potentiométrie** (on mesure un potentiel) et l'**ampérométrie** (on mesure un courant).
 <!-- /step -->
 
