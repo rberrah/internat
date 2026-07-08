@@ -7,13 +7,15 @@
   import Quiz from '$lib/components/ui/Quiz.svelte';
   import CasClinique from '$lib/components/ui/CasClinique.svelte';
   import DecisionTree from '$lib/components/ui/DecisionTree.svelte';
+  import DiagnosticGuide from '$lib/components/ui/DiagnosticGuide.svelte';
   import { arbres, treeDisciplines } from '$lib/content/decisionTrees';
 
   const tabs = [
     { id: 'qcm', label: 'QCM', sub: 'Épreuve 1 · 60 QCM' },
     { id: 'exo', label: "Exercices d'application", sub: 'Épreuve 2 · exercices' },
     { id: 'cas', label: 'Dossiers cliniques', sub: 'Épreuve 3 · dossiers' },
-    { id: 'arbres', label: 'Arbres de décision', sub: 'Raisonnement diagnostique' }
+    { id: 'arbres', label: 'Arbres de décision', sub: 'Par thème' },
+    { id: 'guide', label: 'Arbre général', sub: 'Diagnostic par mots-clés' }
   ];
   let tab = 'qcm';
 
@@ -62,10 +64,15 @@
   {#each casByDisc as g}
     <section class="grp"><h2>{g.d}</h2><div class="caslist">{#each g.items as c}<CasClinique cas={c} />{/each}</div></section>
   {/each}
-{:else}
+{:else if tab === 'arbres'}
   {#each treesByDisc as g}
     <section class="grp"><h2>{g.d}</h2><div class="treelist">{#each g.items as a}<DecisionTree arbre={a} />{/each}</div></section>
   {/each}
+{:else}
+  <section class="grp guide-intro">
+    <p>Sélectionnez les <strong>mots-clés cliniques</strong> d'un cas (signe principal, terrain, biologie) au fur et à mesure : l'outil propose à chaque étape les signes les plus <strong>discriminants</strong> et réduit la liste des diagnostics compatibles — un arbre de décision valable pour <strong>tous les cas</strong>.</p>
+    <DiagnosticGuide />
+  </section>
 {/if}
 
 <style>
@@ -82,4 +89,6 @@
   .grp h2 { font-size: var(--text-xl); margin: 0; }
   .caslist { display: grid; gap: var(--space-4); }
   .treelist { display: grid; gap: var(--space-4); grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); align-items: start; }
+  .guide-intro { max-width: 100%; }
+  .guide-intro > p { color: var(--text-secondary); font-size: var(--text-sm); line-height: 1.6; margin: 0 0 var(--space-2); }
 </style>

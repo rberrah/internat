@@ -240,6 +240,109 @@ export const arbres = [
         { label: 'Prise médicamenteuse récente', node: { result: 'Éosinophilie médicamenteuse (dont DRESS)', detail: 'Arrêt du médicament ; surveiller une atteinte d\'organe.' } }
       ]
     }
+  },
+  {
+    id: 'arbre-pancytopenie', titre: 'Démarche devant une pancytopénie', discipline: 'Hématologie', chapter: 'iv-28-leucemies-aigues-smd',
+    tree: {
+      q: 'Myélogramme ?',
+      options: [
+        { label: 'Moelle pauvre', node: { result: 'Aplasie médullaire', detail: 'Toxique, médicamenteuse ou idiopathique ; biopsie ostéo-médullaire.' } },
+        { label: 'Moelle envahie (blastes)', node: { result: 'Leucémie aiguë', detail: 'Urgence : blastes médullaires >= 20 %.' } },
+        { label: 'Moelle riche + carence', node: { result: 'Carence B12/folates ou myélodysplasie', detail: 'Doser les vitamines ; dysplasie sur le frottis.' } },
+        { label: 'Splénomégalie volumineuse', node: { result: 'Hypersplénisme', detail: 'Séquestration splénique (cirrhose, hémopathie).' } }
+      ]
+    }
+  },
+  {
+    id: 'arbre-dyspnee', titre: 'Dyspnée aiguë', discipline: 'Cardiologie', chapter: 'iv-47-sca-insuffisance-cardiaque',
+    tree: {
+      q: 'Orientation clinique ?',
+      options: [
+        { label: 'Crépitants + orthopnée + œdèmes', node: { result: 'OAP / insuffisance cardiaque', detail: 'BNP élevé ; diurétiques, dérivés nitrés.' } },
+        { label: 'Douleur brutale + facteur de risque de thrombose', node: { result: 'Embolie pulmonaire', detail: 'Score clinique + D-dimères / angioscanner.' } },
+        { label: 'Sibilants + terrain asthmatique', node: { result: 'Crise d\'asthme', detail: 'Bêta-2 de courte durée + corticoïdes.' } },
+        { label: 'Fièvre + foyer auscultatoire', node: { result: 'Pneumopathie', detail: 'Radiographie ; antibiothérapie.' } }
+      ]
+    }
+  },
+  {
+    id: 'arbre-splenomegalie', titre: 'Orientation devant une splénomégalie', discipline: 'Hématologie', chapter: 'iv-24-leucemie-myeloide-chronique',
+    tree: {
+      q: 'Contexte biologique ?',
+      options: [
+        { label: 'Hyperleucocytose + myélémie', node: { result: 'Syndrome myéloprolifératif (LMC…)', detail: 'BCR-ABL, JAK2.' } },
+        { label: 'Fièvre + adénopathies (sujet jeune)', node: { result: 'Cause infectieuse (MNI…)', detail: 'Sérologies ; syndrome mononucléosique.' } },
+        { label: 'Anémie hémolytique', node: { result: 'Hémolyse chronique', detail: 'Haptoglobine, test de Coombs, électrophorèse de l\'Hb.' } },
+        { label: 'Signes d\'hépatopathie', node: { result: 'Hypertension portale', detail: 'Cirrhose ; échographie-doppler.' } }
+      ]
+    }
+  },
+  {
+    id: 'arbre-hematurie', titre: 'Orientation devant une hématurie', discipline: 'Néphrologie', chapter: 'iv-46-insuffisance-renale',
+    tree: {
+      q: 'Type et contexte ?',
+      options: [
+        { label: 'Macroscopique avec caillots', node: { result: 'Origine urologique (tumeur, lithiase)', detail: 'Imagerie + cystoscopie ; les caillots excluent le glomérule.' } },
+        { label: 'Microscopique + protéinurie + HTA', node: { result: 'Glomérulonéphrite', detail: 'Hématies déformées, cylindres ; avis néphrologique.' } },
+        { label: 'Fébrile + signes urinaires', node: { result: 'Infection urinaire', detail: 'ECBU.' } }
+      ]
+    }
+  },
+  {
+    id: 'arbre-purpura', titre: 'Orientation devant un purpura', discipline: 'Hématologie', chapter: 'iv-31-thrombopenies',
+    tree: {
+      q: 'Plaquettes et fièvre ?',
+      options: [
+        { label: 'Plaquettes basses', node: { result: 'Purpura thrombopénique', detail: 'Voir la démarche des thrombopénies (PTI, CIVD, central).' } },
+        { label: 'Fébrile, extensif, ne s\'efface pas', node: { result: 'Purpura fulminans — URGENCE', detail: 'Méningococcémie : ceftriaxone immédiate.' } },
+        { label: 'Plaquettes normales, déclive, infiltré', node: { result: 'Purpura vasculaire (à IgA…)', detail: 'Chercher une atteinte rénale et digestive.' } }
+      ]
+    }
+  },
+  {
+    id: 'arbre-diarrhee', titre: 'Diarrhée aiguë', discipline: 'Infectiologie', chapter: 'iv-4-infections-digestives',
+    tree: {
+      q: 'Caractère des selles / contexte ?',
+      options: [
+        { label: 'Glairo-sanglante + fièvre (dysentérie)', node: { result: 'Colite invasive (Shigella, amibiase, Campylobacter)', detail: 'Coproculture / examen parasitologique.' } },
+        { label: 'Aqueuse + vomissements (collectif)', node: { result: 'Gastro-entérite virale / toxi-infection', detail: 'Réhydratation ; le plus souvent bénin.' } },
+        { label: 'Après une antibiothérapie', node: { result: 'Colite à Clostridioides difficile', detail: 'Toxines ; vancomycine PO ou fidaxomicine.' } }
+      ]
+    }
+  },
+  {
+    id: 'arbre-cytolyse', titre: 'Cytolyse hépatique', discipline: 'Hépato-gastro', chapter: 'iv-44-cholestase-cytolyse',
+    tree: {
+      q: 'Niveau des transaminases ?',
+      options: [
+        { label: 'Très élevées (> 10 N), aiguës', node: { result: 'Hépatite aiguë (virale, médicamenteuse, ischémique)', detail: 'Sérologies, interrogatoire médicamenteux ; surveiller le TP.' } },
+        { label: 'Modérées, ASAT > ALAT', node: { result: 'Origine alcoolique', detail: 'Rapport de De Ritis (ASAT/ALAT) > 2.' } },
+        { label: 'Chroniques', node: { result: 'Hépatopathie chronique (virale, stéatose, hémochromatose)', detail: 'Bilan étiologique complet.' } }
+      ]
+    }
+  },
+  {
+    id: 'arbre-coma', titre: 'Coma : premières orientations', discipline: 'Endocrinologie', chapter: 'iv-39-diabetes',
+    tree: {
+      q: 'Glycémie capillaire (réflexe) et contexte ?',
+      options: [
+        { label: 'Hypoglycémie', node: { result: 'Coma hypoglycémique', detail: 'Resucrage immédiat (G30 IV ou glucagon).' } },
+        { label: 'Hyperglycémie majeure', node: { result: 'Acidocétose ou coma hyperosmolaire', detail: 'Insuline + réhydratation + potassium.' } },
+        { label: 'Signe de focalisation', node: { result: 'AVC / processus intracrânien', detail: 'Imagerie cérébrale en urgence.' } },
+        { label: 'Myosis + dépression respiratoire', node: { result: 'Intoxication aux opiacés', detail: 'Naloxone ; toxidrome opioïde.' } }
+      ]
+    }
+  },
+  {
+    id: 'arbre-anomalie-thyroide', titre: 'Anomalie thyroïdienne', discipline: 'Endocrinologie', chapter: 'iv-51-dysthyroidie',
+    tree: {
+      q: 'TSH (examen de 1re intention) ?',
+      options: [
+        { label: 'Basse (effondrée)', node: { result: 'Hyperthyroïdie', detail: 'Doser la T4 libre ; maladie de Basedow fréquente.' } },
+        { label: 'Élevée', node: { result: 'Hypothyroïdie', detail: 'Doser la T4 libre ; thyroïdite de Hashimoto fréquente.' } },
+        { label: 'Normale mais nodule palpable', node: { result: 'Nodule thyroïdien', detail: 'Échographie + cytoponction selon EU-TIRADS.' } }
+      ]
+    }
   }
 ];
 

@@ -74,7 +74,101 @@ export const pathologies = [
     orientation: "Tabagisme + toux/hémoptysie + AEG = cancer bronchique jusqu'à preuve du contraire : imagerie thoracique." },
   { id: 'cholestase', nom: 'Ictère cholestatique', discipline: 'Hépato-gastro', chapter: 'iv-44-cholestase-cytolyse',
     cles: ['ictère', 'urines foncées', 'selles décolorées', 'prurit', 'douleur abdominale'],
-    orientation: "Ictère + urines foncées + selles décolorées + prurit = cholestase : échographie des voies biliaires." }
+    orientation: "Ictère + urines foncées + selles décolorées + prurit = cholestase : échographie des voies biliaires." },
+
+  // ─── Infections (suite) ───
+  { id: 'angine', nom: 'Angine à streptocoque A', discipline: 'Infectiologie', chapter: 'iv-5-infections-orl-respiratoires',
+    cles: ['fièvre', 'angine', 'adénopathies', 'absence de toux', 'sujet jeune'],
+    orientation: "Angine érythémateuse fébrile sans toux (score de Mac Isaac) : TDR streptocoque ; amoxicilline si positif." },
+  { id: 'gastro-enterite', nom: 'Gastro-entérite / TIAC', discipline: 'Infectiologie', chapter: 'iv-4-infections-digestives',
+    cles: ['diarrhée', 'vomissements', 'fièvre', 'douleur abdominale', 'contage'],
+    orientation: "Diarrhée aiguë + contexte alimentaire/collectif : le plus souvent virale/toxinique ; réhydratation, coproculture si signes de gravité." },
+  { id: 'colite-cdiff', nom: 'Colite à Clostridioides difficile', discipline: 'Infectiologie', chapter: 'iv-4-infections-digestives',
+    cles: ['diarrhée', 'fièvre', 'antibiotique récent', 'douleur abdominale'],
+    orientation: "Diarrhée après antibiothérapie récente : rechercher les toxines de C. difficile ; vancomycine PO ou fidaxomicine." },
+  { id: 'cystite', nom: 'Cystite aiguë simple', discipline: 'Infectiologie', chapter: 'iv-3-infections-urinaires',
+    cles: ['brûlures mictionnelles', 'pollakiurie', 'apyrexie', 'bandelette urinaire positive'],
+    orientation: "Signes urinaires bas SANS fièvre ni douleur lombaire = cystite : BU ; traitement court (fosfomycine)." },
+  { id: 'syphilis', nom: 'Syphilis', discipline: 'Infectiologie', chapter: 'iv-6-ist',
+    cles: ['chancre', 'adénopathies', 'éruption', 'comportement à risque'],
+    orientation: "Chancre induré indolore puis éruption : sérologies (TPHA/VDRL) ; pénicilline G ; dépister/traiter le partenaire." },
+  { id: 'primo-vih', nom: 'Primo-infection VIH', discipline: 'Infectiologie', chapter: 'iv-9-immunodeprime',
+    cles: ['fièvre', 'adénopathies', 'éruption', 'angine', 'comportement à risque'],
+    orientation: "Syndrome pseudo-grippal + adénopathies + éruption après exposition : sérologie VIH + charge virale (antigénémie p24 précoce)." },
+  { id: 'hepatite-aigue', nom: 'Hépatite virale aiguë', discipline: 'Virologie', chapter: 'iv-8-hepatites-virales',
+    cles: ['ictère', 'asthénie', 'cytolyse', 'nausées', 'contage'],
+    orientation: "Ictère + cytolyse (ALAT très élevées) : sérologies virales (A, B, C) ; surveiller le TP (gravité)." },
+  { id: 'toxoplasmose', nom: 'Toxoplasmose', discipline: 'Parasitologie', chapter: 'iv-15-toxoplasmose',
+    cles: ['fièvre', 'adénopathies', 'asthénie', 'terrain immunodéprimé'],
+    orientation: "Immunocompétent : adénopathies fébriles bénignes. Immunodéprimé/grossesse : formes graves (cérébrale, congénitale)." },
+  { id: 'amibiase', nom: 'Amibiase intestinale', discipline: 'Parasitologie', chapter: 'iv-12-protozooses-intestinales',
+    cles: ['diarrhée', 'retour de voyage', 'douleur abdominale', 'selles glairo-sanglantes'],
+    orientation: "Diarrhée glairo-sanglante au retour des tropiques : examen parasitologique des selles ; métronidazole." },
+
+  // ─── Hématologie / immunologie (suite) ───
+  { id: 'drepanocytose', nom: 'Drépanocytose (crise)', discipline: 'Hématologie', chapter: 'iv-26-hemoglobinopathies',
+    cles: ['douleurs osseuses', 'anémie', 'hémolyse', 'origine africaine', 'fièvre'],
+    orientation: "Terrain + anémie hémolytique + crises douloureuses : électrophorèse de l'Hb (HbS). Crise : hydratation, antalgiques, O2." },
+  { id: 'lmc', nom: 'Leucémie myéloïde chronique', discipline: 'Hématologie', chapter: 'iv-24-leucemie-myeloide-chronique',
+    cles: ['splénomégalie', 'hyperleucocytose', 'myélémie', 'asthénie'],
+    orientation: "Splénomégalie + hyperleucocytose avec myélémie : transcrit BCR-ABL (Philadelphie) ; inhibiteurs de tyrosine kinase." },
+  { id: 'myelome', nom: 'Myélome multiple', discipline: 'Hématologie', chapter: 'iv-27-myelome-dysglobulinemies',
+    cles: ['douleurs osseuses', 'anémie', 'insuffisance rénale', 'hypercalcémie', 'pic monoclonal'],
+    orientation: "CRAB (Calcémie, Rein, Anémie, os) + pic monoclonal : immunofixation, myélogramme, Bence-Jones." },
+  { id: 'llc', nom: 'Leucémie lymphoïde chronique', discipline: 'Hématologie', chapter: 'iv-29-hyperlymphocytoses',
+    cles: ['hyperlymphocytose', 'adénopathies', 'splénomégalie', 'sujet âgé'],
+    orientation: "Hyperlymphocytose chronique du sujet âgé : immunophénotypage (score de Matutes) ; souvent surveillance." },
+  { id: 'vaquez', nom: 'Polyglobulie de Vaquez', discipline: 'Hématologie', chapter: 'iv-23-polyglobulies',
+    cles: ['érythrose', 'prurit aquagénique', 'thrombose', 'splénomégalie'],
+    orientation: "Polyglobulie vraie + prurit à l'eau + thrombose : mutation JAK2 V617F ; risque thrombotique (saignées, aspirine)." },
+  { id: 'civd', nom: 'Coagulation intravasculaire disséminée', discipline: 'Hématologie', chapter: 'iv-36-allongement-tq-tca',
+    cles: ['saignements', 'thrombopénie', 'fièvre', 'troubles de conscience'],
+    orientation: "Sepsis/choc + saignements diffus : TP/TCA allongés, fibrinogène bas, D-dimères élevés = CIVD ; traiter la cause." },
+  { id: 'hemophilie', nom: 'Hémophilie', discipline: 'Hématologie', chapter: 'iv-25-hemophilies-willebrand',
+    cles: ['hémarthroses', 'saignements', 'garçon', 'antécédents familiaux'],
+    orientation: "Hémarthroses + hérédité liée à l'X + TCA allongé isolé : doser VIII (A) / IX (B) ; éviter IM et aspirine." },
+  { id: 'lupus', nom: 'Lupus érythémateux systémique', discipline: 'Immunologie', chapter: 'iv-33-maladies-auto-immunes',
+    cles: ['polyarthralgies', 'éruption', 'asthénie', 'anticorps antinucléaires', 'photosensibilité'],
+    orientation: "Femme jeune : atteinte cutanéo-articulaire + AAN + atteinte rénale = lupus (anti-ADN natif spécifiques)." },
+
+  // ─── Endocrinologie / métabolisme (suite) ───
+  { id: 'hypothyroidie', nom: 'Hypothyroïdie', discipline: 'Endocrinologie', chapter: 'iv-51-dysthyroidie',
+    cles: ['asthénie', 'prise de poids', 'frilosité', 'bradycardie', 'constipation'],
+    orientation: "Asthénie + prise de poids + frilosité + bradycardie : TSH élevée (primaire) ; lévothyroxine." },
+  { id: 'insuffisance-surrenale', nom: 'Insuffisance surrénale', discipline: 'Endocrinologie', chapter: 'iv-50-corticosurrenale',
+    cles: ['hypotension', 'asthénie', 'hyponatrémie', 'hyperkaliémie', 'mélanodermie'],
+    orientation: "Hypotension + hyponatrémie + hyperkaliémie (± mélanodermie) : insuffisance surrénale ; urgence = hydrocortisone IV + NaCl." },
+  { id: 'cushing', nom: 'Syndrome de Cushing', discipline: 'Endocrinologie', chapter: 'iv-50-corticosurrenale',
+    cles: ['obésité facio-tronculaire', 'vergetures pourpres', 'hypertension', 'hyperglycémie', 'ecchymoses'],
+    orientation: "Obésité facio-tronculaire + vergetures + HTA + diabète : hypercortisolisme (freinage minute, cortisol libre urinaire)." },
+  { id: 'goutte', nom: 'Goutte', discipline: 'Rhumatologie', chapter: 'iv-48-hyperuricemies',
+    cles: ['monoarthrite', 'gros orteil', 'hyperuricémie', 'terrain vasculaire'],
+    orientation: "Monoarthrite aiguë du gros orteil : microcristaux d'urate ; crise = colchicine/AINS, fond = allopurinol à distance." },
+
+  // ─── Cardio / respiratoire / néphro / digestif (suite) ───
+  { id: 'insuffisance-cardiaque', nom: 'Insuffisance cardiaque', discipline: 'Cardiologie', chapter: 'iv-47-sca-insuffisance-cardiaque',
+    cles: ['dyspnée', "douleur à l'effort", 'œdèmes', 'orthopnée', 'terrain vasculaire'],
+    orientation: "Dyspnée d'effort + œdèmes des membres inférieurs + crépitants : BNP élevé, échocardiographie." },
+  { id: 'embolie-pulmonaire', nom: 'Embolie pulmonaire', discipline: 'Cardiologie', chapter: 'iv-47-sca-insuffisance-cardiaque',
+    cles: ['dyspnée', 'douleur thoracique', 'tachycardie', 'immobilisation', 'facteur de risque de thrombose'],
+    orientation: "Dyspnée + douleur thoracique brutale + facteur de risque de MTEV : score clinique + D-dimères / angioscanner." },
+  { id: 'syndrome-nephrotique', nom: 'Syndrome néphrotique', discipline: 'Néphrologie', chapter: 'iv-46-insuffisance-renale',
+    cles: ['œdèmes', 'protéinurie', 'hypoalbuminémie', 'prise de poids'],
+    orientation: "Œdèmes + protéinurie > 3 g/24 h + hypoalbuminémie : chercher la néphropathie ; risque thrombotique/infectieux." },
+  { id: 'insuffisance-renale-aigue', nom: 'Insuffisance rénale aiguë', discipline: 'Néphrologie', chapter: 'iv-46-insuffisance-renale',
+    cles: ['oligurie', 'créatinine élevée', 'hyperkaliémie', 'œdèmes'],
+    orientation: "Élévation rapide de la créatinine : distinguer pré-rénale (fonctionnelle), rénale et post-rénale (obstacle, échographie)." },
+  { id: 'pancreatite', nom: 'Pancréatite aiguë', discipline: 'Hépato-gastro', chapter: 'iv-49-pancreatite-aigue',
+    cles: ['douleur abdominale', 'vomissements', 'lipase élevée', 'alcool'],
+    orientation: "Douleur épigastrique transfixiante + lipase > 3 N : alcool/lithiase ; gravité = CRP à 48 h, scanner (Balthazar)." },
+  { id: 'cirrhose', nom: 'Cirrhose décompensée', discipline: 'Hépato-gastro', chapter: 'iv-44-cholestase-cytolyse',
+    cles: ['ictère', 'ascite', 'angiomes stellaires', 'troubles de conscience', 'alcool'],
+    orientation: "Ictère + ascite + signes d'IHC : cirrhose ; complications = hémorragie, encéphalopathie, infection du liquide d'ascite." },
+
+  // ─── Toxicologie ───
+  { id: 'intoxication-co', nom: 'Intoxication au monoxyde de carbone', discipline: 'Toxicologie', chapter: 'iii-14-poisons-hemoglobine',
+    cles: ['céphalées', 'nausées', 'troubles de conscience', 'contexte hivernal', 'intoxication collective'],
+    orientation: "Symptômes collectifs en hiver + SpO2 faussement normale : doser l'HbCO ; oxygène 100 %." }
 ];
 
 // ── index dérivés ────────────────────────────────────────────────────────────
@@ -93,8 +187,8 @@ export const pathologyById = Object.fromEntries(pathologies.map((p) => [p.id, p]
 
 // Catégorie d'affichage d'un mot-clé (pour grouper les puces sélectionnables).
 const CAT = {
-  terrain: ['retour de voyage', 'afrique subsaharienne', 'sujet jeune', 'tabac', 'contage', 'contact eau douce', 'terrain immunodéprimé', 'terrain vasculaire', 'porte d\'entrée dentaire', 'saignement chronique', "douleur à l'effort"],
-  bio: ['thrombopénie', 'anémie', 'microcytose', 'macrocytose', 'ferritine basse', 'hyperglycémie', 'hémocultures positives', 'bandelette urinaire positive', 'schizocytes', 'blastes', 'foyer de crépitants']
+  terrain: ['retour de voyage', 'afrique subsaharienne', 'sujet jeune', 'sujet âgé', 'tabac', 'alcool', 'contage', 'contact eau douce', 'terrain immunodéprimé', 'terrain vasculaire', 'porte d\'entrée dentaire', 'saignement chronique', "douleur à l'effort", 'origine africaine', 'garçon', 'antécédents familiaux', 'comportement à risque', 'antibiotique récent', 'immobilisation', 'facteur de risque de thrombose', 'contexte hivernal', 'intoxication collective'],
+  bio: ['thrombopénie', 'anémie', 'microcytose', 'macrocytose', 'ferritine basse', 'hyperglycémie', 'hémocultures positives', 'bandelette urinaire positive', 'schizocytes', 'blastes', 'foyer de crépitants', 'cytolyse', 'lipase élevée', 'créatinine élevée', 'hyperuricémie', 'hypoalbuminémie', 'pic monoclonal', 'anticorps antinucléaires', 'hyperleucocytose', 'hyperlymphocytose', 'protéinurie', 'myélémie']
 };
 /** @param {string} mot */
 export function keywordCat(mot) {
