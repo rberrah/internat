@@ -163,6 +163,83 @@ export const arbres = [
         } }
       ]
     }
+  },
+  {
+    id: 'arbre-proteinurie', titre: 'Orientation devant une protéinurie', discipline: 'Néphrologie', chapter: 'iv-46-insuffisance-renale',
+    tree: {
+      q: 'Débit de protéinurie ?',
+      options: [
+        { label: '> 3 g/24 h (+ hypoalbuminémie, œdèmes)', node: { result: 'Syndrome néphrotique', detail: 'Atteinte glomérulaire ; risque thrombotique et infectieux. Chercher la cause (LGM, diabète, amylose).' } },
+        { label: 'Modérée, avec hématurie / HTA', node: { result: 'Syndrome néphritique / glomérulonéphrite', detail: 'Protéinurie + hématurie + HTA + IRA : glomérulonéphrite (post-infectieuse, à IgA…).' } },
+        { label: 'Faible, à l\'effort ou fébrile', node: { result: 'Protéinurie fonctionnelle (bénigne)', detail: 'Transitoire, disparaît au repos ; recontrôler.' } }
+      ]
+    }
+  },
+  {
+    id: 'arbre-hyponatremie', titre: 'Démarche devant une hyponatrémie', discipline: 'Néphrologie', chapter: 'iv-41-troubles-hydro-electrolytiques',
+    tree: {
+      q: 'État d\'hydratation (volémie) ?',
+      options: [
+        { label: 'Hypovolémie (déshydratation extracellulaire)', node: { result: 'Pertes sodées (digestives, rénales, diurétiques)', detail: 'Natriurèse oriente rénal vs extra-rénal ; corriger par sérum salé.' } },
+        { label: 'Normovolémie', node: { result: 'SIADH (ou hypothyroïdie, insuffisance surrénale)', detail: 'Osmolalité urinaire élevée, natriurèse conservée ; restriction hydrique.' } },
+        { label: 'Hypervolémie (œdèmes)', node: { result: 'Insuffisance cardiaque, cirrhose, syndrome néphrotique', detail: 'Hyponatrémie de dilution ; restriction hydrosodée.' } }
+      ]
+    }
+  },
+  {
+    id: 'arbre-adenopathie', titre: 'Orientation devant une adénopathie', discipline: 'Hématologie', chapter: 'iv-29-hyperlymphocytoses',
+    tree: {
+      q: 'Caractère de l\'adénopathie ?',
+      options: [
+        { label: 'Localisée, inflammatoire (chaude, douloureuse)', node: { result: 'Adénite infectieuse locorégionale', detail: 'Chercher la porte d\'entrée ; le plus souvent réactionnelle.' } },
+        { label: 'Généralisée + fièvre/angine (sujet jeune)', node: { result: 'Syndrome mononucléosique (MNI, CMV, toxo, primo-VIH)', detail: 'Hémogramme : syndrome mononucléosique ; sérologies.' } },
+        { label: 'Ferme, indolore, > 1 mois (ou sus-claviculaire)', node: { result: 'Suspicion de lymphome / métastase — biopsie', detail: 'Adénopathie suspecte : biopsie ganglionnaire (pas de simple ponction).' } }
+      ]
+    }
+  },
+  {
+    id: 'arbre-monoarthrite', titre: 'Monoarthrite aiguë', discipline: 'Rhumatologie', chapter: 'iv-48-hyperuricemies',
+    tree: {
+      q: 'Ponction articulaire — analyse du liquide ?',
+      options: [
+        { label: 'Liquide purulent, germe / nombreux PNN', node: { result: 'Arthrite septique — urgence', detail: 'Ponction + hémocultures avant antibiothérapie ; drainage.' } },
+        { label: 'Microcristaux d\'urate (négatifs, en aiguille)', node: { result: 'Goutte', detail: 'Crise : colchicine/AINS ; fond : allopurinol à distance.' } },
+        { label: 'Microcristaux de pyrophosphate (positifs)', node: { result: 'Chondrocalcinose (pseudo-goutte)', detail: 'Sujet âgé ; liseré calcique radiologique.' } }
+      ]
+    }
+  },
+  {
+    id: 'arbre-douleur-thoracique', titre: 'Douleur thoracique aiguë', discipline: 'Cardiologie', chapter: 'iv-47-sca-insuffisance-cardiaque',
+    tree: {
+      q: 'Caractéristiques principales ?',
+      options: [
+        { label: 'Constrictive, à l\'effort, troponine ↑', node: { result: 'Syndrome coronarien aigu', detail: 'ECG + troponine en urgence ; reperfusion si ST+.' } },
+        { label: 'Brutale, dyspnée, facteur de risque de MTEV', node: { result: 'Embolie pulmonaire à évoquer', detail: 'Score clinique + D-dimères / angioscanner.' } },
+        { label: 'Augmente à l\'inspiration, position (soulagée penché en avant)', node: { result: 'Péricardite', detail: 'ECG (sus-décalage diffus concave), frottement.' } },
+        { label: 'Déchirante, migratrice, asymétrie tensionnelle', node: { result: 'Dissection aortique — urgence', detail: 'Angioscanner aortique ; contrôle tensionnel.' } }
+      ]
+    }
+  },
+  {
+    id: 'arbre-hypercalcemie', titre: 'Étiologie d\'une hypercalcémie', discipline: 'Endocrinologie', chapter: 'iv-43-metabolisme-osseux',
+    tree: {
+      q: 'Dosage de la PTH ?',
+      options: [
+        { label: 'PTH élevée (ou normale haute)', node: { result: 'Hyperparathyroïdie primaire', detail: 'Adénome parathyroïdien le plus souvent ; cause n°1 en ambulatoire.' } },
+        { label: 'PTH basse (freinée)', node: { result: 'Hypercalcémie maligne (myélome, métastases, PTHrp)', detail: 'Cause n°1 à l\'hôpital ; chercher un cancer.' } }
+      ]
+    }
+  },
+  {
+    id: 'arbre-eosinophilie', titre: 'Orientation devant une éosinophilie', discipline: 'Parasitologie', chapter: 'iv-17-helminthoses',
+    tree: {
+      q: 'Contexte ?',
+      options: [
+        { label: 'Retour de voyage / séjour tropical', node: { result: 'Helminthose (parasitose tissulaire)', detail: 'Bilharziose, anguillulose… ; sérologies, examen parasitologique des selles.' } },
+        { label: 'Terrain atopique (asthme, eczéma)', node: { result: 'Allergie / atopie', detail: 'Éosinophilie modérée ; contexte allergique.' } },
+        { label: 'Prise médicamenteuse récente', node: { result: 'Éosinophilie médicamenteuse (dont DRESS)', detail: 'Arrêt du médicament ; surveiller une atteinte d\'organe.' } }
+      ]
+    }
   }
 ];
 

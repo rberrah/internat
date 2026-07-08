@@ -253,6 +253,99 @@ export const casCliniques = [
     question: "Quel diagnostic et quel examen le confirme ?",
     reponse: "Légionellose (Legionella pneumophila).",
     raisonnement: "Pneumopathie + signes extra-respiratoires (digestifs, neuro, hyponatrémie) + contexte hydrique + inefficacité des bêta-lactamines (germe intracellulaire) = légionellose. Diagnostic : antigénurie Legionella. Traitement : macrolide ou fluoroquinolone."
+  },
+  {
+    id: 'cas-co', titre: 'Céphalées collectives en hiver', discipline: 'Toxicologie', chapter: 'iii-14-poisons-hemoglobine', lexique: false,
+    enonce: "En hiver, plusieurs membres d'un foyer présentent des [[céphalées]], des [[nausées]] et des [[vertiges]]. Un [[chauffage défectueux]] est signalé. La [[SpO2 est normale]] malgré les symptômes.",
+    indices: [
+      { mot: 'céphalées', pourquoi: "Symptôme le plus fréquent de l'intoxication au CO (hypoxie)." },
+      { mot: 'nausées', pourquoi: "Signe d'accompagnement non spécifique." },
+      { mot: 'vertiges', pourquoi: "Souffrance neurologique par hypoxie." },
+      { mot: 'chauffage défectueux', pourquoi: "Source classique de monoxyde de carbone." },
+      { mot: 'SpO2 est normale', pourquoi: "Piège : l'oxymètre ne distingue pas HbCO de HbO2." }
+    ],
+    question: "Quel diagnostic et quel dosage confirme ?",
+    reponse: "Intoxication au monoxyde de carbone (CO).",
+    raisonnement: "Symptômes collectifs + source de combustion + SpO2 faussement normale = intoxication au CO. Confirmation : dosage de la carboxyhémoglobine (HbCO). Traitement : oxygénothérapie normobare 100 %, hyperbare si grave/grossesse ; enquête de la source."
+  },
+  {
+    id: 'cas-nephrotique', titre: 'Œdèmes et protéinurie massive', discipline: 'Néphrologie', chapter: 'iv-46-insuffisance-renale', lexique: false,
+    enonce: "Un enfant présente des [[œdèmes]] blancs, mous, déclives. Le bilan montre une [[protéinurie > 3 g/24 h]], une [[hypoalbuminémie]] et une [[hyperlipidémie]].",
+    indices: [
+      { mot: 'œdèmes', pourquoi: "Conséquence de la baisse de pression oncotique (hypoalbuminémie)." },
+      { mot: 'protéinurie > 3 g/24 h', pourquoi: "Seuil définissant la protéinurie néphrotique." },
+      { mot: 'hypoalbuminémie', pourquoi: "Fuite urinaire d'albumine (< 30 g/L)." },
+      { mot: 'hyperlipidémie', pourquoi: "Réponse hépatique à l'hypoprotidémie." }
+    ],
+    question: "Quel syndrome et quels risques ?",
+    reponse: "Syndrome néphrotique.",
+    raisonnement: "Protéinurie > 3 g/24 h + hypoalbuminémie + œdèmes = syndrome néphrotique. Chez l'enfant : néphrose lipoïdique (LGM) le plus souvent. Risques : thromboses (perte d'antithrombine) et infections. Traitement de la cause + mesures symptomatiques."
+  },
+  {
+    id: 'cas-hemophilie', titre: 'Hémarthrose chez un garçon', discipline: 'Hématologie', chapter: 'iv-25-hemophilies-willebrand', lexique: false,
+    enonce: "Un garçon présente des [[hémarthroses]] à répétition depuis l'enfance. Il existe des cas similaires du [[côté maternel]]. Le [[TCA est allongé]], le TP et les plaquettes sont normaux.",
+    indices: [
+      { mot: 'hémarthroses', pourquoi: "Saignements profonds typiques d'un déficit de la coagulation (hémophilie)." },
+      { mot: 'côté maternel', pourquoi: "Transmission récessive liée à l'X (garçons atteints, mères conductrices)." },
+      { mot: 'TCA est allongé', pourquoi: "Le déficit en facteur VIII/IX allonge le TCA (voie intrinsèque)." }
+    ],
+    question: "Quel diagnostic et comment confirmer ?",
+    reponse: "Hémophilie (A si facteur VIII, B si IX).",
+    raisonnement: "Hémarthroses + hérédité liée à l'X + TCA allongé isolé = hémophilie. Confirmation : dosage des facteurs VIII (A) et IX (B). Traitement : facteur manquant ; éviter les IM et l'aspirine."
+  },
+  {
+    id: 'cas-lupus', titre: 'Polyarthralgies et éruption chez une femme jeune', discipline: 'Immunologie', chapter: 'iv-33-maladies-auto-immunes', lexique: false,
+    enonce: "Une femme de 25 ans présente des [[polyarthralgies]], une [[éruption du visage]] photosensible et une [[asthénie]]. Le bilan montre des [[anticorps antinucléaires]] positifs et une [[protéinurie]].",
+    indices: [
+      { mot: 'polyarthralgies', pourquoi: "Atteinte articulaire fréquente du lupus." },
+      { mot: 'éruption du visage', pourquoi: "Érythème en aile de papillon (vespertilio), photosensible." },
+      { mot: 'asthénie', pourquoi: "Signe général fréquent des maladies auto-immunes." },
+      { mot: 'anticorps antinucléaires', pourquoi: "Très sensibles ; les anti-ADN natif sont spécifiques." },
+      { mot: 'protéinurie', pourquoi: "Atteinte rénale (glomérulonéphrite lupique), facteur de gravité." }
+    ],
+    question: "Quel diagnostic évoquez-vous ?",
+    reponse: "Lupus érythémateux systémique.",
+    raisonnement: "Femme jeune + atteinte cutanéo-articulaire + AAN positifs + atteinte rénale = lupus. Anticorps spécifiques : anti-ADN natif, anti-Sm. La néphropathie lupique conditionne le pronostic."
+  },
+  {
+    id: 'cas-toxo-vih', titre: 'Déficit neurologique chez un patient VIH', discipline: 'Infectiologie', chapter: 'iv-9-immunodeprime', lexique: false,
+    enonce: "Un patient [[VIH]] avec [[CD4 < 200]] présente un [[déficit neurologique]] focal. L'imagerie cérébrale montre des [[abcès en cocarde]].",
+    indices: [
+      { mot: 'VIH', pourquoi: "Immunodépression cellulaire exposant aux infections opportunistes." },
+      { mot: 'CD4 < 200', pourquoi: "Seuil sous lequel apparaissent les opportunistes (toxoplasmose, pneumocystose)." },
+      { mot: 'déficit neurologique', pourquoi: "Atteinte cérébrale focale." },
+      { mot: 'abcès en cocarde', pourquoi: "Aspect radiologique typique de la toxoplasmose cérébrale." }
+    ],
+    question: "Quel diagnostic en premier lieu ?",
+    reponse: "Toxoplasmose cérébrale (réactivation).",
+    raisonnement: "VIH + CD4 bas + lésions cérébrales en cocarde = toxoplasmose cérébrale jusqu'à preuve du contraire. Traitement d'épreuve (pyriméthamine + sulfadiazine) ; prophylaxie primaire par cotrimoxazole si CD4 < 200."
+  },
+  {
+    id: 'cas-hepatiteb', titre: 'Découverte d\'un Ag HBs positif', discipline: 'Virologie', chapter: 'iv-8-hepatites-virales', lexique: false,
+    enonce: "Un patient a un bilan montrant un [[Ag HBs positif]] persistant depuis plus de 6 mois, un [[Ac anti-HBc positif]] et un [[Ag HBs]] toujours détectable, avec une [[charge virale ADN]] élevée.",
+    indices: [
+      { mot: 'Ag HBs positif', pourquoi: "Marqueur d'infection par le VHB (présent = infection en cours)." },
+      { mot: 'Ac anti-HBc positif', pourquoi: "Témoigne d'un contact avec le virus (infection, pas vaccination)." },
+      { mot: 'Ag HBs', pourquoi: "Persistant > 6 mois = passage à la chronicité." },
+      { mot: 'charge virale ADN', pourquoi: "Guide l'indication et le suivi du traitement." }
+    ],
+    question: "Quel diagnostic et quel principe de traitement ?",
+    reponse: "Hépatite B chronique.",
+    raisonnement: "Ag HBs positif > 6 mois = hépatite B chronique. Ac anti-HBc = contact (vs vaccination qui donne seulement des anti-HBs). Traitement des formes actives : analogues nucléos(t)idiques (ténofovir, entécavir). Vaccination de l'entourage."
+  },
+  {
+    id: 'cas-hypoglycemie', titre: 'Malaise chez un diabétique traité', discipline: 'Endocrinologie', chapter: 'iv-39-diabetes', lexique: false,
+    enonce: "Un diabétique sous [[insuline]] présente brutalement des [[sueurs]], des [[tremblements]] et une [[confusion]] avant le repas. La [[glycémie capillaire est basse]].",
+    indices: [
+      { mot: 'insuline', pourquoi: "Traitement hypoglycémiant : cause majeure d'hypoglycémie." },
+      { mot: 'sueurs', pourquoi: "Signe adrénergique (réaction à l'hypoglycémie)." },
+      { mot: 'tremblements', pourquoi: "Signe adrénergique." },
+      { mot: 'confusion', pourquoi: "Signe de neuroglucopénie (souffrance cérébrale)." },
+      { mot: 'glycémie capillaire est basse', pourquoi: "Confirme l'hypoglycémie." }
+    ],
+    question: "Quelle est la conduite immédiate ?",
+    reponse: "Hypoglycémie — resucrage immédiat.",
+    raisonnement: "Signes adrénergiques + neuroglucopéniques + glycémie basse = hypoglycémie. Conscient : resucrage oral (sucre rapide puis lent). Inconscient : glucagon IM ou glucosé IV. Rechercher le facteur (repas sauté, surdosage)."
   }
 ];
 
