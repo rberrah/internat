@@ -128,6 +128,16 @@ check(new Set(arbres.map((a) => a.id)).size === arbres.length, `identifiants d'a
 const badTreeChap = arbres.filter((a) => a.chapter && !slugSet.has(a.chapter));
 check(badTreeChap.length === 0, `liens chapitre des arbres de décision tous résolus`);
 
+// 14. médicaments & effets indésirables : structure + liens chapitre
+const { medicaments } = await import(url.pathToFileURL(path.join(root, 'src/lib/content/effetsIndesirables.js')));
+const badMed = medicaments.filter((m) =>
+  !m.id || !m.classe || !m.exemples || !Array.isArray(m.effets) || !m.effets.length ||
+  m.effets.some((e) => !e || !e.ei || !e.mecanisme));
+check(badMed.length === 0, `${medicaments.length} médicaments : structure (effet ⇒ mécanisme) valide`);
+check(new Set(medicaments.map((m) => m.id)).size === medicaments.length, `identifiants de médicaments uniques`);
+const badMedChap = medicaments.filter((m) => m.chapter && !slugSet.has(m.chapter));
+check(badMedChap.length === 0, `liens chapitre des médicaments tous résolus`);
+
 if (fail.length) {
   console.error('\nSmoke tests ÉCHOUÉS :\n' + fail.map((m) => '  ✗ ' + m).join('\n'));
   process.exit(1);

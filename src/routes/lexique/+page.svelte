@@ -12,12 +12,17 @@
   }
   function reset() { sel = []; }
 
-  // mots-clés groupés par catégorie (entrée « 1er sens » : mot → pathologies)
-  const groups = (() => {
-    /** @type {Record<string, string[]>} */
-    const g = {};
-    for (const m of allKeywords) (g[keywordCat(m)] ??= []).push(m);
-    return Object.entries(g);
+  // Recherche de mots-clés (au lieu d'afficher les 400+ d'un coup).
+  let query = '';
+  const norm = (/** @type {string} */ s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  $: q = norm(query.trim());
+  $: matches = q ? allKeywords.filter((m) => norm(m).includes(q)).slice(0, 40) : [];
+  // mots-clés les plus fréquents, proposés à l'état initial
+  const common = (() => {
+    /** @type {Record<string, number>} */
+    const count = {};
+    for (const p of pathologies) for (const m of p.cles) count[m] = (count[m] ?? 0) + 1;
+    return Object.entries(count).sort((a, b) => b[1] - a[1]).slice(0, 22).map(([m]) => m);
   })();
 
   // tri différentiel : pathologies réunissant TOUS les mots sélectionnés
@@ -51,19 +56,29 @@
 
 <section class="picker">
   <div class="picker-head">
-    <h2>Sélectionnez des mots-clés</h2>
+    <h2>Recherchez un signe clinique</h2>
     {#if sel.length}<button class="reset" on:click={reset}>Réinitialiser ({sel.length})</button>{/if}
   </div>
-  {#each groups as [cat, mots]}
-    <div class="group">
-      <span class="glabel">{cat}</span>
-      <div class="chips">
-        {#each mots as m}
-          <button class="kw" class:on={has(m)} on:click={() => toggle(m)}>{m}</button>
-        {/each}
-      </div>
+
+  {#if sel.length}
+    <div class="chips selected">
+      {#each sel as m}<button class="kw on" on:click={() => toggle(m)}>{m} ✕</button>{/each}
     </div>
-  {/each}
+  {/if}
+
+  <input class="search" type="search" placeholder="Rechercher un signe, un terrain, une biologie… (ex. fièvre, ictère, thrombopénie)" bind:value={query} />
+
+  {#if query.trim()}
+    <div class="chips">
+      {#each matches as m}<button class="kw" class:on={has(m)} on:click={() => toggle(m)}>{m} <em>{keywordCat(m).split(' ')[0]}</em></button>{/each}
+      {#if !matches.length}<span class="hint">Aucun mot-clé ne correspond à « {query} ».</span>{/if}
+    </div>
+  {:else}
+    <p class="hint">Tapez un mot-clé, ou partez de l'un des signes les plus fréquents :</p>
+    <div class="chips">
+      {#each common as m}<button class="kw" class:on={has(m)} on:click={() => toggle(m)}>{m}</button>{/each}
+    </div>
+  {/if}
 </section>
 
 <section class="results">
@@ -118,12 +133,15 @@
   .picker-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--space-3); }
   .picker-head h2 { font-size: var(--text-sm); font-family: var(--font-mono); text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-secondary); margin: 0; }
   .reset { font-family: var(--font-mono); font-size: var(--text-xs); padding: 4px 10px; border: 1px solid var(--border-strong); background: var(--bg-primary); border-radius: 999px; cursor: pointer; color: var(--text-secondary); }
-  .group { margin-bottom: var(--space-3); }
-  .glabel { display: block; font-family: var(--font-mono); font-size: 10px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); margin-bottom: 4px; }
+  .search { width: 100%; padding: var(--space-3) var(--space-4); border: 1px solid var(--border-strong); border-radius: var(--radius); background: var(--bg-primary); color: var(--text-primary); font-size: var(--text-base); margin-bottom: var(--space-3); }
+  .selected { margin-bottom: var(--space-3); }
+  .hint { color: var(--text-muted); font-size: var(--text-sm); margin: 0 0 var(--space-2); }
   .chips { display: flex; flex-wrap: wrap; gap: 6px; }
   .kw { font-size: var(--text-xs); padding: 4px 10px; border: 1px solid var(--border-subtle); background: var(--bg-primary); border-radius: 999px; cursor: pointer; color: var(--text-secondary); }
+  .kw em { font-style: normal; color: var(--text-muted); font-size: 9px; text-transform: uppercase; letter-spacing: 0.03em; }
   .kw:hover { border-color: var(--accent-pk); }
   .kw.on { background: var(--accent-pk); color: #fff; border-color: var(--accent-pk); }
+  .kw.on em { color: rgba(255,255,255,0.8); }
 
   .results { margin-top: var(--space-2); }
   .rhead { margin-bottom: var(--space-4); }

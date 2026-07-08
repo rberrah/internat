@@ -11,6 +11,7 @@
     { href: '/fiches', key: 'fiches', label: 'Fiches' },
     { href: '/exercices', key: 'exercises', label: 'Entraînement' },
     { href: '/lexique', key: 'lexique', label: 'Lexique clinique' },
+    { href: '/effets-indesirables', key: 'ei', label: 'Médicaments & EI' },
     { href: '/glossaire', key: 'glossary', label: 'Glossaire' },
     { href: '/a-propos', key: 'about', label: 'À propos' }
   ];
