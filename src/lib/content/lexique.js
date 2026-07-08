@@ -9,8 +9,17 @@
 
 /** @typedef {{id:string, nom:string, discipline:string, cles:string[], orientation:string, chapter?:string}} Pathologie */
 
+// Pathologies par domaine (fichiers séparés, fusionnés ci-dessous).
+import * as dInfectio from './pathologies/infectio.js';
+import * as dParasito from './pathologies/parasitomyco.js';
+import * as dHemato from './pathologies/hemato.js';
+import * as dEndocrino from './pathologies/endocrino.js';
+import * as dCardio from './pathologies/cardioresp.js';
+import * as dDigNeuro from './pathologies/digestifneuro.js';
+import * as dToxico from './pathologies/toxico.js';
+
 /** @type {Pathologie[]} */
-export const pathologies = [
+const basePathologies = [
   // ─── Infectiologie / parasitologie ───
   { id: 'paludisme', nom: 'Paludisme', discipline: 'Parasitologie', chapter: 'parasito-paludisme',
     cles: ['fièvre', 'frissons', 'retour de voyage', 'afrique subsaharienne', 'thrombopénie', 'anémie', 'splénomégalie', 'ictère'],
@@ -170,6 +179,17 @@ export const pathologies = [
     cles: ['céphalées', 'nausées', 'troubles de conscience', 'contexte hivernal', 'intoxication collective'],
     orientation: "Symptômes collectifs en hiver + SpO2 faussement normale : doser l'HbCO ; oxygène 100 %." }
 ];
+
+// Fusion base + domaines, dédoublonnée par identifiant.
+const _all = [
+  ...basePathologies,
+  ...(dInfectio.pathologies ?? []), ...(dParasito.pathologies ?? []), ...(dHemato.pathologies ?? []),
+  ...(dEndocrino.pathologies ?? []), ...(dCardio.pathologies ?? []), ...(dDigNeuro.pathologies ?? []),
+  ...(dToxico.pathologies ?? [])
+];
+const _seen = new Set();
+/** @type {Pathologie[]} */
+export const pathologies = _all.filter((p) => p && p.id && !_seen.has(p.id) && _seen.add(p.id));
 
 // ── index dérivés ────────────────────────────────────────────────────────────
 /** union de tous les mots-clés utilisés, triée */
