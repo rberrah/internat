@@ -9,6 +9,9 @@ theme: "Méthodes analytiques"
 order: 107
 duration: "12 min"
 tags: ["chimie analytique", "potentiométrie", "ampérométrie", "Nernst", "électrodes"]
+level: "intermediate"
+sources: ["programme-internat", "sfbc", "tietz"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le potentiel pris par une électrode redox suit l'équation…"
     options:

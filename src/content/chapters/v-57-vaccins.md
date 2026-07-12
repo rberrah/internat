@@ -9,6 +9,9 @@ theme: "Mise en forme et valorisation"
 order: 557
 duration: "12 min"
 tags: ["vaccins", "immunologie", "prévention", "immunisation"]
+level: "beginner"
+sources: ["spf", "has", "janeway", "oms"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le vaccin ROR est…"
     options:

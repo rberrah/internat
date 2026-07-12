@@ -9,6 +9,9 @@ theme: "Hématologie et immunologie"
 order: 432
 duration: "13 min"
 tags: ["immunologie", "asthme", "allergie", "IgE", "anaphylaxie"]
+level: "intermediate"
+sources: ["gina-gold", "janeway", "has"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'asthme allergique et l'anaphylaxie relèvent d'une hypersensibilité de type…"
     options:

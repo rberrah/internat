@@ -9,6 +9,9 @@ theme: "Hématologie et immunologie"
 order: 427
 duration: "13 min"
 tags: ["hématologie", "myélome", "immunoglobuline monoclonale", "électrophorèse", "MGUS"]
+level: "intermediate"
+sources: ["hemato-college", "sfh", "sfbc", "esmo"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Un pic monoclonal étroit en zone gamma sur l'électrophorèse des protéines correspond à…"
     options:

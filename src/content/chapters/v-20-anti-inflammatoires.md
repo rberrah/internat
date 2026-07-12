@@ -9,6 +9,9 @@ theme: "Classes thérapeutiques"
 order: 520
 duration: "14 min"
 tags: ["pharmacologie", "AINS", "corticoïdes", "inflammation"]
+level: "intermediate"
+sources: ["cnpm", "katzung", "ansm", "has"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les AINS exercent leur effet en inhibant…"
     options:

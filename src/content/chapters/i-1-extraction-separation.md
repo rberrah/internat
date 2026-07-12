@@ -9,6 +9,9 @@ theme: "Méthodes analytiques"
 order: 101
 duration: "11 min"
 tags: ["chimie analytique", "extraction", "partage", "liquide-liquide", "pH"]
+level: "intermediate"
+sources: ["programme-internat", "sfbc", "tietz"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le coefficient de partage d'un soluté entre deux solvants non miscibles est…"
     options:

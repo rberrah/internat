@@ -9,6 +9,9 @@ theme: "Classes thérapeutiques"
 order: 512
 duration: "12 min"
 tags: ["cardiovasculaire", "insuffisance cardiaque", "bêta-bloquants", "IEC", "digoxine"]
+level: "intermediate"
+sources: ["esc", "cnpm", "has"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Parmi ces bêta-bloquants, lequel a l'AMM dans l'insuffisance cardiaque chronique ?"
     options:

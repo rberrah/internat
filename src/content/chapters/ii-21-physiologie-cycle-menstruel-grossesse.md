@@ -9,6 +9,9 @@ theme: "Physiologie"
 order: 221
 duration: "14 min"
 tags: ["physiologie", "cycle menstruel", "grossesse", "hormones"]
+level: "intermediate"
+sources: ["programme-internat", "tietz", "crat"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le pic ovulatoire de LH…"
     options:

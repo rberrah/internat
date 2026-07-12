@@ -9,6 +9,9 @@ theme: "Méthodes analytiques"
 order: 115
 duration: "11 min"
 tags: ["chimie analytique", "immunoanalyse", "ELISA", "néphélémétrie", "sandwich"]
+level: "intermediate"
+sources: ["programme-internat", "janeway", "sfbc", "tietz"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Dans un dosage sandwich (immunométrique)…"
     options:

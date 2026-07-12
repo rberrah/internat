@@ -9,6 +9,9 @@ theme: "Parasitoses et mycoses"
 order: 412
 duration: "12 min"
 tags: ["parasitologie", "amœbose", "giardiose", "diarrhée", "péril fécal"]
+level: "beginner"
+sources: ["anofel", "epilly", "remic"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La dysenterie amibienne s'accompagne d'une diarrhée…"
     options:

@@ -9,6 +9,9 @@ theme: "Statistiques"
 order: 118
 duration: "12 min"
 tags: ["statistiques", "corrélation", "régression", "chi-deux", "liaison"]
+level: "intermediate"
+sources: ["schwartz", "altman", "ancelle"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le coefficient de corrélation de Pearson r…"
     options:

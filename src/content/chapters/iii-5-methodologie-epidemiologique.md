@@ -9,6 +9,9 @@ theme: "Santé publique"
 order: 305
 duration: "16 min"
 tags: ["santé publique", "épidémiologie", "risque relatif", "odds ratio", "dépistage"]
+level: "intermediate"
+sources: ["ancelle", "schwartz", "altman", "spf"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Une enquête cas-témoins fournit comme mesure d'association…"
     options:

@@ -9,6 +9,9 @@ theme: "Génétique"
 order: 454
 duration: "10 min"
 tags: ["génétique", "bioéthique", "diagnostic", "consentement"]
+level: "beginner"
+sources: ["programme-internat", "has", "sfbc"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La réalisation d'un examen génétique constitutionnel à visée diagnostique exige…"
     options:

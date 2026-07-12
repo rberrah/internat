@@ -9,6 +9,9 @@ theme: "Méthodes analytiques"
 order: 114
 duration: "12 min"
 tags: ["chimie analytique", "validation", "étalonnage", "justesse", "fidélité"]
+level: "intermediate"
+sources: ["programme-internat", "sfbc", "tietz", "ansm"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La justesse (exactitude) d'une méthode traduit…"
     options:

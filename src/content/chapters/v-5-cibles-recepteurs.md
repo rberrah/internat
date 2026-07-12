@@ -9,6 +9,9 @@ theme: "Devenir du médicament dans l'organisme"
 order: 505
 duration: "12 min"
 tags: ["pharmacodynamie", "récepteurs", "agoniste", "antagoniste"]
+level: "beginner"
+sources: ["cnpm", "goodman-gilman", "katzung"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Un antagoniste compétitif…"
     options:

@@ -9,6 +9,9 @@ theme: "Physiologie"
 order: 215
 duration: "13 min"
 tags: ["physiologie", "cœur", "pression artérielle", "baroréflexe"]
+level: "intermediate"
+sources: ["esc", "katzung", "programme-internat"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La pression artérielle moyenne est égale à…"
     options:

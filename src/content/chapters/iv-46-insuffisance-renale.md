@@ -9,6 +9,9 @@ theme: "Autres affections"
 order: 446
 duration: "14 min"
 tags: ["rein", "insuffisance rénale", "syndrome néphrotique", "créatinine", "protéinurie"]
+level: "intermediate"
+sources: ["kdigo", "ckd-epi", "sfbc", "has"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Une insuffisance rénale aiguë fonctionnelle se traduit sur l'ionogramme urinaire par…"
     options:

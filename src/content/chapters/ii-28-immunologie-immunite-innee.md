@@ -9,6 +9,9 @@ theme: "Immunologie"
 order: 228
 duration: "12 min"
 tags: ["immunologie", "immunité innée", "inflammation", "complément"]
+level: "beginner"
+sources: ["programme-internat", "janeway"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'immunité innée se caractérise par…"
     options:

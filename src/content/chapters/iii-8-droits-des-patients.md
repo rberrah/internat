@@ -9,6 +9,9 @@ theme: "Santé publique"
 order: 308
 duration: "13 min"
 tags: ["santé publique", "droits des patients", "consentement", "personne de confiance", "ONIAM"]
+level: "beginner"
+sources: ["programme-internat", "has"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La loi fondatrice des droits des patients (2002) est la loi…"
     options:

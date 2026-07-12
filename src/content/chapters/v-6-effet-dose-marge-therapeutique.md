@@ -9,6 +9,9 @@ theme: "Devenir du médicament dans l'organisme"
 order: 506
 duration: "11 min"
 tags: ["pharmacodynamie", "dose-effet", "DE50", "marge thérapeutique"]
+level: "beginner"
+sources: ["cnpm", "goodman-gilman", "rowland-tozer"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'index thérapeutique se définit par le rapport…"
     options:

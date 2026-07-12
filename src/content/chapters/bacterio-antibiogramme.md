@@ -11,6 +11,9 @@ duration: "13 min"
 tags: ["bactériologie", "antibiogramme", "CMI", "PK/PD"]
 glossary: ["CMI", "Antibiogramme", "%T > CMI"]
 prerequisites: ["pharmaco-pk-base"]
+level: "intermediate"
+sources: ["casfm", "eucast", "craig-pkpd", "remic"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La CMI est…"
     options:

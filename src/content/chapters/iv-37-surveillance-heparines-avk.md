@@ -9,6 +9,9 @@ theme: "Hématologie et immunologie"
 order: 437
 duration: "14 min"
 tags: ["hémostase", "héparine", "HBPM", "AVK", "INR", "anti-Xa"]
+level: "intermediate"
+sources: ["sfh", "cnpm", "has", "ansm"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les héparines agissent en…"
     options:

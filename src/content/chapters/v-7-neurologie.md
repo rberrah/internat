@@ -9,6 +9,9 @@ theme: "Classes thérapeutiques"
 order: 507
 duration: "14 min"
 tags: ["neurologie", "antiépileptiques", "Parkinson", "Alzheimer", "migraine"]
+level: "intermediate"
+sources: ["cnpm", "cnpm-livre", "ansm", "has"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Dans la maladie de Parkinson, le traitement de référence est…"
     options:

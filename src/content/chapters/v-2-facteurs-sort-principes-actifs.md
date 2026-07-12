@@ -9,6 +9,9 @@ theme: "Devenir du médicament dans l'organisme"
 order: 502
 duration: "12 min"
 tags: ["pharmacocinétique", "interactions", "induction enzymatique", "variabilité"]
+level: "intermediate"
+sources: ["rowland-tozer", "cnpm", "ansm"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La rifampicine est un puissant…"
     options:

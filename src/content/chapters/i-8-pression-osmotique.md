@@ -9,6 +9,9 @@ theme: "Méthodes analytiques"
 order: 108
 duration: "11 min"
 tags: ["biophysique", "osmolarité", "osmolalité", "van't Hoff", "cryoscopie"]
+level: "intermediate"
+sources: ["programme-internat", "sfbc", "tietz", "baud-garnier"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'osmolalité s'exprime en…"
     options:

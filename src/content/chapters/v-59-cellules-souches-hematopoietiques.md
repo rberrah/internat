@@ -9,6 +9,9 @@ theme: "Mise en forme et valorisation"
 order: 559
 duration: "13 min"
 tags: ["hématologie", "greffe", "cellules souches", "CD34"]
+level: "advanced"
+sources: ["sfh", "hemato-college", "janeway"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les cellules souches hématopoïétiques sont identifiées par le marqueur…"
     options:

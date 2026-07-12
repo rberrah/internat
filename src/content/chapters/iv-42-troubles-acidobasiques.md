@@ -9,6 +9,9 @@ theme: "Autres affections"
 order: 442
 duration: "13 min"
 tags: ["acidose", "alcalose", "bicarbonates", "trou anionique", "gaz du sang"]
+level: "intermediate"
+sources: ["sfbc", "tietz"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Une acidose métabolique se définit par…"
     options:

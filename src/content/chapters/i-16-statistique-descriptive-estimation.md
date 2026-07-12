@@ -9,6 +9,9 @@ theme: "Statistiques"
 order: 116
 duration: "12 min"
 tags: ["statistiques", "estimation", "intervalle de confiance", "moyenne", "proportion"]
+level: "beginner"
+sources: ["schwartz", "ancelle", "altman"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'intervalle de confiance d'une moyenne (grand échantillon) a pour demi-largeur…"
     options:

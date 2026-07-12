@@ -9,6 +9,9 @@ theme: "Classes thérapeutiques"
 order: 528
 duration: "11 min"
 tags: ["antibiotiques", "glycopeptides", "vancomycine", "SARM"]
+level: "intermediate"
+sources: ["epilly", "casfm", "craig-pkpd", "ansm"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les glycopeptides ont un spectre limité aux bactéries…"
     options:

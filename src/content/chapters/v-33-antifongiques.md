@@ -9,6 +9,9 @@ theme: "Classes thérapeutiques"
 order: 533
 duration: "14 min"
 tags: ["antifongiques", "amphotéricine B", "azolés", "échinocandines"]
+level: "intermediate"
+sources: ["anofel", "epilly", "cnpm", "ansm"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le fluconazole est inactif sur…"
     options:

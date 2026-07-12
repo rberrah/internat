@@ -10,6 +10,9 @@ order: 10
 duration: "13 min"
 tags: ["parasitologie", "paludisme", "fièvre", "voyage"]
 glossary: []
+level: "intermediate"
+sources: ["anofel", "oms-palu", "epilly", "spilf"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le vecteur du paludisme est…"
     options:

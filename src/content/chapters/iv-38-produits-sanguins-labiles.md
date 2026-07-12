@@ -9,6 +9,9 @@ theme: "Hématologie et immunologie"
 order: 438
 duration: "12 min"
 tags: ["transfusion", "PSL", "CGR", "plaquettes", "PFC", "hémovigilance"]
+level: "beginner"
+sources: ["sfh", "hemato-college", "ansm", "has"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Parmi ces produits, lequel est un produit sanguin labile (PSL) ?"
     options:

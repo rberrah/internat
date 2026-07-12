@@ -9,6 +9,9 @@ theme: "Méthodes analytiques"
 order: 102
 duration: "11 min"
 tags: ["chimie analytique", "SAA", "émission atomique", "métaux", "flamme"]
+level: "intermediate"
+sources: ["programme-internat", "sfbc", "tietz", "baud-garnier"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "En spectrophotométrie d'absorption atomique (SAA), on mesure…"
     options:

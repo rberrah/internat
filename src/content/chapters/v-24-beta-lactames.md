@@ -9,6 +9,9 @@ theme: "Classes thérapeutiques"
 order: 524
 duration: "13 min"
 tags: ["antibiotiques", "bêta-lactamines", "pénicillines", "céphalosporines"]
+level: "intermediate"
+sources: ["epilly", "casfm", "craig-pkpd", "cnpm"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les bêta-lactamines agissent en inhibant…"
     options:

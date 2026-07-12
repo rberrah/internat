@@ -9,6 +9,9 @@ theme: "Classes thérapeutiques"
 order: 521
 duration: "10 min"
 tags: ["goutte", "colchicine", "allopurinol", "uricémie"]
+level: "beginner"
+sources: ["cnpm", "cnpm-livre", "has", "ansm"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le traitement de fond hypo-uricémiant de référence de la goutte est…"
     options:

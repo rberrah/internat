@@ -9,6 +9,9 @@ theme: "Hématologie et immunologie"
 order: 425
 duration: "13 min"
 tags: ["hémostase", "hémophilie", "Willebrand", "facteur VIII", "TCA"]
+level: "intermediate"
+sources: ["hemato-college", "sfh", "has"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'hémophilie A correspond à un déficit en…"
     options:

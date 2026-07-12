@@ -9,6 +9,9 @@ theme: "Effets toxiques des médicaments"
 order: 546
 duration: "14 min"
 tags: ["toxicologie", "lithium", "antidépresseurs", "benzodiazépines"]
+level: "intermediate"
+sources: ["baud-garnier", "goldfrank", "centres-antipoison", "cnpm"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'antidote spécifique d'une intoxication aux benzodiazépines est…"
     options:

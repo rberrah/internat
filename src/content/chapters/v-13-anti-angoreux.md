@@ -9,6 +9,9 @@ theme: "Classes thérapeutiques"
 order: 513
 duration: "12 min"
 tags: ["cardiovasculaire", "angor", "dérivés nitrés", "bêta-bloquants", "ivabradine"]
+level: "intermediate"
+sources: ["esc", "cnpm", "katzung"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le traitement de la crise d'angor repose en première intention sur…"
     options:

@@ -9,6 +9,9 @@ theme: "Toxicologie environnementale"
 order: 311
 duration: "12 min"
 tags: ["toxicologie", "méthanol", "éthylène-glycol", "antidote"]
+level: "intermediate"
+sources: ["baud-garnier", "goldfrank", "centres-antipoison"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'antidote du méthanol et de l'éthylène-glycol est…"
     options:

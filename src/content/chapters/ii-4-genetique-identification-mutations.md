@@ -9,6 +9,9 @@ theme: "Génétique"
 order: 204
 duration: "13 min"
 tags: ["génétique", "PCR", "séquençage", "diagnostic moléculaire"]
+level: "intermediate"
+sources: ["programme-internat", "sfbc", "has"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La réaction de polymérisation en chaîne (PCR) repose sur…"
     options:

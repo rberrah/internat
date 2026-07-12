@@ -9,6 +9,9 @@ theme: "Parasitoses et mycoses"
 order: 419
 duration: "12 min"
 tags: ["mycologie", "aspergillose", "galactomannane", "neutropénie", "voriconazole"]
+level: "intermediate"
+sources: ["anofel", "epilly", "ansm", "spilf"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le facteur de risque majeur d'aspergillose pulmonaire invasive est…"
     options:

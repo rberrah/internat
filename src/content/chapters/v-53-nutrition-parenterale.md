@@ -9,6 +9,9 @@ theme: "Mise en forme et valorisation"
 order: 553
 duration: "12 min"
 tags: ["nutrition", "parentérale", "galénique", "dénutrition"]
+level: "intermediate"
+sources: ["has", "ansm", "programme-internat"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La nutrition parentérale est indiquée…"
     options:

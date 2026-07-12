@@ -9,6 +9,9 @@ theme: "Mise en forme et valorisation"
 order: 558
 duration: "12 min"
 tags: ["biothérapies", "anticorps monoclonaux", "immunologie", "oncologie"]
+level: "intermediate"
+sources: ["janeway", "cnpm", "esmo"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le suffixe -ximab d'une DCI d'anticorps monoclonal désigne un anticorps…"
     options:

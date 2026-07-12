@@ -9,6 +9,9 @@ theme: "Classes thérapeutiques"
 order: 540
 duration: "13 min"
 tags: ["thyroïde", "lévothyroxine", "antithyroïdiens", "carbimazole"]
+level: "beginner"
+sources: ["has", "cnpm", "ansm", "bdpm"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le traitement substitutif de l'hypothyroïdie repose sur…"
     options:

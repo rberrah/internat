@@ -9,6 +9,9 @@ theme: "Hématologie et immunologie"
 order: 430
 duration: "12 min"
 tags: ["hématologie", "agranulocytose", "cytopénie", "iatrogène", "pharmacovigilance"]
+level: "intermediate"
+sources: ["cnpm", "ansm", "hemato-college", "prescrire"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Une agranulocytose fébrile médicamenteuse impose en urgence…"
     options:

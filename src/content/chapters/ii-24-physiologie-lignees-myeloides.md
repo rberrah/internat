@@ -9,6 +9,9 @@ theme: "Physiologie"
 order: 224
 duration: "12 min"
 tags: ["physiologie", "hématopoïèse", "érythropoïèse", "moelle osseuse"]
+level: "beginner"
+sources: ["programme-internat", "hemato-college", "sfh"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'érythropoïétine (EPO), stimulant de l'érythropoïèse, est produite principalement par…"
     options:

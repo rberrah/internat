@@ -9,6 +9,9 @@ theme: "Classes thérapeutiques"
 order: 541
 duration: "13 min"
 tags: ["cardiologie", "hypolipémiants", "statines", "fibrates"]
+level: "beginner"
+sources: ["esc", "has", "cnpm", "prescrire"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les statines exercent leur effet hypolipémiant en…"
     options:

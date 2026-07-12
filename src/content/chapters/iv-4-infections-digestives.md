@@ -9,6 +9,9 @@ theme: "Infections bactériennes et virales"
 order: 404
 duration: "13 min"
 tags: ["bactériologie", "diarrhée", "salmonelle", "clostridium difficile", "helicobacter"]
+level: "beginner"
+sources: ["epilly", "remic", "spilf", "spf"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Deux enfants présentent vomissements et diarrhée après un repas commun à la cantine : il s'agit d'une…"
     options:

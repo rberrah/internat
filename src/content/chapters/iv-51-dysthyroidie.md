@@ -9,6 +9,9 @@ theme: "Autres affections"
 order: 451
 duration: "12 min"
 tags: ["thyroïde", "TSH", "hypothyroïdie", "hyperthyroïdie", "Basedow"]
+level: "intermediate"
+sources: ["sfbc", "tietz", "has", "cnpm"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'examen biologique de première intention devant une suspicion de dysthyroïdie est…"
     options:

@@ -9,6 +9,9 @@ theme: "Santé publique"
 order: 304
 duration: "12 min"
 tags: ["santé publique", "addiction", "tabac", "alcool", "TSO"]
+level: "beginner"
+sources: ["programme-internat", "has", "spf", "cnpm"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le diagnostic de trouble de l'usage d'une substance (DSM-5) repose sur…"
     options:

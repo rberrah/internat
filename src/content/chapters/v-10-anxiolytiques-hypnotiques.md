@@ -9,6 +9,9 @@ theme: "Classes thérapeutiques"
 order: 510
 duration: "12 min"
 tags: ["psychotropes", "benzodiazépines", "GABA", "hypnotiques", "dépendance"]
+level: "intermediate"
+sources: ["cnpm", "katzung", "has", "ansm"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les benzodiazépines agissent en…"
     options:

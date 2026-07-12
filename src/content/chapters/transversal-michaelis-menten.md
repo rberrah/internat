@@ -9,6 +9,9 @@ duration: "12 min"
 tags: ["transversal", "michaelis-menten", "enzymologie", "saturation"]
 prerequisites: ["transversal-demi-vie"]
 glossary: ["Demi-vie"]
+level: "intermediate"
+sources: ["rowland-tozer", "tietz", "katzung"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Dans l'équation de Michaelis-Menten, Km correspond à…"
     options:

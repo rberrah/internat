@@ -9,6 +9,9 @@ theme: "Parasitoses et mycoses"
 order: 413
 duration: "9 min"
 tags: ["parasitologie", "trichomonose", "IST", "vulvovaginite", "métronidazole"]
+level: "beginner"
+sources: ["anofel", "epilly", "spilf"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Trichomonas vaginalis se transmet…"
     options:

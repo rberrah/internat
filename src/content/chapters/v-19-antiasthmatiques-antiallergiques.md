@@ -9,6 +9,9 @@ theme: "Classes thérapeutiques"
 order: 519
 duration: "12 min"
 tags: ["pneumologie", "asthme", "bêta-2 mimétiques", "corticoïdes inhalés", "antihistaminiques"]
+level: "intermediate"
+sources: ["gina-gold", "cnpm", "katzung"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le traitement de la crise d'asthme repose sur…"
     options:

@@ -9,6 +9,9 @@ theme: "Biochimie"
 order: 208
 duration: "12 min"
 tags: ["biochimie", "ammoniac", "cycle de l'urée", "azote"]
+level: "intermediate"
+sources: ["tietz", "sfbc", "programme-internat"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Dans le sang, l'ammoniac est principalement transporté vers le foie sous forme de…"
     options:

@@ -9,6 +9,9 @@ theme: "Effets toxiques des médicaments"
 order: 549
 duration: "13 min"
 tags: ["toxicologie", "antidotes", "intoxication", "urgences"]
+level: "intermediate"
+sources: ["baud-garnier", "goldfrank", "centres-antipoison"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'antidote de l'intoxication aux benzodiazépines est…"
     options:

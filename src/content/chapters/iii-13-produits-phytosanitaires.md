@@ -9,6 +9,9 @@ theme: "Toxicologie environnementale"
 order: 313
 duration: "12 min"
 tags: ["toxicologie", "organophosphorés", "carbamates", "syndrome cholinergique", "atropine"]
+level: "intermediate"
+sources: ["baud-garnier", "goldfrank", "centres-antipoison"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les insecticides organophosphorés et carbamates agissent en…"
     options:

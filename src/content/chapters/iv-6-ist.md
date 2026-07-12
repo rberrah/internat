@@ -9,6 +9,9 @@ theme: "Infections bactériennes et virales"
 order: 406
 duration: "13 min"
 tags: ["bactériologie", "IST", "gonocoque", "chlamydia", "syphilis"]
+level: "intermediate"
+sources: ["epilly", "spilf", "remic", "spf"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les deux principales bactéries d'une urétrite masculine sont…"
     options:

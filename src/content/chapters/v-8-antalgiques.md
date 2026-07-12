@@ -9,6 +9,9 @@ theme: "Classes thérapeutiques"
 order: 508
 duration: "13 min"
 tags: ["pharmacologie", "antalgiques", "opioïdes", "paracétamol"]
+level: "intermediate"
+sources: ["oms", "cnpm", "ansm", "baud-garnier"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les antalgiques de palier 3 de l'OMS sont…"
     options:

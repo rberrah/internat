@@ -9,6 +9,9 @@ theme: "Classes thérapeutiques"
 order: 530
 duration: "13 min"
 tags: ["antibiotiques", "tuberculose", "rifampicine", "isoniazide"]
+level: "intermediate"
+sources: ["epilly", "spilf", "has", "oms"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le traitement initial de la tuberculose associe pendant 2 mois…"
     options:

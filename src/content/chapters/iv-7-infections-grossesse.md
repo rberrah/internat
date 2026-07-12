@@ -9,6 +9,9 @@ theme: "Infections bactériennes et virales"
 order: 407
 duration: "12 min"
 tags: ["bactériologie", "virologie", "grossesse", "streptocoque B", "listeria"]
+level: "intermediate"
+sources: ["epilly", "spilf", "crat", "spf"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le dépistage du portage vaginal de streptocoque du groupe B (S. agalactiae) se fait…"
     options:

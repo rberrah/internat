@@ -9,6 +9,9 @@ duration: "11 min"
 tags: ["transversal", "sensibilité", "spécificité", "dépistage"]
 prerequisites: []
 glossary: []
+level: "beginner"
+sources: ["schwartz", "ancelle", "altman"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La sensibilité d'un test est la proportion de…"
     options:

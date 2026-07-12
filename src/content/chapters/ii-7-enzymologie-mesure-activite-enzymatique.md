@@ -9,6 +9,9 @@ theme: "Enzymologie"
 order: 207
 duration: "12 min"
 tags: ["enzymologie", "activité enzymatique", "Michaelis-Menten", "unité internationale"]
+level: "intermediate"
+sources: ["tietz", "sfbc", "programme-internat"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Une unité internationale (UI) d'enzyme correspond à…"
     options:

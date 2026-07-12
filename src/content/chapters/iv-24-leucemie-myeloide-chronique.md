@@ -9,6 +9,9 @@ theme: "Hématologie et immunologie"
 order: 424
 duration: "11 min"
 tags: ["hématologie", "LMC", "BCR-ABL", "Philadelphie", "myélémie"]
+level: "intermediate"
+sources: ["hemato-college", "sfh", "esmo"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'anomalie moléculaire caractéristique de la LMC est…"
     options:

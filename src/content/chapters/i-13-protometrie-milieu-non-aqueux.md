@@ -9,6 +9,9 @@ theme: "Méthodes analytiques"
 order: 113
 duration: "10 min"
 tags: ["chimie analytique", "protométrie", "milieu non aqueux", "effet nivelant", "titrage"]
+level: "intermediate"
+sources: ["programme-internat", "ansm", "tietz"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Pour doser une base très faible, on utilise…"
     options:

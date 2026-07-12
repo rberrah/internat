@@ -9,6 +9,9 @@ theme: "Classes thérapeutiques"
 order: 537
 duration: "11 min"
 tags: ["antiémétiques", "sétrons", "métoclopramide", "chimiothérapie", "5-HT3"]
+level: "beginner"
+sources: ["cnpm", "goodman-gilman", "ansm", "inca"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les sétrons (ondansétron) sont des antagonistes…"
     options:

@@ -9,6 +9,9 @@ theme: "Méthodes analytiques"
 order: 104
 duration: "10 min"
 tags: ["chimie analytique", "fluorescence", "spectrofluorimétrie", "Stokes", "sensibilité"]
+level: "beginner"
+sources: ["programme-internat", "sfbc", "tietz"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "En fluorimétrie, la longueur d'onde d'émission est…"
     options:

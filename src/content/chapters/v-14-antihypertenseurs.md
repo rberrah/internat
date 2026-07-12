@@ -9,6 +9,9 @@ theme: "Classes thérapeutiques"
 order: 514
 duration: "12 min"
 tags: ["cardiovasculaire", "HTA", "IEC", "ARA2", "inhibiteurs calciques"]
+level: "intermediate"
+sources: ["esc", "has", "cnpm"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Quel effet indésirable est spécifique des IEC et absent des ARA II ?"
     options:

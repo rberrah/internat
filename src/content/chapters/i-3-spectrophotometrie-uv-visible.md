@@ -9,6 +9,9 @@ theme: "Méthodes analytiques"
 order: 103
 duration: "12 min"
 tags: ["chimie analytique", "spectrophotométrie", "Beer-Lambert", "absorbance", "UV-visible"]
+level: "beginner"
+sources: ["programme-internat", "sfbc", "tietz"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La loi de Beer-Lambert relie l'absorbance à…"
     options:

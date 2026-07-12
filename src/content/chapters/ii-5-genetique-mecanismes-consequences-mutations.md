@@ -9,6 +9,9 @@ theme: "Génétique"
 order: 205
 duration: "13 min"
 tags: ["génétique", "mutation", "perte de fonction", "empreinte parentale"]
+level: "intermediate"
+sources: ["programme-internat", "sfbc"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Une transition est une substitution qui remplace…"
     options:

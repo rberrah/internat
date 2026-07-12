@@ -9,6 +9,9 @@ theme: "Infections bactériennes et virales"
 order: 409
 duration: "13 min"
 tags: ["bactériologie", "virologie", "VIH", "immunodépression", "opportunistes"]
+level: "intermediate"
+sources: ["epilly", "spilf", "anofel", "has"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Une fièvre chez un patient neutropénique après chimiothérapie est…"
     options:

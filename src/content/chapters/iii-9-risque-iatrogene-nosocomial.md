@@ -9,6 +9,9 @@ theme: "Santé publique"
 order: 309
 duration: "13 min"
 tags: ["santé publique", "iatrogénie", "infection nosocomiale", "erreur médicamenteuse", "hygiène"]
+level: "intermediate"
+sources: ["has", "ansm", "spf", "epilly"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Une infection est dite nosocomiale si elle survient…"
     options:

@@ -9,6 +9,9 @@ theme: "Infections bactériennes et virales"
 order: 408
 duration: "15 min"
 tags: ["virologie", "hépatites", "VHB", "VHC", "sérologie"]
+level: "advanced"
+sources: ["epilly", "has", "spf", "remic"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le diagnostic d'une hépatite A aiguë repose sur…"
     options:

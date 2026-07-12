@@ -9,6 +9,9 @@ theme: "Physiologie"
 order: 222
 duration: "12 min"
 tags: ["physiologie", "douleur", "nociception", "opioïdes"]
+level: "beginner"
+sources: ["programme-internat", "cnpm", "goodman-gilman"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les nocicepteurs sont…"
     options:

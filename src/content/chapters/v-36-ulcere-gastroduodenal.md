@@ -9,6 +9,9 @@ theme: "Classes thérapeutiques"
 order: 536
 duration: "13 min"
 tags: ["ulcère", "IPP", "Helicobacter pylori", "antisécrétoires"]
+level: "beginner"
+sources: ["has", "cnpm", "bdpm", "crat"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les inhibiteurs de la pompe à protons (IPP) agissent en inhibant…"
     options:

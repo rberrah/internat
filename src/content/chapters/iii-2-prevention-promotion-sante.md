@@ -9,6 +9,9 @@ theme: "Santé publique"
 order: 302
 duration: "12 min"
 tags: ["santé publique", "prévention", "dépistage", "promotion de la santé", "ETP"]
+level: "beginner"
+sources: ["programme-internat", "oms", "has", "spf"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La prévention secondaire vise à…"
     options:

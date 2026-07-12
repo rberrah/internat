@@ -9,6 +9,9 @@ theme: "Devenir du médicament dans l'organisme"
 order: 501
 duration: "12 min"
 tags: ["pharmacocinétique", "ADME", "métabolisme", "élimination"]
+level: "beginner"
+sources: ["rowland-tozer", "cnpm", "cnpm-livre"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La biotransformation de phase I fait surtout intervenir…"
     options:

@@ -9,6 +9,9 @@ theme: "Classes thérapeutiques"
 order: 522
 duration: "14 min"
 tags: ["pharmacologie", "diabète", "metformine", "insuline"]
+level: "intermediate"
+sources: ["sfd-ada", "has", "cnpm", "ansm"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le traitement médicamenteux de première intention du diabète de type 2 est…"
     options:

@@ -9,6 +9,9 @@ theme: "Santé publique"
 order: 306
 duration: "15 min"
 tags: ["santé publique", "médicament", "dispositif médical", "AMM", "remboursement"]
+level: "beginner"
+sources: ["programme-internat", "ansm", "has", "bdpm"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'AMM d'un médicament est délivrée…"
     options:

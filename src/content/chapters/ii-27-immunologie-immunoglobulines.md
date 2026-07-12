@@ -9,6 +9,9 @@ theme: "Immunologie"
 order: 227
 duration: "12 min"
 tags: ["immunologie", "immunoglobulines", "anticorps", "IgG"]
+level: "beginner"
+sources: ["programme-internat", "janeway"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Une immunoglobuline monomérique est formée de…"
     options:

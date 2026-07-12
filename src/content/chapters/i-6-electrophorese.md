@@ -9,6 +9,9 @@ theme: "Méthodes analytiques"
 order: 106
 duration: "12 min"
 tags: ["chimie analytique", "électrophorèse", "SDS-PAGE", "point isoélectrique", "capillaire"]
+level: "intermediate"
+sources: ["programme-internat", "sfbc", "tietz"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La SDS-PAGE sépare les protéines selon…"
     options:

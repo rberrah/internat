@@ -10,6 +10,9 @@ order: 10
 duration: "12 min"
 tags: ["pharmacologie", "pharmacocinétique", "clairance", "demi-vie"]
 glossary: ["Clairance", "Volume de distribution", "Demi-vie", "Biodisponibilité"]
+level: "beginner"
+sources: ["rowland-tozer", "cnpm", "goodman-gilman"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La clairance (CL) représente…"
     options:

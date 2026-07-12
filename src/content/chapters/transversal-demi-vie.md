@@ -8,6 +8,9 @@ order: 10
 duration: "11 min"
 tags: ["transversal", "demi-vie", "exponentielle", "cinétique"]
 glossary: ["Demi-vie"]
+level: "beginner"
+sources: ["rowland-tozer", "katzung", "cnpm"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La demi-vie d'un phénomène de décroissance exponentielle vaut…"
     options:

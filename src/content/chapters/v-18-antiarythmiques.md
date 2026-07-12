@@ -9,6 +9,9 @@ theme: "Classes thérapeutiques"
 order: 518
 duration: "12 min"
 tags: ["cardiovasculaire", "antiarythmiques", "Vaughan-Williams", "amiodarone", "QT"]
+level: "advanced"
+sources: ["esc", "cnpm", "katzung", "ansm"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Selon Vaughan-Williams, l'amiodarone appartient à la classe…"
     options:

@@ -9,6 +9,9 @@ theme: "Parasitoses et mycoses"
 order: 418
 duration: "13 min"
 tags: ["mycologie", "candida", "cryptococcus", "levures", "antifongiques"]
+level: "intermediate"
+sources: ["anofel", "epilly", "spilf", "eucast"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La pathogénicité de Candida albicans est liée à…"
     options:

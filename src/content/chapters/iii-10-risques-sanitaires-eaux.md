@@ -9,6 +9,9 @@ theme: "Santé publique"
 order: 310
 duration: "12 min"
 tags: ["santé publique", "eau", "légionelles", "nitrates", "contrôle sanitaire"]
+level: "beginner"
+sources: ["programme-internat", "oms", "spf", "epilly"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'indicateur de référence d'une contamination fécale de l'eau est…"
     options:

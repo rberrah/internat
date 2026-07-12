@@ -9,6 +9,9 @@ theme: "Immunologie"
 order: 231
 duration: "12 min"
 tags: ["immunologie", "réponse humorale", "réponse cellulaire", "mémoire"]
+level: "intermediate"
+sources: ["programme-internat", "janeway"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La réponse immunitaire humorale est assurée par…"
     options:

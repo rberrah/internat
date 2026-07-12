@@ -9,6 +9,9 @@ theme: "Méthodes analytiques"
 order: 109
 duration: "12 min"
 tags: ["chimie analytique", "chiralité", "énantiomères", "polarimétrie", "cyclodextrines"]
+level: "intermediate"
+sources: ["programme-internat", "rowland-tozer", "goodman-gilman"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Deux énantiomères sont…"
     options:

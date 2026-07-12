@@ -9,6 +9,9 @@ theme: "Toxicologie environnementale"
 order: 314
 duration: "12 min"
 tags: ["toxicologie", "monoxyde de carbone", "plomb", "méthémoglobine"]
+level: "intermediate"
+sources: ["baud-garnier", "goldfrank", "centres-antipoison"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le monoxyde de carbone (CO) est toxique car il…"
     options:

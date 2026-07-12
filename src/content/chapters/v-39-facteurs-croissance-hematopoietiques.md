@@ -9,6 +9,9 @@ theme: "Classes thérapeutiques"
 order: 539
 duration: "12 min"
 tags: ["hématologie", "G-CSF", "érythropoïétine", "interférons", "cytokines"]
+level: "intermediate"
+sources: ["sfh", "hemato-college", "cnpm", "ansm"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le G-CSF (filgrastim) est indiqué pour…"
     options:

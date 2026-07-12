@@ -9,6 +9,9 @@ theme: "Biochimie"
 order: 211
 duration: "12 min"
 tags: ["biochimie", "glycémie", "insuline", "glucagon"]
+level: "beginner"
+sources: ["tietz", "sfbc", "sfd-ada"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'insuline, seule hormone hypoglycémiante, est sécrétée par…"
     options:

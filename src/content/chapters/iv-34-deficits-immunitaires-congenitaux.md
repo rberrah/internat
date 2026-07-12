@@ -9,6 +9,9 @@ theme: "Hématologie et immunologie"
 order: 434
 duration: "13 min"
 tags: ["immunologie", "déficit immunitaire", "DICS", "DICV", "complément"]
+level: "advanced"
+sources: ["janeway", "hemato-college", "has", "epilly"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Un déficit de l'immunité humorale (lymphocytes B) expose surtout aux infections à…"
     options:

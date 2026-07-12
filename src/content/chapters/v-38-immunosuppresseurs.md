@@ -9,6 +9,9 @@ theme: "Classes thérapeutiques"
 order: 538
 duration: "13 min"
 tags: ["transplantation", "immunosuppresseurs", "calcineurine", "tacrolimus", "mycophénolate"]
+level: "intermediate"
+sources: ["cnpm", "katzung", "janeway", "ansm"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La ciclosporine et le tacrolimus agissent en…"
     options:

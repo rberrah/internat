@@ -9,6 +9,9 @@ theme: "Classes thérapeutiques"
 order: 509
 duration: "12 min"
 tags: ["psychiatrie", "neuroleptiques", "dopamine", "effets indésirables"]
+level: "intermediate"
+sources: ["cnpm", "cnpm-livre", "has", "ansm"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le mécanisme d'action commun des antipsychotiques est…"
     options:

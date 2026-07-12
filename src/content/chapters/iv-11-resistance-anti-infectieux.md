@@ -9,6 +9,9 @@ theme: "Infections bactériennes et virales"
 order: 411
 duration: "14 min"
 tags: ["bactériologie", "résistance", "antibiogramme", "BLSE", "SARM"]
+level: "intermediate"
+sources: ["casfm", "eucast", "remic", "epilly"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Une E. coli résistante à l'amoxicilline mais sensible à l'amoxicilline–acide clavulanique produit…"
     options:

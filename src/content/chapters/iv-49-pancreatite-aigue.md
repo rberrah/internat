@@ -9,6 +9,9 @@ theme: "Autres affections"
 order: 449
 duration: "11 min"
 tags: ["pancréatite", "lipase", "alcool", "lithiase biliaire", "CDT"]
+level: "intermediate"
+sources: ["sfbc", "tietz", "has"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le diagnostic biologique de pancréatite aiguë repose sur…"
     options:

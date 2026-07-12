@@ -9,6 +9,9 @@ theme: "Autres affections"
 order: 452
 duration: "12 min"
 tags: ["dénutrition", "albumine", "préalbumine", "nutrition", "renutrition"]
+level: "beginner"
+sources: ["has", "sfbc", "tietz"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le marqueur biologique le plus précoce pour suivre une renutrition est…"
     options:

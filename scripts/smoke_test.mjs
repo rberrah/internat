@@ -138,6 +138,16 @@ check(new Set(medicaments.map((m) => m.id)).size === medicaments.length, `identi
 const badMedChap = medicaments.filter((m) => m.chapter && !slugSet.has(m.chapter));
 check(badMedChap.length === 0, `liens chapitre des médicaments tous résolus`);
 
+// 15. SOURCES : pool fermé — tout identifiant cité doit exister dans references.js
+const { allRefIds } = await import(url.pathToFileURL(path.join(root, 'src/lib/content/references.js')));
+const refSet = new Set(allRefIds);
+const badSrc = [];
+for (const c of chapters) for (const s of (c.data.sources ?? [])) if (!refSet.has(s)) badSrc.push(`${c.data.slug}→${s}`);
+check(badSrc.length === 0, `sources : tous les identifiants résolvent (pool de ${refSet.size} références)` + (badSrc.length ? ` — INCONNUS : ${badSrc.slice(0, 6).join(', ')}` : ''));
+const badStatus = chapters.filter((c) => c.data.status && !['brouillon', 'relu', 'valide'].includes(c.data.status));
+check(badStatus.length === 0, `statuts de relecture valides`);
+console.log(`  · couverture : sources ${chapters.filter((c) => (c.data.sources ?? []).length).length}/${chapters.length} · relus ${chapters.filter((c) => c.data.reviewed_on).length}/${chapters.length}`);
+
 if (fail.length) {
   console.error('\nSmoke tests ÉCHOUÉS :\n' + fail.map((m) => '  ✗ ' + m).join('\n'));
   process.exit(1);

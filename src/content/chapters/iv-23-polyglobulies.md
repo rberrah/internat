@@ -9,6 +9,9 @@ theme: "Hématologie et immunologie"
 order: 423
 duration: "12 min"
 tags: ["hématologie", "polyglobulie", "Vaquez", "JAK2", "EPO"]
+level: "intermediate"
+sources: ["hemato-college", "sfh", "sfbc"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Une polyglobulie se dépiste avant tout sur…"
     options:

@@ -9,6 +9,9 @@ theme: "Statistiques"
 order: 117
 duration: "13 min"
 tags: ["statistiques", "test d'hypothèse", "Student", "Fisher", "comparaison"]
+level: "intermediate"
+sources: ["schwartz", "ancelle", "altman"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le risque alpha (première espèce) d'un test correspond à…"
     options:

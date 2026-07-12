@@ -9,6 +9,9 @@ theme: "Hématologie et immunologie"
 order: 435
 duration: "12 min"
 tags: ["biochimie", "inflammation", "CRP", "VS", "procalcitonine"]
+level: "beginner"
+sources: ["sfbc", "tietz", "has"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La protéine dont la cinétique est la plus rapide et la moins influencée par d'autres facteurs est…"
     options:

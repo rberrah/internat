@@ -9,6 +9,9 @@ theme: "Autres affections"
 order: 445
 duration: "13 min"
 tags: ["fer", "ferritine", "carence martiale", "hémochromatose", "coefficient de saturation"]
+level: "intermediate"
+sources: ["sfbc", "tietz", "who-anemia", "has"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le paramètre le plus fiable pour affirmer une carence martiale est…"
     options:

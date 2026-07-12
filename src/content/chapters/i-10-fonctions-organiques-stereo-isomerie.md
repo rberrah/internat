@@ -9,6 +9,9 @@ theme: "Méthodes analytiques"
 order: 110
 duration: "12 min"
 tags: ["chimie analytique", "fonctions organiques", "pKa", "dérivatisation", "stéréo-isomérie"]
+level: "intermediate"
+sources: ["programme-internat", "goodman-gilman", "tietz"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Par acidité décroissante (du plus acide au moins acide), l'ordre est…"
     options:

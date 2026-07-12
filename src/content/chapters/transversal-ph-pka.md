@@ -9,6 +9,9 @@ duration: "12 min"
 tags: ["transversal", "pH", "pKa", "ionisation"]
 prerequisites: []
 glossary: []
+level: "intermediate"
+sources: ["rowland-tozer", "tietz", "baud-garnier"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La relation de Henderson-Hasselbalch s'écrit…"
     options:

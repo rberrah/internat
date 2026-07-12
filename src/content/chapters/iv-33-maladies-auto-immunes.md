@@ -9,6 +9,9 @@ theme: "Hématologie et immunologie"
 order: 433
 duration: "14 min"
 tags: ["immunologie", "polyarthrite rhumatoïde", "lupus", "auto-anticorps", "anti-CCP"]
+level: "intermediate"
+sources: ["janeway", "has", "cnpm"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les auto-anticorps les plus spécifiques de la polyarthrite rhumatoïde sont…"
     options:

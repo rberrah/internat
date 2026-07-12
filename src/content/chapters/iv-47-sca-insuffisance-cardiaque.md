@@ -9,6 +9,9 @@ theme: "Autres affections"
 order: 447
 duration: "13 min"
 tags: ["troponine", "BNP", "syndrome coronarien aigu", "insuffisance cardiaque", "NYHA"]
+level: "intermediate"
+sources: ["esc", "sfbc", "has"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le marqueur biologique de référence du syndrome coronarien aigu est…"
     options:

@@ -9,6 +9,9 @@ theme: "Parasitoses et mycoses"
 order: 421
 duration: "11 min"
 tags: ["mycologie", "pneumocystose", "VIH", "immunodéprimé", "cotrimoxazole"]
+level: "intermediate"
+sources: ["anofel", "epilly", "spilf"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Pneumocystis jirovecii touche préférentiellement les patients présentant…"
     options:

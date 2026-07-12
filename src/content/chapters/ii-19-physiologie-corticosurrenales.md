@@ -9,6 +9,9 @@ theme: "Physiologie"
 order: 219
 duration: "12 min"
 tags: ["physiologie", "surrénale", "cortisol", "aldostérone"]
+level: "intermediate"
+sources: ["tietz", "sfbc", "goodman-gilman"]
+reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'aldostérone (zone glomérulée) a pour effet principal…"
     options:

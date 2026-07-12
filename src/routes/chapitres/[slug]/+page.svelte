@@ -8,6 +8,7 @@
   import ExerciseBlock from '$lib/components/ui/ExerciseBlock.svelte';
   import CasClinique from '$lib/components/ui/CasClinique.svelte';
   import MemoPanel from '$lib/components/ui/MemoPanel.svelte';
+  import ChapterFooter from '$lib/components/ui/ChapterFooter.svelte';
   import { exercisesForChapter } from '$lib/content/exercises';
   import { casForChapter } from '$lib/content/casCliniques';
   import { fade, fly } from 'svelte/transition';
@@ -172,6 +173,8 @@
           <div class="caslist">{#each chapterCas as c}<CasClinique cas={c} />{/each}</div>
         </section>
       {/if}
+
+      <ChapterFooter {chapter} />
 
       <nav class="chap-nav">
         {#if prev}
