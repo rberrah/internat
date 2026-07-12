@@ -37,7 +37,7 @@ quiz:
 Un **neurotransmetteur** est un composé chimique libéré par un neurone qui agit sur la cellule post-synaptique. Stockés dans des vésicules présynaptiques, ils portent l'information d'un neurone à l'autre. Les connaître, c'est comprendre la neurotransmission et ses marqueurs biologiques.
 <!-- /step -->
 
-<!-- step:title="La transmission synaptique" -->
+<!-- step:title="La transmission synaptique" viz="PotentielAction" -->
 La séquence de libération suit toujours le même schéma :
 
 - un **potentiel d'action** atteint la terminaison présynaptique ;
@@ -46,6 +46,10 @@ La séquence de libération suit toujours le même schéma :
 - celui-ci se fixe sur son **récepteur** post-synaptique (ionotrope ou couplé à une protéine G).
 
 L'action cesse par **recapture**, dégradation enzymatique ou diffusion.
+
+:::howto
+**Comment lire le schéma.** Le tracé montre le **potentiel de membrane** et les conductances **Na⁺** et **K⁺** au cours du temps : c'est le signal qui, arrivé à la terminaison, déclenchera l'entrée de calcium puis l'exocytose. Montez l'**intensité du stimulus** pas à pas : rien ne se passe, puis d'un coup le potentiel d'action part — c'est le **seuil**. Cochez ensuite le 2ᵉ stimulus et rapprochez-le du premier : il devient inefficace (**période réfractaire**). Conclusion : la transmission est **tout ou rien** et cadencée en fréquence, jamais graduée en amplitude.
+:::
 <!-- /step -->
 
 <!-- step:title="Les monoamines" -->

@@ -37,7 +37,7 @@ quiz:
 L'insuffisance rénale se dépiste sur l'**élévation de la créatininémie** (baisse du DFG). Deux questions structurent le raisonnement : **aiguë ou chronique ?**, puis, si aiguë, **quel mécanisme ?**. Le syndrome néphrotique en est une entité à part.
 <!-- /step -->
 
-<!-- step:title="IRA ou IRC" -->
+<!-- step:title="IRA ou IRC" viz="ClairanceRenale" -->
 La créatinine estime le DFG mais le **surestime** (sécrétion tubulaire). Formules : **CKD-EPI** (diagnostic), **Cockcroft** (adaptation posologique), clairance vraie (grossesse, masse musculaire modifiée).
 
 :::key
@@ -46,6 +46,10 @@ La créatinine estime le DFG mais le **surestime** (sécrétion tubulaire). Form
 :::
 
 Sévérité de l'IRC selon le **DFG** (KDIGO) : stade 1 (≥ 90, marqueurs d'atteinte) → stade 3 (30–59) → **stade 5 (< 15 mL/min)** = terminal (dialyse/greffe). Complications : **hyperkaliémie**, **acidose métabolique**, **hyperphosphatémie** et **hyperparathyroïdie secondaire**, HTA.
+
+:::howto
+**Comment lire le schéma.** La réglette du haut situe le patient dans les **stades KDIGO** ; la courbe du bas montre comment le DFG estimé s'effondre quand la créatininémie monte. Faites glisser la **créatininémie**, puis l'**âge** et le **poids**, et comparez CKD-EPI et Cockcroft : à créatinine identique, un sujet âgé et maigre a un DFG bien plus bas. La leçon est là — une créatinine « presque normale » peut déjà masquer une insuffisance rénale sévère, d'où l'obligation d'**estimer le DFG** plutôt que de lire la créatinine brute.
+:::
 <!-- /step -->
 
 <!-- step:title="Les trois IRA" -->

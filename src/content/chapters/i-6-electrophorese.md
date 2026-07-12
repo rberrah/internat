@@ -10,7 +10,7 @@ order: 106
 duration: "12 min"
 tags: ["chimie analytique", "électrophorèse", "SDS-PAGE", "point isoélectrique", "capillaire"]
 level: "intermediate"
-sources: ["programme-internat", "sfbc", "tietz"]
+sources: ["programme-internat", "pharmacopee-eur", "skoog", "sfbc"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La SDS-PAGE sépare les protéines selon…"
@@ -64,11 +64,15 @@ Le **point isoélectrique** $pI$ est le pH où la charge globale est **nulle** :
 Dans un capillaire de silice sous **10 à 30 kV** : très haute **efficacité** ($10^5 < N < 10^6$ plateaux), analyse rapide, volumes de l'ordre du nanolitre. Un **flux électroosmotique** (silanolates ionisés en surface) entraîne l'ensemble des solutés vers la cathode. Détection : UV, fluorescence, ampérométrie, SM.
 <!-- /step -->
 
-<!-- step:title="Applications" -->
+<!-- step:title="Applications" viz="ElectrophoreseProteines" -->
 :::clinical
 Électrophorèse capillaire en routine : protéines sériques, **hémoglobines** (dépistage des hémoglobinopathies, à confirmer par une 2ᵉ méthode), **immunoglobulines** (immunosoustraction), **transferrine désialylée** (CDT) marqueur d'alcoolisme chronique. Sur gel : lipoprotéinogramme, Western/Southern/Northern blot.
 
 Sur l'électrophorégramme des protéines sériques (pH alcalin ≈ 8,6), les protéines sont anioniques et migrent vers l'anode : **albumine** en tête (la plus rapide), puis **α1, α2, β, γ-globulines**.
+:::
+
+:::howto
+**Comment lire le schéma.** Le tracé reproduit un électrophorégramme sérique : de gauche à droite, les cinq fractions séparées par leur mobilité — albumine (la plus rapide), α1, α2, β, γ — avec les concentrations correspondantes et leurs valeurs de référence. Sélectionnez un **profil pathologique** (syndrome inflammatoire, cirrhose, myélome, syndrome néphrotique) et faites varier la **sévérité** de l'anomalie. Observez quelle fraction se déforme : un **pic étroit en γ** signe un composant monoclonal (myélome), un **bloc β-γ** évoque la cirrhose, une **α2 élevée avec albumine effondrée** oriente vers le syndrome néphrotique — c'est la forme du tracé, pas seulement les protides totaux, qui porte le diagnostic.
 :::
 <!-- /step -->
 

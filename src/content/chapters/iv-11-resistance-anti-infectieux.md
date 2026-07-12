@@ -67,11 +67,15 @@ C'est le cœur du programme. Deux grandes voies :
   - **Pneumocoque de sensibilité diminuée (PSDP)** : PLP modifiées → augmenter les doses d'amoxicilline.
 <!-- /step -->
 
-<!-- step:title="Lire un antibiogramme" -->
+<!-- step:title="Lire un antibiogramme" viz="Antibiogramme" -->
 L'antibiogramme mesure l'activité d'un antibiotique et **catégorise** la souche.
 
 :::key
 La **CMI** (concentration minimale inhibitrice) est la plus faible concentration inhibant la croissance visible. Comparée aux **concentrations critiques** (EUCAST), elle classe la souche en **S / I / R** (Sensible / sensible à forte posologie / Résistant).
+:::
+
+:::howto
+**Comment lire le schéma.** Le schéma reproduit une boîte d'antibiogramme : chaque pastille est un antibiotique, et le **diamètre de la zone d'inhibition** autour d'elle traduit la sensibilité de la souche (grand diamètre = S, petit = R). Changez la souche et comparez les couples révélateurs : **amoxicilline R / amox-clav S** signe une pénicillinase, et une **image de synergie** entre une C3G et l'acide clavulanique signe une BLSE. C'est ce raisonnement — déduire le mécanisme du profil — qui est attendu à l'internat.
 :::
 
 La lecture **interprétative** déduit le mécanisme du profil : le **test de synergie** entre une C3G et l'acide clavulanique révèle une **BLSE** (image dite en « bouchon de champagne »).

@@ -37,7 +37,7 @@ quiz:
 L'eau se répartit entre deux compartiments : **intracellulaire** et **extracellulaire**. Tout trouble de l'hydratation s'analyse en évaluant **chaque secteur séparément**, avec deux marqueurs simples : la **natrémie** et le couple **protidémie / hématocrite**.
 <!-- /step -->
 
-<!-- step:title="Deux secteurs, deux marqueurs" -->
+<!-- step:title="Deux secteurs, deux marqueurs" viz="TrouAnionique" -->
 :::key
 - **Secteur intracellulaire** → jugé sur la **natrémie** (et l'osmolarité).
 - **Secteur extracellulaire** → jugé sur la **protidémie et l'hématocrite** (et la clinique : pli cutané, œdèmes, TA).
@@ -45,6 +45,10 @@ L'eau se répartit entre deux compartiments : **intracellulaire** et **extracell
 
 :::math
 Osmolarité plasmatique ≈ $2 \times [\text{Na}^+] + \text{glycémie} + \text{urée}$ (mmol/L). Valeur usuelle : **285–295 mOsm/L**.
+:::
+
+:::howto
+**Comment lire le schéma.** Le même ionogramme se lit ici comme une balance de charges : la colonne des **cations** (Na⁺) doit égaler celle des **anions** (Cl⁻ + HCO₃⁻), et l'écart qui subsiste est le **trou anionique**, la place des anions non dosés. Faites glisser Na⁺, Cl⁻ et HCO₃⁻ : vous verrez qu'un ionogramme ne se lit jamais ion par ion, mais toujours en **cohérence d'ensemble**. Le curseur **albumine** est le rappel utile — l'albumine est un anion, donc une hypoalbuminémie rétrécit le trou anionique mesuré.
 :::
 <!-- /step -->
 

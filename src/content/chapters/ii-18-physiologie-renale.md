@@ -57,13 +57,17 @@ La barrière filtre selon la **taille** (PM < 70 kDa), la **charge** (elle repou
 :::
 <!-- /step -->
 
-<!-- step:title="Réabsorption et sécrétion tubulaires" -->
+<!-- step:title="Réabsorption et sécrétion tubulaires" viz="Nephron" -->
 - **Tube proximal** : réabsorption massive et peu sélective — **Na⁺ ~75 %**, bicarbonates ~85 %, glucose et acides aminés ; sécrétion de H⁺, NH4⁺ et de nombreux médicaments. Le moteur est la **Na⁺/K⁺-ATPase** basolatérale.
 - **Anse de Henlé** : **système multiplicateur à contre-courant** qui bâtit le **gradient cortico-papillaire** (300 → 1200 mosmol/kg), grâce à l'imperméabilité à l'eau de la branche ascendante.
 - **Tube distal et collecteur** : ajustement fin. L'**aldostérone** stimule la réabsorption de Na⁺ et la sécrétion de K⁺ (cellules principales) ; l'**ADH** rend le collecteur perméable à l'eau via l'insertion d'**aquaporines (AQP2)** (concentration des urines).
 
 :::pitfall
 Le glucose est une substance **à seuil** : au-delà du transport maximal (Tm ≈ 350 mg/min, seuil ≈ 1,8 g/L), il apparaît dans les urines (glycosurie). En dessous, sa clairance est nulle.
+:::
+
+:::howto
+**Comment lire le schéma.** Le tracé suit le néphron segment par segment : tube proximal, anse de Henlé, tube distal, collecteur. Cliquez sur un **transporteur** en haut (anhydrase carbonique, NKCC2, NCC, ENaC/récepteur minéralocorticoïde) : le segment qui le porte s'illumine et le panneau affiche ce qu'il réabsorbe et les conséquences ioniques de son blocage. Retenez la logique : **plus le transporteur est en amont et porte de sodium, plus le segment pèse dans le bilan** — d'où les ~75 % de Na⁺ repris au proximal et le rôle d'ajustement fin du collecteur.
 :::
 <!-- /step -->
 

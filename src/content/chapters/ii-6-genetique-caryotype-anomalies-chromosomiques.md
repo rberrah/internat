@@ -10,7 +10,7 @@ order: 206
 duration: "13 min"
 tags: ["génétique", "caryotype", "chromosome", "aneuploïdie"]
 level: "intermediate"
-sources: ["programme-internat", "sfbc"]
+sources: ["programme-internat", "genetique-college", "orphanet"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le caryotype normal de l'espèce humaine est…"

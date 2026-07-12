@@ -104,6 +104,28 @@ export const referenceGroups = [
     ]
   },
   {
+    id: 'genetique',
+    title: 'Génétique & biologie moléculaire',
+    items: [
+      { id: 'acmg-richards', kind: 'guideline', title: 'Standards and guidelines for the interpretation of sequence variants (classification ACMG/AMP)', authors: 'Richards S. et al.', where: 'Genetics in Medicine, 2015', url: pubmed('Richards standards and guidelines for the interpretation of sequence variants ACMG AMP 2015') },
+      { id: 'orphanet', kind: 'site', title: 'Orphanet — portail des maladies rares et des médicaments orphelins', where: 'Inserm', url: 'https://www.orpha.net' },
+      { id: 'omim', kind: 'site', title: 'OMIM — Online Mendelian Inheritance in Man (catalogue des maladies génétiques)', where: 'Johns Hopkins University', url: 'https://www.omim.org' },
+      { id: 'genetique-college', kind: 'book', title: 'Génétique médicale — Le référentiel des Collèges', where: 'Elsevier Masson', url: search('Génétique médicale référentiel des collèges Elsevier Masson') },
+      { id: 'anpgm', kind: 'site', title: 'ANPGM — Association Nationale des Praticiens de Génétique Moléculaire (bonnes pratiques)', url: 'https://www.anpgm.fr' }
+    ]
+  },
+  {
+    id: 'analytique',
+    title: 'Chimie analytique & contrôle qualité',
+    items: [
+      { id: 'pharmacopee-eur', kind: 'referentiel', title: 'Pharmacopée Européenne (monographies et méthodes analytiques générales)', authors: 'EDQM / Conseil de l’Europe', url: 'https://www.edqm.eu/en/european-pharmacopoeia' },
+      { id: 'ich-q2', kind: 'guideline', title: 'ICH Q2(R2) — Validation of Analytical Procedures (justesse, fidélité, linéarité, LOD/LOQ)', authors: 'ICH', url: search('ICH Q2 R2 validation of analytical procedures guideline') },
+      { id: 'sfstp', kind: 'guideline', title: 'Guides SFSTP — validation des procédures analytiques (profil d’exactitude)', authors: 'Société Française des Sciences et Techniques Pharmaceutiques', url: search('SFSTP guide validation des procédures analytiques profil d exactitude') },
+      { id: 'skoog', kind: 'book', title: 'Fundamentals of Analytical Chemistry', authors: 'Skoog D.A., West D.M., Holler F.J. & Crouch S.R.', where: 'Cengage', url: search('Skoog West Holler Crouch Fundamentals of Analytical Chemistry') },
+      { id: 'sfmn', kind: 'site', title: 'SFMN — Société Française de Médecine Nucléaire (radiopharmaceutiques, radioprotection)', url: 'https://www.sfmn.org' }
+    ]
+  },
+  {
     id: 'methodo',
     title: 'Statistiques & méthodologie',
     items: [

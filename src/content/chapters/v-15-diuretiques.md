@@ -39,13 +39,17 @@ Les **diurétiques** augmentent l'élimination urinaire de sodium et d'eau. Ce s
 Leur logique se lit sur le **néphron** : chaque classe bloque un transporteur à un étage précis, ce qui explique puissance et effets ioniques.
 <!-- /step -->
 
-<!-- step:title="Trois classes le long du nephron" -->
+<!-- step:title="Trois classes le long du nephron" viz="Nephron" -->
 - **Diurétiques de l'anse** (furosémide, bumétanide) — bloquent le cotransporteur **Na-K-2Cl** de la branche ascendante. Les plus **puissants**, actifs même en insuffisance rénale.
 - **Thiazidiques** (hydrochlorothiazide, indapamide) — bloquent le cotransporteur **Na-Cl** du tube contourné distal. Puissance modérée.
 - **Épargneurs de potassium** — antagonistes de l'aldostérone (**spironolactone**, éplérénone) ou bloqueurs du canal sodique (amiloride) au tube collecteur.
 
 :::key
 Anse et thiazidiques font **fuir le potassium** (→ hypokaliémie). Les épargneurs, au contraire, le **retiennent** (→ hyperkaliémie). On les associe parfois pour équilibrer la kaliémie.
+:::
+
+:::howto
+**Comment lire le schéma.** Choisissez une classe en haut : le segment du néphron qu'elle bloque s'illumine et le panneau donne la cible, la puissance natriurétique (FE Na⁺), l'effet sur le potassium et le calcium. Faites ensuite glisser le curseur **DFG** vers le bas : le thiazidique devient inefficace sous 30 mL/min, l'épargneur de K⁺ vire au danger d'hyperkaliémie, tandis que le **diurétique de l'anse reste actif**. C'est toute la logique de prescription chez l'insuffisant rénal.
 :::
 <!-- /step -->
 

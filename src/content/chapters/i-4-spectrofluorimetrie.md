@@ -10,7 +10,7 @@ order: 104
 duration: "10 min"
 tags: ["chimie analytique", "fluorescence", "spectrofluorimétrie", "Stokes", "sensibilité"]
 level: "beginner"
-sources: ["programme-internat", "sfbc", "tietz"]
+sources: ["programme-internat", "skoog", "pharmacopee-eur"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "En fluorimétrie, la longueur d'onde d'émission est…"
@@ -45,13 +45,17 @@ Le photon émis est **moins énergétique** que le photon absorbé : la longueur
 :::
 <!-- /step -->
 
-<!-- step:title="Intensité et sensibilité" -->
+<!-- step:title="Intensité et sensibilité" viz="BeerLambert" -->
 Pour une solution diluée, l'intensité de fluorescence est proportionnelle à la concentration **et** à l'intensité de la source :
 $$ F = k\,\Phi\,I_0\,\varepsilon\,l\,C $$
 $\Phi$ est le **rendement quantique** (photons émis / absorbés).
 
 :::note
 On mesure un signal **sur fond noir** (en l'absence d'analyte, pas de lumière) et on peut l'amplifier en augmentant $I_0$ : la fluorimétrie est **plus sensible** que l'absorption, où l'on cherche une petite différence entre $I$ et $I_0$.
+:::
+
+:::howto
+**Comment lire le schéma.** Le schéma illustre le terme $\varepsilon\,l\,C$ commun à Beer-Lambert et à la formule de fluorescence : c'est **l'absorption du photon d'excitation** qui pilote la réponse, d'où la proportionnalité $F \propto C$ en solution diluée. Faites croître le coefficient $\varepsilon$ et le trajet optique : la pente monte, comme la sensibilité. Poussez maintenant la **concentration** : la courbe décroche sous la droite — même cause qu'en fluorimétrie, où auto-absorption et auto-extinction font **chuter** le signal, seule la zone diluée reste exploitable.
 :::
 <!-- /step -->
 

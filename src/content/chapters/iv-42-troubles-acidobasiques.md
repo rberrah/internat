@@ -62,7 +62,7 @@ On lit d'abord le **pH** (acidose ou alcalose), puis le paramètre en cause :
 Exemples : acidose métabolique = acidocétose, acidose lactique, insuffisance rénale, diarrhée. Alcalose métabolique = **vomissements** (perte d'HCl), diurétiques.
 <!-- /step -->
 
-<!-- step:title="Le trou anionique" -->
+<!-- step:title="Le trou anionique" viz="TrouAnionique" -->
 Il différencie les acidoses métaboliques :
 
 :::math
@@ -71,6 +71,10 @@ $\text{TA} = [\text{Na}^+] - ([\text{Cl}^-] + [\text{HCO}_3^-])$, valeur usuelle
 
 - **TA augmenté** → présence d'un **acide indosé** : acidocétose (corps cétoniques), **acidose lactique** (metformine, choc), insuffisance rénale (sulfates, phosphates), intoxications.
 - **TA normal** (hyperchlorémique) → **perte de bicarbonates** : diarrhée, acidose tubulaire.
+
+:::howto
+**Comment lire le schéma.** Les deux colonnes empilent les cations (Na⁺) face aux anions (Cl⁻ + HCO₃⁻) : l'écart qui reste en haut de la colonne des anions **est** le trou anionique, c'est-à-dire la place des anions indosés. Baissez les **bicarbonates** sans toucher au chlore : le trou se creuse — un acide s'est ajouté (acidocétose, lactate). Baissez maintenant HCO₃⁻ **en montant le Cl⁻** : le trou reste normal — c'est une perte de bicarbonates (diarrhée). Le curseur **albumine** rappelle le piège : l'hypoalbuminémie abaisse le TA mesuré et peut masquer un acide indosé, d'où le TA corrigé.
+:::
 <!-- /step -->
 
 <!-- step:title="Compensation et regulation" -->

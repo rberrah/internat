@@ -61,7 +61,11 @@ La récupération s'annonce par une **monocytose** puis une **myélémie** de r�
 :::
 <!-- /step -->
 
-<!-- step:title="Thrombopénies et anémies médicamenteuses" -->
+<!-- step:title="Thrombopénies et anémies médicamenteuses" viz="HemostasePrimaire" -->
+:::howto
+**Comment lire le schéma.** Le schéma déroule les trois temps de l'hémostase primaire et barre l'étape bloquée par le médicament sélectionné. Comparez les deux façons dont un médicament fait saigner : avec **Thrombopénie** (curseur de numération vers le bas), les plaquettes **manquent** ; avec **Aspirine (COX-1)**, **Clopidogrel (P2Y12)** ou **Anti-GPIIb/IIIa**, elles sont en **nombre normal** mais **fonctionnellement bloquées**. Retenez que la NFS seule ne voit que le premier cas — une thrombopathie médicamenteuse a une numération normale.
+:::
+
 - **Thrombopénies** : le plus souvent **immuno-allergiques** — la **TIH de type 2** (héparine) est le modèle, mais aussi quinine, sulfamides ; ou **toxiques centrales** (chimiothérapies).
 - **Anémies** : hémolytiques **immuno-allergiques** (test de **Coombs** positif), hémolyse par **déficit en G6PD** déclenchée par des **oxydants** (sulfamides, primaquine), ou aplasiques.
 - **Pancytopénie / aplasie médullaire** : toxique (chimiothérapies) ou idiosyncrasique (rares : sels d'or, chloramphénicol).

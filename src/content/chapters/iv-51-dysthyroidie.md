@@ -37,7 +37,7 @@ quiz:
 La thyroïde est sous contrôle de la **TSH** hypophysaire, elle-même rétrocontrôlée par les hormones **T4 et T3 libres**. Toute exploration commence par la **TSH** : élevée dans l'hypothyroïdie, effondrée dans l'hyperthyroïdie.
 <!-- /step -->
 
-<!-- step:title="La TSH: examen de premiere intention" -->
+<!-- step:title="La TSH: examen de premiere intention" viz="BilanThyroidien" -->
 :::key
 - **TSH élevée** → hypothyroïdie **périphérique** (primaire).
 - **TSH basse** → hyperthyroïdie.
@@ -45,6 +45,10 @@ La thyroïde est sous contrôle de la **TSH** hypophysaire, elle-même rétrocon
 :::
 
 Valeurs usuelles de TSH : **0,5–5 mUI/L**. Une **TSH normale associée à une T4L basse** signe une origine **centrale** (hypothyroïdie secondaire hypophysaire).
+
+:::howto
+**Comment lire le schéma.** Le plan croise la **TSH** (en ordonnée, échelle logarithmique) et la **T4 libre** (en abscisse) : chaque zone correspond à un diagnostic. Déplacez d'abord le curseur TSH seul en gardant la T4L normale — vous tombez dans les formes **frustes** ; puis faites varier la T4L pour passer aux formes **franches**. Conclusion : la TSH décide du sens (haute = hypo, basse = hyper), la T4L ne fait que graduer la sévérité.
+:::
 <!-- /step -->
 
 <!-- step:title="Hypothyroidie" -->

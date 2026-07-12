@@ -10,7 +10,7 @@ order: 455
 duration: "11 min"
 tags: ["génétique", "DPN", "trisomie 21", "grossesse"]
 level: "intermediate"
-sources: ["has", "sfbc", "programme-internat"]
+sources: ["programme-internat", "has", "genetique-college", "anpgm"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le dépistage combiné du 1er trimestre de la trisomie 21 associe…"

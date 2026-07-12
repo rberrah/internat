@@ -39,7 +39,7 @@ Les antiarythmiques agissent sur les **canaux ioniques** du potentiel d'action c
 Tous partagent un caractère **pro-arythmogène** paradoxal qui impose une prescription prudente.
 <!-- /step -->
 
-<!-- step:title="Classification de Vaughan-Williams" -->
+<!-- step:title="Classification de Vaughan-Williams" viz="PotentielAction" -->
 - **Classe I** — bloqueurs des **canaux sodiques** (stabilisants de membrane) :
   - **IA** (quinidine, disopyramide) : allongent le potentiel d'action ;
   - **IB** (lidocaïne, mexilétine) : raccourcissent le potentiel d'action, action **ventriculaire** ;
@@ -50,6 +50,10 @@ Tous partagent un caractère **pro-arythmogène** paradoxal qui impose une presc
 
 :::note
 Hors classification : **digoxine** (ralentit la conduction AV), **adénosine** (arrêt des tachycardies jonctionnelles), **atropine** (bradycardies).
+:::
+
+:::howto
+**Comment lire le schéma.** Le tracé montre le **potentiel d'action cardiaque** et les conductances **Na⁺** (dépolarisation) et **K⁺** (repolarisation) — les deux cibles de la classification. Montez le curseur **« blocage des canaux Na⁺ (classe I) »** : la montée du potentiel s'aplatit, la conduction ralentit. Montez au contraire le curseur **« blocage des canaux K⁺ (classe III) »** : la repolarisation s'étire et le potentiel d'action **s'allonge**. Conclusion : c'est cet allongement (classes IA et III) qui se lit sur l'ECG comme un **QT long** et fait le lit des **torsades de pointes**.
 :::
 <!-- /step -->
 

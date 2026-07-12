@@ -39,7 +39,7 @@ Les **bêta-lactames** sont la famille d'antibiotiques la plus prescrite. Toutes
 Les maîtriser, c'est comprendre un traitement de première ligne et son principal écueil : l'**allergie**.
 <!-- /step -->
 
-<!-- step:title="Mécanisme d action" -->
+<!-- step:title="Mécanisme d action" viz="AntibiotiquePKPD" -->
 Les bêta-lactames **inhibent la synthèse du peptidoglycane** de la paroi bactérienne en se liant aux **PLP** (protéines liant la pénicilline, des transpeptidases).
 
 - Résultat : paroi fragilisée → **effet bactéricide**.
@@ -47,6 +47,10 @@ Les bêta-lactames **inhibent la synthèse du peptidoglycane** de la paroi bact�
 
 :::key
 Comme l'indice est le **%T > CMI**, on optimise en **fractionnant les doses** ou en **prolongeant la perfusion**, pas en augmentant seulement la dose unitaire.
+:::
+
+:::howto
+**Comment lire le schéma.** Le schéma trace la concentration d'antibiotique au cours du temps face à la **CMI** (ligne horizontale) et calcule les trois indices PK/PD : %T > CMI, Cmax/CMI et AUC/CMI. Pour une bêta-lactame, ne regardez que le **%T > CMI** : jouez sur la dose puis sur l'**intervalle entre les prises**. Vous verrez qu'augmenter la dose unitaire ne gagne presque rien, alors que rapprocher les administrations (ou allonger la perfusion) fait bondir le temps passé au-dessus de la CMI.
 :::
 <!-- /step -->
 

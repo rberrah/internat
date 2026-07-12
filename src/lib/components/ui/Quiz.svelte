@@ -1,7 +1,12 @@
 <script>
+  // @ts-nocheck
+  import { recordQuiz } from '$lib/stores/progress';
+
   export let title = 'Quiz';
   /** @type {{prompt:string, options:string[], correct:number}[]} */
   export let questions = [];
+  /** Slug du chapitre : si fourni, le score alimente le suivi des lacunes (localStorage). */
+  export let slug = '';
   /** @type {Record<number, number>} */
   let answers = {};
 
@@ -10,6 +15,10 @@
   }
   $: answeredCount = Object.keys(answers).length;
   $: score = questions.reduce((s, q, i) => s + (answers[i] === q.correct ? 1 : 0), 0);
+  // Dès que TOUTES les questions sont répondues, on enregistre le score.
+  $: if (slug && questions.length && answeredCount === questions.length) {
+    recordQuiz(slug, score, questions.length);
+  }
 </script>
 
 <div class="quiz" data-testid="quiz-block">

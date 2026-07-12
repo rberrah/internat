@@ -10,7 +10,7 @@ order: 203
 duration: "12 min"
 tags: ["génétique", "hérédité", "mendélien", "Hardy-Weinberg"]
 level: "beginner"
-sources: ["programme-internat", "sfbc"]
+sources: ["programme-internat", "genetique-college", "omim", "orphanet"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Dans une maladie autosomique récessive, l'union de deux hétérozygotes donne en moyenne…"

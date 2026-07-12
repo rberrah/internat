@@ -56,8 +56,12 @@ Chez l'adulte, le myélogramme n'est **pas systématique** dans une thrombopéni
 :::
 <!-- /step -->
 
-<!-- step:title="Purpura thrombopénique immunologique" -->
+<!-- step:title="Purpura thrombopénique immunologique" viz="HemostasePrimaire" -->
 Le **PTI** est la cause la plus fréquente de thrombopénie périphérique isolée : **auto-anticorps** (IgG anti-GPIIb/IIIa) → destruction splénique via le récepteur Fc.
+
+:::howto
+**Comment lire le schéma.** Le schéma montre les trois temps de l'hémostase primaire et barre l'étape défaillante. Choisissez **Thrombopénie**, puis descendez le curseur de **numération plaquettaire** : le mécanisme n'est pas un blocage qualitatif mais un **manque de plaquettes**, et l'on retrouve en descendant les seuils clés — **50 G/L** (geste invasif) et **20 G/L** (saignement spontané), à rapprocher du seuil d'abstention thérapeutique de 30 G/L. Comparez avec **Anti-GPIIb/IIIa**, où les plaquettes sont **en nombre normal** mais ne peuvent plus s'agréger : c'est la cible que l'auto-anticorps du PTI reconnaît.
+:::
 
 :::clinical
 Biologie : **thrombopénie isolée** (souvent sévère, 5–20 G/L), TP/TCA/fibrinogène **normaux**, pas d'anémie (sauf saignement). Myélogramme si réalisé : **moelle riche**, mégacaryocytes **augmentés et morphologiquement normaux**.

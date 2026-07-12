@@ -68,7 +68,7 @@ C'est le champ de la **pharmacogénétique** : adapter le choix ou la dose au pr
 :::
 <!-- /step -->
 
-<!-- step:title="Interactions médicamenteuses" -->
+<!-- step:title="Interactions médicamenteuses" viz="InteractionCYP" -->
 Les interactions pharmacocinétiques agissent surtout sur le **métabolisme** :
 
 - **Induction enzymatique** (rifampicine, certains antiépileptiques, millepertuis, tabac) → **baisse** les concentrations des médicaments associés, avec un **effet retardé** (synthèse enzymatique).
@@ -79,6 +79,10 @@ Cas particulier des **prodrogues** : un **inhibiteur** enzymatique **diminue** l
 
 :::clinical
 Exemple type : la **rifampicine** (inducteur) diminue l'efficacité des contraceptifs oraux et des AVK ; un **azolé** (inhibiteur) majore le risque de surdosage.
+:::
+
+:::howto
+**Comment lire le schéma.** Le schéma montre la concentration d'un médicament substrat d'un CYP quand on lui associe un **inducteur** ou un **inhibiteur**. Basculez entre les deux et observez la courbe de concentration : l'inhibiteur la fait monter (risque de **surdosage**), l'inducteur la fait chuter (risque d'**échec thérapeutique**). Notez aussi la cinétique : l'inhibition agit vite, l'induction met plusieurs jours à s'installer et à se lever.
 :::
 <!-- /step -->
 

@@ -9,6 +9,7 @@
   import CasClinique from '$lib/components/ui/CasClinique.svelte';
   import MemoPanel from '$lib/components/ui/MemoPanel.svelte';
   import ChapterFooter from '$lib/components/ui/ChapterFooter.svelte';
+  import { markSeen } from '$lib/stores/progress';
   import { exercisesForChapter } from '$lib/content/exercises';
   import { casForChapter } from '$lib/content/casCliniques';
   import { fade, fly } from 'svelte/transition';
@@ -89,6 +90,8 @@
   }
 
   onMount(async () => {
+    // Suivi de progression (localStorage) : ce chapitre est « vu ».
+    if (chapter?.slug) markSeen(chapter.slug);
     await tick();
     setupObserver();
     onScroll();
@@ -156,7 +159,7 @@
       {#if chapter.quiz?.length}
         <section class="step quiz-step">
           <p class="step-kicker">QCM · épreuve 1</p>
-          <Quiz title="QCM" questions={chapter.quiz} />
+          <Quiz title="QCM" questions={chapter.quiz} slug={chapter.slug} />
         </section>
       {/if}
 

@@ -10,7 +10,7 @@ order: 102
 duration: "11 min"
 tags: ["chimie analytique", "SAA", "émission atomique", "métaux", "flamme"]
 level: "intermediate"
-sources: ["programme-internat", "sfbc", "tietz", "baud-garnier"]
+sources: ["programme-internat", "skoog", "pharmacopee-eur", "baud-garnier"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "En spectrophotométrie d'absorption atomique (SAA), on mesure…"
@@ -45,11 +45,15 @@ Commune aux deux techniques : l'échantillon est porté à haute température po
 - **Plasma (ICP)** : très haute température, multi-élémentaire.
 <!-- /step -->
 
-<!-- step:title="Absorption (SAA)" -->
+<!-- step:title="Absorption (SAA)" viz="BeerLambert" -->
 Les atomes à l'état **fondamental** absorbent la lumière d'une **lampe à cathode creuse** émettant les raies de l'élément recherché. On mesure l'absorbance, qui suit **Beer-Lambert** ($A = k\,C$).
 
 :::key
 La spécificité vient des **raies caractéristiques** : chaque élément absorbe à des longueurs d'onde propres. La lampe est spécifique de l'élément dosé.
+:::
+
+:::howto
+**Comment lire le schéma.** Le graphique montre la droite d'étalonnage $A = f(C)$ qui fonde le dosage en SAA : l'absorbance des atomes libres croît proportionnellement à la concentration de l'élément ($A = k\,C$). Faites varier le coefficient d'absorption et le trajet optique pour voir la **pente** — donc la sensibilité du dosage — augmenter, puis poussez la concentration : la droite se courbe. Retenez qu'un point situé hors du domaine linéaire doit être **dilué**, jamais extrapolé.
 :::
 <!-- /step -->
 

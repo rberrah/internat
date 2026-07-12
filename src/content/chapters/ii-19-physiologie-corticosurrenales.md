@@ -59,11 +59,15 @@ Elle stimule la **réabsorption de Na⁺** (et donc d'eau) et la **sécrétion d
 Sa sécrétion est commandée surtout par le **système rénine-angiotensine** et par l'**hyperkaliémie** — peu par l'ACTH.
 <!-- /step -->
 
-<!-- step:title="Les glucocorticoïdes" -->
+<!-- step:title="Les glucocorticoïdes" viz="AxeEndocrinien" -->
 Le **cortisol** est régulé par l'**axe corticotrope** : **CRH** (hypothalamus) → **ACTH** (hypophyse) → cortisol, avec **rétrocontrôle négatif**.
 
 :::key
 Effets : **hyperglycémiant** (néoglucogenèse, résistance à l'insuline), catabolisme protéique, **anti-inflammatoire** et immunosuppresseur, permissif pour les catécholamines. Sa sécrétion suit un **rythme circadien** (pic matinal). Dans le sang, il circule lié à la **transcortine (CBG)** : seule la fraction libre est active.
+:::
+
+:::howto
+**Comment lire le schéma.** Choisissez l'axe **corticotrope** : les trois étages CRH → ACTH → cortisol s'empilent, et la flèche de retour matérialise le **rétrocontrôle négatif** du cortisol sur l'hypothalamus et l'hypophyse. Basculez ensuite la situation : si la **glande** est atteinte (périphérique), le cortisol chute et l'ACTH **s'envole** faute de frein ; si l'atteinte est **centrale** (hypophyse), cortisol et ACTH s'effondrent **ensemble**. Le curseur de sévérité fait varier l'intensité. C'est la règle à retenir : **l'hormone hypophysaire varie en sens inverse de l'hormone périphérique**, sauf si la panne est en haut.
 :::
 <!-- /step -->
 

@@ -48,7 +48,7 @@ Le **surfactant** (phospholipides des pneumocytes II) **abaisse la tension super
 :::
 <!-- /step -->
 
-<!-- step:title="Échanges et transport des gaz" -->
+<!-- step:title="Échanges et transport des gaz" viz="CourbeHbO2" -->
 Les gaz diffusent à travers la **membrane alvéolo-capillaire** selon leur gradient de pression partielle : PO2 alvéolaire ≈ 100 mmHg, sang veineux ≈ 40 mmHg ; PCO2 artérielle ≈ 40, veineuse ≈ 46 mmHg.
 
 - **O2** : fixé sur le fer **ferreux (Fe²⁺)** de l'hème. **1 g d'Hb fixe 1,34 mL d'O2**. La courbe de saturation est sigmoïde ; l'**effet Bohr** (acidose, hausse de PCO2, chaleur, **2,3-DPG**) décale la courbe à droite et **libère l'O2** aux tissus.
@@ -56,6 +56,10 @@ Les gaz diffusent à travers la **membrane alvéolo-capillaire** selon leur grad
 
 :::note
 La formation de bicarbonates dans l'hématie est catalysée par l'**anhydrase carbonique** : $CO_2 + H_2O \rightleftharpoons H_2CO_3 \rightleftharpoons H^+ + HCO_3^-$.
+:::
+
+:::howto
+**Comment lire le schéma.** La courbe donne la saturation de l'Hb (%) en fonction de la PO2 : au poumon (PO2 ≈ 100 mmHg) on est sur le **plateau** — l'Hb se sature quoi qu'il arrive ; aux tissus (PO2 ≈ 40 mmHg) on est sur la **pente raide** — une petite chute de PO2 libère beaucoup d'O2. Bougez maintenant le **pH**, la **PaCO₂**, la **température** ou le **2,3-DPG** vers les valeurs d'un muscle à l'effort : la courbe se décale à **droite** (P50 ↑). Conclusion : c'est l'**effet Bohr**, le tissu le plus actif se fait livrer le plus d'oxygène, sans que la charge pulmonaire en souffre.
 :::
 <!-- /step -->
 

@@ -51,7 +51,7 @@ Particularité : bien qu'ils ciblent le **ribosome (30S)** comme les cyclines, l
 :::
 <!-- /step -->
 
-<!-- step:title="Pharmacocinétique et administration" -->
+<!-- step:title="Pharmacocinétique et administration" viz="AntibiotiquePKPD" -->
 Molécules **hydrophiles** :
 
 - **non résorbées per os** → voie IV ou IM ;
@@ -59,6 +59,10 @@ Molécules **hydrophiles** :
 
 :::key
 On administre une **dose unique journalière** élevée : elle maximise le **Cmax/CMI** et, grâce à l'effet post-antibiotique, réduit la toxicité (moins de temps à concentration résiduelle). La durée de traitement doit rester **courte** (souvent ≤ 5 jours).
+:::
+
+:::howto
+**Comment lire le schéma.** Le schéma trace la concentration au cours du temps face à la **CMI** et affiche les trois indices PK/PD. Pour un aminoside, seul le **Cmax/CMI** compte : comparez une dose unique journalière élevée et le même total fractionné en plusieurs prises. La dose unique fait grimper le pic (efficacité maximale) et laisse une longue période de concentration basse — exactement ce qu'on veut pour épargner le rein et l'oreille interne.
 :::
 <!-- /step -->
 

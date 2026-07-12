@@ -33,7 +33,7 @@ quiz:
     correct: 0
 ---
 
-<!-- step:title="Pourquoi ce chapitre" viz="MichaelisMenten" -->
+<!-- step:title="Pourquoi ce chapitre" -->
 Doser une enzyme, ce n'est pas peser une protéine : on mesure son **activité catalytique**, c'est-à-dire la **vitesse** de la réaction qu'elle catalyse. Encore faut-il que cette vitesse soit **proportionnelle** à la quantité d'enzyme — ce qui impose des conditions précises.
 <!-- /step -->
 
@@ -49,7 +49,7 @@ Dans ces conditions, **Vi est proportionnelle à la concentration d'enzyme** : c
 :::
 <!-- /step -->
 
-<!-- step:title="Travailler à substrat saturant" -->
+<!-- step:title="Travailler à substrat saturant" viz="MichaelisMenten" -->
 La relation vitesse/substrat suit **Michaelis-Menten** :
 
 $$ V = \frac{V_{max}\,[S]}{K_m + [S]}, \qquad K_m = [S] \text{ quand } V = \frac{V_{max}}{2} $$
@@ -59,6 +59,10 @@ $$ V = \frac{V_{max}\,[S]}{K_m + [S]}, \qquad K_m = [S] \text{ quand } V = \frac
 
 :::key
 On mesure toujours en **excès de substrat** : la vitesse atteint **Vmax**, qui ne dépend plus que de la quantité d'enzyme. Le **Km** renseigne sur l'affinité (Km faible = forte affinité).
+:::
+
+:::howto
+**Comment lire le schéma.** La courbe donne la vitesse **V** en fonction de la concentration en substrat **[S]** : linéaire au départ (ordre 1), puis en plateau (ordre 0). Bougez le curseur **Vmax** : tout le plateau monte ou descend — c'est lui qui reflète la quantité d'enzyme. Bougez ensuite le curseur **Km** : le plateau ne change pas, seule la **rapidité** avec laquelle on l'atteint varie (Km faible = saturation précoce = forte affinité). Conclusion : ce n'est qu'**au plateau**, en excès de substrat, que la vitesse mesurée est proportionnelle à la quantité d'enzyme.
 :::
 
 :::note

@@ -50,13 +50,17 @@ Vocabulaire clé : le **danger** est intrinsèque à un agent ; le **risque** es
 - **Transversale** — population à un instant donné → **prévalence** (ne prouve pas la chronologie exposition-maladie) ; rappel : **prévalence ≈ incidence × durée** de la maladie.
 <!-- /step -->
 
-<!-- step:title="Mesures d association" -->
+<!-- step:title="Mesures d association" viz="RisqueRelatifOR" -->
 Elles quantifient la **force** du lien facteur-maladie par un **rapport de fréquences** :
 
 $$ RR = \frac{P(M/E^+)}{P(M/E^-)}, \qquad OR = \frac{a \cdot d}{b \cdot c} $$
 
 :::math
 Dans un tableau 2×2 (a = exposés malades, b = exposés sains, c = non-exposés malades, d = non-exposés sains), le **RR** exige une incidence (cohorte). L'**OR** s'obtient en cas-témoins et **approche le RR** quand la maladie est rare.
+:::
+
+:::howto
+**Comment lire le schéma.** Le schéma affiche le **tableau 2×2** (a, b, c, d) et recalcule en direct le **RR** et l'**OR**. Modifiez les effectifs de malades pour rendre la maladie de plus en plus **rare**, et surveillez l'écart entre les deux indices : il se réduit jusqu'à les confondre. C'est la démonstration visuelle de la règle d'internat — l'**OR approche le RR quand la maladie est rare**, et il s'en éloigne (en le surestimant) dès qu'elle devient fréquente.
 :::
 
 Un rapport **> 1** signale un facteur de risque, **< 1** un facteur protecteur, **= 1** l'absence d'association (à confirmer par l'intervalle de confiance à 95 %).

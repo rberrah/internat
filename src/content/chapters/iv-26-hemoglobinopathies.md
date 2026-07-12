@@ -44,7 +44,7 @@ Fractions physiologiques : **HbA (α2β2)** > 95 %, **HbA2 (α2δ2)** < 3,5 %, *
 :::
 <!-- /step -->
 
-<!-- step:title="Drépanocytose" -->
+<!-- step:title="Drépanocytose" viz="CourbeHbO2" -->
 Maladie **autosomique récessive** due à la substitution **Glu → Val** sur le 6ᵉ acide aminé de la **β-globine** → **HbS**. Fréquente en Afrique subsaharienne et aux Antilles.
 
 - **Hétérozygote AS** (trait drépanocytaire) : asymptomatique, pas d'anémie, deux pics en CLHP (HbA + HbS).
@@ -54,6 +54,10 @@ L'HbS **polymérise** en situation d'**hypoxie**, entraînant la falciformation 
 
 :::clinical
 Manifestations : **anémie hémolytique** chronique régénérative, **crises vaso-occlusives** (douleurs), séquestration splénique, **asplénie fonctionnelle** (risque infectieux à pneumocoque). Facteurs déclenchants des crises : **hypoxie, fièvre, altitude, déshydratation, froid, syndrome inflammatoire**.
+:::
+
+:::howto
+**Comment lire le schéma.** La courbe relie la PO2 à la saturation de l'hémoglobine : c'est la **fraction désoxygénée** (à gauche de la courbe) qui compte ici, car seule l'**HbS désoxygénée polymérise**. Faites glisser les curseurs vers les conditions d'une crise — **pH bas** (acidose), **PaCO₂ haute**, **fièvre**, **2,3-DPG augmenté** : la courbe se décale à droite et la désaturation survient à des PO2 plus élevées. Conclusion : ces facteurs augmentent la proportion d'HbS désoxygénée, ce qui explique pourquoi hypoxie, fièvre, altitude et acidose **déclenchent les crises vaso-occlusives**.
 :::
 <!-- /step -->
 

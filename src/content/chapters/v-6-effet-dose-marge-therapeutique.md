@@ -61,10 +61,14 @@ Un médicament très puissant (faible DE50) n'est pas forcément le plus efficac
 :::
 <!-- /step -->
 
-<!-- step:title="Index et marge thérapeutique" -->
+<!-- step:title="Index et marge thérapeutique" viz="MargeTherapeutique" -->
 La sécurité d'un médicament se mesure par l'écart entre dose efficace et dose toxique. L'**index thérapeutique** :
 
 $$ IT = \frac{DL_{50}}{DE_{50}} $$
+
+:::howto
+**Comment lire le schéma.** Le schéma superpose la courbe d'**effet thérapeutique** et la courbe d'**effet toxique** : l'écart horizontal entre les deux est la marge thérapeutique. Déplacez le curseur de dose et rapprochez les deux courbes (index faible). Vous verrez que pour un index étroit, la dose qui soigne et celle qui intoxique se chevauchent — d'où la nécessité d'un suivi thérapeutique pharmacologique.
+:::
 
 Plus l'index est **grand**, plus le médicament est maniable. Une **marge thérapeutique étroite** (index faible) signifie que la dose efficace est proche de la dose toxique.
 

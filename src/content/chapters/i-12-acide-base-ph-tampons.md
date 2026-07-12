@@ -50,13 +50,17 @@ La forme prédominante dépend du pH : à **pH = pKa**, l'acide et sa base conju
 :::
 <!-- /step -->
 
-<!-- step:title="Tampons" -->
+<!-- step:title="Tampons" viz="AcideBase" -->
 Un **tampon** = mélange d'un acide faible et de sa base conjuguée ; il **résiste** aux variations de pH par ajout d'acide, de base ou par dilution.
 
 $$ pH = pK_a + \log\frac{[\text{base}]}{[\text{acide}]} \quad\text{(Henderson-Hasselbalch)} $$
 
 :::key
 Le pouvoir tampon est **maximal quand pH = pKa** (mélange équimolaire) et reste efficace dans la zone $pK_a \pm 1$. On choisit donc un couple dont le $pK_a$ est proche du pH visé.
+:::
+
+:::howto
+**Comment lire le schéma.** Le schéma applique Henderson-Hasselbalch au tampon le plus important de l'organisme, le couple $\text{CO}_2 / \text{HCO}_3^-$ : $pH = 6{,}1 + \log\dfrac{[\text{HCO}_3^-]}{0{,}03 \times P_{\text{CO}_2}}$, la base au numérateur, l'acide au dénominateur. Bougez le curseur **bicarbonates** (la base) puis le curseur **PCO₂** (l'acide) et regardez le pH glisser sur l'échelle vers l'acidose ou l'alcalose. Retenez que le pH ne dépend pas des valeurs absolues mais du **rapport base/acide** : faire varier les deux dans le même sens (la compensation) ramène le pH vers la normale.
 :::
 <!-- /step -->
 

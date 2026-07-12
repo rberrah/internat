@@ -50,12 +50,16 @@ Résultat : le **clou plaquettaire** (thrombus blanc), fragile et transitoire. I
 :::
 <!-- /step -->
 
-<!-- step:title="La coagulation" -->
+<!-- step:title="La coagulation" viz="CascadeCoagulation" -->
 Une cascade d'activations de facteurs (protéases) aboutit à la **thrombine (IIa)**, qui transforme le **fibrinogène** soluble en **fibrine** insoluble.
 
 - **Voie extrinsèque** (déclencheur physiologique) : le **facteur tissulaire** libéré par la lésion active le **facteur VII**.
 - **Voie intrinsèque** : contact, facteurs XII, XI, IX, VIII.
 - **Voie commune** : facteurs X, V → thrombine → fibrine, stabilisée par le facteur **XIII**.
+
+:::howto
+**Comment lire le schéma.** Le schéma superpose les trois voies (intrinsèque explorée par le **TCA**, extrinsèque par le **TQ/INR**, commune par les **deux**) et affiche en bas le résultat des deux tests. Sélectionnez un facteur, puis descendez le curseur d'**activité résiduelle** vers 0 %. Vous verrez que la position du facteur dans la cascade décide du test qui s'allonge : un facteur intrinsèque n'allonge que le TCA, le **VII** que le TQ, un facteur commun les deux.
+:::
 
 :::key
 Les facteurs **II, VII, IX, X** (et les protéines **C et S**) sont **vitamine K-dépendants** : leur synthèse hépatique nécessite la carboxylation par la vitamine K.

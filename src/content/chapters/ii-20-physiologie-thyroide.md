@@ -57,11 +57,15 @@ La **T3** est **3 à 4 fois plus active** que la T4 mais provient surtout de la 
 :::
 <!-- /step -->
 
-<!-- step:title="La régulation : axe thyréotrope" -->
+<!-- step:title="La régulation : axe thyréotrope" viz="AxeEndocrinien" -->
 L'**hypothalamus** libère la **TRH**, qui stimule l'**hypophyse** à sécréter la **TSH**, laquelle active toutes les étapes thyroïdiennes (captation d'iode, synthèse, sécrétion). La **TSH** est une glycoprotéine dont la sous-unité α est commune à la FSH, la LH et l'hCG.
 
 :::key
 Le **rétrocontrôle négatif** est central : quand T3/T4 libres augmentent, elles **freinent** la TSH (hypophyse) et la TRH (hypothalamus). La **TSH** est ainsi le marqueur le plus sensible de la fonction thyroïdienne.
+:::
+
+:::howto
+**Comment lire le schéma.** Sélectionnez l'axe **thyréotrope** : les trois étages TRH → TSH → T4/T3 s'affichent, reliés par la flèche de **rétrocontrôle négatif**. Basculez la situation sur une atteinte **périphérique** (la thyroïde elle-même) et faites monter la sévérité : la T4 baisse, le frein se lève et la **TSH s'envole** — c'est pourquoi la TSH est le marqueur le plus sensible. Comparez avec l'atteinte **centrale** (hypophyse) : cette fois TSH **et** T4 chutent ensemble, et le signal d'alarme habituel disparaît.
 :::
 <!-- /step -->
 

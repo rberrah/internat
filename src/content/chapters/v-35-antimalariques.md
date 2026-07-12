@@ -39,13 +39,17 @@ Toute **fièvre au retour d'une zone d'endémie** est un paludisme jusqu'à preu
 Les molécules se classent selon le **stade parasitaire** qu'elles ciblent.
 <!-- /step -->
 
-<!-- step:title="Cibles et familles" -->
+<!-- step:title="Cibles et familles" viz="CycleParasitairePaludisme" -->
 - **Schizonticides sanguins** (accès palustre) :
   - **Dérivés de l'artémisinine** (artéméther, **artésunate**, arténimol) : action **la plus rapide** sur la parasitémie.
   - **Amino-alcools** : **quinine**, méfloquine, luméfantrine, pipéraquine.
   - **Amino-4-quinoléines** : **chloroquine** (inhibe la détoxification de l'**hème** dans la vacuole digestive).
   - **Atovaquone-proguanil** : bloque la chaîne respiratoire mitochondriale.
 - **Schizonticides tissulaires** : **primaquine**, tafénoquine → détruisent les **hypnozoïtes** hépatiques (*P. vivax*, *P. ovale*), prévention des **rechutes**.
+
+:::howto
+**Comment lire le schéma.** Le schéma déroule le cycle du *Plasmodium* et indique, à **chaque stade**, les molécules qui agissent là — c'est exactement la logique de classement de ce chapitre. Avancez étape par étape et repérez les deux compartiments : le **foie** (où seuls les schizonticides tissulaires, primaquine/tafénoquine, atteignent les hypnozoïtes) et le **sang** (où agissent les CTA, la quinine, la chloroquine). Vous en déduirez pourquoi une CTA guérit l'accès mais ne prévient pas les rechutes à *vivax*.
+:::
 <!-- /step -->
 
 <!-- step:title="Traitement de l acces" -->

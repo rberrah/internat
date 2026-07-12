@@ -39,7 +39,7 @@ Deux situations opposées : l'**hypothyroïdie** (carence hormonale, TSH élevé
 À chacune sa classe : la **lévothyroxine** d'un côté, les **antithyroïdiens de synthèse** de l'autre.
 <!-- /step -->
 
-<!-- step:title="Hypothyroïdie : lévothyroxine" -->
+<!-- step:title="Hypothyroïdie : lévothyroxine" viz="BilanThyroidien" -->
 La **lévothyroxine** (LT4, Levothyrox) est une **hormone T4 de synthèse** convertie en T3 active : traitement **substitutif à vie**.
 
 - Posologie **progressive** (débuter bas), adaptée sur la **TSH** cible (1-2 mUI/L), contrôlée **6-8 semaines** après tout changement.
@@ -47,6 +47,10 @@ La **lévothyroxine** (LT4, Levothyrox) est une **hormone T4 de synthèse** conv
 
 :::key
 Le **surdosage** reproduit une **hyperthyroïdie** (tachycardie, angor, palpitations, amaigrissement). Chez le **sujet âgé ou coronarien**, débuter à **très faible dose** pour ne pas déclencher un angor.
+:::
+
+:::howto
+**Comment lire le schéma.** Le plan croise la **TSH** (ordonnée, échelle logarithmique) et la **T4 libre** (abscisse) : chaque zone correspond à un profil biologique. Partez du patient hypothyroïdien (TSH haute, T4L basse) et simulez la substitution en montant la T4L : la TSH redescend vers la cible **1-2 mUI/L**. Poussez encore et vous basculez dans la zone d'**hyperthyroïdie** — c'est exactement le tableau du **surdosage** en lévothyroxine, ce qui explique pourquoi on titre sur la TSH et non sur la clinique.
 :::
 <!-- /step -->
 

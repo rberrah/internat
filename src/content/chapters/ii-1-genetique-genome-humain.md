@@ -10,7 +10,7 @@ order: 201
 duration: "12 min"
 tags: ["génétique", "génome", "ADN", "polymorphisme"]
 level: "beginner"
-sources: ["programme-internat", "tietz", "sfbc"]
+sources: ["programme-internat", "genetique-college", "tietz"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le génome humain nucléaire haploïde comporte environ…"

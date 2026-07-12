@@ -10,7 +10,7 @@ order: 114
 duration: "12 min"
 tags: ["chimie analytique", "validation", "étalonnage", "justesse", "fidélité"]
 level: "intermediate"
-sources: ["programme-internat", "sfbc", "tietz", "ansm"]
+sources: ["programme-internat", "ich-q2", "sfstp", "pharmacopee-eur"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La justesse (exactitude) d'une méthode traduit…"
@@ -37,7 +37,7 @@ quiz:
 Un résultat analytique n'a de valeur que si la méthode est **validée**. La validation démontre, chiffres à l'appui, que la méthode est fiable pour l'usage prévu — exigence de la **pharmacopée** et des dossiers d'AMM.
 <!-- /step -->
 
-<!-- step:title="Les criteres de validation" -->
+<!-- step:title="Les criteres de validation" viz="ValidationMethode" -->
 - **Spécificité / sélectivité** : mesurer l'analyte sans interférence de la matrice.
 - **Linéarité** : réponse proportionnelle à la concentration sur un domaine défini.
 - **Justesse (exactitude)** : proximité entre valeur mesurée moyenne et valeur vraie (= **biais**).
@@ -47,6 +47,10 @@ Un résultat analytique n'a de valeur que si la méthode est **validée**. La va
 
 :::key
 Ne confondez pas **justesse** (proche de la vraie valeur, notion de biais) et **fidélité** (mesures resserrées, notion de dispersion). L'**exactitude** globale exige les deux.
+:::
+
+:::howto
+**Comment lire le schéma.** Chaque point compare une valeur **mesurée** à la valeur **attendue** ; la méthode idéale place tous les points sur la première bissectrice (pente 1, ordonnée à l'origine 0). Jouez d'abord sur le **biais constant** (le nuage se translate : décalage identique à toute concentration) puis sur le **biais proportionnel** (le nuage pivote : erreur croissante avec la concentration) — ce sont deux défauts de **justesse**. Augmentez enfin le **CV de répétabilité** : le nuage s'épaissit sans se déplacer, c'est une perte de **fidélité**. Vous verrez qu'un nuage serré peut rester entièrement décalé : fidèle mais faux.
 :::
 <!-- /step -->
 

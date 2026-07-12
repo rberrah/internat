@@ -46,11 +46,15 @@ Un rétrocontrôle négatif ramène toujours le système vers l'équilibre ; c'e
 :::
 <!-- /step -->
 
-<!-- step:title="Les axes hormonaux" -->
+<!-- step:title="Les axes hormonaux" viz="AxeEndocrinien" -->
 Un axe hypothalamus → hypophyse → glande périphérique est réglé par le **rétrocontrôle négatif** de l'hormone périphérique :
 
 - **thyroïde** : T4/T3 freinent la TSH. Hyperthyroïdie primaire → **TSH effondrée** ; hypothyroïdie primaire → **TSH élevée**.
 - **surrénale** : le cortisol freine l'ACTH.
+
+:::howto
+**Comment lire le schéma.** Le schéma montre la boucle hypophyse → glande → hormone périphérique, avec la flèche de freinage en retour. Choisissez l'axe (thyréotrope ou corticotrope), puis basculez entre les situations « Atteinte périphérique », « Atteinte centrale » et « Hormone exogène », en jouant sur le curseur de sévérité. Conclusion : c'est le **sens opposé** des deux étages (hormone basse + hypophyse haute = atteinte périphérique ; les deux basses = atteinte centrale) qui localise la lésion.
+:::
 
 :::clinical
 La **TSH** est le meilleur reflet de la fonction thyroïdienne justement grâce à ce rétrocontrôle. Et une **corticothérapie** prolongée freine l'axe : l'arrêt brutal démasque une **insuffisance surrénale**.

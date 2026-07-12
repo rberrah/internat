@@ -72,8 +72,12 @@ Complication majeure du traitement : l'apparition d'**anticorps (inhibiteurs)** 
 :::
 <!-- /step -->
 
-<!-- step:title="Maladie de Willebrand" -->
+<!-- step:title="Maladie de Willebrand" viz="HemostasePrimaire" -->
 Anomalie du **facteur Willebrand (VWF)**, synthétisé par l'**endothélium et les mégacaryocytes**. Le VWF assure l'**adhésion plaquettaire** au sous-endothélium et **transporte/stabilise le FVIII**. Transmission **autosomique** (le plus souvent dominante).
+
+:::howto
+**Comment lire le schéma.** Le schéma déroule les trois temps de l'hémostase primaire (adhésion via le **VWF/GPIb**, activation, agrégation via le **fibrinogène/GPIIb-IIIa**) et barre l'étape bloquée selon la pathologie choisie. Sélectionnez **Maladie de Willebrand** : c'est la toute **première** étape, l'adhésion, qui est bloquée — tout ce qui est en aval s'effondre, d'où le **PFA allongé**. Comparez avec **Thrombopathie (Glanzmann)**, qui bloque l'agrégation en laissant l'adhésion intacte : deux maladies du même « temps » mais à des étages différents.
+:::
 
 :::key
 Clinique = saignements **cutanéo-muqueux** (épistaxis, gingivorragies, **ménorragies**). Biologie : **PFA allongé**, **FVIII** abaissé (car non stabilisé), **VWF:Ag** et **VWF:RCo** (activité cofacteur de la ristocétine) diminués.

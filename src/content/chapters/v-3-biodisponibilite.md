@@ -39,7 +39,7 @@ Administrer une dose ne garantit pas qu'elle agisse en totalité. La **biodispon
 C'est le pont entre la dose prescrite et l'exposition réelle : elle explique pourquoi les doses orales et intraveineuses d'une même molécule diffèrent.
 <!-- /step -->
 
-<!-- step:title="Définition et calcul" -->
+<!-- step:title="Définition et calcul" viz="DecroissanceExpo" -->
 Par définition, la voie **intraveineuse** est la référence : $F = 1$ (toute la dose est dans le sang).
 
 La **biodisponibilité absolue** compare l'exposition (aire sous la courbe, AUC) d'une voie extravasculaire à celle de la voie IV, à dose corrigée :
@@ -48,6 +48,10 @@ $$ F = \frac{\text{AUC}_{\text{orale}}}{\text{AUC}_{\text{IV}}} \times \frac{\te
 
 :::key
 L'AUC mesure l'**exposition** totale. À clairance constante, elle est proportionnelle à la **dose biodisponible** : $\text{AUC} = F \cdot \text{Dose} / CL$.
+:::
+
+:::howto
+**Comment lire le schéma.** Le schéma trace la courbe concentration-temps dont l'**aire sous la courbe (AUC)** sert à calculer F : placez-vous en mode « Pharmacocinétique » et faites varier la demi-vie. Vous verrez que l'allure de la décroissance (donc la clairance) commande l'aire sous la courbe — ce qui explique la formule $\text{AUC} = F \cdot \text{Dose} / CL$. Retenez que comparer deux AUC (orale vs IV) n'a de sens que si la **clairance est la même** chez le sujet : c'est toute l'astuce du calcul de la biodisponibilité absolue.
 :::
 <!-- /step -->
 

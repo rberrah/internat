@@ -40,7 +40,7 @@ Le paludisme est le **réflexe** de toute fièvre au retour d'un pays d'endémie
 C'est aussi l'archétype du raisonnement par **mots-clés** : *fièvre + retour de voyage + Afrique subsaharienne* → paludisme jusqu'à preuve du contraire.
 <!-- /step -->
 
-<!-- step:title="Le tableau typique" -->
+<!-- step:title="Le tableau typique" viz="CycleParasitairePaludisme" -->
 Le parasite (*Plasmodium*, 5 espèces ; **falciparum** le plus dangereux) est transmis par la piqûre d'un **anophèle femelle**, qui pique **la nuit** (du coucher au lever du soleil) et pénètre dans les habitations.
 
 Après un séjour en zone d'endémie (**Afrique subsaharienne** surtout), incubation de quelques jours à quelques semaines, puis :
@@ -50,6 +50,10 @@ Après un séjour en zone d'endémie (**Afrique subsaharienne** surtout), incuba
 
 :::key
 Il n'y a **pas** de tableau « spécifique » : toute fièvre au retour des tropiques impose d'**éliminer un paludisme en urgence**, même si un autre diagnostic semble probable.
+:::
+
+:::howto
+**Comment lire le schéma.** Le schéma déroule le cycle du *Plasmodium* étape par étape : piqûre de l'anophèle → phase **hépatique** (muette = l'incubation) → phase **érythrocytaire** (les accès fébriles) → gamétocytes repris par le moustique. Avancez les étapes, puis changez d'**espèce**. Vous comprendrez d'où viennent les signes cliniques : la fièvre naît de l'éclatement synchrone des hématies (d'où le rythme tierce ou quarte), et seuls *vivax* et *ovale* gardent des **hypnozoïtes** hépatiques — la raison des rechutes tardives et de la primaquine.
 :::
 <!-- /step -->
 

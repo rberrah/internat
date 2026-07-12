@@ -47,7 +47,7 @@ On croise le **test** (positif/négatif) et la **maladie** (présente/absente) :
 :::
 <!-- /step -->
 
-<!-- step:title="Valeurs predictives" -->
+<!-- step:title="Valeurs predictives" viz="ValeursPredictives" -->
 Elles répondent à la vraie question du clinicien : *ce résultat, que vaut-il ?*
 
 - **VPP** = VP / (VP + FP) : probabilité d'être malade si le test est **positif** ;
@@ -55,6 +55,10 @@ Elles répondent à la vraie question du clinicien : *ce résultat, que vaut-il 
 
 :::pitfall
 Contrairement à Se/Sp, la **VPP et la VPN dépendent de la prévalence** : un test très spécifique appliqué à une maladie rare donne beaucoup de **faux positifs** relatifs (VPP basse). C'est le piège du dépistage de masse.
+:::
+
+:::howto
+**Comment lire le schéma.** Le tableau applique le test à 1 000 sujets. Laissez **Se et Sp à 95 %** — un excellent test — et faites descendre la **prévalence** : Se et Sp ne bougent pas (elles sont *intrinsèques*), mais la **VPP s'effondre**. À une prévalence de 1 ‰, moins de 2 % des tests positifs correspondent à un vrai malade. C'est exactement le piège dénoncé ci-dessus.
 :::
 <!-- /step -->
 

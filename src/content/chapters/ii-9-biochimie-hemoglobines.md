@@ -37,7 +37,7 @@ quiz:
 L'**hémoglobine** transporte l'oxygène dans le sang. Comprendre sa **structure**, sa **synthèse** et son **catabolisme**, c'est relier trois notions : le rôle du **fer**, la fabrication de l'**hème** et le devenir des pigments biliaires.
 <!-- /step -->
 
-<!-- step:title="Structure du tétramère" -->
+<!-- step:title="Structure du tétramère" viz="CourbeHbO2" -->
 L'hémoglobine est un **tétramère** : **4 chaînes de globine**, chacune portant un **hème** (protoporphyrine IX + **fer ferreux Fe²⁺**).
 
 :::key
@@ -46,6 +46,10 @@ Chaque hème fixe **une molécule d'O2** sur le Fe²⁺ : une hémoglobine trans
 
 :::note
 L'affinité pour l'O2 **diminue** (courbe décalée à droite) quand augmentent le **2,3-DPG**, la PCO₂, la température ou les **H⁺** (effet **Bohr**), ce qui libère l'O2 aux tissus. La **HbF** fixe peu le 2,3-DPG, d'où son affinité plus élevée.
+:::
+
+:::howto
+**Comment lire le schéma.** La courbe donne la saturation de l'Hb en O2 (%) en fonction de la PO2 : sa forme **sigmoïde** est la signature de la coopérativité entre les quatre hèmes. Baissez le **pH** ou montez la **PaCO₂**, la **température** ou le **2,3-DPG** : la courbe glisse vers la **droite** et la P50 augmente. Conclusion : à PO2 tissulaire identique, l'hémoglobine **relâche davantage d'O2** — c'est exactement ce dont le muscle en activité a besoin (effet Bohr).
 :::
 <!-- /step -->
 

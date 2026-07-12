@@ -41,7 +41,7 @@ Dépistage : **électrophorèse des protéines sériques (EPS)** → **pic étro
 :::
 <!-- /step -->
 
-<!-- step:title="Confirmer et caractériser le pic" -->
+<!-- step:title="Confirmer et caractériser le pic" viz="ElectrophoreseProteines" -->
 :::howto
 Bilan d'une Ig monoclonale : **EPS + immunofixation sérique ET urinaire**, dosage des **chaînes légères libres sériques** (rapport kappa/lambda), **protéinurie des 24 h** (recherche de **Bence-Jones** = chaînes légères), **dosage pondéral des immunoglobulines** (immunoparésie = baisse des autres classes).
 :::

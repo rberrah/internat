@@ -61,11 +61,15 @@ Quatre grandes familles de récepteurs :
 - **nucléaires** : hormones **stéroïdiennes**, thyroïdiennes → action **génomique** (transcription), donc lente et prolongée.
 <!-- /step -->
 
-<!-- step:title="Agonistes et antagonistes" -->
+<!-- step:title="Agonistes et antagonistes" viz="RecepteurAgoniste" -->
 La liaison ligand-récepteur est le plus souvent **réversible**.
 
 - **Agoniste** : se lie **et active** (affinité + activité intrinsèque). **Plein** (effet maximal) ou **partiel** (activité intrinsèque réduite, plafond plus bas).
 - **Antagoniste** : se lie **sans activer**, il **bloque**. **Compétitif** (surmontable : déplace la courbe vers la droite, Emax conservé) ou **non compétitif** (insurmontable : **abaisse l'Emax**).
+
+:::howto
+**Comment lire le schéma.** Le schéma montre la courbe dose-réponse d'un agoniste et ce qu'il advient quand on ajoute un antagoniste. Changez le type de ligand (agoniste plein, partiel, antagoniste compétitif, non compétitif) et observez ce qui bouge. Retenez la signature de chacun : le compétitif **décale la courbe à droite sans toucher l'Emax**, le non compétitif **écrase l'Emax**, et l'agoniste partiel plafonne d'emblée plus bas.
+:::
 
 :::note
 Un **agoniste inverse** produit l'effet opposé à l'agoniste sur un récepteur à activité constitutive.

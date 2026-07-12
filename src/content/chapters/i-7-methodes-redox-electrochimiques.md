@@ -10,7 +10,7 @@ order: 107
 duration: "12 min"
 tags: ["chimie analytique", "potentiométrie", "ampérométrie", "Nernst", "électrodes"]
 level: "intermediate"
-sources: ["programme-internat", "sfbc", "tietz"]
+sources: ["programme-internat", "skoog", "pharmacopee-eur"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le potentiel pris par une électrode redox suit l'équation…"

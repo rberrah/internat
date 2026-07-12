@@ -39,11 +39,15 @@ Les **fluoroquinolones** (ciprofloxacine, ofloxacine, lévofloxacine, moxifloxac
 Bien les connaître, c'est savoir profiter de leurs atouts sans exposer inutilement le patient.
 <!-- /step -->
 
-<!-- step:title="Mécanisme et spectre" -->
+<!-- step:title="Mécanisme et spectre" viz="AntibiotiquePKPD" -->
 Elles **inhibent l'ADN gyrase (topo-isomérase II) et la topo-isomérase IV** → blocage de la réplication de l'ADN → effet **bactéricide**, **concentration-dépendant** (indice **AUC/CMI**).
 
 - **Quinolones urinaires** anciennes (acide nalidixique).
 - **Fluoroquinolones** : spectre large sur les **bacilles à Gram négatif** (entérobactéries, *Pseudomonas* pour la ciprofloxacine), **bactéries atypiques** (légionelle) ; **lévofloxacine et moxifloxacine** sont actives sur le **pneumocoque** (fluoroquinolones antipneumococciques).
+
+:::howto
+**Comment lire le schéma.** Le schéma confronte la courbe de concentration à la **CMI** et calcule les trois indices PK/PD (%T > CMI, Cmax/CMI, AUC/CMI). Pour une fluoroquinolone, ne suivez que l'**AUC/CMI**, c'est-à-dire l'aire sous la courbe au-dessus de la CMI : augmentez la dose, puis augmentez la CMI de la bactérie. Vous verrez qu'une souche de CMI élevée fait chuter le rapport AUC/CMI dans la zone où la résistance se sélectionne — le principe de la « fenêtre de sélection des mutants ».
+:::
 <!-- /step -->
 
 <!-- step:title="Points forts pharmacocinétiques" -->

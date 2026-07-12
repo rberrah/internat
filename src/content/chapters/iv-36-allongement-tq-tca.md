@@ -44,7 +44,7 @@ Lire d'abord **quel test** est allongé : **TCA seul** → voie intrinsèque ; *
 :::
 <!-- /step -->
 
-<!-- step:title="TCA allongé, TQ normal" -->
+<!-- step:title="TCA allongé, TQ normal" viz="CascadeCoagulation" -->
 On réalise une **épreuve de correction** (mélange plasma malade + témoin, M+T) avec **indice de Rosner** :
 
 :::howto

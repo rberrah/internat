@@ -50,7 +50,7 @@ Le diagnostic est **biologique**, sur l'un des critères suivants :
 Valeur usuelle de la glycémie à jeun : **3,9–5,5 mmol/L**. Entre 1,10 et 1,26 g/L → **hyperglycémie modérée à jeun** (pré-diabète).
 <!-- /step -->
 
-<!-- step:title="Type 1 versus type 2" -->
+<!-- step:title="Type 1 versus type 2" viz="RegulationGlycemie" -->
 | | Type 1 | Type 2 |
 |---|---|---|
 | Mécanisme | Insulinopénie **absolue** (auto-immune) | Insulinorésistance + insulinopénie **relative** |
@@ -59,6 +59,10 @@ Valeur usuelle de la glycémie à jeun : **3,9–5,5 mmol/L**. Entre 1,10 et 1,2
 | Révélation | Souvent **acidocétose** | Souvent découverte fortuite |
 
 Le type 1 est **insulinodépendant** d'emblée ; le type 2 relève d'abord des antidiabétiques oraux (metformine en 1ʳᵉ intention).
+
+:::howto
+**Comment lire le schéma.** La courbe montre la **glycémie après un repas**, comparée au sujet normal. Cliquez successivement sur les profils préréglés **« Diabète de type 1 »** (fonction bêta effondrée, insulinosensibilité conservée) et **« Diabète de type 2 »** (fonction bêta partielle, insulinosensibilité basse), puis retouchez les deux curseurs à la main. Conclusion : les deux types aboutissent à la même **hyperglycémie** mais par deux leviers distincts — pas assez d'insuline d'un côté, insuline inefficace de l'autre — ce qui justifie deux stratégies thérapeutiques opposées.
+:::
 <!-- /step -->
 
 <!-- step:title="Suivi par HbA1c" -->

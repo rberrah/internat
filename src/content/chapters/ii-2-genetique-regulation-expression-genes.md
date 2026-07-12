@@ -10,7 +10,7 @@ order: 202
 duration: "11 min"
 tags: ["génétique", "expression génique", "épigénétique", "épissage"]
 level: "intermediate"
-sources: ["programme-internat", "tietz", "sfbc"]
+sources: ["programme-internat", "genetique-college", "tietz"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La méthylation des cytosines des îlots CpG d'un promoteur entraîne…"

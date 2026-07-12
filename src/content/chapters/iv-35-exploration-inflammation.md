@@ -71,12 +71,16 @@ La **procalcitonine (PCT)**, précurseur de la calcitonine, augmente sous l'effe
 :::
 <!-- /step -->
 
-<!-- step:title="Autres signes biologiques" -->
+<!-- step:title="Autres signes biologiques" viz="ElectrophoreseProteines" -->
 :::clinical
 L'inflammation retentit aussi sur l'hémogramme et l'électrophorèse :
 - **hyperleucocytose** à polynucléaires neutrophiles, **thrombocytose** ;
 - **anémie inflammatoire** (normocytaire, **ferritine normale ou élevée**, fer bas, transferrine basse) ;
 - électrophorèse : augmentation des **α1/α2-globulines**, **hypergammaglobulinémie polyclonale**, **hypoalbuminémie**.
+:::
+
+:::howto
+**Comment lire le schéma.** Le tracé répartit les protéines sériques en fractions (albumine, α1, α2, β, γ) : partez du profil **Normal**, puis sélectionnez **Sd inflammatoire** et poussez le curseur de **sévérité**. Vous verrez monter les **α1/α2** (orosomucoïde, haptoglobine) et la **gamma** sous forme d'un dôme **à base large**, pendant que l'**albumine** s'affaisse — les protéines positives et négatives de la phase aiguë, vues d'un seul coup d'œil. Conclusion : comparez avec le profil **Myélome**, dont le **pic étroit** en gamma ne doit jamais être confondu avec cette hypergammaglobulinémie **polyclonale**.
 :::
 <!-- /step -->
 

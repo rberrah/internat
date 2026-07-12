@@ -10,7 +10,7 @@ order: 105
 duration: "13 min"
 tags: ["chimie analytique", "chromatographie", "CPG", "CLHP", "séparation"]
 level: "intermediate"
-sources: ["programme-internat", "sfbc", "tietz"]
+sources: ["programme-internat", "skoog", "pharmacopee-eur", "ich-q2"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le facteur de rétention k' d'un composé se calcule par…"
@@ -56,7 +56,7 @@ $$ N = 5{,}54 \left(\frac{t_R}{\delta}\right)^2 = 16\left(\frac{t_R}{w}\right)^2
 où $\delta$ est la largeur à mi-hauteur et $w$ la largeur à la base. En pratique, on recherche un $k'$ compris entre **1 et 10** (compromis entre résolution et durée d'analyse).
 <!-- /step -->
 
-<!-- step:title="Résolution" -->
+<!-- step:title="Résolution" viz="Chromatographie" -->
 La **résolution** $R_s$ mesure la qualité de séparation de deux pics :
 
 $$ R_s = \frac{2\,(t_{R2}-t_{R1})}{w_1 + w_2} = \frac{\sqrt{N}}{4}\cdot\frac{\alpha-1}{\alpha}\cdot\frac{k'_2}{1+k'_2} $$
@@ -66,6 +66,10 @@ $R_s \geq 1{,}5$ = séparation dite « de base ». On l'améliore en jouant sur 
 :::
 
 L'efficacité optimale correspond au minimum de la courbe de **van Deemter** : $H = A + \dfrac{B}{u} + C\,u$ (hauteur de plateau en fonction de la vitesse $u$).
+
+:::howto
+**Comment lire le schéma.** Le chromatogramme montre trois solutés élués et la résolution calculée entre les pics voisins. Augmentez le **facteur de rétention $k'$ du soluté B** pour éloigner son sommet des autres, puis le nombre de **plateaux $N$** pour affiner les pics. Vous constaterez que les deux leviers font monter $R_s$, mais différemment : $k'$ (et $\alpha$) écarte les sommets, $N$ resserre les pics — et il faut $R_s \geq 1{,}5$ pour une séparation de base.
+:::
 <!-- /step -->
 
 <!-- step:title="CPG contre CL" -->

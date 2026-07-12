@@ -10,7 +10,7 @@ order: 103
 duration: "12 min"
 tags: ["chimie analytique", "spectrophotométrie", "Beer-Lambert", "absorbance", "UV-visible"]
 level: "beginner"
-sources: ["programme-internat", "sfbc", "tietz"]
+sources: ["programme-internat", "skoog", "pharmacopee-eur", "ich-q2"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La loi de Beer-Lambert relie l'absorbance à…"
@@ -37,7 +37,7 @@ quiz:
 Doser un principe actif, le fer sérique, un phénol : la spectrophotométrie d'**absorption moléculaire** est la méthode quantitative la plus répandue. Un seul outil, une seule loi — **Beer-Lambert** — que l'on décline à l'infini.
 <!-- /step -->
 
-<!-- step:title="Principe" -->
+<!-- step:title="Principe" viz="BeerLambert" -->
 Un faisceau d'intensité $I_0$ traverse la solution ; l'échantillon en transmet $I$. Les molécules absorbent grâce à leurs **chromophores** (doubles liaisons conjuguées, cycles aromatiques). L'UV va de 200 à 400 nm, le visible de 400 à 800 nm.
 
 :::key
@@ -47,6 +47,10 @@ $A$ absorbance (sans dimension), $\varepsilon$ coefficient d'extinction molaire 
 :::
 
 Conditions de validité : **lumière monochromatique**, **solution diluée** et absence d'interaction chimique (association, dimérisation, fluorescence).
+
+:::howto
+**Comment lire le schéma.** Le graphique trace l'absorbance en fonction de la concentration : la loi de Beer-Lambert prédit une **droite** passant par l'origine, de pente $\varepsilon\,l$. Faites varier le coefficient $\varepsilon$ et le trajet optique $l$ : seule la **pente** change, jamais la linéarité. Poussez ensuite la **concentration** vers le haut du domaine : la courbe s'infléchit sous la droite idéale — c'est la déviation aux fortes absorbances, qui impose de diluer et de rester dans le domaine de linéarité.
+:::
 <!-- /step -->
 
 <!-- step:title="Coefficients d absorption" -->

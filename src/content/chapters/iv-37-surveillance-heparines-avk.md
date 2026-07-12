@@ -41,10 +41,14 @@ Les **héparines** potentialisent l'**antithrombine (AT)**, inhibant les facteur
 :::
 <!-- /step -->
 
-<!-- step:title="HNF, HBPM, fondaparinux" -->
+<!-- step:title="HNF, HBPM, fondaparinux" viz="CascadeCoagulation" -->
 - **HNF** (héparine non fractionnée, calcique/sodique) : activité **anti-IIa = anti-Xa**, demi-vie courte (~90 min), forte liaison aux protéines → effet **peu prévisible**. Surveillance d'efficacité par **TCA** (ou héparinémie anti-Xa).
 - **HBPM** : rapport **anti-Xa/anti-IIa > 1,5**, biodisponibilité SC **> 90 %**, effet **prévisible**, élimination **rénale** (risque d'accumulation si insuffisance rénale — **HNF à privilégier si DFG < 30**). Surveillance par **activité anti-Xa au pic**.
 - **Fondaparinux** : activité **anti-Xa exclusive** (via AT), synthétique.
+
+:::howto
+**Comment lire le schéma.** Le schéma situe chaque facteur dans sa voie et indique quel test l'explore (**TCA** pour l'intrinsèque, **TQ/INR** pour l'extrinsèque, les deux pour la voie commune). Sélectionnez le facteur **IIa**, puis le **Xa** — les cibles des héparines — et faites chuter leur activité résiduelle : ils sont sur la **voie commune**, ce qui explique que l'HNF (anti-IIa) allonge le **TCA**. Sélectionnez ensuite le **VII** pour comprendre pourquoi les AVK, en abaissant les facteurs **II, VII, IX, X**, se surveillent par le **TQ/INR**.
+:::
 
 :::pitfall
 **Jamais** d'anticoagulant en **IM** (risque d'hématome). L'idarucizumab est l'antidote du **dabigatran**, pas une héparine.

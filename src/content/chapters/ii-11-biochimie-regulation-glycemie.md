@@ -37,11 +37,15 @@ quiz:
 La **glycémie** doit rester stable (**3,9–5,5 mmol/L à jeun**) : le **cerveau** et les **globules rouges** sont **glucodépendants**. Deux hormones antagonistes du pancréas, l'**insuline** et le **glucagon**, assurent cet équilibre, épaulées par des hormones de contre-régulation.
 <!-- /step -->
 
-<!-- step:title="Insuline, hormone du stockage" -->
+<!-- step:title="Insuline, hormone du stockage" viz="RegulationGlycemie" -->
 Sécrétée par les **cellules β** des **îlots de Langerhans** en réponse à l'**hyperglycémie**, l'insuline est la **seule hormone hypoglycémiante**.
 
 :::key
 Elle fait **entrer le glucose** dans le muscle et l'adipocyte (transporteur **GLUT4**), stimule la **glycogénogenèse** et la **lipogenèse**, et **inhibe** la néoglucogenèse. C'est l'hormone de l'état **nourri**.
+:::
+
+:::howto
+**Comment lire le schéma.** La courbe suit la **glycémie après un repas** : elle monte, puis l'insuline la ramène à sa valeur de consigne. Fixez l'apport glucidique, puis baissez le curseur **« fonction bêta-pancréatique »** (moins d'insuline sécrétée) et le curseur **« insulinosensibilité »** (l'insuline agit moins) : dans les deux cas le pic monte plus haut et le retour à la normale traîne. Conclusion : c'est bien l'insuline — et elle seule — qui referme la boucle, en quantité **et** en efficacité.
 :::
 
 :::note

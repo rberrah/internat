@@ -37,7 +37,7 @@ quiz:
 Trois toxiques différents convergent vers une même conséquence : **l'hémoglobine ne transporte plus l'oxygène**. Comprendre le mécanisme oriente le diagnostic et l'antidote.
 <!-- /step -->
 
-<!-- step:title="Monoxyde de carbone" -->
+<!-- step:title="Monoxyde de carbone" viz="ToxiquesHemoglobine" -->
 Le **CO** (chauffage défectueux, incendie) se lie à l'Hb avec une affinité **~200 fois** celle de l'O2 → **carboxyhémoglobine (HbCO)** : l'O2 n'est plus transporté ni délivré (hypoxie tissulaire).
 
 - Clinique : céphalées, nausées, vertiges, troubles de conscience, coma ; **intoxication collective** évocatrice.
@@ -45,6 +45,10 @@ Le **CO** (chauffage défectueux, incendie) se lie à l'Hb avec une affinité **
 
 :::key
 Diagnostic : **dosage de l'HbCO**. Traitement : **oxygénothérapie normobare** (100 %), voire **hyperbare** (formes graves, grossesse). Enquête sur la source (prévention).
+:::
+
+:::howto
+**Comment lire le schéma.** Le schéma montre ce que devient l'hémoglobine quand une fraction d'entre elle est **séquestrée** par le toxique : montez le curseur **% HbCO** et regardez chuter l'O2 réellement transporté, alors que la **SpO2 affichée reste faussement normale**. Basculez ensuite l'onglet sur **metHb** pour comparer le second mécanisme (fer oxydé en Fe³⁺). Conclusion : dans les deux cas l'hypoxie tissulaire vient d'une **hémoglobine rendue inutilisable**, pas d'un défaut de PO2 — d'où un oxymètre trompeur et la nécessité d'un **dosage spécifique**.
 :::
 <!-- /step -->
 

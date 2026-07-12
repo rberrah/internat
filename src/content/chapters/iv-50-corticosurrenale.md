@@ -37,12 +37,16 @@ quiz:
 La corticosurrénale sécrète trois familles d'hormones selon ses zones : **minéralocorticoïdes** (aldostérone, glomérulée), **glucocorticoïdes** (cortisol, fasciculée) et **androgènes** (réticulée). Trois dysfonctions à connaître : **Cushing**, **insuffisance surrénale** et **hyperaldostéronisme**.
 <!-- /step -->
 
-<!-- step:title="Axe corticotrope" -->
+<!-- step:title="Axe corticotrope" viz="AxeEndocrinien" -->
 :::key
 Axe : **hypothalamus (CRH) → antéhypophyse (ACTH) → cortisol**, avec **rétrocontrôle négatif**. Le cortisol suit un **cycle nycthéméral** (maximal à 8 h, minimal à minuit).
 :::
 
 Le dosage couplé **cortisol + ACTH** oriente le siège de l'anomalie : une ACTH **haute** signe une origine hypophysaire ou ectopique, une ACTH **basse** une origine surrénalienne (ou iatrogène).
+
+:::howto
+**Comment lire le schéma.** Sur l'axe **corticotrope**, faites défiler les situations et lisez à chaque fois le **couple cortisol + ACTH**. Atteinte **périphérique** (Addison) : cortisol bas, **ACTH haute** — le rétrocontrôle est levé, d'où la mélanodermie. Atteinte **centrale** : cortisol bas **et** ACTH basse, sans mélanodermie. Apport **exogène** de corticoïdes : le frein s'exerce d'en haut, l'ACTH s'effondre et la surrénale se met en veille — c'est tout le risque de l'arrêt brutal d'une corticothérapie. Le curseur de sévérité montre que ces mouvements sont graduels.
+:::
 <!-- /step -->
 
 <!-- step:title="Syndrome de Cushing" -->
