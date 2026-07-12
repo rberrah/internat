@@ -48,8 +48,11 @@
   </main>
 
   <footer>
-    <span>Contenu pédagogique · CC BY-NC-SA</span>
-    <span class="muted">Fait pour les internes, par un interne.</span>
+    <span>Contenu pédagogique original · CC BY-NC-SA 4.0</span>
+    <span class="muted">
+      Écrit et maintenu par Racym Berrah (PharmD) ·
+      <a href="https://github.com/rberrah/internat/issues/new" target="_blank" rel="noopener noreferrer">Une erreur ? Signalez-la</a>
+    </span>
   </footer>
 
   <div class="disclaimer" role="note">
