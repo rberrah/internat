@@ -148,6 +148,21 @@ const badStatus = chapters.filter((c) => c.data.status && !['brouillon', 'relu',
 check(badStatus.length === 0, `statuts de relecture valides`);
 console.log(`  · couverture : sources ${chapters.filter((c) => (c.data.sources ?? []).length).length}/${chapters.length} · relus ${chapters.filter((c) => c.data.reviewed_on).length}/${chapters.length}`);
 
+
+// 16. RÉFÉRENCES : liens de recherche INTERDITS (une recherche n'est pas une citation).
+// Chaque référence doit résoudre vers UN document : DOI, PMID, ISBN, ou page officielle.
+const { referenceGroups: RG } = await import(url.pathToFileURL(path.join(root, 'src/lib/content/references.js')));
+const SEARCH = /google\.[a-z.]+\/search|[?&]term=|[?&]q=/i;
+let refN = 0, refStable = 0;
+const refBad = [];
+for (const g of RG) for (const r of g.items) {
+  refN++;
+  if (!/^https?:\/\//.test(r.url || '')) refBad.push(`${r.id} (URL invalide)`);
+  else if (SEARCH.test(r.url)) refBad.push(`${r.id} (LIEN DE RECHERCHE — pas une citation)`);
+  if (r.doi || r.pmid || r.isbn) refStable++;
+}
+check(refBad.length === 0, `${refN} références : aucun lien de recherche (${refStable} avec DOI/PMID/ISBN)` + (refBad.length ? ` — PROBLÈMES : ${refBad.slice(0, 5).join(', ')}` : ''));
+
 if (fail.length) {
   console.error('\nSmoke tests ÉCHOUÉS :\n' + fail.map((m) => '  ✗ ' + m).join('\n'));
   process.exit(1);
