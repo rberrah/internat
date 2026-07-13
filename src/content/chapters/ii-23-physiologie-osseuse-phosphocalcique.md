@@ -10,7 +10,7 @@ order: 223
 duration: "12 min"
 tags: ["physiologie", "calcium", "os", "PTH", "vitamine D"]
 level: "beginner"
-sources: ["programme-internat", "sfbc", "tietz"]
+sources: ["tietz", "goodman-gilman"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Dans le sang, la fraction de calcium physiologiquement active est le calcium…"

@@ -10,7 +10,7 @@ tags: ["transversal", "rétrocontrôle", "régulation", "endocrinologie"]
 prerequisites: []
 glossary: []
 level: "beginner"
-sources: ["cnpm", "goodman-gilman", "tietz"]
+sources: ["goodman-gilman", "tietz", "cnpm-livre"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Un rétrocontrôle négatif tend à…"

@@ -10,7 +10,7 @@ order: 415
 duration: "13 min"
 tags: ["parasitologie", "toxoplasmose", "grossesse", "immunodéprimé", "sérologie"]
 level: "intermediate"
-sources: ["anofel", "epilly", "has", "crat"]
+sources: ["anofel", "has", "epilly"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La toxoplasmose congénitale résulte de…"

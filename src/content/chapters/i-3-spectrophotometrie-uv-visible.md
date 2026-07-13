@@ -10,7 +10,7 @@ order: 103
 duration: "12 min"
 tags: ["chimie analytique", "spectrophotométrie", "Beer-Lambert", "absorbance", "UV-visible"]
 level: "beginner"
-sources: ["programme-internat", "skoog", "pharmacopee-eur", "ich-q2"]
+sources: ["pharmacopee-eur", "skoog"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La loi de Beer-Lambert relie l'absorbance à…"

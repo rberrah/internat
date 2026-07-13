@@ -10,7 +10,7 @@ tags: ["transversal", "clairance", "rein", "pharmacocinétique"]
 prerequisites: ["transversal-demi-vie"]
 glossary: ["Clairance"]
 level: "intermediate"
-sources: ["rowland-tozer", "ckd-epi", "kdigo", "sfbc"]
+sources: ["rowland-tozer", "ckd-epi", "kdigo"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La clairance d'une substance représente…"

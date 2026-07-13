@@ -10,7 +10,7 @@ order: 439
 duration: "13 min"
 tags: ["diabète", "HbA1c", "acidocétose", "coma hyperosmolaire", "glycémie"]
 level: "beginner"
-sources: ["sfd-ada", "has", "sfbc"]
+sources: ["sfd-ada", "has", "tietz"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le diagnostic de diabète repose sur une glycémie à jeun (à 2 reprises) supérieure ou égale à…"

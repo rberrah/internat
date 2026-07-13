@@ -10,7 +10,7 @@ order: 525
 duration: "12 min"
 tags: ["antibiotiques", "macrolides", "clarithromycine", "interactions"]
 level: "intermediate"
-sources: ["epilly", "casfm", "cnpm", "ansm"]
+sources: ["epilly", "goodman-gilman", "cnpm", "crat"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les macrolides inhibent la synthèse protéique en se fixant sur…"

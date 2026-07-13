@@ -10,7 +10,7 @@ order: 312
 duration: "13 min"
 tags: ["toxicologie", "benzène", "solvants chlorés", "maladie professionnelle"]
 level: "intermediate"
-sources: ["baud-garnier", "goldfrank", "centres-antipoison"]
+sources: ["baud-garnier", "goldfrank"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La toxicité chronique du benzène (benzénisme) est essentiellement…"

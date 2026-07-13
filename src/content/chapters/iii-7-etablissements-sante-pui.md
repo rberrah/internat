@@ -10,7 +10,7 @@ order: 307
 duration: "13 min"
 tags: ["santé publique", "établissement de santé", "PUI", "GHT", "pharmacie hospitalière"]
 level: "beginner"
-sources: ["programme-internat", "has", "ansm"]
+sources: ["has", "ansm"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La PUI d'un établissement de santé est obligatoirement dirigée par…"

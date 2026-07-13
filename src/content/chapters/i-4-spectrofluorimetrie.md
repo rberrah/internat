@@ -10,7 +10,7 @@ order: 104
 duration: "10 min"
 tags: ["chimie analytique", "fluorescence", "spectrofluorimétrie", "Stokes", "sensibilité"]
 level: "beginner"
-sources: ["programme-internat", "skoog", "pharmacopee-eur"]
+sources: ["pharmacopee-eur", "skoog"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "En fluorimétrie, la longueur d'onde d'émission est…"

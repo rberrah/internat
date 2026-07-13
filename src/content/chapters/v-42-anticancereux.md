@@ -10,7 +10,7 @@ order: 542
 duration: "14 min"
 tags: ["cancérologie", "chimiothérapie", "thérapies ciblées", "immunothérapie"]
 level: "intermediate"
-sources: ["inca", "esmo", "cnpm", "goodman-gilman"]
+sources: ["goodman-gilman", "esmo", "inca"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les agents alkylants (cisplatine, cyclophosphamide) agissent en…"

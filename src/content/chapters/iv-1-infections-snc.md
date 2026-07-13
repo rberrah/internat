@@ -10,7 +10,7 @@ order: 401
 duration: "14 min"
 tags: ["bactériologie", "méningite", "LCR", "méningocoque", "pneumocoque"]
 level: "intermediate"
-sources: ["epilly", "spilf", "remic", "has"]
+sources: ["spilf", "epilly", "remic"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Un LCR trouble avec 5000 éléments/mm³ à prédominance de PNN, protéinorachie 2,5 g/L et glycorachie effondrée oriente vers…"

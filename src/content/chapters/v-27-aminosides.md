@@ -10,7 +10,7 @@ order: 527
 duration: "12 min"
 tags: ["antibiotiques", "aminosides", "gentamicine", "PK/PD"]
 level: "intermediate"
-sources: ["craig-pkpd", "epilly", "casfm", "ansm"]
+sources: ["craig-pkpd", "epilly", "ansm", "goodman-gilman"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les aminosides sont des antibiotiques…"

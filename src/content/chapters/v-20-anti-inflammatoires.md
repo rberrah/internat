@@ -10,7 +10,7 @@ order: 520
 duration: "14 min"
 tags: ["pharmacologie", "AINS", "corticoïdes", "inflammation"]
 level: "intermediate"
-sources: ["cnpm", "katzung", "ansm", "has"]
+sources: ["katzung", "cnpm", "ansm", "crat"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les AINS exercent leur effet en inhibant…"

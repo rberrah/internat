@@ -10,7 +10,7 @@ order: 209
 duration: "12 min"
 tags: ["biochimie", "hémoglobine", "hème", "bilirubine"]
 level: "intermediate"
-sources: ["tietz", "sfbc", "hemato-college", "programme-internat"]
+sources: ["hemato-college", "tietz"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'hémoglobine adulte majoritaire (HbA) est constituée de…"

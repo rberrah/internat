@@ -10,7 +10,7 @@ order: 444
 duration: "13 min"
 tags: ["foie", "cytolyse", "cholestase", "bilirubine", "cirrhose"]
 level: "intermediate"
-sources: ["sfbc", "tietz", "has"]
+sources: ["tietz", "hemato-college"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le syndrome de cholestase associe une augmentation de…"

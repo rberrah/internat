@@ -10,7 +10,7 @@ order: 220
 duration: "12 min"
 tags: ["physiologie", "thyroïde", "T3 T4", "TSH", "iode"]
 level: "beginner"
-sources: ["tietz", "sfbc", "has"]
+sources: ["tietz", "goodman-gilman"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'hormone thyroïdienne biologiquement la plus active dans les tissus est…"

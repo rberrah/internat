@@ -10,7 +10,7 @@ order: 218
 duration: "13 min"
 tags: ["physiologie", "rein", "néphron", "DFG", "clairance"]
 level: "intermediate"
-sources: ["kdigo", "ckd-epi", "sfbc", "tietz"]
+sources: ["tietz", "katzung", "ckd-epi", "kdigo"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le marqueur idéal pour mesurer le débit de filtration glomérulaire est la clairance de…"

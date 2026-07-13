@@ -10,7 +10,7 @@ order: 111
 duration: "12 min"
 tags: ["biophysique", "radioactivité", "période", "rayons X", "médecine nucléaire"]
 level: "intermediate"
-sources: ["programme-internat", "sfmn", "pharmacopee-eur", "ansm"]
+sources: ["pharmacopee-eur", "sfmn"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'activité d'une source radioactive vaut…"

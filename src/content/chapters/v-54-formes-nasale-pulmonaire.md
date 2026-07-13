@@ -10,7 +10,7 @@ order: 554
 duration: "12 min"
 tags: ["galénique", "voie pulmonaire", "aérosol", "inhalation"]
 level: "beginner"
-sources: ["gina-gold", "ansm", "bdpm"]
+sources: ["pharmacopee-eur", "gina-gold"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Pour se déposer dans les alvéoles pulmonaires, les particules d'un aérosol doivent avoir un diamètre…"

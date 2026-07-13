@@ -10,7 +10,7 @@ order: 303
 duration: "12 min"
 tags: ["santé publique", "vaccination", "immunité", "calendrier vaccinal"]
 level: "beginner"
-sources: ["programme-internat", "has", "spf", "oms"]
+sources: ["has", "spf", "oms"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Depuis 2018, le nombre de vaccinations obligatoires du nourrisson est de…"

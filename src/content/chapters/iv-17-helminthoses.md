@@ -10,7 +10,7 @@ order: 417
 duration: "15 min"
 tags: ["parasitologie", "helminthes", "éosinophilie", "bilharziose", "hydatidose"]
 level: "intermediate"
-sources: ["anofel", "epilly", "oms"]
+sources: ["anofel", "remic", "epilly"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Une hyperéosinophilie élevée et oscillante doit surtout faire craindre, avant une corticothérapie…"

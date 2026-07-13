@@ -10,7 +10,7 @@ order: 421
 duration: "11 min"
 tags: ["mycologie", "pneumocystose", "VIH", "immunodéprimé", "cotrimoxazole"]
 level: "intermediate"
-sources: ["anofel", "epilly", "spilf"]
+sources: ["anofel", "epilly", "bdpm"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Pneumocystis jirovecii touche préférentiellement les patients présentant…"

@@ -10,7 +10,7 @@ order: 516
 duration: "14 min"
 tags: ["pharmacologie", "anticoagulants", "antiagrégants", "hémostase"]
 level: "advanced"
-sources: ["cnpm", "sfh", "has", "ansm"]
+sources: ["cnpm", "hemato-college", "has"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les antivitamines K (AVK) inhibent la synthèse hépatique des facteurs…"

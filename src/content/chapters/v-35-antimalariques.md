@@ -10,7 +10,7 @@ order: 535
 duration: "14 min"
 tags: ["antipaludiques", "paludisme", "artémisinine", "chloroquine"]
 level: "intermediate"
-sources: ["oms-palu", "anofel", "epilly", "cnpm"]
+sources: ["oms-palu", "anofel", "epilly"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le traitement de 1re intention de l'accès palustre grave à P. falciparum est…"

@@ -10,7 +10,7 @@ order: 420
 duration: "12 min"
 tags: ["mycologie", "dermatophytes", "teigne", "onychomycose", "terbinafine"]
 level: "beginner"
-sources: ["anofel", "epilly", "ansm"]
+sources: ["anofel", "bdpm", "epilly"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Un onyxis dermatophytique se distingue d'un onyxis à Candida par…"

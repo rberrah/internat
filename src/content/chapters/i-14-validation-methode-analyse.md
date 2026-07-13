@@ -10,7 +10,7 @@ order: 114
 duration: "12 min"
 tags: ["chimie analytique", "validation", "étalonnage", "justesse", "fidélité"]
 level: "intermediate"
-sources: ["programme-internat", "ich-q2", "sfstp", "pharmacopee-eur"]
+sources: ["ich-q2", "sfstp", "pharmacopee-eur"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La justesse (exactitude) d'une méthode traduit…"

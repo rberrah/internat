@@ -10,7 +10,7 @@ order: 316
 duration: "11 min"
 tags: ["toxicologie", "opiacés", "cocaïne", "cannabis"]
 level: "intermediate"
-sources: ["baud-garnier", "goldfrank", "centres-antipoison", "cnpm"]
+sources: ["baud-garnier", "goldfrank", "cnpm"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La triade d'une intoxication aux opiacés associe…"

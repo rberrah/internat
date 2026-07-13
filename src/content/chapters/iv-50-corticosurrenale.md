@@ -10,7 +10,7 @@ order: 450
 duration: "13 min"
 tags: ["cortisol", "Cushing", "Addison", "aldostérone", "ACTH"]
 level: "intermediate"
-sources: ["sfbc", "tietz", "has"]
+sources: ["tietz", "sfbc", "cnpm-livre"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le syndrome de Cushing se confirme biologiquement par…"

@@ -10,7 +10,7 @@ order: 556
 duration: "13 min"
 tags: ["MDS", "plasma", "immunoglobulines", "facteurs de coagulation"]
 level: "intermediate"
-sources: ["sfh", "hemato-college", "ansm"]
+sources: ["hemato-college", "pharmacopee-eur", "ansm"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les médicaments dérivés du plasma (MDS) sont obtenus par…"

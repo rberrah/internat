@@ -10,7 +10,7 @@ order: 229
 duration: "12 min"
 tags: ["immunologie", "CMH", "HLA", "présentation antigène"]
 level: "intermediate"
-sources: ["programme-internat", "janeway"]
+sources: ["janeway", "hemato-college"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les molécules du CMH de classe I présentent l'antigène aux…"

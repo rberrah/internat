@@ -10,7 +10,7 @@ order: 555
 duration: "12 min"
 tags: ["galénique", "transdermique", "collyre", "voie cutanée"]
 level: "beginner"
-sources: ["ansm", "bdpm", "programme-internat"]
+sources: ["pharmacopee-eur", "bdpm"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le passage transdermique d'un principe actif est favorisé par…"

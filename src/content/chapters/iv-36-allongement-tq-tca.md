@@ -10,7 +10,7 @@ order: 436
 duration: "13 min"
 tags: ["hémostase", "TP", "TCA", "coagulation", "épreuve de correction"]
 level: "intermediate"
-sources: ["sfh", "hemato-college", "sfbc"]
+sources: ["hemato-college", "tietz", "sfh"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Un TCA allongé isolé (TQ normal) corrigé par l'épreuve de mélange oriente vers…"

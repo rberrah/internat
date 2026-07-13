@@ -12,7 +12,7 @@ tags: ["hématologie", "anémie", "fer", "réticulocytes", "VGM"]
 prerequisites: ["hemato-hemogramme"]
 glossary: ["VGM", "Réticulocytes", "Ferritine", "Coefficient de saturation"]
 level: "intermediate"
-sources: ["hemato-college", "sfh", "who-anemia", "sfbc"]
+sources: ["hemato-college", "who-anemia", "tietz"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Devant une anémie confirmée, le premier paramètre qui oriente la démarche est…"

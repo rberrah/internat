@@ -10,7 +10,7 @@ order: 441
 duration: "13 min"
 tags: ["natrémie", "kaliémie", "osmolarité", "déshydratation", "hydratation"]
 level: "intermediate"
-sources: ["sfbc", "tietz", "kdigo"]
+sources: ["tietz", "sfbc"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La natrémie reflète avant tout l'état du secteur…"

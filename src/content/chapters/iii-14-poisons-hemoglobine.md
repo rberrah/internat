@@ -10,7 +10,7 @@ order: 314
 duration: "12 min"
 tags: ["toxicologie", "monoxyde de carbone", "plomb", "méthémoglobine"]
 level: "intermediate"
-sources: ["baud-garnier", "goldfrank", "centres-antipoison"]
+sources: ["baud-garnier", "goldfrank", "spf"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le monoxyde de carbone (CO) est toxique car il…"

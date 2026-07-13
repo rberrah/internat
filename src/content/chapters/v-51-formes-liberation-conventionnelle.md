@@ -10,7 +10,7 @@ order: 551
 duration: "13 min"
 tags: ["galénique", "comprimés", "injectables", "excipients"]
 level: "beginner"
-sources: ["ansm", "bdpm", "programme-internat"]
+sources: ["pharmacopee-eur", "rowland-tozer"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Dans un comprimé, le stéarate de magnésium joue le rôle de…"

@@ -10,7 +10,7 @@ order: 550
 duration: "13 min"
 tags: ["galénique", "stérilisation", "autoclave", "asepsie"]
 level: "beginner"
-sources: ["ansm", "programme-internat", "remic"]
+sources: ["pharmacopee-eur", "ansm"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La méthode de stérilisation de référence, réalisée dans le conditionnement final, est…"

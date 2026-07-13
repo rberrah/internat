@@ -10,7 +10,7 @@ order: 429
 duration: "13 min"
 tags: ["hématologie", "hyperlymphocytose", "LLC", "mononucléose", "immunophénotypage"]
 level: "intermediate"
-sources: ["hemato-college", "sfh", "epilly", "esmo"]
+sources: ["hemato-college", "esmo", "epilly"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Un syndrome mononucléosique se caractérise par des lymphocytes…"

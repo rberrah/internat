@@ -10,7 +10,7 @@ order: 531
 duration: "14 min"
 tags: ["antirétroviraux", "VIH", "trithérapie", "inhibiteurs d'intégrase"]
 level: "advanced"
-sources: ["epilly", "oms", "cnpm", "ansm"]
+sources: ["epilly", "oms", "goodman-gilman", "cnpm"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La trithérapie initiale de référence du VIH associe…"

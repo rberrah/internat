@@ -10,7 +10,7 @@ order: 212
 duration: "13 min"
 tags: ["biochimie", "lipides", "cholestérol", "lipoprotéines"]
 level: "beginner"
-sources: ["tietz", "sfbc", "esc"]
+sources: ["tietz", "esc", "goodman-gilman"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'enzyme limitante de la biosynthèse du cholestérol est…"

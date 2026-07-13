@@ -10,7 +10,7 @@ order: 547
 duration: "13 min"
 tags: ["toxicologie", "paracétamol", "salicylés", "antidote"]
 level: "intermediate"
-sources: ["baud-garnier", "goldfrank", "centres-antipoison", "ansm"]
+sources: ["goldfrank", "baud-garnier", "ansm"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le métabolite responsable de l'hépatotoxicité du paracétamol est…"

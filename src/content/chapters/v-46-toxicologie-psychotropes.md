@@ -10,7 +10,7 @@ order: 546
 duration: "14 min"
 tags: ["toxicologie", "lithium", "antidépresseurs", "benzodiazépines"]
 level: "intermediate"
-sources: ["baud-garnier", "goldfrank", "centres-antipoison", "cnpm"]
+sources: ["baud-garnier", "goldfrank", "bdpm"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'antidote spécifique d'une intoxication aux benzodiazépines est…"

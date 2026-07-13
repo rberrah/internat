@@ -10,7 +10,7 @@ order: 213
 duration: "12 min"
 tags: ["biochimie", "corps cétoniques", "acétyl-CoA", "jeûne"]
 level: "intermediate"
-sources: ["tietz", "sfbc", "sfd-ada"]
+sources: ["tietz", "sfd-ada"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les corps cétoniques sont…"

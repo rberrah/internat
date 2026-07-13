@@ -10,7 +10,7 @@ order: 501
 duration: "12 min"
 tags: ["pharmacocinétique", "ADME", "métabolisme", "élimination"]
 level: "beginner"
-sources: ["rowland-tozer", "cnpm", "cnpm-livre"]
+sources: ["rowland-tozer", "cnpm", "katzung"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La biotransformation de phase I fait surtout intervenir…"

@@ -10,7 +10,7 @@ order: 511
 duration: "13 min"
 tags: ["psychotropes", "antidépresseurs", "ISRS", "lithium", "sérotonine"]
 level: "intermediate"
-sources: ["cnpm", "cnpm-livre", "has", "katzung"]
+sources: ["has", "cnpm", "katzung", "crat"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les antidépresseurs de première intention dans la dépression sont…"

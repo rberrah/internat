@@ -10,7 +10,7 @@ order: 217
 duration: "13 min"
 tags: ["physiologie", "digestion", "estomac", "pancréas"]
 level: "beginner"
-sources: ["programme-internat", "tietz", "katzung"]
+sources: ["goodman-gilman", "katzung", "tietz"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Dans l'estomac, les cellules pariétales (bordantes) sécrètent…"

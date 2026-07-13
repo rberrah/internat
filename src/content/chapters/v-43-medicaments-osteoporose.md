@@ -10,7 +10,7 @@ order: 543
 duration: "13 min"
 tags: ["rhumatologie", "ostéoporose", "bisphosphonates", "os"]
 level: "beginner"
-sources: ["has", "cnpm", "ansm", "bdpm"]
+sources: ["has", "ansm", "bdpm"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le diagnostic d'ostéoporose repose sur un T-score (ostéodensitométrie)…"

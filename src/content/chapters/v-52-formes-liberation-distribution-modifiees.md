@@ -10,7 +10,7 @@ order: 552
 duration: "13 min"
 tags: ["galénique", "libération prolongée", "gastrorésistant", "vectorisation"]
 level: "intermediate"
-sources: ["rowland-tozer", "ansm", "bdpm"]
+sources: ["pharmacopee-eur", "rowland-tozer", "bdpm"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La pompe osmotique élémentaire (système OROS) libère la substance active grâce à…"

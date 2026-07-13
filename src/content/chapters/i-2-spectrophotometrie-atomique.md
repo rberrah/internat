@@ -10,7 +10,7 @@ order: 102
 duration: "11 min"
 tags: ["chimie analytique", "SAA", "émission atomique", "métaux", "flamme"]
 level: "intermediate"
-sources: ["programme-internat", "skoog", "pharmacopee-eur", "baud-garnier"]
+sources: ["pharmacopee-eur", "skoog", "baud-garnier"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "En spectrophotométrie d'absorption atomique (SAA), on mesure…"

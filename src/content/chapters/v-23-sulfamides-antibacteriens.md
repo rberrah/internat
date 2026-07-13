@@ -10,7 +10,7 @@ order: 523
 duration: "11 min"
 tags: ["antibiotiques", "sulfamides", "cotrimoxazole", "acide folique"]
 level: "intermediate"
-sources: ["epilly", "spilf", "cnpm", "ansm"]
+sources: ["epilly", "spilf", "goodman-gilman", "cnpm"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les sulfamides antibactériens inhibent la synthèse bactérienne…"

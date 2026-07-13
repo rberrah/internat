@@ -10,7 +10,7 @@ order: 431
 duration: "13 min"
 tags: ["hématologie", "thrombopénie", "PTI", "TIH", "plaquettes"]
 level: "intermediate"
-sources: ["hemato-college", "sfh", "has", "cnpm"]
+sources: ["hemato-college", "has", "cnpm"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Devant une thrombopénie isolée sur EDTA sans syndrome hémorragique, le premier réflexe est…"

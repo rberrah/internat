@@ -10,7 +10,7 @@ order: 413
 duration: "9 min"
 tags: ["parasitologie", "trichomonose", "IST", "vulvovaginite", "métronidazole"]
 level: "beginner"
-sources: ["anofel", "epilly", "spilf"]
+sources: ["anofel", "remic", "epilly"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Trichomonas vaginalis se transmet…"

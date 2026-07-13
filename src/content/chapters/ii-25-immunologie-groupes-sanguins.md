@@ -10,7 +10,7 @@ order: 225
 duration: "12 min"
 tags: ["immunologie", "groupes sanguins", "ABO", "Rhésus"]
 level: "beginner"
-sources: ["programme-internat", "hemato-college", "sfh", "janeway"]
+sources: ["hemato-college", "janeway"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les anticorps du système ABO (anti-A, anti-B) sont…"

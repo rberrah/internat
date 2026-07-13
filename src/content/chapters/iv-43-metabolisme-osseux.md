@@ -10,7 +10,7 @@ order: 443
 duration: "13 min"
 tags: ["calcium", "PTH", "vitamine D", "ostéoporose", "phosphocalcique"]
 level: "intermediate"
-sources: ["sfbc", "tietz", "has"]
+sources: ["tietz", "has"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Une hypercalcémie avec PTH élevée (couple inadapté) et hypophosphatémie évoque…"

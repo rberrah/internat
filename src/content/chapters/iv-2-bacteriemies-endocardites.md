@@ -10,7 +10,7 @@ order: 402
 duration: "13 min"
 tags: ["bactériologie", "hémoculture", "endocardite", "staphylocoque", "sepsis"]
 level: "intermediate"
-sources: ["epilly", "spilf", "esc", "remic"]
+sources: ["esc", "remic", "epilly"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le diagnostic microbiologique d'une bactériémie repose avant tout sur…"

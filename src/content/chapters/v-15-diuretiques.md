@@ -10,7 +10,7 @@ order: 515
 duration: "12 min"
 tags: ["cardiovasculaire", "diurétiques", "furosémide", "kaliémie", "néphron"]
 level: "intermediate"
-sources: ["cnpm", "katzung", "kdigo"]
+sources: ["katzung", "cnpm", "esc"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le furosémide agit au niveau…"

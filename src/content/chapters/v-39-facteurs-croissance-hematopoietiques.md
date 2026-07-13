@@ -10,7 +10,7 @@ order: 539
 duration: "12 min"
 tags: ["hématologie", "G-CSF", "érythropoïétine", "interférons", "cytokines"]
 level: "intermediate"
-sources: ["sfh", "hemato-college", "cnpm", "ansm"]
+sources: ["kdigo", "esmo", "sfh", "bdpm"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le G-CSF (filgrastim) est indiqué pour…"

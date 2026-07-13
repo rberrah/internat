@@ -10,7 +10,7 @@ order: 529
 duration: "12 min"
 tags: ["antibiotiques", "fluoroquinolones", "ciprofloxacine", "ADN gyrase"]
 level: "intermediate"
-sources: ["epilly", "casfm", "ansm", "cnpm"]
+sources: ["epilly", "craig-pkpd", "ansm", "cnpm"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les fluoroquinolones inhibent…"

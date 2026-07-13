@@ -10,7 +10,7 @@ order: 448
 duration: "11 min"
 tags: ["acide urique", "goutte", "colchicine", "allopurinol", "urate"]
 level: "intermediate"
-sources: ["cnpm", "has", "tietz"]
+sources: ["cnpm-livre", "cnpm", "tietz"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'enzyme clé de la production d'acide urique, cible des hypo-uricémiants, est…"

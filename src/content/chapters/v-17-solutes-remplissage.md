@@ -10,7 +10,7 @@ order: 517
 duration: "11 min"
 tags: ["réanimation", "remplissage", "cristalloïdes", "colloïdes", "albumine"]
 level: "intermediate"
-sources: ["cnpm", "has", "ansm"]
+sources: ["cnpm", "ansm", "kdigo"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "En première intention, l'expansion volémique repose sur…"

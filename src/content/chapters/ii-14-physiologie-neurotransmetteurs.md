@@ -10,7 +10,7 @@ order: 214
 duration: "13 min"
 tags: ["physiologie", "neurotransmetteurs", "catécholamines", "synapse"]
 level: "intermediate"
-sources: ["katzung", "goodman-gilman", "tietz"]
+sources: ["goodman-gilman", "tietz"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les catécholamines (dopamine, noradrénaline, adrénaline) dérivent de…"

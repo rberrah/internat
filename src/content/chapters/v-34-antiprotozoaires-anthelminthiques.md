@@ -10,7 +10,7 @@ order: 534
 duration: "11 min"
 tags: ["parasitologie", "métronidazole", "albendazole", "oxyurose", "anthelminthiques"]
 level: "beginner"
-sources: ["anofel", "cnpm", "epilly", "bdpm"]
+sources: ["anofel", "epilly", "bdpm"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le métronidazole est le traitement de référence de…"

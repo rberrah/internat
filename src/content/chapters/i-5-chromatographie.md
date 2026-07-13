@@ -10,7 +10,7 @@ order: 105
 duration: "13 min"
 tags: ["chimie analytique", "chromatographie", "CPG", "CLHP", "séparation"]
 level: "intermediate"
-sources: ["programme-internat", "skoog", "pharmacopee-eur", "ich-q2"]
+sources: ["pharmacopee-eur", "skoog"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le facteur de rétention k' d'un composé se calcule par…"

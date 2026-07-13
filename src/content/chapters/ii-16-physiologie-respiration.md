@@ -10,7 +10,7 @@ order: 216
 duration: "13 min"
 tags: ["physiologie", "respiration", "gaz du sang", "acide-base"]
 level: "intermediate"
-sources: ["gina-gold", "sfbc", "tietz"]
+sources: ["tietz", "gina-gold"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Dans le sang, le CO2 est transporté majoritairement sous forme de…"

@@ -10,7 +10,7 @@ order: 315
 duration: "13 min"
 tags: ["toxicologie", "radioéléments", "iode 131", "décorporation", "radioprotection"]
 level: "intermediate"
-sources: ["baud-garnier", "goldfrank", "oms"]
+sources: ["baud-garnier", "goldfrank", "oms", "sfmn"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La prévention du cancer thyroïdien radio-induit (iode 131) repose sur…"

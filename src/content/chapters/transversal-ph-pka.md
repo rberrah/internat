@@ -10,7 +10,7 @@ tags: ["transversal", "pH", "pKa", "ionisation"]
 prerequisites: []
 glossary: []
 level: "intermediate"
-sources: ["rowland-tozer", "tietz", "baud-garnier"]
+sources: ["rowland-tozer", "tietz", "baud-garnier", "skoog"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La relation de Henderson-Hasselbalch s'écrit…"

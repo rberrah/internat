@@ -10,7 +10,7 @@ order: 532
 duration: "13 min"
 tags: ["virologie", "antiviraux", "aciclovir", "oseltamivir", "hépatites"]
 level: "intermediate"
-sources: ["epilly", "has", "cnpm", "ansm"]
+sources: ["epilly", "has", "goodman-gilman", "cnpm"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'aciclovir est un analogue nucléosidique actif contre…"

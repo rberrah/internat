@@ -10,7 +10,7 @@ order: 544
 duration: "12 min"
 tags: ["toxicologie", "évaluation", "DL50", "pharmacovigilance"]
 level: "intermediate"
-sources: ["baud-garnier", "ansm", "katzung", "programme-internat"]
+sources: ["katzung", "ansm", "baud-garnier"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La DL50 correspond à…"

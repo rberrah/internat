@@ -10,7 +10,7 @@ order: 405
 duration: "13 min"
 tags: ["bactériologie", "pneumonie", "otite", "angine", "légionelle"]
 level: "intermediate"
-sources: ["epilly", "spilf", "has", "casfm"]
+sources: ["spilf", "epilly", "remic"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'antibiothérapie de première intention d'une pneumonie aiguë communautaire du sujet jeune sans gravité (pneumocoque suspecté) est…"

@@ -10,7 +10,7 @@ order: 454
 duration: "10 min"
 tags: ["génétique", "bioéthique", "diagnostic", "consentement"]
 level: "beginner"
-sources: ["programme-internat", "has", "anpgm", "acmg-richards"]
+sources: ["acmg-richards", "genetique-college", "anpgm"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La réalisation d'un examen génétique constitutionnel à visée diagnostique exige…"

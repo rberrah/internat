@@ -10,7 +10,7 @@ order: 403
 duration: "13 min"
 tags: ["bactériologie", "infection urinaire", "ECBU", "E. coli", "cystite"]
 level: "intermediate"
-sources: ["spilf", "epilly", "remic", "casfm"]
+sources: ["spilf", "remic", "epilly"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La bactérie responsable de la majorité des infections urinaires communautaires est…"

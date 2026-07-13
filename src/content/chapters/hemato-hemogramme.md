@@ -11,7 +11,7 @@ duration: "12 min"
 tags: ["hématologie", "NFS", "anémie", "VGM"]
 glossary: ["VGM", "Réticulocytes"]
 level: "beginner"
-sources: ["hemato-college", "sfh", "who-anemia"]
+sources: ["hemato-college", "who-anemia"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Une anémie est définie chez l'homme adulte par une hémoglobine inférieure à…"

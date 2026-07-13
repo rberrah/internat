@@ -10,7 +10,7 @@ order: 416
 duration: "12 min"
 tags: ["parasitologie", "leishmaniose", "phlébotome", "pancytopénie", "immunodéprimé"]
 level: "intermediate"
-sources: ["anofel", "epilly", "oms"]
+sources: ["anofel", "remic", "epilly"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le vecteur de la leishmaniose est…"

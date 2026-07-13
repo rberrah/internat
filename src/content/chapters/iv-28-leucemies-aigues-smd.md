@@ -10,7 +10,7 @@ order: 428
 duration: "14 min"
 tags: ["hématologie", "leucémie aiguë", "myélodysplasie", "blastes", "myélogramme"]
 level: "advanced"
-sources: ["hemato-college", "sfh", "inca"]
+sources: ["hemato-college", "esmo", "sfh"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le seuil de blastes médullaires définissant une leucémie aiguë est de…"

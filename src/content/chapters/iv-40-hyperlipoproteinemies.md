@@ -10,7 +10,7 @@ order: 440
 duration: "13 min"
 tags: ["dyslipidémie", "LDL", "triglycérides", "Fredrickson", "statines"]
 level: "intermediate"
-sources: ["esc", "has", "sfbc"]
+sources: ["esc", "tietz", "has"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le cholestérol-LDL par la formule de Friedewald n'est calculable que si…"

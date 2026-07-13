@@ -10,7 +10,7 @@ order: 426
 duration: "13 min"
 tags: ["hématologie", "drépanocytose", "thalassémie", "HbS", "électrophorèse"]
 level: "intermediate"
-sources: ["hemato-college", "sfh", "who-anemia", "has"]
+sources: ["hemato-college", "has", "sfh"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La drépanocytose résulte de…"

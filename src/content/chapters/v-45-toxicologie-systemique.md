@@ -10,7 +10,7 @@ order: 545
 duration: "13 min"
 tags: ["toxicologie", "hépatotoxicité", "néphrotoxicité", "effets indésirables"]
 level: "intermediate"
-sources: ["baud-garnier", "goldfrank", "cnpm", "ansm"]
+sources: ["baud-garnier", "cnpm", "ansm"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'hépatotoxicité du paracétamol est…"

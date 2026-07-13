@@ -10,7 +10,7 @@ order: 301
 duration: "13 min"
 tags: ["santé publique", "sécurité sanitaire", "pharmacovigilance", "vigilances", "ANSM"]
 level: "beginner"
-sources: ["programme-internat", "ansm", "has", "prescrire"]
+sources: ["ansm", "cnpm", "has", "spf"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La matériovigilance a pour objet la surveillance des incidents liés à…"

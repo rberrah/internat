@@ -10,7 +10,7 @@ order: 112
 duration: "13 min"
 tags: ["chimie analytique", "acide-base", "pH", "tampon", "complexation"]
 level: "intermediate"
-sources: ["programme-internat", "sfbc", "tietz"]
+sources: ["skoog", "tietz"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'équation de Henderson-Hasselbalch s'écrit…"

@@ -10,7 +10,7 @@ order: 548
 duration: "13 min"
 tags: ["toxicologie", "digoxine", "chloroquine", "cardiotoxicité"]
 level: "intermediate"
-sources: ["baud-garnier", "goldfrank", "centres-antipoison"]
+sources: ["baud-garnier", "goldfrank"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'antidote spécifique de l'intoxication digitalique grave est…"

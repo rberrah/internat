@@ -10,7 +10,7 @@ order: 453
 duration: "14 min"
 tags: ["Alzheimer", "Parkinson", "sclérose en plaques", "épilepsie", "migraine"]
 level: "intermediate"
-sources: ["cnpm", "cnpm-livre", "has", "ansm"]
+sources: ["cnpm-livre", "ansm", "has"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les deux lésions neuropathologiques de la maladie d'Alzheimer sont…"

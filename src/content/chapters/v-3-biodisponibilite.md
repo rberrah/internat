@@ -10,7 +10,7 @@ order: 503
 duration: "11 min"
 tags: ["pharmacocinétique", "biodisponibilité", "AUC", "bioéquivalence"]
 level: "beginner"
-sources: ["rowland-tozer", "goodman-gilman", "ansm", "cnpm"]
+sources: ["rowland-tozer", "goodman-gilman", "ansm"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La biodisponibilité absolue d'une forme intraveineuse vaut…"

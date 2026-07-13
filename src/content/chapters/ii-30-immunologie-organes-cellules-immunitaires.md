@@ -10,7 +10,7 @@ order: 230
 duration: "12 min"
 tags: ["immunologie", "organes lymphoïdes", "lymphocytes", "thymus"]
 level: "beginner"
-sources: ["programme-internat", "janeway"]
+sources: ["janeway", "hemato-college"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les organes lymphoïdes primaires (centraux) sont…"

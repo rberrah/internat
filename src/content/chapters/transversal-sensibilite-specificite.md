@@ -10,7 +10,7 @@ tags: ["transversal", "sensibilité", "spécificité", "dépistage"]
 prerequisites: []
 glossary: []
 level: "beginner"
-sources: ["schwartz", "ancelle", "altman"]
+sources: ["ancelle", "altman", "remic"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La sensibilité d'un test est la proportion de…"

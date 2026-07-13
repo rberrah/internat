@@ -10,7 +10,7 @@ order: 210
 duration: "13 min"
 tags: ["biochimie", "ADN", "ARN", "lipoprotéines"]
 level: "beginner"
-sources: ["tietz", "sfbc", "programme-internat"]
+sources: ["tietz", "esc"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Dans la double hélice d'ADN, les appariements de bases se font par…"

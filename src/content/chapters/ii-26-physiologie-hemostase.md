@@ -10,7 +10,7 @@ order: 226
 duration: "13 min"
 tags: ["physiologie", "hémostase", "coagulation", "plaquettes", "fibrinolyse"]
 level: "intermediate"
-sources: ["programme-internat", "hemato-college", "sfh"]
+sources: ["hemato-college", "goodman-gilman", "tietz"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les facteurs de la coagulation dépendants de la vitamine K sont…"

@@ -10,7 +10,7 @@ order: 526
 duration: "11 min"
 tags: ["antibiotiques", "cyclines", "doxycycline", "intracellulaires"]
 level: "intermediate"
-sources: ["epilly", "cnpm", "crat", "ansm"]
+sources: ["epilly", "crat", "goodman-gilman", "cnpm"]
 reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les cyclines sont contre-indiquées chez…"
