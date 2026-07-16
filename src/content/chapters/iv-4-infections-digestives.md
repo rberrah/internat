@@ -25,11 +25,11 @@ quiz:
       - "Helicobacter pylori"
       - "Staphylococcus saprophyticus"
     correct: 0
-  - prompt: "Le traitement d'éradication d'Helicobacter pylori associe classiquement…"
+  - prompt: "En probabiliste (sans antibiogramme), le traitement d'éradication d'Helicobacter pylori repose désormais sur…"
     options:
-      - "un IPP + amoxicilline + clarithromycine"
+      - "une quadrithérapie (concomitante 14 j, ou bismuthée 10 j)"
+      - "la trithérapie IPP + amoxicilline + clarithromycine"
       - "de la fosfomycine monodose"
-      - "de la vancomycine per os"
     correct: 0
 ---
 
@@ -81,7 +81,7 @@ Facteurs de risque : **antibiothérapie récente** (dysbiose), **âge > 65 ans**
 
 - Responsable de **gastrite chronique**, **ulcère gastroduodénal**, **cancer gastrique** et **lymphome du MALT**.
 - Diagnostic non invasif : **test respiratoire à l'urée marquée** ; invasif : **biopsies** (anatomopathologie, culture + antibiogramme, PCR).
-- Traitement : **IPP + amoxicilline + clarithromycine** (10 j) ; quadrithérapie bismuthée si résistances.
+- Traitement probabiliste : **quadrithérapie concomitante 14 j** (IPP + amoxicilline + clarithromycine + métronidazole) ou **quadrithérapie bismuthée 10 j** ; la trithérapie n'est réservée qu'aux souches clarithro-sensibles à l'antibiogramme (résistance ~20 % en France).
 <!-- /step -->
 
 <!-- step:title="A retenir" -->
@@ -89,5 +89,5 @@ Facteurs de risque : **antibiothérapie récente** (dysbiose), **âge > 65 ans**
 - **TIAC** = ≥ 2 cas, origine alimentaire commune, **DO** ; diagnostic = **coproculture**.
 - **Salmonelle** non typhique (TIAC, œufs/volailles) vs **typhoïde** (voyage, hémocultures, Vi).
 - **Campylobacter** (BGN incurvé) → risque **Guillain-Barré** ; **C. difficile** = diarrhée **post-ATB**.
-- ***H. pylori*** : ulcère/cancer gastrique → **IPP + amoxicilline + clarithromycine**.
+- ***H. pylori*** : ulcère/cancer gastrique → **quadrithérapie** (concomitante 14 j ou bismuthée 10 j) ; trithérapie seulement si souche clarithro-sensible.
 <!-- /step -->

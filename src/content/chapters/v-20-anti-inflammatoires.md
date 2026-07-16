@@ -59,7 +59,7 @@ Ils découlent de la baisse des prostaglandines protectrices :
 - **hypersensibilité**, et **risque cardiovasculaire** (surtout coxibs).
 
 :::clinical
-Contre-indications : **ulcère évolutif**, insuffisance rénale ou cardiaque sévère, **3e trimestre de grossesse** (fermeture du canal artériel).
+Contre-indications : **ulcère évolutif**, insuffisance rénale ou cardiaque sévère. **Grossesse : contre-indication absolue à partir de 24 SA (début du 6ᵉ mois)**, quelle que soit la voie (y compris locale) et même en prise unique — fermeture du canal artériel, insuffisance rénale fœtale/néonatale, oligoamnios ; avant 24 SA, usage déconseillé (source : ANSM, CRAT).
 :::
 
 Interactions : ne pas associer un AINS aux **anticoagulants / autres antiagrégants** (risque hémorragique) ; l'**ibuprofène** peut **antagoniser l'effet antiagrégant de l'aspirine** (compétition sur la COX-1).

@@ -62,7 +62,7 @@ Très bien tolérés à court terme. Au **long cours** : hypomagnésémie, caren
 Devant un ulcère à **H. pylori**, l'éradication guérit et prévient la récidive.
 
 :::clinical
-Schéma : **IPP + deux antibiotiques** (amoxicilline + clarithromycine, idéalement guidés par l'antibiogramme) pendant 10 à 14 jours, ou **quadrithérapie bismuthée** (IPP + bismuth + tétracycline + métronidazole). Un **contrôle de l'éradication** est nécessaire à distance.
+Schéma probabiliste (résistance à la clarithromycine ~20 % en France) : **quadrithérapie concomitante 14 j** (IPP + amoxicilline + clarithromycine + métronidazole) ou **quadrithérapie bismuthée 10 j** (IPP + bismuth + tétracycline + métronidazole). La **trithérapie** IPP + amoxicilline + clarithromycine n'est retenue que si l'antibiogramme confirme une souche sensible. Un **contrôle de l'éradication** est nécessaire à distance.
 :::
 <!-- /step -->
 

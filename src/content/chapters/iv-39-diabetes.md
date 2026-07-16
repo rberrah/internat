@@ -90,7 +90,7 @@ Osmolarité plasmatique ≈ $2 \times [\text{Na}^+] + \text{glycémie} + \text{u
 
 <!-- step:title="Piege classique" -->
 :::pitfall
-Devant une hyperglycémie, ne pas confondre **acidocétose** (pH bas, bicarbonates bas, cétonurie +++ , type 1) et **coma hyperosmolaire** (pH normal, osmolarité effondrante, déshydratation, type 2). Et attention à l'hyperkaliémie initiale de l'acidocétose : elle masque une **déplétion potassique globale** que l'insuline va démasquer.
+Devant une hyperglycémie, ne pas confondre **acidocétose** (pH bas, bicarbonates bas, cétonurie +++ , type 1) et **coma hyperosmolaire** (pH normal, osmolarité **élevée > 320 mOsm/kg**, déshydratation majeure, type 2). Et attention à l'hyperkaliémie initiale de l'acidocétose : elle masque une **déplétion potassique globale** que l'insuline va démasquer.
 :::
 <!-- /step -->
 

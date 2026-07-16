@@ -74,7 +74,7 @@ Une fois l'anémie confirmée, **deux axes** suffisent à l'orienter :
 **Métaphore.** Le VGM décrit la **taille de l'usine** (petites, normales, grandes hématies) ; les réticulocytes disent si l'usine **tourne encore** (régénérative) ou est **en panne** (arégénérative, centrale).
 :::
 
-Retenez que **microcytaire = toujours arégénérative et centrale** : on passe directement au bilan du fer.
+Retenez qu'une anémie microcytaire est **le plus souvent** arégénérative et centrale → bilan martial en premier. **Exception** : les hémoglobinopathies hémolytiques microcytaires (S-β⁰-thalassémie, thalassémie intermédiaire) sont microcytaires **et régénératives** — d'où l'intérêt de vérifier les réticulocytes si le bilan martial est normal.
 <!-- /step -->
 
 <!-- step:title="Microcytaire : explorer le fer" viz="BilanMartial" -->

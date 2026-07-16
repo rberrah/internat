@@ -69,7 +69,7 @@ Excès d'hormones : **TSH ↓**, T4L et/ou T3L élevées (forme clinique).
 <!-- step:title="Traitements" -->
 :::clinical
 - **Hypothyroïdie** : **lévothyroxine (L-T4)** en substitution, à **jeun**, augmentation par paliers de 25 µg ; cible **TSH 1–2 mUI/L**. Absorption diminuée par fer, calcium, aluminium (prise à distance).
-- **Hyperthyroïdie** : **antithyroïdiens de synthèse** (carbimazole ; propylthiouracile si grossesse) + **bêtabloquant** le 1ᵉʳ mois (contrôle cardiaque) ; puis iode 131 ou chirurgie.
+- **Hyperthyroïdie** : **antithyroïdiens de synthèse** (carbimazole/thiamazole ; **propylthiouracile au 1ᵉʳ trimestre de grossesse uniquement**, puis relais par carbimazole — le PTU expose à une hépatotoxicité sévère en exposition prolongée) + **bêtabloquant** le 1ᵉʳ mois (contrôle cardiaque) ; puis iode 131 ou chirurgie.
 :::
 
 Les antithyroïdiens exposent à l'**agranulocytose** : surveiller la **NFS** et arrêter devant toute fièvre/angine.

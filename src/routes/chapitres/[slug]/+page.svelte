@@ -110,6 +110,12 @@
   }
 </script>
 
+<svelte:head>
+  {#if chapter}
+    <title>{chapter.title} — Internat Pharma</title>
+  {/if}
+</svelte:head>
+
 {#if !chapter}
   <div class="missing">
     <h1>Chapitre introuvable</h1>

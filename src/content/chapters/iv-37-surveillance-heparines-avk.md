@@ -84,7 +84,7 @@ Nombreuses **interactions** : potentialisent l'INR (risque hémorragique) l'**am
 INR élevé **sans hémorragie** (ex. INR 9) : **arrêt temporaire** de l'AVK ± **vitamine K1 orale**. Hémorragie grave : **PPSB (CCP)** (Kanokad, Octaplex) + vitamine K1 IV.
 :::
 
-Contre-indications absolues : **grossesse** (tératogène, 6 premières semaines), AVC hémorragique récent, maladie hémorragique constitutionnelle, ulcère gastroduodénal évolutif.
+Contre-indications absolues : **grossesse** — embryopathie en cas d'exposition **entre 6 et 12 SA** (hypoplasie nasale, chondrodysplasie ponctuée) **et** risque **hémorragique fœtal/néonatal en fin de grossesse** (hémorragie cérébrale in utero, accouchement) → relais par **héparine** (HBPM/HNF) au 1ᵉʳ trimestre et avant l'accouchement ; AVC hémorragique récent, maladie hémorragique constitutionnelle, ulcère gastroduodénal évolutif.
 
 :::pitfall
 Devant un **INR élevé chez un patient asymptomatique**, ne pas administrer de PPSB (réservé aux hémorragies graves). En **relais**, ne jamais arrêter l'héparine dès le 1ᵉʳ jour d'AVK : l'effet anticoagulant complet n'est atteint qu'après plusieurs jours.
