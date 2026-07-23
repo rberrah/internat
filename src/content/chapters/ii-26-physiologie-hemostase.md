@@ -22,14 +22,14 @@ quiz:
   - prompt: "L'adhésion des plaquettes au sous-endothélium lésé se fait grâce…"
     options:
       - "au facteur von Willebrand, via la glycoprotéine GPIb"
-      - "au fibrinogène, via la GPIIb/IIIa"
-      - "à la thrombine, via le facteur tissulaire"
+      - "au fibrinogène, via la glycoprotéine GPIIb/IIIa"
+      - "au collagène directement, via la glycoprotéine GPVI"
     correct: 0
   - prompt: "Le temps de céphaline activée (TCA) explore principalement…"
     options:
-      - "la voie intrinsèque de la coagulation"
-      - "la voie extrinsèque (facteur VII)"
-      - "la fibrinolyse"
+      - "la voie intrinsèque (facteurs VIII, IX, XI, XII)"
+      - "la voie extrinsèque, dépendante du facteur VII"
+      - "l'hémostase primaire et la fonction plaquettaire"
     correct: 0
 ---
 

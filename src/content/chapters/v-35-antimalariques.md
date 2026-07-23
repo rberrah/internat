@@ -15,21 +15,21 @@ reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le traitement de 1re intention de l'accès palustre grave à P. falciparum est…"
     options:
-      - "l'artésunate IV"
-      - "la chloroquine orale"
-      - "l'atovaquone-proguanil"
+      - "l'artésunate par voie intraveineuse"
+      - "la chloroquine par voie orale"
+      - "l'atovaquone-proguanil par voie orale"
     correct: 0
   - prompt: "L'accès simple à P. falciparum se traite en 1re intention par…"
     options:
-      - "une combinaison à base d'artémisinine (CTA)"
-      - "la chloroquine seule"
-      - "la primaquine"
+      - "une combinaison à base d'artémisinine"
+      - "la chloroquine orale en monothérapie"
+      - "la primaquine, un schizonticide tissulaire"
     correct: 0
   - prompt: "Avant de prescrire la primaquine (élimination des hypnozoïtes), il faut vérifier…"
     options:
-      - "l'absence de déficit en G6PD"
-      - "le tropisme CCR5"
-      - "l'allèle HLA-B*5701"
+      - "l'absence de déficit en G6PD (hémolyse)"
+      - "l'absence d'allongement du QT à l'ECG"
+      - "l'absence d'antécédent psychiatrique"
     correct: 0
 ---
 

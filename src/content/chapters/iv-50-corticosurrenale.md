@@ -16,20 +16,20 @@ quiz:
   - prompt: "Le syndrome de Cushing se confirme biologiquement par…"
     options:
       - "une élévation du cortisol libre urinaire des 24 h avec perte du cycle nycthéméral"
-      - "une hyperkaliémie isolée"
-      - "une aldostérone effondrée"
+      - "une seule cortisolémie matinale élevée, suffisante à elle seule au diagnostic"
+      - "un freinage normal du cortisol après test de freinage à la dexaméthasone"
     correct: 0
   - prompt: "L'insuffisance surrénale primaire (Addison) associe typiquement…"
     options:
       - "mélanodermie, hyponatrémie et hyperkaliémie"
-      - "HTA et hypokaliémie"
-      - "hypernatrémie sans mélanodermie"
+      - "hypertension, hypokaliémie et alcalose métabolique"
+      - "hyponatrémie et hypotension, sans mélanodermie"
     correct: 0
   - prompt: "L'hyperaldostéronisme primaire (Conn) donne…"
     options:
       - "HTA, hypokaliémie et alcalose métabolique avec rénine basse"
-      - "hypotension et hyperkaliémie"
-      - "une acidose métabolique"
+      - "hypotension, hyperkaliémie et acidose avec rénine élevée"
+      - "HTA, hypokaliémie et acidose métabolique avec rénine élevée"
     correct: 0
 ---
 

@@ -16,20 +16,20 @@ quiz:
   - prompt: "L'hémophilie A correspond à un déficit en…"
     options:
       - "facteur VIII, transmis de façon récessive liée à l'X"
-      - "facteur IX, autosomique dominant"
-      - "facteur Willebrand, autosomique récessif"
+      - "facteur IX, avec une transmission autosomique dominante"
+      - "facteur Willebrand, de transmission autosomique récessive"
     correct: 0
   - prompt: "La maladie de Willebrand la plus fréquente (type 1) associe…"
     options:
-      - "un allongement du temps d'occlusion plaquettaire et une baisse parallèle du VWF"
-      - "des plaquettes effondrées"
-      - "un TQ allongé isolé"
+      - "un temps d'occlusion plaquettaire allongé et un VWF abaissé"
+      - "une thrombopénie profonde avec temps d'occlusion allongé"
+      - "un temps de Quick allongé avec facteurs vitamine-K abaissés"
     correct: 0
   - prompt: "Quel traitement peut être utilisé dans l'hémophilie A mineure et le Willebrand de type 1 ?"
     options:
-      - "la desmopressine (DDAVP)"
-      - "les AVK"
-      - "l'héparine"
+      - "la desmopressine (DDAVP), qui libère le facteur stocké"
+      - "les concentrés de facteur VIII recombinant en prophylaxie"
+      - "les transfusions de plaquettes lors des saignements"
     correct: 0
 ---
 

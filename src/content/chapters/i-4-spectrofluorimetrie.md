@@ -16,20 +16,20 @@ quiz:
   - prompt: "En fluorimétrie, la longueur d'onde d'émission est…"
     options:
       - "supérieure à celle d'excitation (déplacement de Stokes)"
-      - "inférieure à celle d'excitation"
-      - "toujours égale à celle d'excitation"
+      - "inférieure à celle d'excitation (photon émis plus énergétique)"
+      - "égale à celle d'excitation (aucune perte d'énergie vibratoire)"
     correct: 0
   - prompt: "Le détecteur de fluorescence est placé…"
     options:
-      - "à 90° du faisceau d'excitation"
-      - "dans l'axe du faisceau d'excitation"
-      - "avant la cuve"
+      - "à 90° du faisceau d'excitation incident"
+      - "dans l'axe du faisceau d'excitation transmis"
+      - "en amont de la cuve, du côté de la source"
     correct: 0
   - prompt: "Comparée à l'absorption UV, la fluorimétrie est…"
     options:
-      - "plus sensible (détection sur fond noir)"
-      - "moins sensible"
-      - "de sensibilité identique"
+      - "plus sensible, car la mesure se fait sur fond noir"
+      - "moins sensible, le signal étant noyé dans le bruit"
+      - "de sensibilité comparable à celle de l'absorption UV"
     correct: 0
 ---
 

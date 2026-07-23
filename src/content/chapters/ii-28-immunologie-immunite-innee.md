@@ -21,15 +21,15 @@ quiz:
     correct: 0
   - prompt: "Le principal fragment du complément assurant l'opsonisation est…"
     options:
-      - "le C3b"
-      - "le C5a"
-      - "le complexe d'attaque membranaire C5b-C9"
+      - "le fragment C3b"
+      - "le fragment C5a"
+      - "le complexe C5b-C9"
     correct: 0
   - prompt: "Les quatre signes cardinaux de l'inflammation aiguë sont…"
     options:
       - "rougeur, chaleur, tuméfaction et douleur"
       - "fièvre, frisson, sueurs et asthénie"
-      - "pâleur, froideur, atrophie et prurit"
+      - "rougeur, chaleur, prurit et induration"
     correct: 0
 ---
 

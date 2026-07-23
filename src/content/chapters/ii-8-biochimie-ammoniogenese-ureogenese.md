@@ -16,20 +16,20 @@ quiz:
   - prompt: "Dans le sang, l'ammoniac est principalement transporté vers le foie sous forme de…"
     options:
       - "glutamine (et alanine), l'ammoniac libre NH₃ étant très toxique"
-      - "urée déjà formée dans le muscle"
-      - "ammoniac libre gazeux dissous"
+      - "urée, produite dès le muscle puis simplement acheminée jusqu'au foie"
+      - "ammonium libre NH₄⁺, forme réputée non toxique circulant telle quelle"
     correct: 0
   - prompt: "Le cycle de l'urée se déroule…"
     options:
-      - "dans l'hépatocyte, à cheval entre mitochondrie et cytosol"
-      - "exclusivement dans le cytosol du néphron"
-      - "entièrement dans la mitochondrie musculaire"
+      - "dans l'hépatocyte, à cheval entre la mitochondrie et le cytosol"
+      - "dans le néphron rénal, exclusivement au sein de son cytosol"
+      - "dans la cellule musculaire, entièrement à l'intérieur de la mitochondrie"
     correct: 0
   - prompt: "La première réaction du cycle produit le carbamyl-phosphate ; elle est catalysée par…"
     options:
       - "la carbamyl-phosphate synthétase I mitochondriale, activée par le N-acétylglutamate"
-      - "l'arginase cytosolique"
-      - "la glutamate déshydrogénase"
+      - "la carbamyl-phosphate synthétase II cytosolique, dédiée à la synthèse des pyrimidines"
+      - "l'ornithine transcarbamylase mitochondriale, qui consomme le carbamyl-phosphate"
     correct: 0
 ---
 

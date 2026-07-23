@@ -22,14 +22,14 @@ quiz:
   - prompt: "Le suivi d'une femme enceinte séronégative pour la toxoplasmose repose sur…"
     options:
       - "une sérologie mensuelle (IgG et IgM) jusqu'à l'accouchement"
-      - "une seule sérologie en début de grossesse"
-      - "une PCR sanguine mensuelle"
+      - "une seule sérologie réalisée en tout début de grossesse"
+      - "une PCR sanguine mensuelle à la recherche du parasite"
     correct: 0
   - prompt: "Le traitement d'attaque d'une toxoplasmose cérébrale de l'immunodéprimé est…"
     options:
       - "pyriméthamine + sulfadiazine (+ acide folinique)"
-      - "spiramycine seule"
-      - "cotrimoxazole à forte dose"
+      - "spiramycine seule, comme lors d'une séroconversion gravidique"
+      - "cotrimoxazole à forte dose en monothérapie"
     correct: 0
 ---
 

@@ -16,20 +16,20 @@ quiz:
   - prompt: "Le diagnostic d'ostéoporose repose sur un T-score (ostéodensitométrie)…"
     options:
       - "inférieur ou égal à -2,5"
-      - "supérieur à -1"
+      - "strictement supérieur à -1"
       - "compris entre -1 et -2,5"
     correct: 0
   - prompt: "Un bisphosphonate par voie orale doit être pris…"
     options:
       - "à jeun, debout, avec un grand verre d'eau, à distance du repas"
-      - "au milieu du repas"
-      - "le soir en position allongée"
+      - "au milieu du repas, avec un grand verre d'eau, puis allongé"
+      - "le soir au coucher, en position allongée, à distance du repas"
     correct: 0
   - prompt: "Le dénosumab est…"
     options:
       - "un anticorps anti-RANKL (inhibiteur de la résorption)"
-      - "un analogue de la PTH"
-      - "un modulateur des récepteurs aux œstrogènes"
+      - "un analogue de la PTH (stimulant la formation osseuse)"
+      - "un modulateur des récepteurs aux œstrogènes (SERM osseux)"
     correct: 0
 ---
 

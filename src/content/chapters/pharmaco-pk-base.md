@@ -17,20 +17,20 @@ quiz:
   - prompt: "La clairance (CL) représente…"
     options:
       - "le volume de plasma totalement épuré par unité de temps"
-      - "la quantité totale de médicament dans le corps"
-      - "la vitesse d'absorption"
+      - "le volume apparent où se répartit le médicament dans l'organisme"
+      - "la constante de vitesse d'élimination de premier ordre"
     correct: 0
   - prompt: "La demi-vie d'élimination dépend…"
     options:
       - "à la fois du volume et de la clairance"
-      - "de la clairance seule"
-      - "du volume seul"
+      - "de la seule clairance, pas du volume"
+      - "du seul volume, pas de la clairance"
     correct: 0
   - prompt: "La biodisponibilité absolue F d'une forme orale se calcule en comparant…"
     options:
       - "son AUC à l'AUC de la voie IV"
-      - "sa Cmax à la CMI"
-      - "le volume au poids corporel"
+      - "sa Cmax orale à sa Cmax après voie IV"
+      - "son AUC à la dose orale administrée"
     correct: 0
 ---
 

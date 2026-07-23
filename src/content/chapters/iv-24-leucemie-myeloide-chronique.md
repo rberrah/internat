@@ -16,20 +16,20 @@ quiz:
   - prompt: "L'anomalie moléculaire caractéristique de la LMC est…"
     options:
       - "le transcrit de fusion BCR-ABL1, chromosome Philadelphie t(9;22)"
-      - "la mutation JAK2 V617F"
-      - "le réarrangement PML-RARA t(15;17)"
+      - "la mutation JAK2 V617F des syndromes myéloprolifératifs Ph-négatifs"
+      - "le réarrangement PML-RARA de la leucémie aiguë promyélocytaire"
     correct: 0
   - prompt: "L'hémogramme typique de la LMC en phase chronique montre…"
     options:
-      - "une hyperleucocytose avec myélémie et basophilie"
-      - "une hyperlymphocytose monomorphe"
-      - "une pancytopénie avec blastes > 20 %"
+      - "une hyperleucocytose avec myélémie, basophilie et thrombocytose"
+      - "une hyperlymphocytose monomorphe à petits lymphocytes matures"
+      - "une pancytopénie avec excès de blastes circulants (> 20 %)"
     correct: 0
   - prompt: "Le traitement de référence de la LMC repose sur…"
     options:
       - "les inhibiteurs de tyrosine kinase (imatinib)"
-      - "les corticoïdes"
-      - "les saignées"
+      - "une polychimiothérapie intensive d'induction"
+      - "les saignées répétées associées à l'hydroxyurée"
     correct: 0
 ---
 

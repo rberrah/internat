@@ -16,20 +16,20 @@ quiz:
   - prompt: "L'antidote spécifique de l'intoxication digitalique grave est…"
     options:
       - "les fragments Fab anti-digoxine"
-      - "la N-acétylcystéine"
-      - "le flumazénil"
+      - "les sels de sodium molaires"
+      - "l'atropine et le glucagon"
     correct: 0
   - prompt: "Dans l'intoxication aiguë aux digitaliques, un signe de gravité est…"
     options:
       - "l'hyperkaliémie"
-      - "l'hypernatrémie"
-      - "l'alcalose métabolique"
+      - "l'hypokaliémie"
+      - "l'hyponatrémie"
     correct: 0
   - prompt: "L'élargissement du QRS par effet stabilisant de membrane (chloroquine, tricycliques) se traite par…"
     options:
       - "du bicarbonate de sodium molaire"
-      - "du charbon activé seul"
-      - "de l'atropine seule"
+      - "des sels de potassium molaires"
+      - "un choc électrique externe immédiat"
     correct: 0
 ---
 

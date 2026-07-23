@@ -16,20 +16,20 @@ quiz:
   - prompt: "L'aldostérone (zone glomérulée) a pour effet principal…"
     options:
       - "la réabsorption rénale de Na⁺ et la sécrétion de K⁺"
-      - "la réabsorption de K⁺ et l'excrétion de Na⁺"
-      - "l'augmentation de la glycémie"
+      - "la réabsorption rénale de K⁺ et l'excrétion de Na⁺"
+      - "l'augmentation de la glycémie et le catabolisme protéique"
     correct: 0
   - prompt: "La sécrétion de cortisol est régulée par…"
     options:
       - "l'axe hypothalamo-hypophysaire CRH → ACTH, avec rétrocontrôle négatif"
-      - "le système rénine-angiotensine exclusivement"
-      - "la kaliémie exclusivement"
+      - "le système rénine-angiotensine et la volémie, comme l'aldostérone"
+      - "la kaliémie et l'angiotensine II agissant sur la glomérulée"
     correct: 0
   - prompt: "La médullosurrénale (partie centrale de la glande) sécrète…"
     options:
       - "les catécholamines (adrénaline, noradrénaline)"
-      - "l'aldostérone"
-      - "le cortisol"
+      - "l'aldostérone, comme la zone glomérulée corticale"
+      - "le cortisol, comme la zone fasciculée corticale"
     correct: 0
 ---
 

@@ -16,20 +16,20 @@ quiz:
   - prompt: "Dans l'estomac, les cellules pariétales (bordantes) sécrètent…"
     options:
       - "l'acide chlorhydrique (HCl) et le facteur intrinsèque"
-      - "le pepsinogène"
-      - "la gastrine"
+      - "le pepsinogène, précurseur inactif de la pepsine"
+      - "la gastrine, hormone stimulant la sécrétion acide"
     correct: 0
   - prompt: "La sécrétion acide gastrique est stimulée par la synergie de trois agents…"
     options:
       - "acétylcholine, histamine et gastrine"
-      - "sécrétine, CCK et GIP"
-      - "insuline, glucagon et cortisol"
+      - "sécrétine, cholécystokinine et GIP"
+      - "insuline, glucagon et somatostatine"
     correct: 0
   - prompt: "La cholécystokinine (CCK), libérée par le duodénum (lipides, peptides), provoque…"
     options:
       - "la contraction de la vésicule biliaire et la sécrétion d'enzymes pancréatiques"
-      - "la sécrétion de bicarbonates pancréatiques seulement"
-      - "l'augmentation de la sécrétion acide gastrique"
+      - "la sécrétion de bicarbonates pancréatiques et la neutralisation du chyme"
+      - "la stimulation de la sécrétion acide et de la vidange gastrique rapide"
     correct: 0
 ---
 

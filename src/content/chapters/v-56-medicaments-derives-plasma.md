@@ -16,20 +16,20 @@ quiz:
   - prompt: "Les médicaments dérivés du plasma (MDS) sont obtenus par…"
     options:
       - "fractionnement du plasma humain issu du don de sang"
-      - "synthèse chimique totale"
-      - "culture de bactéries recombinantes"
+      - "génie génétique sur cellules de mammifère (CHO)"
+      - "purification à partir de plasma animal immunisé"
     correct: 0
   - prompt: "La sécurité virale des MDS repose notamment sur…"
     options:
       - "le solvant-détergent, la nanofiltration et le dépistage des donneurs"
-      - "la stérilisation à l'autoclave"
-      - "la seule irradiation gamma"
+      - "la stérilisation à l'autoclave et l'irradiation gamma du produit"
+      - "la filtration 0,22 µm et l'ajout d'un conservateur antimicrobien"
     correct: 0
   - prompt: "Le PPSB (complexe prothrombique) contient les facteurs…"
     options:
       - "II, VII, IX et X"
-      - "V et VIII"
-      - "uniquement le facteur VIII"
+      - "II, V, VII et X"
+      - "V, VIII, IX et X"
     correct: 0
 ---
 

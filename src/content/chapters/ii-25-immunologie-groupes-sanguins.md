@@ -15,15 +15,15 @@ reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les anticorps du système ABO (anti-A, anti-B) sont…"
     options:
-      - "naturels et réguliers (présents dès les premiers mois, sans immunisation préalable)"
-      - "immuns, apparaissant seulement après transfusion"
-      - "absents chez le sujet de groupe O"
+      - "naturels et réguliers, présents dès les premiers mois sans immunisation"
+      - "immuns et irréguliers, apparaissant après une transfusion ou une grossesse"
+      - "naturels mais absents chez le sujet O, faute d'antigène A et B"
     correct: 0
   - prompt: "Un sujet de groupe O est, pour les globules rouges…"
     options:
-      - "donneur universel (pas d'antigène A ni B)"
-      - "receveur universel"
-      - "incompatible avec tous les groupes"
+      - "donneur universel, faute d'antigène A ou B à attaquer"
+      - "receveur universel, faute d'anticorps anti-A ou anti-B"
+      - "compatible seulement avec un receveur du même groupe O"
     correct: 0
   - prompt: "Dans le système Rhésus, l'antigène le plus immunogène est…"
     options:

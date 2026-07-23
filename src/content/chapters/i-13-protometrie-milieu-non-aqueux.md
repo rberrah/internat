@@ -16,20 +16,20 @@ quiz:
   - prompt: "Pour doser une base très faible, on utilise…"
     options:
       - "un solvant acide (acide acétique) et de l'acide perchlorique"
-      - "l'eau et de la soude"
-      - "un solvant basique et un titrant basique"
+      - "un solvant basique (pyridine) et un titrant fortement basique"
+      - "un solvant aqueux tamponné et de la soude comme titrant fort"
     correct: 0
   - prompt: "Dans l'eau, l'acide le plus fort qui puisse exister est…"
     options:
       - "l'ion hydronium H₃O⁺ (effet nivelant)"
-      - "HClO₄"
-      - "n'importe quel acide fort, sans limite"
+      - "l'acide perchlorique HClO₄, le plus fort connu"
+      - "l'ion hydroxyde OH⁻, limite haute de l'échelle"
     correct: 0
   - prompt: "La protométrie non aqueuse est indiquée quand…"
     options:
       - "l'acide ou la base est trop faible pour un saut de pH dans l'eau"
-      - "le composé est un acide fort classique"
-      - "on veut mesurer une osmolalité"
+      - "le composé est un acide fort parfaitement soluble dans l'eau"
+      - "l'espèce se dissocie totalement et donne un net saut en milieu aqueux"
     correct: 0
 ---
 

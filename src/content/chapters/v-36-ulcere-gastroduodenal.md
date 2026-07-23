@@ -16,20 +16,20 @@ quiz:
   - prompt: "Les inhibiteurs de la pompe à protons (IPP) agissent en inhibant…"
     options:
       - "la pompe à protons H+/K+-ATPase de la cellule pariétale"
-      - "les récepteurs H2 à l'histamine"
-      - "la cyclo-oxygénase gastrique"
+      - "les récepteurs H2 à l'histamine de la cellule pariétale"
+      - "l'anhydrase carbonique de la sécrétion acide gastrique"
     correct: 0
   - prompt: "L'éradication de Helicobacter pylori repose sur…"
     options:
       - "un IPP associé à deux antibiotiques"
-      - "un IPP seul"
-      - "un antiacide seul"
+      - "un IPP associé à un seul antibiotique"
+      - "un antiacide associé à deux antibiotiques"
     correct: 0
   - prompt: "Le misoprostol (analogue de prostaglandine) est contre-indiqué…"
     options:
-      - "pendant la grossesse (effet abortif)"
-      - "en cas d'insuffisance rénale"
-      - "chez le sujet âgé"
+      - "pendant la grossesse (effet abortif utérin)"
+      - "en cas d'insuffisance rénale (accumulation)"
+      - "chez le sujet âgé (majoration des diarrhées)"
     correct: 0
 ---
 

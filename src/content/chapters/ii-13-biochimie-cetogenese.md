@@ -15,21 +15,21 @@ reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les corps cétoniques sont…"
     options:
-      - "l'acétoacétate, le β-hydroxybutyrate et l'acétone, synthétisés dans la mitochondrie hépatique à partir de l'acétyl-CoA"
-      - "le glucose, le lactate et le pyruvate, produits par le rein"
-      - "des acides gras à longue chaîne stockés dans le tissu adipeux"
+      - "l'acétoacétate, le β-hydroxybutyrate et l'acétone, dérivés de l'acétyl-CoA"
+      - "le glucose, le lactate et le pyruvate, produits par la néoglucogenèse rénale"
+      - "des acides gras à longue chaîne libérés par la lipolyse des adipocytes"
     correct: 0
   - prompt: "L'enzyme régulatrice de la cétogenèse est…"
     options:
       - "l'HMG-CoA synthase mitochondriale"
       - "l'HMG-CoA réductase cytosolique"
-      - "la citrate synthase"
+      - "la citrate synthase du cycle de Krebs"
     correct: 0
   - prompt: "Concernant l'utilisation des corps cétoniques…"
     options:
-      - "le foie les produit mais ne les consomme pas ; cerveau, cœur et muscle les utilisent grâce à la thiophorase"
-      - "seul le foie peut les utiliser comme carburant"
-      - "le cerveau ne peut jamais les utiliser"
+      - "le foie les produit mais ne les consomme pas ; les tissus périphériques les oxydent"
+      - "le foie les produit et les réutilise grâce à sa thiophorase, absente en périphérie"
+      - "seul le cerveau les capte ; le cœur et le muscle squelettique en sont incapables"
     correct: 0
 ---
 

@@ -16,20 +16,20 @@ quiz:
   - prompt: "Les deux principales bactéries d'une urétrite masculine sont…"
     options:
       - "Neisseria gonorrhoeae et Chlamydia trachomatis"
-      - "E. coli et Staphylococcus aureus"
-      - "Treponema pallidum et Listeria"
+      - "Mycoplasma genitalium et Trichomonas vaginalis"
+      - "Treponema pallidum et Haemophilus ducreyi"
     correct: 0
   - prompt: "Un dépistage de syphilis montre VDRL positif et TPHA (test tréponémique) négatif : il s'agit le plus souvent…"
     options:
       - "d'un faux positif du VDRL (grossesse, virose, lupus…)"
-      - "d'une neurosyphilis"
-      - "d'une syphilis primaire certaine"
+      - "d'une neurosyphilis tardive, à confirmer sur le LCR"
+      - "d'une syphilis primaire très précoce, avant le chancre"
     correct: 0
   - prompt: "Le traitement probabiliste d'une urétrite associe…"
     options:
       - "ceftriaxone (anti-gonocoque) + azithromycine ou doxycycline (anti-chlamydia)"
-      - "fosfomycine monodose seule"
-      - "vancomycine per os"
+      - "fosfomycine-trométamol en dose unique, comme dans une cystite aiguë simple"
+      - "ciprofloxacine per os en monothérapie, censée couvrir les deux germes"
     correct: 0
 ---
 

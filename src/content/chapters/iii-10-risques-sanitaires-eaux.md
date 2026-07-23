@@ -16,20 +16,20 @@ quiz:
   - prompt: "L'indicateur de référence d'une contamination fécale de l'eau est…"
     options:
       - "Escherichia coli (absence exigée dans 100 mL)"
-      - "Pseudomonas aeruginosa"
-      - "les nitrates"
+      - "Pseudomonas aeruginosa (marqueur de risque nosocomial)"
+      - "les nitrates (marqueur de pollution agricole des nappes)"
     correct: 0
   - prompt: "La limite de qualité des nitrates dans l'eau de consommation est…"
     options:
       - "50 mg/L (risque de méthémoglobinémie du nourrisson)"
-      - "0,1 mg/L"
-      - "500 mg/L"
+      - "10 mg/L (valeur exprimée en azote nitrique, non en nitrate)"
+      - "0,1 mg/L (seuil en réalité fixé pour chaque pesticide)"
     correct: 0
   - prompt: "La légionellose se contracte par…"
     options:
       - "inhalation d'aérosols d'eau contaminée (réseaux d'eau chaude)"
-      - "ingestion d'eau contaminée"
-      - "contact cutané"
+      - "ingestion d'eau contaminée lors de la boisson au robinet"
+      - "contact cutané prolongé lors de la douche ou du bain"
     correct: 0
 ---
 

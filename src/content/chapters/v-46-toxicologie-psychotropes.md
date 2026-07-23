@@ -17,13 +17,13 @@ quiz:
     options:
       - "le flumazénil"
       - "la N-acétylcystéine"
-      - "le bicarbonate de sodium molaire"
+      - "la naloxone"
     correct: 0
   - prompt: "La cardiotoxicité des antidépresseurs tricycliques en surdosage est due…"
     options:
       - "à un effet stabilisant de membrane (élargissement du QRS)"
-      - "à un effet sérotoninergique isolé"
-      - "à une hyperkaliémie majeure"
+      - "à un effet sérotoninergique direct sur le myocarde"
+      - "à une hyperkaliémie majeure bloquant la conduction"
     correct: 0
   - prompt: "En cas de surdosage grave en lithium, l'atteinte au premier plan et l'épuration de choix sont…"
     options:

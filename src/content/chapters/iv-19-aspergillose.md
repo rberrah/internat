@@ -17,13 +17,13 @@ quiz:
     options:
       - "la neutropénie profonde et prolongée"
       - "l'infection par le VIH avec CD4 bas"
-      - "le diabète équilibré"
+      - "un diabète déséquilibré, avec épisodes d'acidocétose"
     correct: 0
   - prompt: "Le diagnostic sérologique de l'aspergillose invasive repose surtout sur…"
     options:
       - "la détection de l'antigène galactomannane (sérum, LBA)"
       - "la recherche d'anticorps anti-aspergillaires circulants"
-      - "l'hémoculture positive"
+      - "la positivité des hémocultures sur milieu fongique"
     correct: 0
   - prompt: "Le traitement de première intention de l'aspergillose invasive est…"
     options:

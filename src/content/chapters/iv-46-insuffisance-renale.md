@@ -17,19 +17,19 @@ quiz:
     options:
       - "un rapport Na/K urinaire inférieur à 1"
       - "un rapport Na/K urinaire supérieur à 1"
-      - "une absence de protéinurie obligatoire"
+      - "une natriurèse élevée, au-dessus de 40 mmol/L"
     correct: 0
   - prompt: "Le syndrome néphrotique est défini par une protéinurie…"
     options:
       - "supérieure à 3 g/24 h avec hypoalbuminémie"
-      - "supérieure à 150 mg/24 h"
-      - "isolée sans hypoalbuminémie"
+      - "supérieure à 1 g/24 h avec hématurie et HTA associées"
+      - "supérieure à 0,15 g/24 h, sans hypoalbuminémie"
     correct: 0
   - prompt: "En faveur d'une insuffisance rénale chronique plutôt qu'aiguë, on retient…"
     options:
       - "une anémie et une hypocalcémie"
-      - "une créatinine normale"
-      - "une hyperkaliémie isolée"
+      - "une acidose hyperkaliémique"
+      - "des reins de taille normale"
     correct: 0
 ---
 

@@ -16,20 +16,20 @@ quiz:
   - prompt: "L'enzyme clé de la production d'acide urique, cible des hypo-uricémiants, est…"
     options:
       - "la xanthine oxydase"
-      - "l'uricase"
-      - "la lipoprotéine lipase"
+      - "l'uricase hépatique"
+      - "la PRPP synthétase"
     correct: 0
   - prompt: "Le traitement de la crise aiguë de goutte repose en première intention sur…"
     options:
       - "la colchicine (± AINS ou corticoïdes)"
-      - "l'allopurinol"
-      - "un uricosurique"
+      - "l'allopurinol, inhibiteur de la xanthine oxydase"
+      - "un uricosurique comme le probénécide"
     correct: 0
   - prompt: "Le traitement hypo-uricémiant de fond doit être introduit…"
     options:
       - "à distance de la crise, sous couverture de colchicine"
-      - "en pleine crise aiguë"
-      - "en cas de première crise systématiquement"
+      - "dès la crise aiguë, pour faire baisser vite l'uricémie"
+      - "dès la toute première crise, de façon systématique"
     correct: 0
 ---
 

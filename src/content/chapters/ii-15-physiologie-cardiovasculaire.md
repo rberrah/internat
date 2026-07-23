@@ -16,8 +16,8 @@ quiz:
   - prompt: "La pression artérielle moyenne est égale à…"
     options:
       - "débit cardiaque × résistances périphériques totales"
-      - "fréquence cardiaque × volume télédiastolique"
-      - "débit cardiaque / volume d'éjection systolique"
+      - "fréquence cardiaque × volume d'éjection systolique"
+      - "débit cardiaque / résistances périphériques totales"
     correct: 0
   - prompt: "Selon la loi de Frank-Starling, si le volume télédiastolique augmente (cœur sain)…"
     options:
@@ -27,9 +27,9 @@ quiz:
     correct: 0
   - prompt: "La stimulation des barorécepteurs du sinus carotidien (hausse de PA) entraîne…"
     options:
-      - "une hausse de l'activité parasympathique et une baisse de la fréquence cardiaque"
-      - "une tachycardie par activation sympathique"
-      - "une libération accrue de rénine"
+      - "une activation parasympathique, une bradycardie et une vasodilatation"
+      - "une tachycardie réflexe par activation du système sympathique"
+      - "une libération accrue de rénine et une vasoconstriction rénale"
     correct: 0
 ---
 

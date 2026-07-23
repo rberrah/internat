@@ -16,20 +16,20 @@ quiz:
   - prompt: "Le coefficient de partage d'un soluté entre deux solvants non miscibles est…"
     options:
       - "le rapport des concentrations à l'équilibre dans les deux phases"
-      - "la différence des volumes des deux phases"
-      - "la somme des solubilités"
+      - "le rapport des solubilités du soluté dans chacun des solvants purs"
+      - "le rapport des volumes de solvant mis en jeu dans les deux phases"
     correct: 0
   - prompt: "Pour un rendement d'extraction donné, il vaut mieux…"
     options:
       - "fractionner le solvant en plusieurs extractions successives"
-      - "utiliser tout le solvant en une seule fois"
-      - "diminuer le volume total de solvant"
+      - "utiliser la totalité du solvant en une seule extraction de grand volume"
+      - "réaliser une seule extraction en agitant plus longtemps l'ampoule"
     correct: 0
   - prompt: "Pour extraire un acide faible sous forme neutre dans un solvant organique, on travaille à…"
     options:
       - "pH acide (pH < pKa, forme non ionisée)"
-      - "pH basique (forme ionisée)"
-      - "pH = pKa exactement"
+      - "pH basique (pH > pKa, forme ionisée A⁻)"
+      - "pH voisin du pKa (mélange des deux formes)"
     correct: 0
 ---
 

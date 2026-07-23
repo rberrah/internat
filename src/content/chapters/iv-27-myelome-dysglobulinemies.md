@@ -15,21 +15,21 @@ reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Un pic monoclonal étroit en zone gamma sur l'électrophorèse des protéines correspond à…"
     options:
-      - "une immunoglobuline monoclonale"
-      - "une hypergammaglobulinémie polyclonale inflammatoire"
-      - "une hypoalbuminémie"
+      - "une immunoglobuline monoclonale (un seul clone)"
+      - "une hypergammaglobulinémie polyclonale réactionnelle"
+      - "un bloc bêta-gamma des hépatopathies chroniques"
     correct: 0
   - prompt: "La protéinurie de Bence-Jones correspond à…"
     options:
       - "des chaînes légères libres monoclonales dans les urines"
-      - "de l'albumine"
-      - "des immunoglobulines complètes"
+      - "des immunoglobulines complètes filtrées par le glomérule lésé"
+      - "de l'albumine témoignant d'une atteinte glomérulaire"
     correct: 0
   - prompt: "Parmi les critères CRAB du myélome symptomatique, on retrouve…"
     options:
       - "hypercalcémie, insuffisance rénale, anémie, lésions osseuses lytiques"
-      - "hyperleucocytose, fièvre, splénomégalie"
-      - "thrombopénie, myélémie, basophilie"
+      - "hypocalcémie, protéinurie glomérulaire, polyglobulie, ostéocondensation"
+      - "hyperleucocytose, adénopathies, splénomégalie, fièvre au long cours"
     correct: 0
 ---
 

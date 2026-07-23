@@ -15,15 +15,15 @@ reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Un onyxis dermatophytique se distingue d'un onyxis à Candida par…"
     options:
-      - "l'absence de périonyxis et un début au bord latéro-distal (membre inférieur)"
-      - "la présence d'un périonyxis inflammatoire"
-      - "une atteinte préférentielle des ongles des mains"
+      - "l'absence de périonyxis, avec un début latéro-distal aux pieds"
+      - "la présence d'un périonyxis inflammatoire du repli unguéal"
+      - "un début proximal touchant surtout les ongles des mains"
     correct: 0
   - prompt: "Une teigne à grandes plaques d'alopécie fluorescentes à la lumière de Wood évoque…"
     options:
       - "Microsporum canis (teigne microsporique, contamination animale)"
-      - "Trichophyton (teigne trichophytique, non fluorescente)"
-      - "Candida albicans"
+      - "Trichophyton (teigne trichophytique, petites plaques nombreuses)"
+      - "Epidermophyton floccosum, dermatophyte anthropophile des plis"
     correct: 0
   - prompt: "La terbinafine agit en bloquant la synthèse de l'ergostérol au niveau de…"
     options:

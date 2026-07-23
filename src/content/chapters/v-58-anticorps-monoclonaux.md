@@ -15,21 +15,21 @@ reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le suffixe -ximab d'une DCI d'anticorps monoclonal désigne un anticorps…"
     options:
-      - "chimérique"
-      - "entièrement humain"
-      - "murin"
+      - "chimérique, en partie souris, en partie humain"
+      - "entièrement humain, sans aucune séquence murine"
+      - "murin, issu uniquement d'immunoglobulines de souris"
     correct: 0
   - prompt: "Le rituximab est un anticorps monoclonal dirigé contre…"
     options:
-      - "le CD20 (lymphocytes B)"
-      - "le récepteur HER2"
-      - "le TNF-α"
+      - "le CD20 (lymphocytes B, lymphomes)"
+      - "le récepteur HER2 (cancer du sein)"
+      - "le TNF-α (cytokine inflammatoire)"
     correct: 0
   - prompt: "Les anticorps monoclonaux s'administrent…"
     options:
-      - "par voie parentérale (IV ou SC)"
-      - "par voie orale"
-      - "par voie inhalée exclusivement"
+      - "par voie parentérale, par injection IV ou sous-cutanée"
+      - "par voie orale, sous forme de comprimés gastrorésistants"
+      - "par voie sublinguale, pour éviter le tube digestif"
     correct: 0
 ---
 

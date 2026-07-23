@@ -16,20 +16,20 @@ quiz:
   - prompt: "Une unité internationale (UI) d'enzyme correspond à…"
     options:
       - "la transformation d'une micromole de substrat par minute, en conditions optimales"
-      - "la transformation d'une mole de substrat par seconde"
-      - "la masse d'enzyme contenue dans 1 mL de réactif"
+      - "la transformation d'une mole de substrat par seconde, en conditions optimales"
+      - "la transformation d'une micromole de substrat par seconde, en conditions optimales"
     correct: 0
   - prompt: "Pour que la vitesse mesurée reflète la quantité d'enzyme présente, on travaille…"
     options:
       - "à concentration saturante en substrat (cinétique d'ordre 0)"
-      - "à très faible concentration en substrat (ordre 1)"
+      - "à très faible concentration en substrat (cinétique d'ordre 1)"
       - "en laissant la réaction aller jusqu'à épuisement du substrat"
     correct: 0
   - prompt: "La constante de Michaelis Km correspond à la concentration en substrat pour laquelle…"
     options:
       - "la vitesse est égale à la moitié de la vitesse maximale"
-      - "la vitesse est maximale"
-      - "l'enzyme est totalement dénaturée"
+      - "la vitesse est maximale et ne dépend plus de la concentration en substrat"
+      - "la vitesse de la réaction est réduite de moitié par un inhibiteur"
     correct: 0
 ---
 

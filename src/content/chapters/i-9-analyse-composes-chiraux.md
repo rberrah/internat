@@ -16,20 +16,20 @@ quiz:
   - prompt: "Deux énantiomères sont…"
     options:
       - "des images l'une de l'autre dans un miroir, non superposables"
-      - "des diastéréoisomères géométriques"
-      - "des composés de formules développées différentes"
+      - "des diastéréoisomères aux propriétés physiques différentes"
+      - "des isomères de constitution, de formules développées distinctes"
     correct: 0
   - prompt: "Le pouvoir rotatoire se mesure par…"
     options:
       - "polarimétrie"
       - "polarographie"
-      - "spectrométrie de masse"
+      - "réfractométrie"
     correct: 0
   - prompt: "Un mélange racémique présente un pouvoir rotatoire…"
     options:
       - "nul (les deux énantiomères se compensent)"
-      - "maximal"
-      - "toujours dextrogyre"
+      - "maximal (les pouvoirs rotatoires s'additionnent)"
+      - "dextrogyre (l'énantiomère + l'emporte toujours)"
     correct: 0
 ---
 

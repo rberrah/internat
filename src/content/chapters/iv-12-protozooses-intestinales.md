@@ -17,19 +17,19 @@ quiz:
     options:
       - "glairo-sanglante avec fièvre modérée (≤ 38,5 °C)"
       - "aqueuse profuse avec fièvre élevée > 40 °C"
-      - "graisseuse décolorée sans sang"
+      - "graisseuse et décolorée, sans sang ni fièvre"
     correct: 0
   - prompt: "Le traitement de l'amœbose intestinale associe un amœbicide tissulaire à…"
     options:
       - "un amœbicide de contact (tiliquinol-tilbroquinol)"
-      - "un antifongique azolé"
-      - "de l'albendazole"
+      - "un second nitro-5-imidazolé comme le tinidazole"
+      - "de l'albendazole, un antiparasitaire à large spectre"
     correct: 0
   - prompt: "La giardiose est responsable d'une…"
     options:
-      - "diarrhée de malabsorption (selles décolorées), sans sang ni fièvre"
-      - "diarrhée glairo-sanglante fébrile"
-      - "hyperéosinophilie majeure"
+      - "diarrhée de malabsorption, selles décolorées, sans sang ni fièvre"
+      - "diarrhée glairo-sanglante et fébrile, évoquant une dysenterie amibienne"
+      - "franche hyperéosinophilie sanguine, témoignant d'une helminthiase"
     correct: 0
 ---
 

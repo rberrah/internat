@@ -17,19 +17,19 @@ quiz:
     options:
       - "deux chaînes alpha et deux chaînes bêta (α2β2)"
       - "deux chaînes alpha et deux chaînes gamma (α2γ2)"
-      - "quatre chaînes bêta identiques (β4)"
+      - "deux chaînes alpha et deux chaînes delta (α2δ2)"
     correct: 0
   - prompt: "La biosynthèse de l'hème débute par la condensation de…"
     options:
       - "succinyl-CoA et glycine (formation de l'ALA)"
-      - "glucose et glutamine"
-      - "cholestérol et acétyl-CoA"
+      - "glycine et acétyl-CoA (formation de l'ALA)"
+      - "deux molécules d'ALA (formation du porphobilinogène)"
     correct: 0
   - prompt: "Le catabolisme de l'hème aboutit dans le foie à…"
     options:
       - "la bilirubine conjuguée (glucuronoconjugaison), excrétée dans la bile"
-      - "l'urée, excrétée par le rein"
-      - "la créatinine, excrétée dans les urines"
+      - "la bilirubine libre non conjuguée, excrétée telle quelle dans la bile"
+      - "la biliverdine, pigment vert éliminé directement dans les urines"
     correct: 0
 ---
 

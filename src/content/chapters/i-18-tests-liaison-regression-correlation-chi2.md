@@ -16,20 +16,20 @@ quiz:
   - prompt: "Le coefficient de corrélation de Pearson r…"
     options:
       - "varie entre −1 et +1 et mesure une liaison linéaire"
-      - "est toujours positif"
-      - "mesure une relation de cause à effet"
+      - "varie entre 0 et +1 et mesure la part de variance expliquée"
+      - "établit une relation de cause à effet entre les deux variables"
     correct: 0
   - prompt: "Le nombre de degrés de liberté d'un test du chi-deux d'indépendance sur un tableau l × c est…"
     options:
       - "(l − 1) × (c − 1)"
-      - "l × c"
-      - "n − 1"
+      - "(l − 1) + (c − 1)"
+      - "(l × c) − 1"
     correct: 0
   - prompt: "La statistique du chi-deux se calcule par…"
     options:
-      - "Σ (O − E)² / E, avec O observés et E effectifs théoriques"
-      - "Σ (O − E)"
-      - "Σ O² / n"
+      - "Σ (O − E)² / E, avec O observés et E théoriques"
+      - "Σ (O − E)² / O, en divisant par les effectifs observés"
+      - "Σ (O − E) / E, sans élever les écarts au carré"
     correct: 0
 ---
 

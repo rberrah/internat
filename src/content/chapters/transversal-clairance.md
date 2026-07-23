@@ -16,20 +16,20 @@ quiz:
   - prompt: "La clairance d'une substance représente…"
     options:
       - "le volume de plasma totalement épuré par unité de temps"
-      - "la quantité totale de la substance"
-      - "sa concentration plasmatique"
+      - "la quantité de substance éliminée par unité de temps"
+      - "le volume apparent dans lequel la substance se distribue"
     correct: 0
   - prompt: "L'exposition (AUC) d'un médicament dépend surtout de…"
     options:
       - "sa clairance (AUC = F·Dose/CL)"
-      - "sa seule demi-vie"
-      - "sa masse molaire"
+      - "son volume de distribution (AUC = F·Dose/V)"
+      - "sa demi-vie (AUC = F·Dose/t½)"
     correct: 0
   - prompt: "La clairance de la créatinine sert à estimer…"
     options:
       - "le débit de filtration glomérulaire (DFG)"
-      - "la volémie"
-      - "la kaliémie"
+      - "le flux plasmatique rénal qui irrigue le rein"
+      - "la sécrétion tubulaire des déchets"
     correct: 0
 ---
 

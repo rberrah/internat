@@ -16,20 +16,20 @@ quiz:
   - prompt: "Le cholestérol-LDL par la formule de Friedewald n'est calculable que si…"
     options:
       - "les triglycérides sont inférieurs à 3,9 mmol/L et sans chylomicrons"
-      - "le sérum est lactescent"
-      - "le patient n'est pas à jeun"
+      - "les triglycérides sont supérieurs à 4,5 mmol/L (sérum lactescent)"
+      - "le sérum est lactescent, témoignant de la présence de chylomicrons"
     correct: 0
   - prompt: "Une hypertriglycéridémie majeure (type I ou V, sérum lactescent) expose surtout à…"
     options:
       - "une pancréatite aiguë"
       - "une lithiase biliaire"
-      - "une insuffisance rénale"
+      - "un athérome coronarien"
     correct: 0
   - prompt: "L'hypercholestérolémie familiale de type IIa est liée à…"
     options:
       - "un défaut des récepteurs aux LDL"
       - "un déficit en lipoprotéine lipase"
-      - "un excès de HDL"
+      - "une surproduction hépatique de VLDL"
     correct: 0
 ---
 

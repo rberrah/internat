@@ -16,20 +16,20 @@ quiz:
   - prompt: "La réalisation d'un examen génétique constitutionnel à visée diagnostique exige…"
     options:
       - "un consentement écrit et une information préalable du patient"
-      - "l'accord du seul prescripteur"
-      - "aucune formalité particulière"
+      - "un consentement oral tracé dans le dossier médical"
+      - "l'accord préalable d'un comité de protection des personnes"
     correct: 0
   - prompt: "Une analyse chromosomique sur puce à ADN (ACPA) détecte…"
     options:
       - "des variations du nombre de copies (micro-remaniements)"
-      - "uniquement les mutations ponctuelles"
-      - "les anomalies de l'ARN"
+      - "les mutations ponctuelles à l'échelle du nucléotide"
+      - "les anomalies de nombre des chromosomes entiers"
     correct: 0
   - prompt: "L'annonce d'un résultat génétique et le conseil génétique relèvent…"
     options:
       - "d'une consultation spécialisée pluridisciplinaire"
-      - "d'un simple courrier automatique"
-      - "du laboratoire seul, sans clinicien"
+      - "d'un compte rendu écrit adressé au médecin traitant"
+      - "du biologiste ayant validé l'analyse au laboratoire"
     correct: 0
 ---
 

@@ -16,20 +16,20 @@ quiz:
   - prompt: "La prévention secondaire vise à…"
     options:
       - "détecter précocement la maladie (dépistage) pour en limiter l'évolution"
-      - "empêcher l'apparition de la maladie chez le sujet sain"
-      - "éviter les rechutes et les séquelles d'une maladie déclarée"
+      - "empêcher l'apparition de la maladie chez un sujet encore indemne et sain"
+      - "limiter les rechutes et les séquelles d'une maladie déjà bien installée"
     correct: 0
   - prompt: "La charte fondatrice de la promotion de la santé est…"
     options:
       - "la charte d'Ottawa (OMS, 1986)"
-      - "la loi du 4 mars 2002"
-      - "la déclaration d'Helsinki"
+      - "la loi Kouchner du 4 mars 2002"
+      - "la déclaration d'Helsinki (1964)"
     correct: 0
   - prompt: "Un programme de dépistage organisé doit répondre aux critères de…"
     options:
       - "Wilson et Jungner"
       - "Bradford Hill"
-      - "Wilcoxon"
+      - "Frame et Carlson"
     correct: 0
 ---
 

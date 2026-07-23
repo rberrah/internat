@@ -23,14 +23,14 @@ quiz:
   - prompt: "Le VGM sert à…"
     options:
       - "classer l'anémie (micro / normo / macrocytaire)"
-      - "juger du caractère régénératif"
-      - "compter les plaquettes"
+      - "juger du caractère régénératif ou non de l'anémie"
+      - "mesurer la concentration en hémoglobine des hématies"
     correct: 0
   - prompt: "Une anémie régénérative se reconnaît sur…"
     options:
-      - "un VGM bas"
+      - "un VGM abaissé en dessous de 80 fL"
       - "des réticulocytes élevés (> ~120 G/L)"
-      - "des plaquettes basses"
+      - "des réticulocytes effondrés (< 20 G/L)"
     correct: 1
 ---
 

@@ -17,19 +17,19 @@ quiz:
     options:
       - "le concentré de globules rouges (CGR)"
       - "le PPSB (concentré de complexe prothrombinique)"
-      - "l'albumine"
+      - "l'albumine humaine (solution injectable)"
     correct: 0
   - prompt: "Le contrôle ultime prétransfusionnel au lit du malade vérifie en priorité…"
     options:
       - "la concordance ABO entre le receveur et le CGR"
-      - "le taux de plaquettes"
-      - "la numération des réticulocytes"
+      - "la concordance du groupe Rhésus RhD receveur/donneur"
+      - "la validité de la recherche d'agglutinines (RAI)"
     correct: 0
   - prompt: "L'accident transfusionnel le plus grave par incompatibilité ABO est…"
     options:
       - "une hémolyse aiguë intravasculaire"
       - "une réaction fébrile non hémolytique"
-      - "une surcharge en fer"
+      - "un œdème pulmonaire lésionnel (TRALI)"
     correct: 0
 ---
 

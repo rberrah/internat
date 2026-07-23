@@ -16,20 +16,20 @@ quiz:
   - prompt: "Une hyperéosinophilie élevée et oscillante doit surtout faire craindre, avant une corticothérapie…"
     options:
       - "une anguillulose (risque d'anguillulose maligne disséminée)"
-      - "un téniasis à Taenia saginata"
-      - "un kyste hydatique constitué"
+      - "une bilharziose de primo-invasion, avant la ponte des œufs"
+      - "un téniasis chronique dont la charge élève l'éosinophilie"
     correct: 0
   - prompt: "Dans l'hydatidose, la ponction du kyste est…"
     options:
       - "contre-indiquée (risque de dissémination et de choc anaphylactique)"
-      - "l'examen diagnostique de référence"
-      - "le traitement de première intention"
+      - "l'examen de référence, ramenant les scolex à l'aspiration"
+      - "le geste thérapeutique de première intention, vidant le kyste"
     correct: 0
   - prompt: "L'oxyurose se diagnostique par…"
     options:
       - "le scotch-test anal (test de Graham) le matin"
-      - "l'hémoculture"
-      - "la sérologie"
+      - "l'examen parasitologique des selles sur trois jours"
+      - "la sérologie, confirmée par un Western blot"
     correct: 0
 ---
 

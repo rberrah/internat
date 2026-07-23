@@ -16,20 +16,20 @@ quiz:
   - prompt: "Dans un dosage sandwich (immunométrique)…"
     options:
       - "le signal est proportionnel à l'antigène, qui doit porter au moins 2 épitopes"
-      - "le signal est inversement proportionnel à l'antigène"
-      - "aucun anticorps n'est nécessaire"
+      - "le signal est inversement proportionnel à l'antigène, même monoépitopique"
+      - "un seul anticorps de capture suffit, l'antigène pouvant être un haptène"
     correct: 0
   - prompt: "La néphélémétrie et la turbidimétrie mesurent…"
     options:
       - "la lumière diffusée ou atténuée par les complexes immuns"
-      - "un potentiel électrochimique"
-      - "une radioactivité"
+      - "un potentiel électrochimique généré par les complexes immuns"
+      - "la fluorescence émise par un traceur greffé sur l'anticorps"
     correct: 0
   - prompt: "Dans un dosage par compétition, le signal est…"
     options:
       - "inversement proportionnel à la concentration d'antigène"
-      - "proportionnel à la concentration d'antigène"
-      - "indépendant de l'antigène"
+      - "directement proportionnel à la concentration d'antigène"
+      - "indépendant de la quantité totale d'antigène présente"
     correct: 0
 ---
 

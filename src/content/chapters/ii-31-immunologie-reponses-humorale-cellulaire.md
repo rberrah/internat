@@ -16,20 +16,20 @@ quiz:
   - prompt: "La réponse immunitaire humorale est assurée par…"
     options:
       - "les lymphocytes B différenciés en plasmocytes, producteurs d'anticorps"
-      - "les lymphocytes T CD8 cytotoxiques"
-      - "les cellules NK"
+      - "les lymphocytes T CD8 cytotoxiques, qui détruisent les cellules infectées"
+      - "les cellules NK de l'immunité innée, sans production d'anticorps"
     correct: 0
   - prompt: "Par rapport à la réponse primaire, la réponse secondaire est…"
     options:
       - "plus rapide et plus intense, grâce aux lymphocytes mémoire"
-      - "plus lente et de moindre amplitude"
-      - "identique en cinétique et en amplitude"
+      - "plus lente et de moindre amplitude, faute de cellules mémoire"
+      - "identique en cinétique et en amplitude à la primaire"
     correct: 0
   - prompt: "Le lymphocyte T CD4 auxiliaire joue un rôle de…"
     options:
       - "chef d'orchestre, aidant les lymphocytes B et T CD8 via ses cytokines"
-      - "cellule cytotoxique détruisant directement les cibles"
-      - "cellule productrice d'anticorps"
+      - "cellule cytotoxique détruisant directement les cellules infectées"
+      - "cellule productrice d'anticorps après différenciation en plasmocyte"
     correct: 0
 ---
 

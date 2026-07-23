@@ -16,20 +16,20 @@ quiz:
   - prompt: "Un TCA allongé isolé (TQ normal) corrigé par l'épreuve de mélange oriente vers…"
     options:
       - "un déficit en facteur de la voie intrinsèque (VIII, IX, XI, XII)"
-      - "un anticoagulant circulant de type lupique"
-      - "un déficit en facteur VII"
+      - "un anticoagulant circulant de type lupique non neutralisé"
+      - "un déficit en facteur VII, exploré uniquement par la voie exogène"
     correct: 0
   - prompt: "Un TCA allongé NON corrigé par l'ajout de plasma témoin évoque…"
     options:
       - "un inhibiteur (anticoagulant lupique ou anti-facteur)"
-      - "un déficit en facteur VIII"
-      - "une hypovitaminose K"
+      - "un déficit en facteur VIII de la voie intrinsèque"
+      - "une hypovitaminose K ou un traitement par AVK"
     correct: 0
   - prompt: "Une baisse parallèle de tous les facteurs avec facteur V normal oriente vers…"
     options:
-      - "une hypovitaminose K (ou AVK)"
-      - "une insuffisance hépatocellulaire"
-      - "une CIVD"
+      - "une hypovitaminose K ou un traitement par AVK"
+      - "une insuffisance hépatocellulaire évoluée"
+      - "une coagulation intravasculaire disséminée (CIVD)"
     correct: 0
 ---
 

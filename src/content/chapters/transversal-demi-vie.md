@@ -15,20 +15,20 @@ quiz:
   - prompt: "La demi-vie d'un phénomène de décroissance exponentielle vaut…"
     options:
       - "ln(2) / λ"
-      - "λ / 2"
-      - "2 × λ"
+      - "λ / ln(2)"
+      - "ln(2) × λ"
     correct: 0
   - prompt: "Après 5 demi-vies, il reste environ…"
     options:
       - "3 % de la quantité initiale"
-      - "50 %"
-      - "0 % exactement"
+      - "12 % de la quantité initiale"
+      - "moins de 1 % de la quantité initiale"
     correct: 0
   - prompt: "En pharmacocinétique, la constante d'élimination ke est reliée à la demi-vie par…"
     options:
       - "t½ = 0,693 / ke"
-      - "t½ = ke"
-      - "t½ = ke²"
+      - "t½ = 0,693 × ke"
+      - "t½ = ke / 0,693"
     correct: 0
 ---
 

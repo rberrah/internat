@@ -16,20 +16,20 @@ quiz:
   - prompt: "Le syndrome de cholestase associe une augmentation de…"
     options:
       - "phosphatases alcalines, GGT et bilirubine conjuguée"
-      - "transaminases isolées"
-      - "albumine et facteur V"
+      - "transaminases ALAT et ASAT, LDH et sidérémie"
+      - "acides biliaires, cholestérol et bilirubine libre"
     correct: 0
   - prompt: "Le meilleur marqueur d'insuffisance hépatocellulaire aiguë est…"
     options:
       - "le facteur V (non vitamine K dépendant)"
-      - "les phosphatases alcalines"
-      - "la bilirubine libre"
+      - "le taux de prothrombine, vitamine K dépendant"
+      - "les transaminases, marqueurs de la nécrose cellulaire"
     correct: 0
   - prompt: "Une hyperbilirubinémie libre (non conjuguée) évoque…"
     options:
       - "une hémolyse ou un défaut de conjugaison (Gilbert)"
-      - "un obstacle sur les voies biliaires"
-      - "une cirrhose"
+      - "un obstacle des voies biliaires (bilirubine conjuguée)"
+      - "un déficit de synthèse hépatique au cours de la cirrhose"
     correct: 0
 ---
 

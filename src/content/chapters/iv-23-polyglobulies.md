@@ -16,20 +16,20 @@ quiz:
   - prompt: "Une polyglobulie se dépiste avant tout sur…"
     options:
       - "l'augmentation de l'hématocrite (ou de l'hémoglobine)"
-      - "l'augmentation du VGM"
-      - "l'augmentation du nombre de plaquettes"
+      - "l'augmentation du volume globulaire moyen (VGM)"
+      - "l'augmentation du nombre de plaquettes circulantes"
     correct: 0
   - prompt: "La maladie de Vaquez est confirmée notamment par…"
     options:
       - "la mutation JAK2 V617F avec EPO basse ou normale"
-      - "une EPO élevée"
-      - "une hypoxémie chronique"
+      - "une EPO élevée, en réponse à une tumeur sécrétante"
+      - "une hypoxémie chronique stimulant la sécrétion d'EPO"
     correct: 0
   - prompt: "Le traitement de fond de la maladie de Vaquez vise à maintenir…"
     options:
       - "l'hématocrite < 45 % (saignées) avec aspirine à faible dose"
-      - "l'hématocrite > 55 %"
-      - "des plaquettes > 600 G/L"
+      - "l'hématocrite au-dessus de 50 %, pour prévenir une anémie"
+      - "l'hémostase par une anticoagulation curative au long cours"
     correct: 0
 ---
 

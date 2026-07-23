@@ -16,20 +16,20 @@ quiz:
   - prompt: "Les insecticides organophosphorés et carbamates agissent en…"
     options:
       - "inhibant l'acétylcholinestérase (syndrome cholinergique)"
-      - "bloquant les récepteurs de la dopamine"
-      - "inhibant l'alcool déshydrogénase"
+      - "bloquant la libération présynaptique d'acétylcholine"
+      - "stimulant directement les récepteurs nicotiniques musculaires"
     correct: 0
   - prompt: "L'antidote de première intention d'une intoxication aux organophosphorés est…"
     options:
       - "l'atropine, répétée jusqu'à assèchement des sécrétions"
-      - "la naloxone"
-      - "le fomépizole"
+      - "la naloxone, antagoniste des récepteurs opioïdes"
+      - "le fomépizole, inhibiteur de l'alcool déshydrogénase"
     correct: 0
   - prompt: "La pralidoxime (réactivateur de la cholinestérase)…"
     options:
-      - "est utile dans l'intoxication par organophosphorés, administrée précocement"
-      - "est le traitement de référence des carbamates"
-      - "remplace l'atropine"
+      - "est utile dans l'intoxication par organophosphorés, donnée précocement"
+      - "est le traitement de référence des intoxications par carbamates"
+      - "remplace l'atropine dès le contrôle des sécrétions bronchiques"
     correct: 0
 ---
 

@@ -17,7 +17,7 @@ quiz:
     options:
       - "l'HMG-CoA réductase"
       - "la lipoprotéine lipase"
-      - "l'ALA synthase"
+      - "l'HMG-CoA synthase"
     correct: 0
   - prompt: "La lipoprotéine assurant le transport inverse du cholestérol (des tissus vers le foie) est…"
     options:
@@ -28,8 +28,8 @@ quiz:
   - prompt: "Les LDL sont des lipoprotéines…"
     options:
       - "riches en cholestérol, qu'elles délivrent aux tissus périphériques"
-      - "riches en triglycérides d'origine intestinale"
-      - "responsables du transport inverse du cholestérol"
+      - "riches en triglycérides alimentaires, captés au niveau intestinal"
+      - "responsables du transport inverse du cholestérol vers le foie"
     correct: 0
 ---
 

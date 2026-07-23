@@ -17,9 +17,9 @@ reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Devant une anémie confirmée, le premier paramètre qui oriente la démarche est…"
     options:
-      - "le VGM"
-      - "le taux de plaquettes"
-      - "la CRP"
+      - "le VGM (volume globulaire moyen)"
+      - "le compte des réticulocytes"
+      - "la concentration en hémoglobine"
     correct: 0
   - prompt: "Une anémie microcytaire avec ferritine effondrée correspond à…"
     options:
@@ -29,9 +29,9 @@ quiz:
     correct: 0
   - prompt: "Dans l'anémie inflammatoire, la ferritine est…"
     options:
-      - "effondrée"
-      - "normale ou augmentée"
-      - "toujours indétectable"
+      - "effondrée, comme dans la carence martiale"
+      - "normale ou augmentée (protéine inflammatoire)"
+      - "abaissée en proportion de la CRP élevée"
     correct: 1
   - prompt: "Le seuil de réticulocytes séparant anémie régénérative et arégénérative (programme) est d'environ…"
     options:

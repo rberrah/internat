@@ -16,20 +16,20 @@ quiz:
   - prompt: "Une E. coli résistante à l'amoxicilline mais sensible à l'amoxicilline–acide clavulanique produit…"
     options:
       - "une pénicillinase (inhibée par l'acide clavulanique)"
-      - "une carbapénémase"
-      - "une PLP modifiée"
+      - "une céphalosporinase AmpC (non inhibée par le clavulanate)"
+      - "une bêta-lactamase à spectre étendu de type CTX-M"
     correct: 0
   - prompt: "Une bêta-lactamase à spectre étendu (BLSE) impose de recourir, en cas d'infection sévère, aux…"
     options:
-      - "carbapénèmes"
-      - "aminopénicillines"
-      - "céphalosporines de 1re génération"
+      - "carbapénèmes (imipénème, méropénème)"
+      - "céphalosporines de 3e génération à forte dose"
+      - "association amoxicilline–acide clavulanique"
     correct: 0
   - prompt: "La résistance du SARM à toutes les bêta-lactamines s'explique par…"
     options:
-      - "une PLP modifiée (PLP2a, gène mecA)"
-      - "une pénicillinase plasmidique"
-      - "une perte de porines"
+      - "une cible modifiée : la PLP2a codée par le gène mecA"
+      - "une pénicillinase plasmidique hydrolysant les pénicillines"
+      - "une imperméabilité par perte des porines de la paroi"
     correct: 0
 ---
 

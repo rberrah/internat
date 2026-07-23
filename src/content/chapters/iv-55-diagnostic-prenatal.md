@@ -16,20 +16,20 @@ quiz:
   - prompt: "Le dépistage combiné du 1er trimestre de la trisomie 21 associe…"
     options:
       - "âge maternel, clarté nucale et marqueurs sériques (PAPP-A, β-hCG)"
-      - "une simple échographie"
-      - "un caryotype systématique"
+      - "clarté nucale et dosage de l'α-fœtoprotéine au 2e trimestre"
+      - "âge maternel, échographie morphologique et amniocentèse"
     correct: 0
   - prompt: "Le DPNI (ADN fœtal libre circulant dans le sang maternel) est…"
     options:
       - "un test de dépistage très sensible, à confirmer si positif"
-      - "un test diagnostique de certitude"
-      - "un examen invasif"
+      - "un test diagnostique de certitude, dispensant du caryotype"
+      - "un examen invasif comportant un risque de fausse couche"
     correct: 0
   - prompt: "Le diagnostic de certitude d'une trisomie 21 fœtale repose sur…"
     options:
       - "le caryotype fœtal (amniocentèse ou biopsie de trophoblaste)"
-      - "les marqueurs sériques maternels"
-      - "la clarté nucale seule"
+      - "les marqueurs sériques maternels (PAPP-A et β-hCG libre)"
+      - "la mesure de la clarté nucale à l'échographie du 1er trimestre"
     correct: 0
 ---
 

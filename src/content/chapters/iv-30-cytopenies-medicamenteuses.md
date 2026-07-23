@@ -16,8 +16,8 @@ quiz:
   - prompt: "Une agranulocytose fébrile médicamenteuse impose en urgence…"
     options:
       - "l'arrêt du médicament suspect et une antibiothérapie bactéricide large spectre IV"
-      - "une transfusion de plaquettes"
-      - "la poursuite du traitement avec surveillance"
+      - "une transfusion de concentrés de polynucléaires neutrophiles associée au G-CSF"
+      - "la poursuite du médicament suspect sous une surveillance rapprochée de la NFS"
     correct: 0
   - prompt: "L'agranulocytose est définie par un taux de polynucléaires neutrophiles inférieur à…"
     options:
@@ -28,8 +28,8 @@ quiz:
   - prompt: "Le mécanisme immuno-allergique d'une cytopénie médicamenteuse est…"
     options:
       - "périphérique (destruction par des anticorps), non dose-dépendant"
-      - "central et strictement dose-dépendant"
-      - "toujours réversible en 24 h"
+      - "central (blocage de la maturation médullaire), dose-dépendant"
+      - "périphérique (séquestration splénique), strictement dose-dépendant"
     correct: 0
 ---
 

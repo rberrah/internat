@@ -16,20 +16,20 @@ quiz:
   - prompt: "Le diagnostic d'une hépatite A aiguë repose sur…"
     options:
       - "la présence d'IgM anti-VHA"
-      - "l'antigène HBs"
-      - "la charge virale du VHC"
+      - "la présence de l'antigène HBs"
+      - "la présence d'ARN viral du VHC"
     correct: 0
   - prompt: "Un patient Ag HBs +, Ac anti-HBc totaux +, IgM anti-HBc négatives présente…"
     options:
       - "une hépatite B chronique (contact ancien, portage persistant)"
-      - "une hépatite B aiguë récente"
-      - "une simple vaccination antérieure"
+      - "une hépatite B aiguë récente, avec IgM anti-HBc positives"
+      - "une immunité post-vaccinale ancienne, anti-HBs isolé positif"
     correct: 0
   - prompt: "Le traitement actuel de l'hépatite C chronique repose sur…"
     options:
       - "des antiviraux à action directe pangénotypiques"
-      - "l'interféron seul"
-      - "une simple abstinence sans médicament"
+      - "l'interféron pégylé associé à la ribavirine"
+      - "les analogues nucléosidiques comme le ténofovir"
     correct: 0
 ---
 

@@ -16,20 +16,20 @@ quiz:
   - prompt: "L'insuline, seule hormone hypoglycémiante, est sécrétée par…"
     options:
       - "les cellules bêta des îlots de Langerhans du pancréas"
-      - "les cellules alpha des îlots de Langerhans"
-      - "la médullosurrénale"
+      - "les cellules alpha des îlots de Langerhans du pancréas"
+      - "les cellules delta des îlots de Langerhans du pancréas"
     correct: 0
   - prompt: "Le glucagon augmente la glycémie principalement en…"
     options:
       - "stimulant la glycogénolyse et la néoglucogenèse hépatiques"
-      - "favorisant l'entrée du glucose dans le muscle"
-      - "stimulant la synthèse de glycogène"
+      - "favorisant l'entrée du glucose dans le muscle et l'adipocyte"
+      - "stimulant la synthèse de glycogène et la lipogenèse hépatiques"
     correct: 0
   - prompt: "En période de jeûne, le maintien de la glycémie repose d'abord sur…"
     options:
       - "la glycogénolyse hépatique, relayée par la néoglucogenèse"
-      - "la lipogenèse hépatique"
-      - "la sécrétion d'insuline"
+      - "la lipolyse du tissu adipeux, qui fournit directement du glucose"
+      - "la sécrétion d'insuline, qui mobilise les réserves de glycogène"
     correct: 0
 ---
 

@@ -16,20 +16,20 @@ quiz:
   - prompt: "Trichomonas vaginalis se transmet…"
     options:
       - "par voie sexuelle (c'est une IST), sous forme de trophozoïte"
-      - "par le péril fécal, sous forme kystique"
-      - "par piqûre d'un insecte vecteur"
+      - "par le péril fécal, sous forme de kyste résistant ingéré"
+      - "par la piqûre d'un insecte vecteur, comme un moucheron"
     correct: 0
   - prompt: "Le diagnostic de trichomonose repose sur…"
     options:
       - "l'examen direct rapide d'un prélèvement vaginal (parasites mobiles à membrane ondulante)"
-      - "la sérologie spécifique"
-      - "l'hémoculture"
+      - "la sérologie sanguine à la recherche d'anticorps spécifiques anti-Trichomonas vaginalis"
+      - "la culture prolongée sur milieu de Sabouraud, comme pour le diagnostic d'une candidose"
     correct: 0
   - prompt: "Le traitement de la trichomonose urogénitale…"
     options:
       - "repose sur un nitro-5-imidazolé et impose de traiter le/les partenaire(s)"
-      - "repose sur le fluconazole"
-      - "ne concerne que la patiente symptomatique"
+      - "repose sur le fluconazole en dose unique, comme pour une candidose vaginale"
+      - "ne concerne que la patiente elle-même, le partenaire étant asymptomatique"
     correct: 0
 ---
 

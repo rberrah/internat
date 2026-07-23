@@ -16,20 +16,20 @@ quiz:
   - prompt: "L'antibiothérapie de première intention d'une pneumonie aiguë communautaire du sujet jeune sans gravité (pneumocoque suspecté) est…"
     options:
       - "l'amoxicilline"
-      - "la fosfomycine"
-      - "la vancomycine"
+      - "l'azithromycine"
+      - "la lévofloxacine"
     correct: 0
   - prompt: "Devant une pneumonie non améliorée sous amoxicilline, avec diarrhée et notion de cure thermale, on recherche…"
     options:
       - "Legionella pneumophila par antigénurie"
-      - "un streptocoque du groupe A par TROD"
-      - "Helicobacter pylori par test respiratoire"
+      - "Mycoplasma pneumoniae par sérologie spécifique"
+      - "Chlamydia pneumoniae par PCR respiratoire"
     correct: 0
   - prompt: "Une angine érythémateuse chez l'enfant est le plus souvent…"
     options:
       - "d'origine virale et ne justifie pas d'antibiotique"
-      - "bactérienne et impose d'emblée un macrolide"
-      - "une urgence chirurgicale"
+      - "due au streptocoque et impose une amoxicilline sans test"
+      - "d'origine virale mais impose tout de même un antibiotique"
     correct: 0
 ---
 

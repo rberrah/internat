@@ -16,14 +16,14 @@ quiz:
   - prompt: "Par acidité décroissante (du plus acide au moins acide), l'ordre est…"
     options:
       - "acide carboxylique (≈4) > phénol (≈9) > alcool (≈16)"
-      - "alcool > phénol > acide carboxylique"
-      - "phénol > acide carboxylique > alcool"
+      - "alcool (≈16) > phénol (≈9) > acide carboxylique (≈4)"
+      - "phénol (≈9) > acide carboxylique (≈4) > alcool (≈16)"
     correct: 0
   - prompt: "L'oxydation d'un alcool primaire par le dichromate donne…"
     options:
       - "un aldéhyde puis un acide carboxylique"
-      - "une cétone"
-      - "aucune réaction"
+      - "une cétone, sans formation d'acide carboxylique"
+      - "un aldéhyde stable qui ne s'oxyde pas plus loin"
     correct: 0
   - prompt: "Une molécule à n carbones asymétriques présente au maximum…"
     options:

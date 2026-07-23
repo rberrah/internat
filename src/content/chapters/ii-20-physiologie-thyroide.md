@@ -16,20 +16,20 @@ quiz:
   - prompt: "L'hormone thyroïdienne biologiquement la plus active dans les tissus est…"
     options:
       - "la T3, issue en grande partie de la désiodation périphérique de la T4"
-      - "la T4, directement active sur ses récepteurs"
-      - "la reverse-T3 (rT3)"
+      - "la T4, majoritairement sécrétée et directement active sur ses récepteurs"
+      - "la reverse-T3 (rT3), produite par une désiodation alternative de la T4"
     correct: 0
   - prompt: "L'enzyme clé qui oxyde l'iode et couple les iodotyrosines est…"
     options:
-      - "la thyroperoxydase (TPO)"
-      - "la 5'-désiodase"
-      - "l'anhydrase carbonique"
+      - "la thyroperoxydase (TPO), enzyme apicale du thyréocyte"
+      - "la 5'-désiodase, qui convertit la T4 en T3 dans les tissus"
+      - "le symporteur Na⁺/I⁻ (NIS), qui capte l'iodure sanguin"
     correct: 0
   - prompt: "La régulation de l'axe thyroïdien repose sur…"
     options:
-      - "un rétrocontrôle négatif de T3/T4 sur l'hypophyse (TSH) et l'hypothalamus (TRH)"
-      - "un rétrocontrôle positif de T4 sur la TSH"
-      - "un contrôle exclusif par la calcitonine"
+      - "un rétrocontrôle négatif de T3/T4 sur l'hypophyse et l'hypothalamus"
+      - "un rétrocontrôle positif de T3/T4 stimulant la TSH quand elles montent"
+      - "un rétrocontrôle négatif portant sur la TRH mais épargnant la TSH"
     correct: 0
 ---
 

@@ -16,20 +16,20 @@ quiz:
   - prompt: "La prévention du cancer thyroïdien radio-induit (iode 131) repose sur…"
     options:
       - "l'iodure de potassium stable (saturation de la thyroïde)"
-      - "le bleu de Prusse"
-      - "le DTPA"
+      - "le bleu de Prusse (décorporant digestif du césium 137)"
+      - "le DTPA (chélateur du plutonium et des transuraniens)"
     correct: 0
   - prompt: "Les effets stochastiques (aléatoires) des rayonnements ionisants…"
     options:
-      - "surviennent sans dose-seuil, avec une probabilité croissant avec la dose (cancers)"
-      - "n'apparaissent qu'au-dessus d'une dose-seuil"
-      - "sont toujours immédiats"
+      - "surviennent sans dose-seuil, leur probabilité augmentant avec la dose reçue"
+      - "n'apparaissent qu'au-delà d'une dose-seuil, avec une gravité proportionnelle"
+      - "surviennent toujours de façon immédiate, dès les plus faibles doses reçues"
     correct: 0
   - prompt: "Le strontium 90, analogue du calcium, se fixe principalement…"
     options:
-      - "sur l'os"
-      - "dans la thyroïde"
-      - "dans le muscle"
+      - "sur l'os, où il est retenu très longtemps"
+      - "dans la thyroïde, comme l'iode radioactif"
+      - "dans le muscle, comme le césium radioactif"
     correct: 0
 ---
 

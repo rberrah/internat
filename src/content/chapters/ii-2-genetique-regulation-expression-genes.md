@@ -16,20 +16,20 @@ quiz:
   - prompt: "La méthylation des cytosines des îlots CpG d'un promoteur entraîne…"
     options:
       - "une extinction transcriptionnelle du gène"
-      - "une activation de la transcription"
-      - "un épissage alternatif de l'ARN"
+      - "une activation de la transcription du gène"
+      - "un épissage alternatif de l'ARN pré-messager"
     correct: 0
   - prompt: "L'épissage alternatif est un mécanisme…"
     options:
       - "post-transcriptionnel générant plusieurs ARNm à partir d'un gène"
-      - "traductionnel modifiant la protéine finale"
-      - "chromatinien modifiant l'accessibilité de l'ADN"
+      - "traductionnel modifiant la protéine à partir d'un même ARNm"
+      - "chromatinien modulant l'accessibilité de l'ADN au promoteur"
     correct: 0
   - prompt: "Les facteurs de transcription régulent l'expression en…"
     options:
-      - "se fixant sur des séquences spécifiques du promoteur (régulation en trans)"
-      - "coupant l'ARN pré-messager"
-      - "méthylant l'ADN directement"
+      - "se fixant sur des séquences régulatrices spécifiques de l'ADN"
+      - "clivant l'ARN pré-messager au niveau des sites d'épissage"
+      - "méthylant directement les cytosines des îlots CpG du promoteur"
     correct: 0
 ---
 

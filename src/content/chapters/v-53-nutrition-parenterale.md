@@ -16,20 +16,20 @@ quiz:
   - prompt: "La nutrition parentérale est indiquée…"
     options:
       - "quand le tube digestif n'est pas fonctionnel ou la voie entérale impossible"
-      - "en 1re intention chez tout patient dénutri"
-      - "à la place de l'alimentation orale dès qu'elle est difficile"
+      - "en première intention chez tout patient dénutri, avant la voie entérale"
+      - "dès que l'alimentation orale devient difficile, sans essai d'entérale"
     correct: 0
   - prompt: "Une poche de nutrition parentérale de forte osmolarité doit être perfusée…"
     options:
-      - "sur une voie veineuse centrale"
-      - "sur une voie veineuse périphérique"
-      - "par voie sous-cutanée"
+      - "sur une voie veineuse centrale, à débit sanguin élevé"
+      - "sur une voie veineuse périphérique de bon calibre"
+      - "sur une voie périphérique, en ralentissant le débit de perfusion"
     correct: 0
   - prompt: "Le syndrome de renutrition inappropriée associe typiquement…"
     options:
       - "hypophosphatémie, hypokaliémie et hypomagnésémie"
-      - "hyperphosphatémie et hyperkaliémie"
-      - "une hypernatrémie isolée"
+      - "hyperphosphatémie, hyperkaliémie et hypermagnésémie"
+      - "hypernatrémie, hypercalcémie et hyperglycémie"
     correct: 0
 ---
 

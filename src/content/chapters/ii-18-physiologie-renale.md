@@ -16,20 +16,20 @@ quiz:
   - prompt: "Le marqueur idéal pour mesurer le débit de filtration glomérulaire est la clairance de…"
     options:
       - "l'inuline (filtrée, ni réabsorbée ni sécrétée)"
-      - "le glucose (entièrement réabsorbé)"
-      - "le PAH (qui mesure le flux plasmatique rénal)"
+      - "le glucose (filtré puis entièrement réabsorbé)"
+      - "le PAH (filtré puis massivement sécrété)"
     correct: 0
   - prompt: "Le sodium filtré est réabsorbé majoritairement au niveau du…"
     options:
       - "tube contourné proximal (≈ 75 %)"
-      - "tube collecteur"
-      - "anse de Henlé descendante"
+      - "anse de Henlé ascendante (≈ 20 %)"
+      - "tube contourné distal (≈ 5 %)"
     correct: 0
   - prompt: "L'hormone antidiurétique (ADH) agit principalement en…"
     options:
       - "augmentant la perméabilité à l'eau du tube collecteur"
-      - "augmentant la réabsorption du sodium au tube proximal"
-      - "stimulant la sécrétion de rénine"
+      - "augmentant la réabsorption du sodium au tube distal"
+      - "provoquant une vasoconstriction et libérant de la rénine"
     correct: 0
 ---
 

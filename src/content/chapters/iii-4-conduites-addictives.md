@@ -16,13 +16,13 @@ quiz:
   - prompt: "Le diagnostic de trouble de l'usage d'une substance (DSM-5) repose sur…"
     options:
       - "au moins 2 critères sur 11 présents sur 12 mois"
-      - "la seule présence d'un syndrome de sevrage"
-      - "une consommation quotidienne obligatoire"
+      - "la présence d'un syndrome de sevrage à l'arrêt"
+      - "au moins 6 critères sur 11 présents sur 6 mois"
     correct: 0
   - prompt: "En France, la première cause de mortalité évitable est…"
     options:
       - "le tabac"
-      - "le cannabis"
+      - "l'alcool"
       - "les opioïdes"
     correct: 0
   - prompt: "Les traitements de substitution aux opioïdes (TSO) sont…"

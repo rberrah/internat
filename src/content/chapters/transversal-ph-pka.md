@@ -16,20 +16,20 @@ quiz:
   - prompt: "La relation de Henderson-Hasselbalch s'écrit…"
     options:
       - "pH = pKa + log([base]/[acide])"
-      - "pH = pKa × [acide]"
-      - "pH = pKa − [base]"
+      - "pH = pKa + log([acide]/[base])"
+      - "pH = pKa − log([base]/[acide])"
     correct: 0
   - prompt: "Un acide faible est d'autant plus ionisé que…"
     options:
       - "le pH est supérieur à son pKa"
       - "le pH est inférieur à son pKa"
-      - "sa masse molaire est grande"
+      - "le pH est très proche de son pKa"
     correct: 0
   - prompt: "Pour accélérer l'élimination urinaire d'un acide faible (aspirine, phénobarbital), on…"
     options:
       - "alcalinise les urines (bicarbonate)"
-      - "acidifie les urines"
-      - "réduit la diurèse"
+      - "acidifie les urines (chlorure d'ammonium)"
+      - "force la diurèse sans modifier le pH urinaire"
     correct: 0
 ---
 

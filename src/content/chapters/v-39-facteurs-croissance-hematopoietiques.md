@@ -16,20 +16,20 @@ quiz:
   - prompt: "Le G-CSF (filgrastim) est indiqué pour…"
     options:
       - "la neutropénie chimio-induite"
-      - "l'anémie de l'insuffisance rénale chronique"
-      - "la thrombopénie du PTI"
+      - "l'anémie de l'insuffisance rénale"
+      - "la thrombopénie immunologique (PTI)"
     correct: 0
   - prompt: "Sous érythropoïétine, il faut surveiller et ne pas dépasser…"
     options:
       - "la cible d'hémoglobine (risque thrombotique)"
-      - "la kaliémie uniquement"
-      - "la TSH"
+      - "le taux de leucocytes (risque d'hyperleucocytose)"
+      - "le taux de plaquettes (risque hémorragique)"
     correct: 0
   - prompt: "Un effet indésirable classique des interférons est…"
     options:
       - "un syndrome pseudo-grippal"
-      - "une hypertrophie gingivale"
-      - "une ototoxicité"
+      - "des douleurs osseuses diffuses"
+      - "une poussée d'hypertension"
     correct: 0
 ---
 

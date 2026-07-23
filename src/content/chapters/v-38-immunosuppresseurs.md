@@ -16,8 +16,8 @@ quiz:
   - prompt: "La ciclosporine et le tacrolimus agissent en…"
     options:
       - "inhibant la calcineurine (baisse de la synthèse d'IL-2)"
-      - "inhibant mTOR"
-      - "bloquant le CD20 des lymphocytes B"
+      - "inhibant mTOR (blocage de la prolifération lymphocytaire)"
+      - "inhibant l'IMPDH (blocage de la synthèse des purines)"
     correct: 0
   - prompt: "La toxicité limitante caractéristique des inhibiteurs de la calcineurine est…"
     options:
@@ -28,8 +28,8 @@ quiz:
   - prompt: "L'association azathioprine + allopurinol expose à…"
     options:
       - "une toxicité médullaire majorée"
-      - "une insuffisance rénale aiguë"
-      - "une hyperthyroïdie"
+      - "une insuffisance rénale aiguë sévère"
+      - "une hépatite cytolytique aiguë"
     correct: 0
 ---
 

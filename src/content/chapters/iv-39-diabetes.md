@@ -22,14 +22,14 @@ quiz:
   - prompt: "L'acidocétose diabétique se caractérise par…"
     options:
       - "une acidose métabolique à trou anionique augmenté avec cétonurie"
-      - "une alcalose métabolique"
-      - "une acidose sans trou anionique"
+      - "une acidose métabolique à trou anionique normal (hyperchlorémique)"
+      - "une alcalose métabolique de contraction volémique"
     correct: 0
   - prompt: "Le coma hyperosmolaire survient surtout chez…"
     options:
-      - "le sujet âgé diabétique de type 2"
-      - "l'enfant diabétique de type 1"
-      - "le sujet jeune non diabétique"
+      - "le sujet âgé diabétique de type 2, déshydraté"
+      - "l'enfant diabétique de type 1 en acidocétose"
+      - "l'adulte jeune non diabétique, à jeun prolongé"
     correct: 0
 ---
 

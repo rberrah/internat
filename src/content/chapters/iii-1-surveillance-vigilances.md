@@ -22,8 +22,8 @@ quiz:
   - prompt: "Un effet indésirable grave ou inattendu doit être déclaré…"
     options:
       - "immédiatement, obligation pour médecins, pharmaciens, dentistes et sages-femmes"
-      - "une fois par an, uniquement par le laboratoire"
-      - "seulement s'il n'est pas mentionné dans le RCP"
+      - "dans le rapport annuel de sécurité transmis par le seul laboratoire exploitant"
+      - "seulement si l'effet est absent du RCP et jugé imputable avec certitude"
     correct: 0
   - prompt: "L'agence qui délivre l'AMM nationale et coordonne les vigilances des produits de santé est…"
     options:

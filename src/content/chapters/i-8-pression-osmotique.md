@@ -17,7 +17,7 @@ quiz:
     options:
       - "osmol par kg de solvant"
       - "osmol par litre de solution"
-      - "gramme par litre"
+      - "millimole par litre de plasma"
     correct: 0
   - prompt: "La pression osmotique suit la loi de van't Hoff…"
     options:
@@ -28,8 +28,8 @@ quiz:
   - prompt: "L'osmolalité plasmatique calculée est estimée par…"
     options:
       - "2 × [Na⁺] + glycémie + urée (en mmol/L)"
-      - "[Na⁺] + [K⁺] seulement"
-      - "la protidémie seule"
+      - "2 × ([Na⁺] + [K⁺]) + glycémie (en mmol/L)"
+      - "[Na⁺] + glycémie + urée, sans le facteur 2 (mmol/L)"
     correct: 0
 ---
 

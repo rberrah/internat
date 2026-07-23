@@ -18,20 +18,20 @@ quiz:
   - prompt: "La CMI est…"
     options:
       - "la plus faible concentration d'antibiotique inhibant la croissance visible du germe"
-      - "la concentration maximale tolérée par le patient"
-      - "la dose administrée"
+      - "la plus faible concentration d'antibiotique tuant 99,9 % de l'inoculum bactérien"
+      - "la concentration critique séparant les souches sensibles des souches résistantes"
     correct: 0
   - prompt: "Une bêta-lactamine est un antibiotique surtout…"
     options:
       - "temps-dépendant (%T > CMI)"
       - "concentration-dépendant (Cmax/CMI)"
-      - "sans relation PK/PD"
+      - "dépendant de l'exposition globale (AUC/CMI)"
     correct: 0
   - prompt: "La catégorie S / I / R résulte de la comparaison de la CMI…"
     options:
-      - "au poids du patient"
-      - "aux concentrations critiques (breakpoints)"
-      - "à la demi-vie"
+      - "aux concentrations sériques maximales atteintes par la molécule"
+      - "aux concentrations critiques ou breakpoints définis par l'EUCAST"
+      - "aux valeurs de CMI50 et CMI90 mesurées sur l'espèce bactérienne"
     correct: 1
 ---
 

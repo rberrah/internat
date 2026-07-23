@@ -16,8 +16,8 @@ quiz:
   - prompt: "Le génome humain nucléaire haploïde comporte environ…"
     options:
       - "3,2 × 10⁹ paires de bases, dont ~2 % codantes"
-      - "3 × 10⁶ paires de bases, entièrement codantes"
-      - "3 × 10¹² paires de bases, sans intron"
+      - "3,2 × 10⁹ paires de bases, dont ~50 % codantes"
+      - "3,2 × 10⁶ paires de bases, dont ~2 % codantes"
     correct: 0
   - prompt: "Les séquences Alu appartiennent aux…"
     options:
@@ -28,8 +28,8 @@ quiz:
   - prompt: "Le polymorphisme le plus fréquent du génome humain est…"
     options:
       - "le SNP, substitution d'un seul nucléotide"
-      - "le CNV, variation du nombre de copies"
-      - "le microsatellite multi-allélique"
+      - "le CNV, gain ou perte de copies d'un segment"
+      - "le microsatellite, courte répétition en tandem"
     correct: 0
 ---
 

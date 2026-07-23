@@ -16,20 +16,20 @@ quiz:
   - prompt: "Les auto-anticorps les plus spécifiques de la polyarthrite rhumatoïde sont…"
     options:
       - "les anticorps anti-peptides citrullinés (anti-CCP / ACPA)"
-      - "les anticorps anti-ADN natif"
-      - "les anticorps anti-mitochondries"
+      - "les anticorps anti-ADN natif, dirigés contre le double brin"
+      - "les anticorps anti-nucléaires dépistés par immunofluorescence"
     correct: 0
   - prompt: "L'anticorps le plus spécifique du lupus érythémateux systémique est…"
     options:
-      - "l'anti-ADN natif (et l'anti-Sm)"
-      - "le facteur rhumatoïde"
-      - "l'anti-SSA"
+      - "l'anti-ADN natif et l'anti-Sm associés"
+      - "le facteur rhumatoïde, une IgM anti-IgG"
+      - "l'anti-SSA, aussi présent dans le Sjögren"
     correct: 0
   - prompt: "Le traitement de fond de première intention de la polyarthrite rhumatoïde est…"
     options:
-      - "le méthotrexate"
-      - "l'hydroxychloroquine"
-      - "un anti-TNF d'emblée"
+      - "le méthotrexate (voie orale ou SC)"
+      - "l'hydroxychloroquine (antipaludéen)"
+      - "un anti-TNF (biothérapie ciblée)"
     correct: 0
 ---
 

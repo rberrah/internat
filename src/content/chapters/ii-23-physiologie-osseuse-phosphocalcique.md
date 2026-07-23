@@ -15,21 +15,21 @@ reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Dans le sang, la fraction de calcium physiologiquement active est le calcium…"
     options:
-      - "ionisé (environ 50 %)"
-      - "lié aux protéines (environ 40 %)"
-      - "complexé (environ 10 %)"
+      - "ionisé, environ 50 % du calcium total"
+      - "lié aux protéines, environ 40 % du total"
+      - "complexé aux anions, environ 10 % du total"
     correct: 0
   - prompt: "La parathormone (PTH) est une hormone…"
     options:
       - "hypercalcémiante et hypophosphatémiante"
       - "hypocalcémiante et hyperphosphatémiante"
-      - "sans effet sur le phosphate"
+      - "hypercalcémiante mais hyperphosphatémiante"
     correct: 0
   - prompt: "Une alcalose (hausse du pH sanguin)…"
     options:
       - "diminue le calcium ionisé et peut provoquer une tétanie"
-      - "augmente le calcium ionisé"
-      - "n'a aucun effet sur le calcium ionisé"
+      - "augmente le calcium ionisé en le libérant des protéines"
+      - "déplace le calcium vers l'os sans modifier la calcémie"
     correct: 0
 ---
 

@@ -22,8 +22,8 @@ quiz:
   - prompt: "Le charbon activé est le plus efficace…"
     options:
       - "administré précocement, dans la première heure"
-      - "après la 24e heure"
-      - "pour les intoxications aux alcools (méthanol, éthylène-glycol)"
+      - "administré tardivement, après la 24e heure"
+      - "sur les alcools (méthanol, éthylène-glycol)"
     correct: 0
   - prompt: "L'antidote des intoxications au méthanol et à l'éthylène-glycol est…"
     options:

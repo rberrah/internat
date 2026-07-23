@@ -23,7 +23,7 @@ quiz:
     options:
       - "le thymus"
       - "la rate"
-      - "les ganglions lymphatiques"
+      - "la moelle osseuse"
     correct: 0
   - prompt: "Le lymphocyte spécialisé dans la cytotoxicité (destruction des cellules infectées) est le…"
     options:

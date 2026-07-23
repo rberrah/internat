@@ -17,19 +17,19 @@ quiz:
     options:
       - "la TSH"
       - "la T3 libre"
-      - "la thyroglobuline"
+      - "la T4 libre"
     correct: 0
   - prompt: "Une hypothyroïdie périphérique (primaire) se traduit par…"
     options:
       - "une TSH élevée avec T4 libre basse ou normale"
-      - "une TSH basse avec T4 libre élevée"
-      - "une TSH et une T4 libre basses"
+      - "une TSH basse avec T4 libre élevée ou normale"
+      - "une TSH basse ou normale avec une T4 libre basse"
     correct: 0
   - prompt: "L'effet indésirable grave à surveiller sous antithyroïdiens de synthèse est…"
     options:
       - "l'agranulocytose (surveillance de la NFS)"
-      - "l'hyperkaliémie"
-      - "la cytolyse musculaire"
+      - "la thrombopénie (surveillance des plaquettes)"
+      - "l'anémie hémolytique (surveillance de l'hémoglobine)"
     correct: 0
 ---
 

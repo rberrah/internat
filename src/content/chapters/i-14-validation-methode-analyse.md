@@ -16,20 +16,20 @@ quiz:
   - prompt: "La justesse (exactitude) d'une méthode traduit…"
     options:
       - "l'écart entre la valeur mesurée moyenne et la valeur vraie (biais)"
-      - "la dispersion des mesures répétées"
-      - "la plus petite quantité détectable"
+      - "la dispersion des mesures répétées dans les mêmes conditions (fidélité)"
+      - "la plus petite quantité détectable, distincte du bruit de fond (LOD)"
     correct: 0
   - prompt: "La limite de quantification (LOQ) est classiquement estimée par…"
     options:
       - "10 × écart-type du blanc / pente de la droite"
-      - "3,3 × pente / écart-type"
-      - "la moyenne des blancs"
+      - "3,3 × écart-type du blanc / pente de la droite"
+      - "10 × pente de la droite / écart-type du blanc"
     correct: 0
   - prompt: "La méthode des ajouts dosés est particulièrement utile pour…"
     options:
-      - "corriger un effet de matrice"
-      - "augmenter la sensibilité du détecteur"
-      - "supprimer le besoin d'un étalon"
+      - "corriger un effet de matrice sur le signal analytique"
+      - "augmenter la sensibilité intrinsèque du détecteur utilisé"
+      - "s'affranchir totalement de toute droite d'étalonnage"
     correct: 0
 ---
 

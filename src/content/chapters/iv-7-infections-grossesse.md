@@ -16,20 +16,20 @@ quiz:
   - prompt: "Le dépistage du portage vaginal de streptocoque du groupe B (S. agalactiae) se fait…"
     options:
       - "entre 34 et 37 semaines d'aménorrhée"
-      - "au premier trimestre uniquement"
-      - "seulement après l'accouchement"
+      - "dès le premier trimestre de la grossesse"
+      - "entre 24 et 28 semaines d'aménorrhée"
     correct: 0
   - prompt: "Chez la femme enceinte, une listériose se traite par…"
     options:
       - "amoxicilline"
-      - "fluoroquinolone"
-      - "C3G seule"
+      - "ceftriaxone"
+      - "ciprofloxacine"
     correct: 0
   - prompt: "Une primo-infection à HSV génital dans le mois précédant l'accouchement impose…"
     options:
       - "un aciclovir et une césarienne en cas de lésions au travail"
-      - "une abstention thérapeutique"
-      - "une simple sérologie de contrôle"
+      - "un traitement antiviral, mais un accouchement par voie basse"
+      - "un simple lavage antiseptique de la filière au moment du travail"
     correct: 0
 ---
 

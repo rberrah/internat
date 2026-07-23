@@ -16,20 +16,20 @@ quiz:
   - prompt: "La natrémie reflète avant tout l'état du secteur…"
     options:
       - "intracellulaire (via l'osmolarité)"
-      - "extracellulaire uniquement"
-      - "du capital sodé total"
+      - "extracellulaire, où siège le sodium"
+      - "le capital sodé total de l'organisme"
     correct: 0
   - prompt: "Une déshydratation extracellulaire se traduit biologiquement par…"
     options:
       - "une élévation de la protidémie et de l'hématocrite"
-      - "une hyponatrémie"
-      - "une baisse de la protidémie"
+      - "une hyponatrémie avec baisse de l'osmolarité"
+      - "une baisse de la protidémie et de l'hématocrite"
     correct: 0
   - prompt: "Une hyperkaliémie peut être provoquée par…"
     options:
       - "une acidose (transfert H⁺/K⁺) et l'insuffisance rénale"
-      - "une alcalose"
-      - "un traitement par insuline"
+      - "une alcalose (transfert du potassium vers la cellule)"
+      - "un traitement par insuline ou par bêta-2-mimétiques"
     correct: 0
 ---
 

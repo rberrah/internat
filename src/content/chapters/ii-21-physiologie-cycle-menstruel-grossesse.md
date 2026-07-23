@@ -16,20 +16,20 @@ quiz:
   - prompt: "Le pic ovulatoire de LH…"
     options:
       - "est déclenché par un rétrocontrôle positif du pic d'œstradiol et précède l'ovulation d'environ 36 heures"
-      - "survient au début de la phase folliculaire, avant toute sécrétion d'œstradiol"
-      - "est déclenché par la chute de la progestérone lutéale"
+      - "survient dès le début de la phase folliculaire, avant toute montée de l'œstradiol, et lance la maturation folliculaire"
+      - "est déclenché par la chute de la progestérone lutéale, qui lève le frein hypophysaire en fin de cycle"
     correct: 0
   - prompt: "Au cours de la grossesse, le corps jaune est maintenu par…"
     options:
       - "l'hCG sécrétée par le trophoblaste, ce qui prolonge la sécrétion de progestérone"
-      - "la FSH hypophysaire, qui reste élevée"
-      - "l'ocytocine post-hypophysaire"
+      - "la FSH hypophysaire, qui reste élevée et relance le corps jaune à chaque cycle"
+      - "l'ocytocine post-hypophysaire, qui soutient le corps jaune jusqu'au terme"
     correct: 0
   - prompt: "Parmi ces modifications physiologiques de la grossesse, laquelle est exacte ?"
     options:
       - "le volume plasmatique augmente plus que la masse érythrocytaire, créant une anémie de dilution"
-      - "le débit cardiaque diminue et la pression artérielle augmente"
-      - "la sensibilité à l'insuline augmente fortement"
+      - "le débit cardiaque diminue et les résistances vasculaires montent, élevant la pression artérielle"
+      - "la sensibilité à l'insuline augmente nettement, écartant tout risque de diabète gestationnel"
     correct: 0
 ---
 

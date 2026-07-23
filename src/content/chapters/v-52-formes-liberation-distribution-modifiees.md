@@ -16,20 +16,20 @@ quiz:
   - prompt: "La pompe osmotique élémentaire (système OROS) libère la substance active grâce à…"
     options:
       - "une membrane semi-perméable percée d'un orifice"
-      - "une réaction effervescente"
-      - "une désagrégation rapide du comprimé"
+      - "une matrice hydrophile qui gonfle puis s'érode"
+      - "un enrobage réservoir franchi par simple diffusion"
     correct: 0
   - prompt: "Un comprimé gastrorésistant (libération retardée) est obtenu par…"
     options:
       - "un enrobage entérosoluble résistant au pH acide gastrique"
-      - "une matrice hydrophile gonflante"
-      - "un pelliculage gastrosoluble simple"
+      - "une matrice hydrophile gonflante qui ralentit la diffusion"
+      - "un pelliculage gastrosoluble se dissolvant dès l'estomac"
     correct: 0
   - prompt: "Que faut-il éviter avec un comprimé à libération prolongée ?"
     options:
       - "l'écraser, sous peine de libération massive et de surdosage"
-      - "l'avaler avec un grand verre d'eau"
-      - "le conserver à l'abri de l'humidité"
+      - "l'avaler entier avec un grand verre d'eau au moment du repas"
+      - "le conserver à température ambiante, à l'abri de l'humidité"
     correct: 0
 ---
 

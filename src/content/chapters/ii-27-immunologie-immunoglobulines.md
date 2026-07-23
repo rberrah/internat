@@ -16,14 +16,14 @@ quiz:
   - prompt: "Une immunoglobuline monomérique est formée de…"
     options:
       - "deux chaînes lourdes et deux chaînes légères reliées par des ponts disulfure"
-      - "quatre chaînes lourdes identiques"
-      - "une seule chaîne polypeptidique"
+      - "quatre chaînes identiques associées deux à deux par des liaisons hydrogène"
+      - "une chaîne lourde et une chaîne légère reliées par un pont disulfure"
     correct: 0
   - prompt: "Le fragment qui reconnaît et fixe l'antigène est…"
     options:
       - "le fragment Fab (portant les régions variables)"
-      - "le fragment Fc (région constante)"
-      - "la chaîne J"
+      - "le fragment Fc, porteur des régions constantes"
+      - "la région charnière, qui relie les deux bras Fab"
     correct: 0
   - prompt: "L'immunoglobuline la plus abondante dans le sérum et la seule à franchir le placenta est…"
     options:

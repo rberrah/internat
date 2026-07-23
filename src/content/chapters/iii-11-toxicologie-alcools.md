@@ -16,20 +16,20 @@ quiz:
   - prompt: "L'antidote du méthanol et de l'éthylène-glycol est…"
     options:
       - "le fomépizole (ou l'éthanol), inhibiteur de l'alcool déshydrogénase"
-      - "la naloxone"
-      - "le charbon activé seul"
+      - "la N-acétylcystéine, précurseur du glutathion hépatique"
+      - "le bicarbonate de sodium seul, pour corriger l'acidose métabolique"
     correct: 0
   - prompt: "La toxicité du méthanol est due à…"
     options:
       - "l'acide formique (acidose métabolique, atteinte optique)"
-      - "l'éthanol lui-même"
-      - "l'oxalate de calcium"
+      - "le méthanol lui-même, avant toute transformation métabolique"
+      - "l'oxalate de calcium, comme pour l'éthylène-glycol"
     correct: 0
   - prompt: "L'intoxication à l'éthylène-glycol se complique typiquement de…"
     options:
       - "une insuffisance rénale aiguë avec cristaux d'oxalate"
-      - "une cécité isolée"
-      - "aucune atteinte d'organe"
+      - "une cécité par névrite optique, comme avec le méthanol"
+      - "une hépatite fulminante par nécrose des hépatocytes"
     correct: 0
 ---
 

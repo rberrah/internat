@@ -16,20 +16,20 @@ quiz:
   - prompt: "Une transition est une substitution qui remplace…"
     options:
       - "une purine par une purine ou une pyrimidine par une pyrimidine ; C vers T est la plus fréquente"
-      - "toujours une purine par une pyrimidine"
-      - "un triplet entier par un autre triplet"
+      - "une purine par une pyrimidine, ou une pyrimidine par une purine ; G vers T est la plus fréquente"
+      - "un nucléotide fort G ou C par un nucléotide faible A ou T, modifiant la stabilité de l'hélice"
     correct: 0
   - prompt: "Parmi ces événements, lequel provoque un décalage du cadre de lecture (frameshift) ?"
     options:
       - "la délétion de 2 nucléotides dans un exon codant"
       - "la délétion de 3 nucléotides dans un exon codant"
-      - "une substitution faux sens"
+      - "une substitution non-sens créant un codon STOP prématuré"
     correct: 0
   - prompt: "Les mutations avec perte de fonction sont retrouvées surtout dans…"
     options:
       - "les maladies récessives et les maladies dominantes par haplo-insuffisance"
-      - "uniquement les maladies dominantes par effet dominant négatif"
-      - "les seules anomalies de gènes soumis à empreinte"
+      - "les seules maladies dominantes, par effet dominant négatif ou gain toxique"
+      - "les seules maladies récessives, jamais dans les maladies dominantes"
     correct: 0
 ---
 

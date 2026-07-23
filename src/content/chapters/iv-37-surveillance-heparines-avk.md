@@ -15,21 +15,21 @@ reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les héparines agissent en…"
     options:
-      - "potentialisant l'antithrombine"
-      - "inhibant la vitamine K époxyde réductase"
-      - "diminuant la synthèse hépatique du facteur II"
+      - "potentialisant l'antithrombine (inhibition de IIa et Xa)"
+      - "inhibant la vitamine K époxyde réductase (VKOR)"
+      - "diminuant la synthèse hépatique des facteurs II, VII, IX, X"
     correct: 0
   - prompt: "La surveillance biologique d'efficacité d'une HBPM, quand elle est nécessaire, repose sur…"
     options:
       - "l'activité anti-Xa au pic (4–6 h après l'injection)"
-      - "le TCA 4–6 h après l'injection"
-      - "l'INR"
+      - "le TCA mesuré 4–6 h après l'injection, comme l'HNF"
+      - "l'INR mesuré avant l'injection, comme pour un AVK"
     correct: 0
   - prompt: "Les AVK inhibent la synthèse fonctionnelle des facteurs…"
     options:
-      - "II, VII, IX, X (vitamine K dépendants)"
-      - "V et VIII"
-      - "XI et XII"
+      - "II, VII, IX, X, vitamine K dépendants (et protéines C, S)"
+      - "V et VIII, les deux facteurs labiles de la coagulation"
+      - "XI et XII, facteurs de contact de la voie intrinsèque"
     correct: 0
 ---
 

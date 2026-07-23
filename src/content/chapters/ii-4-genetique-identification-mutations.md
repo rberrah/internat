@@ -16,20 +16,20 @@ quiz:
   - prompt: "La réaction de polymérisation en chaîne (PCR) repose sur…"
     options:
       - "une ADN polymérase thermostable (Taq), deux amorces et des dNTP, sur des cycles dénaturation-hybridation-élongation"
-      - "une ADN ligase et une seule amorce circulaire"
-      - "une transcriptase qui copie l'ADN en ARN"
+      - "une ADN ligase thermostable qui soude deux sondes adjacentes, sur des cycles de dénaturation, hybridation et ligature"
+      - "une transcriptase inverse et une amorce unique copiant l'ARN en ADNc, à température constante sans cycles thermiques"
     correct: 0
   - prompt: "Le séquençage selon Sanger utilise, comme terminateurs de chaîne…"
     options:
       - "des didésoxyribonucléotides (ddNTP) dépourvus de groupement 3'OH"
-      - "des désoxyribonucléotides diphosphates"
-      - "des enzymes de restriction bactériennes"
+      - "des désoxyribonucléotides (dNTP) normaux marqués par fluorescence"
+      - "des ribonucléotides (rNTP) bloqués sur leur extrémité 5' phosphate"
     correct: 0
   - prompt: "La CGH-array (hybridation génomique comparative) permet de détecter…"
     options:
       - "les variations quantitatives d'ADN (aneuploïdies, délétions, duplications, CNV), mais pas les translocations équilibrées"
-      - "toutes les anomalies de structure, y compris les translocations réciproques équilibrées"
-      - "uniquement les mutations ponctuelles de type SNP"
+      - "toutes les anomalies de structure, y compris les translocations et les inversions réciproques équilibrées"
+      - "uniquement les mutations ponctuelles et les petites variations de séquence, comme le ferait un séquençage ciblé"
     correct: 0
 ---
 

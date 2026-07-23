@@ -16,20 +16,20 @@ quiz:
   - prompt: "Le métronidazole est le traitement de référence de…"
     options:
       - "l'amœbose et la giardiose"
-      - "l'oxyurose"
-      - "le paludisme"
+      - "l'oxyurose et l'ascaridiose"
+      - "les ténias et la bilharziose"
     correct: 0
   - prompt: "Une précaution majeure sous métronidazole est…"
     options:
       - "l'éviction de l'alcool (effet antabuse)"
-      - "l'arrêt du jus de pamplemousse"
-      - "la surveillance de la TSH"
+      - "l'arrêt du pamplemousse (interaction au CYP)"
+      - "la surveillance de la TSH (risque thyroïdien)"
     correct: 0
   - prompt: "Dans l'oxyurose, il faut…"
     options:
       - "traiter l'entourage et répéter la prise à 2-3 semaines"
-      - "une seule prise isolée, toujours suffisante"
-      - "hospitaliser systématiquement le patient"
+      - "ne traiter que le patient par une prise unique isolée"
+      - "prescrire le benzimidazolé en continu durant 3 semaines"
     correct: 0
 ---
 

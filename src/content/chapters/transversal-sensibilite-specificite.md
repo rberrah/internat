@@ -16,20 +16,20 @@ quiz:
   - prompt: "La sensibilité d'un test est la proportion de…"
     options:
       - "malades correctement détectés (peu de faux négatifs)"
-      - "sains correctement classés"
-      - "tests positifs"
+      - "sujets sains correctement classés (peu de faux positifs)"
+      - "sujets testés positifs réellement atteints"
     correct: 0
   - prompt: "La valeur prédictive positive (VPP) dépend, en plus du test, de…"
     options:
       - "la prévalence de la maladie dans la population"
-      - "la seule spécificité"
-      - "l'âge du test"
+      - "la sensibilité seule, indépendamment de la prévalence"
+      - "le nombre de nouveaux cas sur la période"
     correct: 0
   - prompt: "Un bon test de dépistage doit être avant tout…"
     options:
       - "très sensible (ne pas manquer de malades)"
-      - "peu sensible"
-      - "sans faux positifs uniquement"
+      - "très spécifique (ne pas générer de faux positifs)"
+      - "doté d'une forte valeur prédictive positive"
     correct: 0
 ---
 

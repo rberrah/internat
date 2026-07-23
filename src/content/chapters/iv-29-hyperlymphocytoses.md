@@ -16,20 +16,20 @@ quiz:
   - prompt: "Un syndrome mononucléosique se caractérise par des lymphocytes…"
     options:
       - "hyperbasophiles, polymorphes, réactionnels et transitoires"
-      - "monomorphes matures persistants"
-      - "blastiques avec corps d'Auer"
+      - "monomorphes, matures et persistants au-delà de deux mois"
+      - "blastiques et immatures, dotés d'un nucléole proéminent"
     correct: 0
   - prompt: "Le diagnostic de LLC repose sur l'immunophénotypage montrant…"
     options:
       - "des lymphocytes B CD5+ monotypiques avec un score de Matutes de 4 ou 5"
-      - "des lymphocytes T CD3+ polytypiques"
-      - "une positivité de la MPO"
+      - "des lymphocytes T CD3+ monotypiques avec un score de Matutes de 1 ou 2"
+      - "des lymphocytes B CD5− polytypiques exprimant fortement le FMC7"
     correct: 0
   - prompt: "La classification pronostique de référence de la LLC est celle de…"
     options:
       - "Binet (aires ganglionnaires, anémie, thrombopénie)"
-      - "Child-Pugh"
-      - "l'IPSS"
+      - "l'IPSS (blastes médullaires, cytopénies, caryotype)"
+      - "l'ISS (β2-microglobuline et albumine sérique)"
     correct: 0
 ---
 

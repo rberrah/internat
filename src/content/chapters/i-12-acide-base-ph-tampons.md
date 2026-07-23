@@ -22,14 +22,14 @@ quiz:
   - prompt: "Le pouvoir tampon d'un couple est maximal lorsque…"
     options:
       - "pH = pKa (mélange équimolaire acide/base)"
-      - "l'acide est totalement dissocié"
-      - "la concentration totale est nulle"
+      - "le pH est très éloigné du pKa du couple utilisé"
+      - "la base conjuguée est en large excès sur l'acide"
     correct: 0
   - prompt: "Un dosage complexométrique par l'EDTA est d'autant plus sélectif que…"
     options:
       - "la constante de formation conditionnelle β' du complexe est élevée à ce pH"
-      - "le pH est laissé libre"
-      - "la concentration en métal est faible"
+      - "la constante de formation β des autres cations reste élevée au même pH"
+      - "le pH est maintenu très bas pour dissocier les complexes formés"
     correct: 0
 ---
 

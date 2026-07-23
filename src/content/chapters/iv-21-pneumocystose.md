@@ -16,20 +16,20 @@ quiz:
   - prompt: "Pneumocystis jirovecii touche préférentiellement les patients présentant…"
     options:
       - "un déficit de l'immunité cellulaire (VIH avec CD4 < 200, transplantés)"
-      - "une neutropénie isolée"
-      - "une carence martiale"
+      - "une neutropénie profonde et prolongée (aplasie post-chimiothérapie)"
+      - "un déficit de l'immunité humorale (hypogammaglobulinémie)"
     correct: 0
   - prompt: "Le diagnostic de pneumocystose repose sur…"
     options:
       - "la mise en évidence du champignon sur le LBA (coloration, PCR)"
-      - "l'hémoculture"
-      - "la sérologie spécifique"
+      - "la culture du champignon sur milieu de Sabouraud à 30 °C"
+      - "la sérologie spécifique confirmée par une PCR sanguine"
     correct: 0
   - prompt: "Le traitement de première intention de la pneumocystose est…"
     options:
-      - "le cotrimoxazole à forte dose"
-      - "l'amphotéricine B"
-      - "le fluconazole"
+      - "le cotrimoxazole à forte dose, IV ou orale"
+      - "l'amphotéricine B liposomale en intraveineux"
+      - "le fluconazole à forte dose par voie orale"
     correct: 0
 ---
 

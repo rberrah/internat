@@ -27,9 +27,9 @@ quiz:
     correct: 0
   - prompt: "Dans un syndrome myélodysplasique, la moelle est typiquement…"
     options:
-      - "riche avec dysplasie, malgré des cytopénies périphériques"
-      - "pauvre et sans anomalie morphologique"
-      - "envahie par plus de 20 % de blastes"
+      - "riche avec dysplasie médullaire, malgré des cytopénies périphériques"
+      - "pauvre et désertée sur toutes les lignées, comme une aplasie médullaire"
+      - "envahie par une blastose supérieure à 20 %, comme une leucémie aiguë"
     correct: 0
 ---
 

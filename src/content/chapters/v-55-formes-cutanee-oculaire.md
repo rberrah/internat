@@ -16,8 +16,8 @@ quiz:
   - prompt: "Le passage transdermique d'un principe actif est favorisé par…"
     options:
       - "une forte lipophilie et un faible poids moléculaire"
-      - "une forte hydrophilie"
-      - "un poids moléculaire élevé"
+      - "une forte hydrophilie et un faible poids moléculaire"
+      - "une forte lipophilie et un poids moléculaire élevé"
     correct: 0
   - prompt: "Un dispositif transdermique (patch) doit être appliqué…"
     options:
@@ -27,9 +27,9 @@ quiz:
     correct: 0
   - prompt: "L'exigence impérative de la Pharmacopée pour un collyre est…"
     options:
-      - "la stérilité"
-      - "la coloration"
-      - "une viscosité élevée"
+      - "la stérilité de la préparation"
+      - "l'isotonie avec le liquide lacrymal"
+      - "la neutralité stricte du pH"
     correct: 0
 ---
 

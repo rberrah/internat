@@ -16,20 +16,20 @@ quiz:
   - prompt: "Dans la double hélice d'ADN, les appariements de bases se font par…"
     options:
       - "2 liaisons hydrogène pour A–T et 3 pour G–C, sur deux brins antiparallèles"
-      - "3 liaisons hydrogène pour A–T et 2 pour G–C"
-      - "des liaisons covalentes entre bases complémentaires"
+      - "3 liaisons hydrogène pour A–T et 2 pour G–C, sur deux brins antiparallèles"
+      - "des liaisons covalentes reliant les bases complémentaires des deux brins"
     correct: 0
   - prompt: "Les HDL se caractérisent par…"
     options:
       - "leur apoA-I, l'activation de la LCAT et le transport inverse du cholestérol"
-      - "leur apoB-48 et le transport des triglycérides alimentaires"
-      - "leur richesse en triglycérides d'origine hépatique"
+      - "leur apoB-48, la lipoprotéine lipase et le transport des triglycérides"
+      - "leur apoB-100 et leur richesse en triglycérides d'origine hépatique"
     correct: 0
   - prompt: "Les chylomicrons…"
     options:
-      - "transportent les lipides alimentaires (voie exogène), portent l'apoB-48 et sont hydrolysés par la lipoprotéine lipase"
-      - "sont synthétisés par le foie et portent l'apoB-100"
-      - "assurent le transport inverse du cholestérol vers le foie"
+      - "transportent les lipides alimentaires via l'apoB-48, hydrolysés par la lipoprotéine lipase"
+      - "sont synthétisés par le foie, portent l'apoB-100 et transportent les triglycérides endogènes"
+      - "assurent le transport inverse du cholestérol des tissus vers le foie via l'apoA-I"
     correct: 0
 ---
 

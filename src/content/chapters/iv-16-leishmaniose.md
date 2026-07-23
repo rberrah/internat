@@ -16,20 +16,20 @@ quiz:
   - prompt: "Le vecteur de la leishmaniose est…"
     options:
       - "le phlébotome (petit moucheron piqueur)"
-      - "l'anophèle femelle"
-      - "la tique"
+      - "l'anophèle femelle, comme pour le paludisme"
+      - "la tique dure, comme pour la maladie de Lyme"
     correct: 0
   - prompt: "Le diagnostic de certitude de la leishmaniose viscérale repose sur…"
     options:
       - "la mise en évidence des amastigotes intracellulaires sur frottis médullaire"
       - "l'observation de parasites flagellés extracellulaires sur frottis sanguin"
-      - "la culture sur milieu de Sabouraud"
+      - "une sérologie par IFI positive à un titre élevé dans le sang circulant"
     correct: 0
   - prompt: "Le traitement de première intention de la leishmaniose viscérale est…"
     options:
-      - "l'amphotéricine B liposomale"
-      - "le fluconazole"
-      - "la caspofungine"
+      - "l'amphotéricine B liposomale (AmBisome)"
+      - "les antimoniés pentavalents (Glucantime)"
+      - "la miltéfosine, un antileishmanien oral"
     correct: 0
 ---
 

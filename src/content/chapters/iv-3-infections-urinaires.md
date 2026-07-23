@@ -21,15 +21,15 @@ quiz:
     correct: 0
   - prompt: "Le traitement de première intention d'une cystite aiguë simple est…"
     options:
-      - "la fosfomycine-trométamol en monodose"
-      - "une C3G intraveineuse pendant 14 jours"
-      - "l'amoxicilline pendant 7 jours"
+      - "la fosfomycine-trométamol en dose orale unique"
+      - "l'amoxicilline par voie orale pendant sept jours"
+      - "une fluoroquinolone en cure de quatorze jours"
     correct: 0
   - prompt: "Une fièvre avec signes urinaires chez un homme doit être considérée comme…"
     options:
-      - "une prostatite (infection urinaire masculine) jusqu'à preuve du contraire"
-      - "une cystite simple"
-      - "une colonisation urinaire à ne pas traiter"
+      - "une prostatite (infection urinaire masculine) jusqu'à preuve contraire"
+      - "une simple cystite à traiter par fosfomycine-trométamol en monodose"
+      - "une colonisation urinaire asymptomatique qu'il ne faut pas traiter"
     correct: 0
 ---
 

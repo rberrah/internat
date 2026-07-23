@@ -17,19 +17,19 @@ quiz:
     options:
       - "lymphocytes T CD8 (cytotoxiques)"
       - "lymphocytes T CD4 (auxiliaires)"
-      - "lymphocytes B"
+      - "lymphocytes B (immunité humorale)"
     correct: 0
   - prompt: "Le CMH de classe II est exprimé principalement par…"
     options:
-      - "les cellules présentatrices d'antigène professionnelles (dendritiques, macrophages, LB)"
-      - "toutes les cellules nucléées de l'organisme"
-      - "les seuls globules rouges"
+      - "les cellules présentatrices d'antigène dites professionnelles"
+      - "toutes les cellules nucléées, comme pour le CMH de classe I"
+      - "les seules cellules dendritiques matures des organes lymphoïdes"
     correct: 0
   - prompt: "Un antigène endogène (protéine virale synthétisée dans le cytosol) est présenté par…"
     options:
       - "le CMH de classe I (voie du protéasome)"
       - "le CMH de classe II (voie endosomale)"
-      - "aucune molécule du CMH"
+      - "le CMH de classe I (voie lysosomale)"
     correct: 0
 ---
 

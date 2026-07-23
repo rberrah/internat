@@ -16,20 +16,20 @@ quiz:
   - prompt: "Le vaccin ROR est…"
     options:
       - "un vaccin vivant atténué (CI grossesse et immunodépression)"
-      - "une anatoxine"
-      - "un vaccin recombinant"
+      - "une anatoxine (toxine détoxifiée, comme pour le tétanos)"
+      - "un vaccin recombinant (antigène produit sur levure)"
     correct: 0
   - prompt: "Le vaccin contre le tétanos est…"
     options:
-      - "une anatoxine (toxine détoxifiée)"
-      - "un vaccin vivant atténué"
-      - "un vaccin à bactérie entière vivante"
+      - "une anatoxine, une toxine détoxifiée au formol"
+      - "un vaccin vivant atténué, à germe affaibli"
+      - "un vaccin recombinant issu du génie génétique"
     correct: 0
   - prompt: "La composition du vaccin grippal est réactualisée chaque année car…"
     options:
       - "le virus grippal présente une forte variabilité antigénique"
-      - "le vaccin se périme en quelques jours"
-      - "les anticorps disparaissent en une semaine"
+      - "l'immunité conférée par le vaccin disparaît en quelques semaines"
+      - "le virus développe une résistance au vaccin de l'an passé"
     correct: 0
 ---
 

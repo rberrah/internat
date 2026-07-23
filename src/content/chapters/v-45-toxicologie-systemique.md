@@ -16,20 +16,20 @@ quiz:
   - prompt: "L'hépatotoxicité du paracétamol est…"
     options:
       - "dose-dépendante (métabolite NAPQI), antidote N-acétylcystéine"
-      - "purement immuno-allergique"
-      - "indépendante de la dose"
+      - "immuno-allergique, par mécanisme idiosyncrasique imprévisible"
+      - "indépendante de la dose et réversible à l'arrêt du traitement"
     correct: 0
   - prompt: "Une toxicité pulmonaire à type de fibrose est caractéristique de…"
     options:
       - "la bléomycine et l'amiodarone"
-      - "les aminosides"
-      - "les résines chélatrices"
+      - "les aminosides et le cisplatine"
+      - "les bêta-bloquants et les AINS"
     correct: 0
   - prompt: "L'allongement de l'intervalle QT expose au risque de…"
     options:
       - "torsades de pointes"
-      - "fibrose pulmonaire"
-      - "agranulocytose"
+      - "bloc auriculo-ventriculaire"
+      - "bradycardie sinusale"
     correct: 0
 ---
 

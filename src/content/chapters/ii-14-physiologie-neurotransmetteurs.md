@@ -17,19 +17,19 @@ quiz:
     options:
       - "la tyrosine, tandis que la sérotonine dérive du tryptophane"
       - "le tryptophane, tandis que la sérotonine dérive de la tyrosine"
-      - "l'histidine pour toutes les monoamines"
+      - "l'histidine, précurseur commun de toutes les monoamines"
     correct: 0
   - prompt: "Dans le système nerveux central, le principal neurotransmetteur inhibiteur est…"
     options:
-      - "le GABA, synthétisé à partir du glutamate et dont l'action est amplifiée par les benzodiazépines"
-      - "le glutamate, qui ouvre les récepteurs NMDA"
-      - "l'acétylcholine, dégradée par l'acétylcholinestérase"
+      - "le GABA, dérivé du glutamate et renforcé par les benzodiazépines"
+      - "le glutamate, qui ouvre les récepteurs NMDA post-synaptiques"
+      - "l'acétylcholine, hydrolysée par l'acétylcholinestérase synaptique"
     correct: 0
   - prompt: "Les catécholamines sont catabolisées par…"
     options:
-      - "la MAO et la COMT ; leurs métabolites urinaires (métanéphrines, VMA) sont des marqueurs du phéochromocytome"
-      - "l'acétylcholinestérase et la LCAT"
-      - "la tryptophane hydroxylase uniquement"
+      - "la MAO et la COMT ; leurs métabolites urinaires signent le phéochromocytome"
+      - "la MAO seule, la COMT n'agissant que sur la sérotonine et l'histamine"
+      - "la tyrosine hydroxylase, qui inactive les catécholamines en excès"
     correct: 0
 ---
 

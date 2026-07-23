@@ -16,20 +16,20 @@ quiz:
   - prompt: "Le diagnostic microbiologique d'une bactériémie repose avant tout sur…"
     options:
       - "des hémocultures (flacons aérobie et anaérobie)"
-      - "la sérologie"
-      - "l'ECBU"
+      - "la sérologie, utile pour les germes à croissance difficile"
+      - "l'examen cytobactériologique des urines (ECBU)"
     correct: 0
   - prompt: "Chez un toxicomane par voie IV, le germe et la valve les plus souvent en cause dans une endocardite sont…"
     options:
       - "Staphylococcus aureus, valve tricuspide"
-      - "un streptocoque oral, valve mitrale"
-      - "un entérocoque, valve aortique"
+      - "un streptocoque du groupe viridans, valve mitrale"
+      - "un entérocoque digestif, valve aortique"
     correct: 0
   - prompt: "Le traitement d'une endocardite à S. aureus sensible à la méticilline repose sur…"
     options:
       - "une pénicilline M IV pendant 4 à 6 semaines"
-      - "une C3G orale pendant 7 jours"
-      - "de la fosfomycine monodose"
+      - "une céphalosporine orale en relais après sept jours"
+      - "de la vancomycine IV pendant sept à dix jours"
     correct: 0
 ---
 

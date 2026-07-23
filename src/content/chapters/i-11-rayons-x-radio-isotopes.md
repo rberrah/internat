@@ -16,14 +16,14 @@ quiz:
   - prompt: "L'activité d'une source radioactive vaut…"
     options:
       - "A = λ N (constante radioactive × nombre d'atomes)"
-      - "A = N / λ"
-      - "A = λ / N"
+      - "A = N / λ (nombre d'atomes divisé par la constante)"
+      - "A = λ / N (constante divisée par le nombre d'atomes)"
     correct: 0
   - prompt: "La désintégration β⁺ conduit, par annihilation, à l'émission de…"
     options:
       - "deux photons de 511 keV (base de la TEP)"
-      - "un seul photon X"
-      - "une particule alpha"
+      - "un unique photon gamma de 1,02 MeV (annihilation)"
+      - "un neutrino accompagné d'un rayon X de réarrangement"
     correct: 0
   - prompt: "La période effective d'un radio-isotope dans l'organisme obéit à…"
     options:

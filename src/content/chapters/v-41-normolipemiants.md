@@ -15,15 +15,15 @@ reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les statines exercent leur effet hypolipémiant en…"
     options:
-      - "inhibant l'HMG-CoA réductase (synthèse hépatique du cholestérol)"
-      - "activant les récepteurs PPAR-α"
-      - "chélatant les acides biliaires dans l'intestin"
+      - "inhibant l'enzyme HMG-CoA réductase hépatique"
+      - "activant les récepteurs nucléaires PPAR-α"
+      - "chélatant les acides biliaires intestinaux"
     correct: 0
   - prompt: "L'effet indésirable à surveiller en priorité sous statine est…"
     options:
-      - "musculaire (myalgies, rhabdomyolyse, élévation des CPK)"
-      - "la photosensibilité"
-      - "la constipation"
+      - "musculaire (myalgies, rhabdomyolyse, CPK élevées)"
+      - "digestive (constipation, malabsorption associée)"
+      - "cutanée (photosensibilité, prurit, éruptions)"
     correct: 0
   - prompt: "Les fibrates abaissent principalement…"
     options:

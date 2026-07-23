@@ -15,15 +15,15 @@ reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le fluconazole est inactif sur…"
     options:
-      - "Aspergillus"
+      - "Aspergillus fumigatus"
       - "Candida albicans"
       - "Cryptococcus neoformans"
     correct: 0
   - prompt: "Les échinocandines (caspofungine) agissent en inhibant…"
     options:
-      - "la bêta-1,3-glucane synthase (paroi fongique)"
-      - "la 14-alpha-déméthylase du lanostérol"
-      - "la synthèse des acides nucléiques"
+      - "la bêta-1,3-glucane synthase de la paroi fongique"
+      - "la 14-alpha-déméthylase de la synthèse d'ergostérol"
+      - "une enzyme clé de la synthèse des acides nucléiques"
     correct: 0
   - prompt: "L'effet indésirable principal de l'amphotéricine B par voie générale est…"
     options:

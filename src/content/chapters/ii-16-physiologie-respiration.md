@@ -15,14 +15,14 @@ reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Dans le sang, le CO2 est transporté majoritairement sous forme de…"
     options:
-      - "bicarbonates (environ 70 %)"
-      - "dissous dans le plasma (environ 70 %)"
-      - "carbaminée liée à l'hémoglobine (environ 70 %)"
+      - "bicarbonates, après hydratation du CO2 (environ 70 %)"
+      - "gaz physiquement dissous dans le plasma (environ 70 %)"
+      - "forme carbaminée liée à l'hémoglobine (environ 70 %)"
     correct: 0
   - prompt: "Les chémorécepteurs centraux (bulbe) sont surtout sensibles à…"
     options:
-      - "la PCO2 (via le pH du LCR)"
-      - "la PO2 artérielle"
+      - "la PCO2, via le pH du liquide céphalorachidien"
+      - "la baisse de la PO2 dans le sang artériel"
       - "la concentration en bicarbonates plasmatiques"
     correct: 0
   - prompt: "Chez le sujet normal, le rapport de Tiffeneau (VEMS/CV) est d'environ…"

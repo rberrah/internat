@@ -15,21 +15,21 @@ reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le traitement substitutif de l'hypothyroïdie repose sur…"
     options:
-      - "la lévothyroxine (LT4)"
-      - "le carbimazole"
-      - "le propranolol"
+      - "la lévothyroxine (hormone T4)"
+      - "le carbimazole (antithyroïdien)"
+      - "le propranolol (bêta-bloquant)"
     correct: 0
   - prompt: "Les antithyroïdiens de synthèse (carbimazole) agissent en…"
     options:
-      - "inhibant la thyroperoxydase, donc la synthèse des hormones thyroïdiennes"
-      - "détruisant la glande par irradiation"
+      - "inhibant la thyroperoxydase (synthèse hormonale)"
+      - "détruisant la glande thyroïde par l'iode radioactif"
       - "bloquant les récepteurs bêta-adrénergiques"
     correct: 0
   - prompt: "Devant une fièvre ou une angine sous antithyroïdien de synthèse, il faut évoquer…"
     options:
       - "une agranulocytose et contrôler la NFS en urgence"
-      - "une simple infection virale sans gravité"
-      - "un surdosage en lévothyroxine"
+      - "une angine virale banale et poursuivre le traitement"
+      - "une hépatite médicamenteuse et doser les transaminases"
     correct: 0
 ---
 

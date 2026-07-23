@@ -16,20 +16,20 @@ quiz:
   - prompt: "La méthode de stérilisation de référence, réalisée dans le conditionnement final, est…"
     options:
       - "la vapeur d'eau saturée (autoclave, 121 °C)"
-      - "la filtration sur membrane 0,22 µm"
-      - "la lyophilisation"
+      - "la chaleur sèche au Poupinel (160 à 180 °C)"
+      - "la filtration stérilisante sur membrane 0,22 µm"
     correct: 0
   - prompt: "Le niveau d'assurance de stérilité (NAS) exigé pour un produit stérilisé est…"
     options:
       - "10⁻⁶ (au plus une unité non stérile par million)"
-      - "10⁻² (une unité sur cent)"
-      - "100 % d'unités garanties stériles"
+      - "10⁻³ (au plus une unité non stérile pour mille)"
+      - "la certitude que chaque unité du lot est stérile"
     correct: 0
   - prompt: "La stérilisation par filtration (0,22 µm)…"
     options:
       - "retient les bactéries mais n'élimine ni les pyrogènes ni tous les virus"
-      - "détruit les micro-organismes par la chaleur"
-      - "s'effectue dans le conditionnement final"
+      - "détruit les bactéries et les spores au lieu de simplement les retenir"
+      - "élimine les bactéries mais aussi les pyrogènes et la totalité des virus"
     correct: 0
 ---
 

@@ -16,20 +16,20 @@ quiz:
   - prompt: "Le risque alpha (première espèce) d'un test correspond à…"
     options:
       - "rejeter H0 alors qu'elle est vraie (faux positif)"
-      - "conserver H0 alors qu'elle est fausse"
-      - "la puissance du test"
+      - "conserver H0 alors qu'elle est fausse (faux négatif)"
+      - "détecter une différence réelle quand elle existe (puissance)"
     correct: 0
   - prompt: "Pour comparer les moyennes de deux petits échantillons indépendants (variances égales), on utilise…"
     options:
       - "le test t de Student à n1 + n2 − 2 degrés de liberté"
-      - "le test du chi-deux"
-      - "le test de corrélation de Pearson"
+      - "le test Z sur la loi normale, valable même à petit effectif"
+      - "le test t de Student apparié sur les différences de paires"
     correct: 0
   - prompt: "La comparaison de deux variances repose sur…"
     options:
       - "le test F de Fisher (rapport des variances)"
-      - "le test t de Student"
-      - "le coefficient de détermination"
+      - "le test t de Student (différence des moyennes)"
+      - "le test du chi-deux (comparaison des dispersions)"
     correct: 0
 ---
 

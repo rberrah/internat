@@ -22,14 +22,14 @@ quiz:
   - prompt: "Quand n augmente, l'intervalle de confiance d'un paramètre…"
     options:
       - "se resserre (√n au dénominateur)"
-      - "s'élargit"
-      - "reste identique"
+      - "s'élargit (l'incertitude croît avec n)"
+      - "reste inchangé (n sans effet sur la largeur)"
     correct: 0
   - prompt: "L'estimation par intervalle de confiance d'une proportion suppose notamment que…"
     options:
       - "np > 5 et n(1 − p) > 5"
-      - "n < 30"
-      - "la variance soit nulle"
+      - "np < 5 ou n(1 − p) < 5"
+      - "n < 30 et p proche de 0,5"
     correct: 0
 ---
 

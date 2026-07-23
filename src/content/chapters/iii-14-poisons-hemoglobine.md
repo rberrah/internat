@@ -15,21 +15,21 @@ reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le monoxyde de carbone (CO) est toxique car il…"
     options:
-      - "se lie à l'hémoglobine avec une affinité très supérieure à l'O2 (carboxyhémoglobine)"
-      - "détruit les globules rouges"
-      - "bloque le rein"
+      - "se lie à l'hémoglobine avec une affinité très supérieure à l'O2 (HbCO)"
+      - "oxyde le fer de l'hème en Fe³⁺ et l'empêche de fixer l'O2 (metHb)"
+      - "inhibe la synthèse de l'hème dans la moelle, comme le plomb"
     correct: 0
   - prompt: "Le saturnisme (intoxication au plomb) provoque notamment…"
     options:
       - "une anémie et des troubles neurologiques"
-      - "une cécité isolée"
-      - "une hyperthyroïdie"
+      - "une cyanose bleutée résistante à l'oxygène"
+      - "une hypoxie avec SpO2 faussement normale"
     correct: 0
   - prompt: "L'antidote d'une méthémoglobinémie symptomatique est…"
     options:
-      - "le bleu de méthylène"
-      - "la naloxone"
-      - "le fomépizole"
+      - "le bleu de méthylène (réduit le fer Fe³⁺ en Fe²⁺)"
+      - "la naloxone (antagoniste des récepteurs opioïdes)"
+      - "le fomépizole (inhibiteur de l'alcool déshydrogénase)"
     correct: 0
 ---
 

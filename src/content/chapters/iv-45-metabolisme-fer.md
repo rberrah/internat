@@ -16,20 +16,20 @@ quiz:
   - prompt: "Le paramètre le plus fiable pour affirmer une carence martiale est…"
     options:
       - "la ferritine (effondrée)"
-      - "le fer sérique seul"
-      - "le VGM"
+      - "le fer sérique isolé"
+      - "le coefficient de saturation"
     correct: 0
   - prompt: "Dans l'anémie inflammatoire, on retrouve typiquement…"
     options:
       - "ferritine normale ou augmentée, transferrine basse, CRP élevée"
-      - "ferritine effondrée, transferrine haute"
-      - "coefficient de saturation supérieur à 45 %"
+      - "ferritine effondrée, transferrine haute et CRP normale"
+      - "coefficient de saturation supérieur à 45 %, ferritine haute"
     correct: 0
   - prompt: "L'hémochromatose génétique de type 1 est affirmée par…"
     options:
       - "la mutation C282Y du gène HFE à l'état homozygote"
-      - "une ferritine élevée isolée"
-      - "un coefficient de saturation abaissé"
+      - "une hyperferritinémie isolée sans confirmation génétique"
+      - "un coefficient de saturation de la transferrine dépassant 45 %"
     correct: 0
 ---
 

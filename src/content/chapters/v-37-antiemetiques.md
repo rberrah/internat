@@ -22,14 +22,14 @@ quiz:
   - prompt: "Un effet indésirable caractéristique du métoclopramide est…"
     options:
       - "le syndrome extrapyramidal"
-      - "la néphrotoxicité"
-      - "l'ototoxicité"
+      - "l'allongement de l'intervalle QT"
+      - "la constipation opiniâtre"
     correct: 0
   - prompt: "Dans la chimiothérapie hautement émétisante, on associe…"
     options:
       - "un sétron, un corticoïde et un antagoniste NK1 (aprépitant)"
-      - "un seul antihistaminique H1"
-      - "de la dompéridone en monothérapie"
+      - "un antihistaminique H1 associé à un anticholinergique central"
+      - "de la dompéridone associée à un corticoïde à forte dose"
     correct: 0
 ---
 

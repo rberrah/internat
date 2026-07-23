@@ -15,21 +15,21 @@ reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Le métabolite responsable de l'hépatotoxicité du paracétamol est…"
     options:
-      - "le NAPQI"
-      - "la N-acétylcystéine"
-      - "le glutathion"
+      - "le NAPQI, métabolite du paracétamol"
+      - "le glucuroconjugué du paracétamol"
+      - "le sulfoconjugué du paracétamol"
     correct: 0
   - prompt: "L'antidote de l'intoxication au paracétamol est…"
     options:
       - "la N-acétylcystéine"
-      - "la naloxone"
-      - "le flumazénil"
+      - "le sulfate de protamine"
+      - "l'hydroxocobalamine"
     correct: 0
   - prompt: "Au tout début d'une intoxication aiguë aux salicylés, on observe typiquement…"
     options:
       - "une alcalose respiratoire"
       - "une acidose respiratoire"
-      - "aucun trouble acido-basique"
+      - "une acidose métabolique"
     correct: 0
 ---
 

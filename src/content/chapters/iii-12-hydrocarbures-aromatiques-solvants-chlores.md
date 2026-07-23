@@ -16,20 +16,20 @@ quiz:
   - prompt: "La toxicité chronique du benzène (benzénisme) est essentiellement…"
     options:
       - "hématologique (aplasie médullaire, leucémies)"
-      - "rénale isolée"
-      - "cutanée locale"
+      - "rénale (néphropathie tubulaire chronique)"
+      - "hépatique (cytolyse et stéatose progressives)"
     correct: 0
   - prompt: "Le benzène est classé…"
     options:
-      - "cancérogène de catégorie 1 (CIRC)"
-      - "non cancérogène"
-      - "cancérogène uniquement par voie cutanée"
+      - "cancérogène avéré de catégorie 1 (CIRC)"
+      - "cancérogène probable de catégorie 2A (CIRC)"
+      - "cancérogène seulement au-delà d'un seuil toléré"
     correct: 0
   - prompt: "En aigu, les solvants chlorés exposent surtout au risque de…"
     options:
       - "troubles du rythme par sensibilisation du myocarde aux catécholamines"
-      - "cécité par névrite optique"
-      - "insuffisance rénale par cristaux d'oxalate"
+      - "cécité par névrite optique, comme dans l'intoxication au méthanol"
+      - "insuffisance rénale aiguë par précipitation de cristaux d'oxalate"
     correct: 0
 ---
 

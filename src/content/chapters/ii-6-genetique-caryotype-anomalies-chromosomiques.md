@@ -16,20 +16,20 @@ quiz:
   - prompt: "Le caryotype normal de l'espèce humaine est…"
     options:
       - "46,XX chez la femme et 46,XY chez l'homme, soit 22 paires d'autosomes et une paire de gonosomes"
-      - "23,X chez la femme et 23,Y chez l'homme"
-      - "47 chromosomes dont 3 gonosomes"
+      - "23,X chez la femme et 23,Y chez l'homme, soit un seul exemplaire de chaque chromosome"
+      - "46,XY chez la femme et 46,XX chez l'homme, soit 22 paires d'autosomes et une paire de gonosomes"
     correct: 0
   - prompt: "Parmi ces formules, laquelle correspond à une aneuploïdie ?"
     options:
-      - "45,X"
-      - "46,XX,t(3;21)(q26;q22)"
-      - "46,XY,del(5)(p15)"
+      - "45,X, avec absence complète d'un chromosome X (caryotype de Turner)"
+      - "46,XX,t(3;21)(q26;q22), échange équilibré entre deux chromosomes"
+      - "46,XY,del(5)(p15), perte d'un fragment du bras court du chromosome 5"
     correct: 0
   - prompt: "Une translocation robertsonienne concerne obligatoirement…"
     options:
       - "des chromosomes acrocentriques (13, 14, 15, 21, 22), fusionnés au niveau du centromère"
-      - "deux chromosomes métacentriques"
-      - "les deux gonosomes X et Y"
+      - "deux chromosomes métacentriques, soudés après la perte de leurs bras courts respectifs"
+      - "deux chromosomes quelconques échangeant réciproquement un segment de leurs bras longs"
     correct: 0
 ---
 

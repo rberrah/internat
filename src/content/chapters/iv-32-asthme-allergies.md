@@ -15,7 +15,7 @@ reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'asthme allergique et l'anaphylaxie relèvent d'une hypersensibilité de type…"
     options:
-      - "I (immédiate, médiée par les IgE)"
+      - "I (immédiate, médiée par les IgE spécifiques)"
       - "II (cytotoxique, médiée par les anticorps)"
       - "IV (retardée, médiée par les lymphocytes T)"
     correct: 0
@@ -27,9 +27,9 @@ quiz:
     correct: 0
   - prompt: "L'examen incontournable du diagnostic d'asthme est…"
     options:
-      - "l'exploration fonctionnelle respiratoire (trouble ventilatoire obstructif réversible)"
-      - "le dosage des IgE totales"
-      - "l'hémogramme"
+      - "l'exploration fonctionnelle respiratoire (obstruction bronchique réversible)"
+      - "le dosage des IgE totales et des IgE spécifiques des pneumallergènes courants"
+      - "l'hémogramme montrant une hyperéosinophilie sanguine évocatrice d'atopie"
     correct: 0
 ---
 

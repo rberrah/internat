@@ -16,20 +16,20 @@ quiz:
   - prompt: "Les agents alkylants (cisplatine, cyclophosphamide) agissent en…"
     options:
       - "endommageant l'ADN (pontages, lésions)"
-      - "stabilisant les microtubules"
-      - "bloquant les récepteurs hormonaux"
+      - "bloquant la mitose via les microtubules"
+      - "inhibant la synthèse des bases de l'ADN"
     correct: 0
   - prompt: "Le trastuzumab est un anticorps monoclonal dirigé contre…"
     options:
-      - "le récepteur HER2"
-      - "le CD20"
-      - "le VEGF"
+      - "le récepteur HER2 (cancer du sein)"
+      - "l'antigène CD20 (lymphomes B)"
+      - "le facteur VEGF (angiogenèse)"
     correct: 0
   - prompt: "La toxicité limitante commune aux chimiothérapies cytotoxiques est…"
     options:
       - "la myélosuppression (neutropénie)"
-      - "la tendinopathie"
-      - "la photosensibilité"
+      - "l'alopécie (chute des cheveux)"
+      - "la mucite (inflammation buccale)"
     correct: 0
 ---
 

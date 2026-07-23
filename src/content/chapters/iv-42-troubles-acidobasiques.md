@@ -22,8 +22,8 @@ quiz:
   - prompt: "Une acidose métabolique à trou anionique augmenté oriente vers…"
     options:
       - "un acide en excès (acidocétose, acidose lactique, insuffisance rénale)"
-      - "une perte digestive de bicarbonates"
-      - "des vomissements"
+      - "une perte digestive de bicarbonates (diarrhée, acidose tubulaire rénale)"
+      - "une hyperchlorémie de dilution après perfusion de sérum salé isotonique"
     correct: 0
   - prompt: "Devant une acidose métabolique, la compensation attendue est…"
     options:

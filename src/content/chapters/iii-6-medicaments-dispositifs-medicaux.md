@@ -16,20 +16,20 @@ quiz:
   - prompt: "L'AMM d'un médicament est délivrée…"
     options:
       - "par la Commission européenne (avis EMA) ou par l'ANSM, pour 5 ans renouvelable"
-      - "par la HAS après évaluation du SMR"
-      - "par le CEPS lors de la fixation du prix"
+      - "par la HAS, à l'issue de l'évaluation du SMR par la Commission de la transparence"
+      - "par le CEPS, au moment de la fixation du prix et du taux de remboursement"
     correct: 0
   - prompt: "Un dispositif médical se distingue du médicament car son action principale n'est PAS obtenue par…"
     options:
       - "un moyen pharmacologique, immunologique ou métabolique"
-      - "un contact avec le corps humain"
-      - "une visée diagnostique ou thérapeutique"
+      - "un moyen physique, chimique ou par voie électrique"
+      - "un contact mécanique direct avec les tissus du corps"
     correct: 0
   - prompt: "Le taux de remboursement d'un médicament dépend avant tout de…"
     options:
-      - "son SMR (service médical rendu)"
+      - "son SMR (service médical rendu), évalué par la HAS"
       - "son ASMR (amélioration du service médical rendu)"
-      - "son prix fabricant"
+      - "son prix fabricant hors taxes, négocié avec le CEPS"
     correct: 0
 ---
 

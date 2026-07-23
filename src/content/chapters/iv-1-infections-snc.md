@@ -16,20 +16,20 @@ quiz:
   - prompt: "Un LCR trouble avec 5000 éléments/mm³ à prédominance de PNN, protéinorachie 2,5 g/L et glycorachie effondrée oriente vers…"
     options:
       - "une méningite bactérienne purulente"
-      - "une méningite virale"
-      - "une simple contamination du prélèvement"
+      - "une méningite virale à sa phase initiale"
+      - "une méningite tuberculeuse ou listérienne"
     correct: 0
   - prompt: "Devant un purpura fulminans fébrile, le geste immédiat est…"
     options:
       - "l'injection d'une C3G sans attendre la ponction lombaire"
-      - "une corticothérapie seule"
-      - "une simple surveillance aux urgences"
+      - "la réalisation d'une ponction lombaire avant toute antibiothérapie"
+      - "le transfert en réanimation avant d'injecter l'antibiotique"
     correct: 0
   - prompt: "Le diagnostic d'une encéphalite herpétique repose sur…"
     options:
-      - "la PCR HSV sur le LCR"
-      - "la sérologie HSV sanguine"
-      - "la culture du virus sur le sang"
+      - "la mise en évidence de HSV par PCR sur le LCR"
+      - "la sérologie HSV sur un prélèvement sanguin"
+      - "l'IRM cérébrale objectivant l'atteinte temporale"
     correct: 0
 ---
 

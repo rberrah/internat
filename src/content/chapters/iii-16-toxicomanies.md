@@ -16,20 +16,20 @@ quiz:
   - prompt: "La triade d'une intoxication aux opiacés associe…"
     options:
       - "coma, myosis serré et dépression respiratoire"
-      - "mydriase, agitation et hypertension"
-      - "cyanose et anémie"
+      - "mydriase, agitation et poussée hypertensive"
+      - "myosis, hypersécrétions et bradycardie"
     correct: 0
   - prompt: "L'antidote d'une overdose d'opiacés est…"
     options:
-      - "la naloxone"
-      - "le flumazénil"
-      - "le bleu de méthylène"
+      - "la naloxone (antagoniste des récepteurs opioïdes µ)"
+      - "le flumazénil (antagoniste des benzodiazépines)"
+      - "le bleu de méthylène (réducteur de la méthémoglobine)"
     correct: 0
   - prompt: "La cocaïne et les amphétamines donnent un syndrome…"
     options:
       - "sympathomimétique (tachycardie, HTA, mydriase, agitation)"
-      - "opioïde (myosis, bradypnée)"
-      - "anticholinergique pur"
+      - "opioïde (myosis serré, bradypnée et coma calme)"
+      - "anticholinergique (mydriase, délire, fièvre, rétention)"
     correct: 0
 ---
 

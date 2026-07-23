@@ -16,20 +16,20 @@ quiz:
   - prompt: "Le diagnostic biologique de pancréatite aiguë repose sur…"
     options:
       - "une lipasémie supérieure à 3 fois la normale"
-      - "une élévation isolée des phosphatases alcalines"
-      - "une hypocalcémie isolée"
+      - "une amylasémie supérieure à 3 fois la normale"
+      - "une hypocalcémie avec une élévation de la CRP"
     correct: 0
   - prompt: "Les deux principales étiologies de pancréatite aiguë sont…"
     options:
       - "la lithiase biliaire et l'alcool"
-      - "le diabète et l'HTA"
-      - "l'insuffisance rénale et l'anémie"
+      - "l'hypertriglycéridémie et l'hypercalcémie"
+      - "les médicaments et les causes tumorales"
     correct: 0
   - prompt: "Pour suivre le sevrage alcoolique, on peut doser…"
     options:
-      - "GGT, VGM et CDT"
-      - "la lipase"
-      - "la troponine"
+      - "les GGT, le VGM et la CDT"
+      - "les ASAT, les ALAT et la bilirubine"
+      - "l'alcoolémie et l'éthanol urinaire"
     correct: 0
 ---
 

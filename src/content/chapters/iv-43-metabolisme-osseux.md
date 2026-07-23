@@ -23,13 +23,13 @@ quiz:
     options:
       - "inférieur ou égal à -2,5"
       - "compris entre -1 et -2,5"
-      - "supérieur à -1"
+      - "strictement supérieur à -1"
     correct: 0
   - prompt: "Dans l'ostéoporose primitive post-ménopausique, le bilan phosphocalcique est…"
     options:
       - "normal (calcémie, phosphatémie, PTH, vitamine D)"
-      - "toujours perturbé avec hypocalcémie"
-      - "marqué par une PTH effondrée"
+      - "perturbé avec hypocalcémie et carence en vitamine D"
+      - "marqué par une hypercalcémie et une PTH effondrée"
     correct: 0
 ---
 

@@ -16,20 +16,20 @@ quiz:
   - prompt: "Un déficit de l'immunité humorale (lymphocytes B) expose surtout aux infections à…"
     options:
       - "bactéries encapsulées (pneumocoque, Haemophilus, méningocoque)"
-      - "germes opportunistes intracellulaires"
-      - "champignons filamenteux"
+      - "germes opportunistes intracellulaires (CMV, mycobactéries)"
+      - "champignons filamenteux et bactéries pyogènes (abcès profonds)"
     correct: 0
   - prompt: "Le déficit immunitaire primitif le plus fréquent chez l'adulte symptomatique est…"
     options:
       - "le déficit immunitaire commun variable (DICV)"
       - "le déficit immunitaire combiné sévère (DICS)"
-      - "la granulomatose septique chronique"
+      - "la granulomatose septique chronique (déficit phagocytaire)"
     correct: 0
   - prompt: "Le bilan de première intention d'un déficit immunitaire comporte…"
     options:
       - "NFS, électrophorèse des protéines et dosage pondéral des IgG, A et M"
-      - "un myélogramme d'emblée"
-      - "une biopsie ganglionnaire"
+      - "un immunophénotypage lymphocytaire T/B/NK et des tests fonctionnels"
+      - "des sérologies post-vaccinales et un dosage du complément CH50"
     correct: 0
 ---
 

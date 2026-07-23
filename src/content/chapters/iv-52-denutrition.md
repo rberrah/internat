@@ -16,20 +16,20 @@ quiz:
   - prompt: "Le marqueur biologique le plus précoce pour suivre une renutrition est…"
     options:
       - "la préalbumine (transthyrétine), demi-vie courte"
-      - "l'albumine, demi-vie longue"
-      - "la créatinine"
+      - "l'albumine, à demi-vie nettement plus longue"
+      - "la transferrine, à demi-vie intermédiaire"
     correct: 0
   - prompt: "Albumine et préalbumine doivent être interprétées avec…"
     options:
       - "la CRP (protéines négatives de l'inflammation)"
-      - "la kaliémie"
-      - "la lipase"
+      - "la kaliémie et la phosphorémie du bilan de renutrition"
+      - "la protéinurie, pour écarter une fuite rénale"
     correct: 0
   - prompt: "La nutrition parentérale n'est indiquée que…"
     options:
       - "lorsque le tube digestif n'est pas fonctionnel"
-      - "en première intention chez tout dénutri"
-      - "quand la voie orale suffit"
+      - "en première intention chez tout patient dénutri"
+      - "dès que la voie orale ne couvre plus les besoins"
     correct: 0
 ---
 

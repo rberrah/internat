@@ -16,20 +16,20 @@ quiz:
   - prompt: "La SDS-PAGE sépare les protéines selon…"
     options:
       - "leur masse (le SDS impose une charge négative uniforme)"
-      - "leur seule charge native"
-      - "leur solubilité dans l'eau"
+      - "leur charge native, conservée en conditions dénaturantes"
+      - "leur point isoélectrique, comme en focalisation isoélectrique"
     correct: 0
   - prompt: "Au point isoélectrique (pI) d'une protéine…"
     options:
       - "sa charge globale est nulle et elle ne migre plus"
-      - "sa charge est maximale"
-      - "elle migre le plus vite vers l'anode"
+      - "sa charge globale est maximale et sa migration s'accélère"
+      - "elle migre vers l'anode en portant une charge négative"
     correct: 0
   - prompt: "En focalisation isoélectrique (IEF), la migration s'arrête quand…"
     options:
-      - "le pH local devient égal au pI du soluté"
-      - "le champ électrique s'annule"
-      - "le tampon est saturé"
+      - "le pH local atteint une valeur égale au pI du soluté"
+      - "le pH local devient égal au pKa du tampon porteur"
+      - "le soluté atteint l'électrode de charge opposée"
     correct: 0
 ---
 

@@ -16,20 +16,20 @@ quiz:
   - prompt: "Un rétrocontrôle négatif tend à…"
     options:
       - "stabiliser le système autour d'une valeur de consigne"
-      - "amplifier indéfiniment le signal"
-      - "supprimer toute régulation"
+      - "amplifier le signal de sortie jusqu'à l'emballement"
+      - "maintenir la production à son niveau maximal permanent"
     correct: 0
   - prompt: "Dans l'axe thyroïdien, une hyperthyroïdie primaire donne une TSH…"
     options:
       - "effondrée (rétrocontrôle négatif de T4 sur l'hypophyse)"
-      - "élevée"
-      - "normale obligatoirement"
+      - "élevée (l'hypophyse stimule davantage la thyroïde)"
+      - "normale (l'axe thyréotrope reste équilibré malgré l'excès)"
     correct: 0
   - prompt: "Une corticothérapie prolongée puis arrêtée brutalement expose à…"
     options:
       - "une insuffisance surrénale (axe freiné)"
-      - "une hyperglycémie définitive"
-      - "aucune conséquence"
+      - "un rebond d'hypercortisolisme (axe désinhibé)"
+      - "une hyperglycémie définitive de sevrage"
     correct: 0
 ---
 

@@ -15,21 +15,21 @@ reviewed_on: "2026-07-09"
 quiz:
   - prompt: "L'érythropoïétine (EPO), stimulant de l'érythropoïèse, est produite principalement par…"
     options:
-      - "le rein, en réponse à l'hypoxie"
-      - "le foie, en réponse à l'hyperglycémie"
-      - "la moelle osseuse elle-même"
+      - "le rein, en réponse à l'hypoxie tissulaire"
+      - "le foie, comme pour la thrombopoïétine"
+      - "la moelle osseuse, sur son propre lieu d'action"
     correct: 0
   - prompt: "Les plaquettes proviennent de…"
     options:
       - "la fragmentation du cytoplasme des mégacaryocytes"
-      - "la division des érythroblastes"
-      - "la maturation des monocytes"
+      - "la fragmentation du cytoplasme des érythroblastes médullaires"
+      - "la maturation cytoplasmique des monocytes sanguins"
     correct: 0
   - prompt: "La durée de vie d'un globule rouge dans la circulation est d'environ…"
     options:
-      - "120 jours"
-      - "7 à 10 jours"
-      - "quelques heures"
+      - "environ 120 jours"
+      - "environ 7 à 10 jours"
+      - "environ 12 heures"
     correct: 0
 ---
 

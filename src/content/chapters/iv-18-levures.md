@@ -22,14 +22,14 @@ quiz:
   - prompt: "Le traitement de première intention d'une candidémie (patient non neutropénique) est…"
     options:
       - "une échinocandine (caspofungine, micafungine)"
-      - "le métronidazole"
-      - "la griséofulvine"
+      - "le fluconazole d'emblée, sans antifongigramme préalable"
+      - "l'amphotéricine B désoxycholate par voie intraveineuse"
     correct: 0
   - prompt: "Le traitement d'attaque d'une cryptococcose neuroméningée est…"
     options:
-      - "amphotéricine B + 5-fluorocytosine"
-      - "caspofungine seule"
-      - "cotrimoxazole"
+      - "amphotéricine B + flucytosine (5-fluorocytosine)"
+      - "la caspofungine en monothérapie intraveineuse"
+      - "le cotrimoxazole à forte dose intraveineuse"
     correct: 0
 ---
 

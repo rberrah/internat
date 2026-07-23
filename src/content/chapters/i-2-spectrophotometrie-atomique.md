@@ -16,20 +16,20 @@ quiz:
   - prompt: "En spectrophotométrie d'absorption atomique (SAA), on mesure…"
     options:
       - "la lumière absorbée par les atomes à l'état fondamental"
-      - "la lumière émise par des atomes excités"
-      - "la fluorescence des molécules"
+      - "la lumière réémise par les atomes portés à un état excité"
+      - "la fluorescence émise par les molécules après excitation"
     correct: 0
   - prompt: "L'étape d'atomisation a pour but de…"
     options:
       - "transformer l'échantillon en atomes libres à l'état gazeux"
-      - "ioniser totalement le solvant"
-      - "former des complexes colorés"
+      - "ioniser complètement les atomes de l'analyte en phase gazeuse"
+      - "former des complexes colorés dosables par colorimétrie"
     correct: 0
   - prompt: "La spécificité de la SAA repose sur…"
     options:
       - "des raies d'absorption caractéristiques de chaque élément"
-      - "un large spectre continu"
-      - "la masse molaire de l'élément"
+      - "l'émission d'un spectre large et continu par la source"
+      - "la température de flamme, spécifique de chaque métal dosé"
     correct: 0
 ---
 

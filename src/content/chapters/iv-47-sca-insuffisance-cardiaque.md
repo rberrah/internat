@@ -16,20 +16,20 @@ quiz:
   - prompt: "Le marqueur biologique de référence du syndrome coronarien aigu est…"
     options:
       - "la troponine cardiaque (cTnT ou cTnI hypersensible)"
-      - "le BNP"
-      - "les phosphatases alcalines"
+      - "le BNP, marqueur de distension du ventricule gauche"
+      - "les CPK-MB et la myoglobine, marqueurs plus précoces"
     correct: 0
   - prompt: "Un BNP inférieur à 100 ng/L chez un patient dyspnéique permet…"
     options:
       - "d'exclure une insuffisance cardiaque (forte valeur prédictive négative)"
-      - "d'affirmer un infarctus"
-      - "de confirmer une insuffisance cardiaque"
+      - "d'affirmer un syndrome coronarien aigu (forte valeur prédictive positive)"
+      - "de confirmer une insuffisance cardiaque avec dysfonction systolique"
     correct: 0
   - prompt: "Pour affirmer un SCA sur une troponine en zone d'observation, on utilise…"
     options:
       - "la cinétique (variation > 30 % entre H0 et H3)"
-      - "un dosage unique de BNP"
-      - "l'électrophorèse des protéines"
+      - "un dosage unique de BNP couplé aux CPK-MB"
+      - "un dosage isolé de troponine dépassant le 99e percentile"
     correct: 0
 ---
 

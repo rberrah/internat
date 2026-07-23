@@ -22,14 +22,14 @@ quiz:
   - prompt: "Les vaccins vivants atténués sont contre-indiqués…"
     options:
       - "chez la femme enceinte et l'immunodéprimé"
-      - "chez le nourrisson de plus de 1 an"
-      - "en cas d'allergie aux protéines de lait"
+      - "chez le sujet âgé et l'insuffisant rénal"
+      - "en cas d'allergie aux protéines de l'œuf"
     correct: 0
   - prompt: "L'immunité de groupe protège les non-vaccinés lorsque…"
     options:
       - "la couverture vaccinale dépasse un seuil critique"
-      - "le vaccin est vivant atténué"
-      - "la maladie est à transmission non interhumaine"
+      - "le vaccin utilisé est un vaccin vivant atténué"
+      - "la maladie n'est pas à transmission interhumaine"
     correct: 0
 ---
 

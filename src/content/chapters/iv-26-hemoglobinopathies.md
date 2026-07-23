@@ -16,20 +16,20 @@ quiz:
   - prompt: "La drépanocytose résulte de…"
     options:
       - "la substitution Glu→Val au 6e acide aminé de la β-globine"
-      - "un défaut de synthèse des chaînes α"
-      - "une mutation du récepteur à l'EPO"
+      - "la substitution Glu→Lys au 6e acide aminé de la β-globine"
+      - "un défaut quantitatif de synthèse des chaînes α de la globine"
     correct: 0
   - prompt: "La β-thalassémie hétérozygote se traduit typiquement par…"
     options:
       - "une pseudopolyglobulie microcytaire avec HbA2 augmentée"
-      - "une anémie macrocytaire régénérative"
-      - "une HbA2 effondrée"
+      - "une anémie microcytaire hypochrome avec HbA2 effondrée"
+      - "une anémie macrocytaire régénérative avec réticulocytose franche"
     correct: 0
   - prompt: "Chez le patient thalassémique majeur transfusé, il faut…"
     options:
       - "chélater le fer et ne jamais supplémenter en fer"
-      - "supplémenter systématiquement en fer"
-      - "arrêter toute transfusion"
+      - "supplémenter en fer et en folates pour soutenir l'érythropoïèse"
+      - "espacer les transfusions et donner du fer par voie orale"
     correct: 0
 ---
 

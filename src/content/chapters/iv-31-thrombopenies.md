@@ -16,20 +16,20 @@ quiz:
   - prompt: "Devant une thrombopénie isolée sur EDTA sans syndrome hémorragique, le premier réflexe est…"
     options:
       - "vérifier le frottis à la recherche d'amas plaquettaires (fausse thrombopénie)"
-      - "transfuser des plaquettes en urgence"
-      - "débuter une corticothérapie"
+      - "transfuser des plaquettes en urgence pour prévenir un syndrome hémorragique"
+      - "débuter une corticothérapie en présumant un purpura immunologique (PTI)"
     correct: 0
   - prompt: "Dans le purpura thrombopénique immunologique (PTI), le myélogramme montre…"
     options:
       - "une moelle riche avec mégacaryocytes augmentés et normaux"
-      - "une moelle pauvre"
-      - "une dysplasie des trois lignées"
+      - "une moelle pauvre avec mégacaryocytes effondrés (origine centrale)"
+      - "une dysplasie des trois lignées évoquant une myélodysplasie"
     correct: 0
   - prompt: "La thrombopénie induite par l'héparine de type 2 (TIH) expose surtout à un risque…"
     options:
-      - "thrombotique, artériel et veineux"
-      - "hémorragique majeur"
-      - "de carence martiale"
+      - "thrombotique, à la fois veineux et artériel"
+      - "hémorragique, avec purpura et saignements muqueux"
+      - "hémolytique, avec présence de schizocytes"
     correct: 0
 ---
 

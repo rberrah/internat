@@ -15,21 +15,21 @@ reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La protéine dont la cinétique est la plus rapide et la moins influencée par d'autres facteurs est…"
     options:
-      - "la CRP"
+      - "la protéine C-réactive (CRP)"
       - "la vitesse de sédimentation (VS)"
-      - "l'albumine"
+      - "le fibrinogène, protéine positive"
     correct: 0
   - prompt: "Le marqueur le plus spécifique d'une infection bactérienne est…"
     options:
-      - "la procalcitonine (PCT)"
-      - "la VS"
-      - "le fibrinogène"
+      - "la procalcitonine sérique (PCT)"
+      - "la vitesse de sédimentation (VS)"
+      - "la protéine C-réactive (CRP)"
     correct: 0
   - prompt: "Parmi les protéines de l'inflammation, laquelle est une protéine « négative » (diminuée) ?"
     options:
       - "l'albumine"
       - "le fibrinogène"
-      - "la CRP"
+      - "l'haptoglobine"
     correct: 0
 ---
 

@@ -16,20 +16,20 @@ quiz:
   - prompt: "Les nocicepteurs sont…"
     options:
       - "des terminaisons nerveuses libres, à seuil élevé et souvent polymodales"
-      - "des terminaisons encapsulées à seuil très bas"
-      - "des fibres efférentes motrices"
+      - "des terminaisons encapsulées à seuil bas, spécifiques d'un seul stimulus"
+      - "des récepteurs à seuil bas se déchargeant sans stimulus lésionnel"
     correct: 0
   - prompt: "L'allodynie désigne…"
     options:
       - "une douleur provoquée par un stimulus normalement non douloureux"
-      - "une douleur accrue à un stimulus déjà douloureux"
-      - "une absence de douleur"
+      - "une douleur anormalement intense à un stimulus déjà nociceptif"
+      - "une réaction douloureuse retardée et prolongée après le stimulus"
     correct: 0
   - prompt: "La bêta-endorphine, opioïde endogène, dérive de…"
     options:
-      - "la pro-opiomélanocortine (POMC)"
-      - "la proenképhaline"
-      - "la prodynorphine"
+      - "la pro-opiomélanocortine, précurseur aussi de l'ACTH"
+      - "la proenképhaline, précurseur des enképhalines"
+      - "la prodynorphine, précurseur des dynorphines"
     correct: 0
 ---
 

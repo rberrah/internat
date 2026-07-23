@@ -17,20 +17,20 @@ quiz:
   - prompt: "Le vecteur du paludisme est…"
     options:
       - "un moustique femelle du genre Anopheles, piquant la nuit"
-      - "un moustique mâle du genre Aedes, piquant le jour"
-      - "une tique"
+      - "un moustique femelle du genre Aedes, piquant plutôt le jour"
+      - "un phlébotome femelle, actif au crépuscule en zone rurale"
     correct: 0
   - prompt: "Le diagnostic d'urgence du paludisme repose sur…"
     options:
-      - "le frottis sanguin et la goutte épaisse"
-      - "la sérologie"
-      - "l'hémoculture"
+      - "le frottis sanguin coloré et la goutte épaisse"
+      - "la sérologie détectant les anticorps antiplasmodiaux"
+      - "l'hémoculture répétée à la recherche du parasite"
     correct: 0
   - prompt: "Le traitement de première intention d'un accès simple à P. falciparum est…"
     options:
       - "une combinaison à base d'artémisinine (ACT)"
-      - "la chloroquine seule"
-      - "une simple hydratation"
+      - "la chloroquine seule, comme en zone sans résistance"
+      - "la quinine orale, en première intention systématique"
     correct: 0
 ---
 

@@ -16,14 +16,14 @@ quiz:
   - prompt: "Pour se déposer dans les alvéoles pulmonaires, les particules d'un aérosol doivent avoir un diamètre…"
     options:
       - "de l'ordre de 1 à 5 µm"
-      - "supérieur à 10 µm"
-      - "supérieur à 50 µm"
+      - "de l'ordre de 5 à 10 µm"
+      - "de l'ordre de 10 à 20 µm"
     correct: 0
   - prompt: "Le principal inconvénient de l'aérosol-doseur pressurisé est…"
     options:
-      - "le défaut de coordination main-poumon"
-      - "l'absence de dose mesurée"
-      - "l'impossibilité d'une action locale"
+      - "le défaut de coordination main-poumon à l'inhalation"
+      - "la dépendance au débit inspiratoire du patient"
+      - "l'absence de gaz propulseur pour délivrer la dose"
     correct: 0
   - prompt: "L'inhalateur à poudre sèche…"
     options:

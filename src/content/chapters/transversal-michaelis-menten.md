@@ -16,20 +16,20 @@ quiz:
   - prompt: "Dans l'équation de Michaelis-Menten, Km correspond à…"
     options:
       - "la concentration de substrat pour laquelle v = Vmax/2"
-      - "la vitesse maximale"
-      - "la concentration à saturation totale"
+      - "la vitesse maximale atteinte quand tous les sites sont saturés"
+      - "la concentration de substrat qui sature l'enzyme"
     correct: 0
   - prompt: "Quand [S] est très supérieur à Km, la vitesse…"
     options:
       - "atteint un plateau (Vmax) : cinétique d'ordre 0"
-      - "augmente indéfiniment"
-      - "devient nulle"
+      - "augmente proportionnellement à [S] (cinétique d'ordre 1)"
+      - "diminue quand tous les sites sont saturés"
     correct: 0
   - prompt: "Un médicament dont l'élimination sature (phénytoïne) a une PK…"
     options:
       - "non linéaire : l'AUC augmente plus que proportionnellement à la dose"
-      - "strictement linéaire"
-      - "sans aucun risque de surdosage"
+      - "linéaire : l'AUC augmente proportionnellement à la dose"
+      - "non linéaire : l'AUC augmente moins que proportionnellement à la dose"
     correct: 0
 ---
 

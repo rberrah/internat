@@ -16,20 +16,20 @@ quiz:
   - prompt: "Un antagoniste compétitif…"
     options:
       - "se lie au récepteur sans l'activer et déplace la courbe dose-effet vers la droite"
-      - "active pleinement le récepteur"
-      - "abaisse l'effet maximal de façon insurmontable"
+      - "se lie au récepteur et l'active pleinement en déplaçant la courbe vers la gauche"
+      - "se fixe sur un site distinct et abaisse l'effet maximal de façon insurmontable"
     correct: 0
   - prompt: "Un agoniste partiel se caractérise par…"
     options:
       - "une activité intrinsèque inférieure à celle d'un agoniste plein"
-      - "l'absence totale d'effet propre"
-      - "une affinité nulle pour le récepteur"
+      - "une activité intrinsèque nulle mais une affinité conservée"
+      - "une affinité réduite mais une activité intrinsèque maximale"
     correct: 0
   - prompt: "Les récepteurs des hormones stéroïdiennes sont…"
     options:
       - "nucléaires (agissent sur la transcription)"
-      - "couplés aux protéines G"
-      - "des canaux ioniques membranaires"
+      - "couplés aux protéines G (action membranaire rapide)"
+      - "des canaux ioniques ligand-dépendants (effet rapide)"
     correct: 0
 ---
 

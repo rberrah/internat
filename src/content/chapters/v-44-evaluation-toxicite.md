@@ -16,14 +16,14 @@ quiz:
   - prompt: "La DL50 correspond à…"
     options:
       - "la dose entraînant la mort de 50 % des animaux testés"
-      - "la dose efficace chez 50 % des sujets"
-      - "la dose sans effet toxique observable"
+      - "la dose produisant l'effet recherché chez 50 % des sujets"
+      - "la plus forte dose sans aucun effet toxique observable"
     correct: 0
   - prompt: "Le pouvoir mutagène d'une substance est classiquement évalué par…"
     options:
-      - "le test d'Ames"
-      - "la mesure de la DL50"
-      - "un essai clinique de phase I"
+      - "le test d'Ames (mutations bactériennes)"
+      - "la mesure de la DL50 (toxicité aiguë)"
+      - "l'étude de cancérogenèse (tumeurs animales)"
     correct: 0
   - prompt: "La toxicité observée en conditions réelles après commercialisation relève de…"
     options:

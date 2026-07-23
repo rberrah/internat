@@ -16,20 +16,20 @@ quiz:
   - prompt: "Les deux lésions neuropathologiques de la maladie d'Alzheimer sont…"
     options:
       - "plaques séniles (peptide β-amyloïde) et dégénérescences neurofibrillaires (protéine Tau)"
-      - "démyélinisation et plaques inflammatoires"
-      - "perte de neurones dopaminergiques"
+      - "démyélinisation inflammatoire de la substance blanche et infiltrats lymphocytaires"
+      - "dégénérescence des neurones dopaminergiques de la substance noire et corps de Lewy"
     correct: 0
   - prompt: "La maladie de Parkinson est liée à une dégénérescence…"
     options:
       - "des neurones dopaminergiques de la substance noire"
-      - "des neurones cholinergiques de l'hippocampe"
-      - "de la gaine de myéline du SNC"
+      - "des neurones cholinergiques du cortex et de l'hippocampe"
+      - "des oligodendrocytes et de la gaine de myéline du SNC"
     correct: 0
   - prompt: "La sclérose en plaques est une maladie…"
     options:
       - "inflammatoire auto-immune démyélinisante du SNC"
-      - "dégénérative de la substance noire"
-      - "purement génétique et non inflammatoire"
+      - "dégénérative touchant la substance noire dopaminergique"
+      - "héréditaire, à transmission autosomique dominante"
     correct: 0
 ---
 

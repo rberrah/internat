@@ -16,20 +16,20 @@ quiz:
   - prompt: "Le potentiel pris par une électrode redox suit l'équation…"
     options:
       - "E = E° + (0,06/n) log ([Ox]/[Red]) (Nernst)"
-      - "E = E° − n log ([Red]/[Ox])"
-      - "E = R T / n F"
+      - "E = E° − (0,06/n) log ([Ox]/[Red]), signe inversé"
+      - "E = E° + (0,06·n) log ([Red]/[Ox]), rapport inversé"
     correct: 0
   - prompt: "La potentiométrie mesure un potentiel…"
     options:
-      - "à courant nul (I = 0)"
-      - "à potentiel imposé variable"
-      - "à charge électrique constante"
+      - "à courant nul (I = 0), entre deux électrodes"
+      - "à potentiel imposé, en mesurant le courant"
+      - "en intégrant la charge électrique écoulée"
     correct: 0
   - prompt: "L'ampérométrie consiste à mesurer…"
     options:
       - "l'intensité du courant à potentiel imposé"
-      - "la quantité totale d'électricité"
-      - "la masse de l'électrode"
+      - "la quantité totale d'électricité écoulée (charge)"
+      - "le potentiel d'équilibre mesuré à courant nul"
     correct: 0
 ---
 

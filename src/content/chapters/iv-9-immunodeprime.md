@@ -16,20 +16,20 @@ quiz:
   - prompt: "Une fièvre chez un patient neutropénique après chimiothérapie est…"
     options:
       - "une urgence justifiant une antibiothérapie à large spectre immédiate"
-      - "à surveiller sans traitement"
-      - "toujours d'origine virale"
+      - "une situation à surveiller avant d'introduire une antibiothérapie ciblée"
+      - "une indication à une antibiothérapie orale limitée aux cocci Gram positif"
     correct: 0
   - prompt: "Le dépistage de l'infection à VIH repose en première intention sur…"
     options:
       - "un test ELISA combiné (anticorps anti-VIH 1/2 + antigène p24)"
-      - "une PCR ARN systématique"
-      - "un Western blot d'emblée"
+      - "une PCR quantifiant l'ARN viral plasmatique dès le 1er prélèvement"
+      - "un Western blot recherchant les anticorps spécifiques d'emblée"
     correct: 0
   - prompt: "Chez un patient VIH avec CD4 < 200/mm³, l'infection pulmonaire opportuniste à redouter est…"
     options:
       - "la pneumocystose (Pneumocystis jirovecii)"
-      - "une cystite à E. coli"
-      - "une angine à streptocoque A"
+      - "la toxoplasmose cérébrale (Toxoplasma gondii)"
+      - "la rétinite à cytomégalovirus (CMV)"
     correct: 0
 ---
 

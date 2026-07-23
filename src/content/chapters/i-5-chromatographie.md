@@ -16,14 +16,14 @@ quiz:
   - prompt: "Le facteur de rétention k' d'un composé se calcule par…"
     options:
       - "(tR − t0) / t0"
+      - "(tR − t0) / tR"
       - "tR / (tR − t0)"
-      - "t0 / tR"
     correct: 0
   - prompt: "La résolution Rs entre deux pics augmente surtout quand…"
     options:
       - "le nombre de plateaux théoriques N augmente"
-      - "la largeur des pics augmente"
-      - "le facteur de rétention devient nul"
+      - "la largeur des pics à la base augmente fortement"
+      - "le facteur de rétention k' tend vers zéro"
     correct: 0
   - prompt: "La CPG s'adresse préférentiellement à des composés…"
     options:

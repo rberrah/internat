@@ -15,21 +15,21 @@ reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Deux enfants présentent vomissements et diarrhée après un repas commun à la cantine : il s'agit d'une…"
     options:
-      - "toxi-infection alimentaire collective (TIAC), à déclaration obligatoire"
-      - "colite à Clostridioides difficile"
-      - "infection à Helicobacter pylori"
+      - "toxi-infection alimentaire collective (TIAC)"
+      - "colite à Clostridioides difficile post-antibiotique"
+      - "gastrite chronique à Helicobacter pylori"
     correct: 0
   - prompt: "Une diarrhée survenant après une antibiothérapie récente chez un sujet âgé fait évoquer…"
     options:
       - "Clostridioides difficile"
-      - "Helicobacter pylori"
-      - "Staphylococcus saprophyticus"
+      - "Salmonella enteritidis"
+      - "Campylobacter jejuni"
     correct: 0
   - prompt: "En probabiliste (sans antibiogramme), le traitement d'éradication d'Helicobacter pylori repose désormais sur…"
     options:
       - "une quadrithérapie (concomitante 14 j, ou bismuthée 10 j)"
       - "la trithérapie IPP + amoxicilline + clarithromycine"
-      - "de la fosfomycine monodose"
+      - "une bithérapie IPP + amoxicilline à forte dose 14 j"
     correct: 0
 ---
 

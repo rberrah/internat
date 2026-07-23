@@ -16,20 +16,20 @@ quiz:
   - prompt: "Dans une maladie autosomique récessive, l'union de deux hétérozygotes donne en moyenne…"
     options:
       - "1/4 d'atteints, 1/2 de porteurs sains, 1/4 de sains"
-      - "1/2 d'atteints et 1/2 de sains"
-      - "100 % de porteurs sains"
+      - "1/2 d'atteints, 1/4 de porteurs sains, 1/4 de sains"
+      - "aucun atteint, 1/2 de porteurs sains, 1/2 de sains"
     correct: 0
   - prompt: "Une maladie autosomique dominante à pénétrance complète…"
     options:
       - "s'observe à chaque génération et atteint garçons et filles"
-      - "saute systématiquement une génération"
-      - "n'atteint que les garçons"
+      - "saute une génération sur deux, comme une maladie récessive"
+      - "n'atteint que les garçons, sans transmission père-fils"
     correct: 0
   - prompt: "Dans l'hérédité mitochondriale, la mutation est transmise…"
     options:
       - "par la mère, à toute sa descendance"
-      - "par le père uniquement"
-      - "de manière liée au chromosome X"
+      - "par le père, à toute sa descendance"
+      - "par la mère, mais à ses seules filles"
     correct: 0
 ---
 

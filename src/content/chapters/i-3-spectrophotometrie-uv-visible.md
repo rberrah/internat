@@ -16,20 +16,20 @@ quiz:
   - prompt: "La loi de Beer-Lambert relie l'absorbance à…"
     options:
       - "A = ε l C (proportionnelle à la concentration)"
-      - "A = C / (ε l)"
-      - "A = ε l / C"
+      - "A = ε l / C (inversement proportionnelle à C)"
+      - "A = C / (ε l) (C proportionnelle à l'absorbance)"
     correct: 0
   - prompt: "Pour une mesure dans l'UV, la cuve doit être en…"
     options:
-      - "quartz (le verre absorbe l'UV)"
-      - "verre ordinaire"
-      - "polystyrène"
+      - "quartz, car le verre absorbe le rayonnement UV"
+      - "verre ordinaire, transparent dans tout le visible"
+      - "polystyrène, matériau inerte et peu coûteux"
     correct: 0
   - prompt: "La méthode des ajouts dosés sert surtout à…"
     options:
-      - "s'affranchir d'un effet de matrice"
-      - "augmenter la longueur d'onde"
-      - "mesurer un temps de rétention"
+      - "s'affranchir de l'effet de matrice propre à l'échantillon"
+      - "élargir le domaine de linéarité de la gamme d'étalonnage"
+      - "corriger la dérive instrumentale au cours de l'analyse"
     correct: 0
 ---
 

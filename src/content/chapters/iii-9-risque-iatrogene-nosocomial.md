@@ -16,8 +16,8 @@ quiz:
   - prompt: "Une infection est dite nosocomiale si elle survient…"
     options:
       - "au moins 48 h après l'admission (absente à l'entrée)"
-      - "dès l'arrivée du patient"
-      - "uniquement en réanimation"
+      - "dans les 24 heures suivant l'admission du patient"
+      - "à tout moment du séjour, même présente dès l'entrée"
     correct: 0
   - prompt: "La première mesure de prévention des infections associées aux soins est…"
     options:
