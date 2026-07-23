@@ -10,6 +10,7 @@
     { href: '/chapitres', key: 'course', label: 'Programme' },
     { href: '/fiches', key: 'fiches', label: 'Fiches' },
     { href: '/exercices', key: 'exercises', label: 'Entraînement' },
+    { href: '/annales', key: 'annales', label: 'Annales' },
     { href: '/lacunes', key: 'gaps', label: 'Mes lacunes' },
     { href: '/lexique', key: 'lexique', label: 'Lexique clinique' },
     { href: '/effets-indesirables', key: 'ei', label: 'Médicaments & EI' },

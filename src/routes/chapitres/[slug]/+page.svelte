@@ -12,6 +12,8 @@
   import { markSeen } from '$lib/stores/progress';
   import { exercisesForChapter } from '$lib/content/exercises';
   import { casForChapter } from '$lib/content/casCliniques';
+  import { annalesForChapter } from '$lib/content/annales';
+  import AnnaleItem from '$lib/components/ui/AnnaleItem.svelte';
   import { fade, fly } from 'svelte/transition';
   import { cubicOut } from 'svelte/easing';
   import vizMap, { availableVizKeys } from '$lib/content/vizRegistry';
@@ -24,6 +26,7 @@
   $: next = idx >= 0 && idx < chapters.length - 1 ? chapters[idx + 1] : null;
   $: chapterExercises = chapter ? exercisesForChapter(chapter.slug) : [];
   $: chapterCas = chapter ? casForChapter(chapter.slug) : [];
+  $: chapterAnnales = chapter ? annalesForChapter(chapter.slug) : [];
   // Synthèse « À retenir » du chapitre (utilisée comme mémo visuel quand pas de schéma).
   $: synthese = chapter?.steps?.find((s) => /retenir/i.test(s.title))?.html ?? '';
 
@@ -183,6 +186,19 @@
         </section>
       {/if}
 
+      {#if chapterAnnales.length}
+        <section class="step annales-step">
+          <p class="step-kicker">Annales du concours sur ce thème</p>
+          <p class="annales-intro">
+            {chapterAnnales.length} question{chapterAnnales.length > 1 ? 's' : ''} tombée{chapterAnnales.length > 1 ? 's' : ''} au concours,
+            portant sur ce chapitre. <a href={`${base}/annales`}>Voir toutes les annales →</a>
+          </p>
+          <div class="annales-list">
+            {#each chapterAnnales as a}<AnnaleItem item={a} sessionLabel={a.sessionLabel} />{/each}
+          </div>
+        </section>
+      {/if}
+
       <ChapterFooter {chapter} />
 
       <nav class="chap-nav">
@@ -277,9 +293,11 @@
   .viz-empty .hint { font-size: var(--text-sm); margin-top: var(--space-2); }
   .viz-empty .keys { font-family: var(--font-mono); font-size: var(--text-xs); color: var(--text-secondary); margin-top: var(--space-3); line-height: 1.9; }
 
-  .quiz-step, .ex-step { min-height: auto; opacity: 1; }
-  .ex-step { max-width: 760px; }
+  .quiz-step, .ex-step, .annales-step { min-height: auto; opacity: 1; }
+  .ex-step, .annales-step { max-width: 760px; }
   .caslist { display: grid; gap: var(--space-4); }
+  .annales-intro { font-size: var(--text-sm); color: var(--text-secondary); margin: 0 0 var(--space-4); }
+  .annales-list { display: grid; gap: var(--space-4); }
   .chap-nav { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-4); margin-top: var(--space-8); }
   .nav-card { display: flex; flex-direction: column; gap: 2px; text-decoration: none; padding: var(--space-4); border: 1px solid var(--border-subtle); border-radius: var(--radius); background: var(--bg-tertiary); transition: border-color 0.2s ease, transform 0.2s ease; }
   .nav-card:hover { border-color: var(--accent-pk); transform: translateY(-2px); }
