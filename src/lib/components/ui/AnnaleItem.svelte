@@ -37,6 +37,8 @@
         {#if item.answer}<span class="ans">Réponse{answers.length > 1 ? 's' : ''} : <strong>{answers.join(', ')}</strong></span>{/if}
         {#if item.correction}<p class="corr">{item.correction}</p>{/if}
       {/if}
+    {:else if item.sourceUrl}
+      <a class="src" href={item.sourceUrl} target="_blank" rel="noopener noreferrer">Sujet complet et corrigé officiel → cng.sante.fr/annales</a>
     {:else}
       <span class="nokey">Réponse non fournie dans le sujet</span>
     {/if}
@@ -63,4 +65,6 @@
   .ans strong { color: var(--quiz-success-text); }
   .corr { flex-basis: 100%; margin: 0; font-size: var(--text-sm); line-height: 1.5; color: var(--text-secondary); white-space: pre-wrap; }
   .nokey { font-family: var(--font-mono); font-size: var(--text-xs); color: var(--text-muted); font-style: italic; }
+  .src { font-family: var(--font-mono); font-size: var(--text-xs); font-weight: 700; color: var(--accent-pk); text-decoration: none; border-bottom: 1px solid var(--border-strong); }
+  .src:hover { border-color: var(--accent-pk); }
 </style>

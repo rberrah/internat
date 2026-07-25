@@ -2,33 +2,32 @@
 // ANNALES DU CONCOURS D'INTERNAT EN PHARMACIE — sujets officiels.
 //
 // PROVENANCE. Sujets OFFICIELS du concours national d'internat en pharmacie, organisé par le
-// Centre National de Gestion (CNG). Reproduits ici À DES FINS DE RÉVISION, avec leur provenance.
-// Ils NE relèvent PAS de la licence du reste du site : documents officiels, propriété de leur
-// émetteur. Source : https://www.cng.sante.fr/annales
+// Centre National de Gestion (CNG). Reproduits À DES FINS DE RÉVISION, avec provenance. Documents
+// officiels, propriété de leur émetteur ; hors licence du site. Source : https://www.cng.sante.fr/annales
 //
-// COUVERTURE. Toutes les sessions de décembre 1990 à 2025 (44 sessions, ~2640 QCM), y compris les
-// sessions Nord/Sud (2001-2010). Chaque QCM : énoncé + 5 propositions + bonne(s) réponse(s).
+// COUVERTURE. QCM : toutes les sessions de décembre 1990 à 2025 (44 sessions, ~2640 QCM, Nord/Sud
+// compris), chaque QCM avec énoncé + 5 propositions + bonne(s) réponse(s). RÉPONSES recoupées avec
+// medshake.net (concordance 100% vs grille officielle CNG là où elle existait : déc. 2020, 2022).
+// EXERCICES D'APPLICATION et DOSSIERS thérapeutiques/biologiques : sessions récentes (déc. 2020,
+// 2022, 2023, 2024, 2025), présentés sous forme RÉSUMÉE (contexte + questions posées) pour situer
+// l'épreuve et la relier aux cours ; le sujet complet et son corrigé restent sur cng.sante.fr/annales
+// (champ sourceUrl). Seules des données factuelles sont reprises ; aucun corrigé tiers.
 //
-// RÉPONSES. Propositions de réponses du Conseil Scientifique. Elles ont été RECOUPÉES avec les
-// grilles de medshake.net ; sur les sessions où une grille officielle CNG était disponible
-// (déc. 2020, déc. 2022), la concordance est de 100%. Seules les données factuelles (énoncé,
-// options, lettre(s) de réponse) sont reprises — aucun commentaire éditorial tiers.
+// RATTACHEMENT AUX COURS. Les épreuves de l'ère du programme actuel (arrêté 12 avril 2012, soit
+// décembre 2012-2025) sont rattachées au(x) chapitre(s) traitant leur thème (chapterSlugs) et à
+// l'item du programme (programItems) — voir annalesForChapter. Sessions antérieures (1990-2011) :
+// consultables mais non rattachées (programme différent).
 //
-// RATTACHEMENT AUX COURS. Les sessions de l'ère du programme officiel actuel (arrêté du 12 avril
-// 2012, soit décembre 2012 à 2025) sont rattachées, QCM par QCM, au chapitre du cours qui traite
-// leur thème (chapterSlugs) et à l'item du programme (programItems) — voir annalesForChapter. Les
-// sessions antérieures (1990-2011) sont consultables mais non rattachées (programme différent).
-//
-// Schéma : { n, type:'qcm', qcmType:'simple'|'multiple', prompt, options:[{l,t}], answer?,
-//            chapterSlugs:[...], programItems:[...] }
+// Schéma : { n, type:'qcm'|'exercice'|'dossier', qcmType?, prompt, options:[{l,t}], answer?,
+//            sourceUrl?, chapterSlugs:[...], programItems:[...] }
 
-/** @typedef {{n:number, type:string, qcmType?:string, prompt:string, options?:{l:string,t:string}[], answer?:string, correction?:string, chapterSlugs:string[], programItems:string[]}} AnnaleItem */
+/** @typedef {{n:number, type:string, qcmType?:string, prompt:string, options?:{l:string,t:string}[], answer?:string, sourceUrl?:string, correction?:string, chapterSlugs:string[], programItems:string[]}} AnnaleItem */
 
 export const annalesSessions = [
  {
   "key": "2025",
   "label": "Décembre 2025",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2025 (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -2128,13 +2127,155 @@ export const annalesSessions = [
      "IV-39"
     ],
     "answer": "ABDE"
+   },
+   {
+    "n": 1,
+    "type": "exercice",
+    "prompt": "On dissout 8,20 g d'acétate de sodium dans un litre d'une solution aqueuse d'acide acétique 10\"! M. On obtient la solution A. Données : masse molaire de CH,COONa : 82,0 g.mor* ; pKa du couple CH,COOH / CH4COO\" : 4,75. · Questions : 1) Calculer le pH de la solution A. 2) Calculer la molarité de la solution A. 3) A 100 mL de la solution A, on ajoute 107% mole d'hydroxyde de sodium. Calculer la variation du pH, en négligeant la variation du volume. 4) On dispose d'une solution molaire d'acide chlorhydrique et d'une solution molaire d'hydroxyde de sodium. On veut préparer 500 mL d'une solution tampon acétique décimolaire de pH égal à 5,00 à partir d 5) Si l'on veut préparer une solution tampon acétique décimolaire de pH égal à 6,00, peut-on utiliser la solution A 2 Justifier.",
+    "options": [],
+    "chapterSlugs": [
+     "i-12-acide-base-ph-tampons"
+    ],
+    "programItems": [
+     "I-12"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 2,
+    "type": "exercice",
+    "prompt": "La mortalité toutes causes confondues est étudiée au cours d'une enquête épidémiologique dans les régions A et B. Pour chaque population (A et B), les effectifs par tranche d'âge et les nombres de décès enregistrés sont présentés dans le tableau 1. · Questions : 1) Pour la population A, calculer les taux de mortalité spécifiques par tranche d'âge (exprimés pour 100 personnes). 2) Pour chaque population (A et B), définir et calculer le taux brut de mortalité (exprimé pour 100 personnes). Est-il pertinent de comparer directement la mortalité entre les populations A et B sur la b 3) A partir des données fournies, comment comparer la mortalité de la population À à celle de la population B, en tenant compte de la structure en âge des deux populations ? Décrire brièvement le princip 4) En utilisant les données de la population de référence (Tableau 5) , calculer les taux de mortalité standardisés sur l'âge pour la population A et la population B. Interpréter les résultats.",
+    "options": [],
+    "chapterSlugs": [
+     "iii-5-methodologie-epidemiologique"
+    ],
+    "programItems": [
+     "III-5"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 3,
+    "type": "exercice",
+    "prompt": "Le médicament M a été injecté à un volontaire sain par voie IV de façon répétée, à la dose de 2,5 g, toutes les 12 heures. · Questions : 1) Déterminer pour le médicament M, chez ce sujet : - le volume de distribution - le temps de demi-vie d'élimination - la clairance d'élimination 2) La concentration de médicament M dans l'urine recueillie entre le temps 0 (1° injection) et le temps 12 h (juste avant la 2° injection) est de 96 mg/L pour un volume d'urine de 350 ML. Quelle est la c 3) Déterminer le facteur d'accumulation (R) du médicament M par les 2 méthodes suivantes : - graphiquement - par le calcul, à partir des paramètres pharmacocinétiques précédemment déterminés 4) Calculer l'AUC entre deux injections à l'état d'équilibre. 5) Quelle est la quantité de médicament M attendue dans l'urine dans l'intervalle 60 h — 72 h ? 403952 CE4",
+    "options": [],
+    "chapterSlugs": [
+     "pharmaco-pk-base"
+    ],
+    "programItems": [
+     "V-4"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 4,
+    "type": "exercice",
+    "prompt": "La scintigraphie pulmonaire est un examen de référence dans le diagnostic de l'embolie pulmonaire. · Questions : 1) Compléter les 2 réactions de filiation radioactive en précisant le ou les types de rayonnements émis : 99 47M0 es 99 431C —> 2) Calculer en s-* les constantes radioactives du molybdène-99 et du technétium-99m (métastable). Données : - période physique du molybdène-99 : T, = 66 heures - période physique du technétium-99m : Ta = 3) Une activité de 148 MBq de 2\"Tc-MAA est administrée à un patient. Calculer le nombre de noyaux de technétium-99m correspondant. 403952 CE4 4) Sachant que cette activité injectée correspond à 300 000 particules de °?\"Tc-MAA injectées, déterminer le nombre moyen d'atomes de 2\"Tc greffés sur chaque molécule de macroagrégat. 5) Après injection intraveineuse, 80 % des °\"Tc-MAA sont retenus au niveau des artérioles précapillaires au moment de leur premier passage dans les poumons. Sachant que l'organisme humain possède 300 mil 6) Afin d'adapter cette exploration de perfusion pulmonaire à l'imagerie TEP (Tomographie par Emission de Positons), une radiopharmacie développe le marquage des MAA par un émetteur bêta+, le gallium-68 7) Quelle est l'intensité de l'émission bêta+ lors de la désintégration du °8Ga décrite dans l'équation de la question précédente ? 8) En parallèle, une étude de radioprotection montre que pour une même valeur d'activité injectée, la dose efficace reçue par le manipulateur lors d'une TEP pulmonaire au 68Ga-MAA est 2,5 fo",
+    "options": [],
+    "chapterSlugs": [
+     "i-11-rayons-x-radio-isotopes"
+    ],
+    "programItems": [
+     "I-11"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 5,
+    "type": "exercice",
+    "prompt": "L'hexokinase (EC 2.7.1.1) catalyse la réaction suivante : Glucose + ATP —. glucose-6-phosphate + ADP Dans les conditions retenues pour la mesure de son activité enzymatique, les Km respectifs de l''hexokinase pour le glucose et l'ATP sont tous les deux égaux à 0,1.10-3 M. · Questions : 1) Calculer la vitesse réactionnelle (en mol.min!.L- 2) en vérifiant que l'on est dans des conditions de vitesse initiale. 3) La vitesse initiale (vo) mesurée correspond-elle à la vitesse maximale (Vmax) ? Justifier. 4) Calculer la concentration en activité enzymatique (en U/L) contenue dans la préparation P. 405279 CES 5) La glucosamine est également un substrat de l'hexokinase. Le Km de l'hexokinase pour la glucosamine est de 1,5.10-8 M. Les activités moléculaires spécifiques de l'hexokinase sont respectivement de 80 6) Pour mesurer la vitesse de formation du glucose-6-phosphate dans l'expérience décrite dans l'énoncé, on utilise la réaction catalysée par la glucose-6-phosphate déshydrogénase (G6PD). a) Écrire la réa",
+    "options": [],
+    "chapterSlugs": [
+     "ii-7-enzymologie-mesure-activite-enzymatique"
+    ],
+    "programItems": [
+     "II-7"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 1,
+    "type": "dossier",
+    "prompt": "Mme C, 35 ans, 45 kg, a été transplantée d'un rein il y a trois mois. · Questions : 1) Quel est le mécanisme d'action des immunosuppresseurs prescrits à cette patiente ? 2) Sur quel paramètre pharmacocinétique adapte-t-on la dose de tacrolimus chez un patient transplanté rénal ? Justifier. 3) Quels sont les autres immunosuppresseurs pouvant être utilisés par voie orale en transplantation d'organe ? Préciser leur mécanisme d'action immunosuppressive. 4) Interpréter le bilan biologique en précisant les valeurs usuelles en cas d'anomalie biologique. Calculer et interpréter la clairance de la créatinine. 5) Quelle(s) étiologie(s) peut (peuvent) être évoquée(s) devant ces anomalies biologiques ? 6) Quelques semaines plus tard, une candidose oropharyngée est diagnostiquée chez cette patiente. Son médecin lui prescrit du fluconazole à la posologie de 200 mg par jour. Quelle doit être la conduite à",
+    "options": [],
+    "chapterSlugs": [
+     "v-38-immunosuppresseurs"
+    ],
+    "programItems": [
+     "V-38"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 2,
+    "type": "dossier",
+    "prompt": "Madame U. travaille dans un club touristique au Maroc. Depuis 15 jours, elle est fatiguée, a des nausées, des douleurs abdominales et une fièvre à 38,3 °C. · Questions : 1) Interpréter les résultats biologiques de Madame U. Quel diagnostic peut être évoqué ? Justifier par les arguments cliniques et biologiques. 2) Préciser la classification et la structure de l'agent pathogène en cause. 3) Quelle est l'épidémiologie (répartition géographique, réservoir, transmission) de l'infection par cet agent pathogène ? 4) Quelles sont les évolutions possibles de cette infection ? 1535 CpD2 5) Décrire la mesure spécifique qui aurait pu permettre d'éviter l'infection chez cette patiente ? Selon quelles modalités ? Enoncé Madame U. travaille dans un club touristique au Maroc. Depuis 15 jours, 6) Interptéter les résultats biologiques de Madame U. Quel diagnostic peut être évoqué ? Justifier par les arguments cliniques et biologiques.",
+    "options": [],
+    "chapterSlugs": [
+     "iv-8-hepatites-virales",
+     "iv-44-cholestase-cytolyse"
+    ],
+    "programItems": [
+     "IV-8",
+     "IV-44"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 3,
+    "type": "dossier",
+    "prompt": "Un homme de 70 ans (92 kg), hypertendu, diabétique, est amené aux urgences par les pompiers suite à une violente douleur thoracique entraînant une dyspnée. Le bilan radiologique révèle une fracture spontanée de plusieurs côtes et de multiples lacunes osseuses diffuses. · Questions : 1) Commenter le bilan biologique. 2) Au vu du tableau clinico-biologique de ce patient, quel est le diagnostic le plus probable ? Justifier la réponse. 3) Quels sont les prélèvements et les examens biologiques à réaliser, à visée diagnostique ou pronostique, en lien avec son admission à l'hôpital ? Quels sont les résultats attendus ? 4) Un traitement par biphosphonates est proposé. Quel est leur mode d'action ? 5) Le patient est traité par thalidomide. Quels sont les principaux effets pharmacologiques du thalidomide ? Citer 3 (et seulement 6) effets indésirables graves du thalidomide. 7) Une embolie pulmonaire est diagnostiquée chez ce patient. Un traitement par héparine sodique par voie intraveineuse continue est instauré. Quelle surveillance biologique faut-il mettre en place (exame",
+    "options": [],
+    "chapterSlugs": [
+     "iv-27-myelome-dysglobulinemies",
+     "iv-43-metabolisme-osseux",
+     "iv-46-insuffisance-renale"
+    ],
+    "programItems": [
+     "IV-27",
+     "IV-43",
+     "IV-46"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 4,
+    "type": "dossier",
+    "prompt": "Monsieur K., âgé de 65 ans (1,70 m, 80 kg) est suivi pour une insuffisance rénale chronique depuis plusieurs années. · Questions : 1) Estimer la fonction rénale de ce patient. En déduire le stade d'insuffisance rénale. 2) Interpréter la kaliémie. Expliquer le(s) mécanisme(s) en cause. 3) Interpréter la valeur de l'hémoglobine de ce patient. Expliquer le(s) mécanisme(s) en cause. 4) Expliquer l'augmentation de la concentration plasmatique de parathormone chez ce patient. 5) Dans ce contexte, quelle(s) complication(s) osseuse(s) peut (peuvent) être envisagée(s) ? 6) Indiquer les modalités de prise en charge médicamenteuse des perturbations phosphocalciques. 404784 CD5 Enoncé Monsieur K., âgé de 65 ans (1,70 m, 80 kg) est suivi pour une insuffisance rénale chroniq",
+    "options": [],
+    "chapterSlugs": [
+     "iv-46-insuffisance-renale",
+     "iv-41-troubles-hydro-electrolytiques",
+     "hemato-anemies"
+    ],
+    "programItems": [
+     "IV-46",
+     "IV-41",
+     "IV-22"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 5,
+    "type": "dossier",
+    "prompt": "Une femme de 45 ans est adressée par son médecin traitant à un rhumatologue en raison de douleurs articulaires symétriques bilatérales au niveau des mains, persistant depuis quelques mois. Parmi ses antécédents médicaux, on relève une hypertension artérielle non traitée. · Questions : 1) Quel est le diagnostic le plus probable ? Justifier. 2) Décrire le principe des techniques permettant le dosage des anticorps anti-peptides cycliques citrullinés et des facteurs rhumatoïdes. Quel est l'intérêt diagnostique de la recherche des anticorps ant 3) En première intention, quel traitement de fond va être proposé à cette patiente pour ses arthralgies ? Quelles sont les modalités d'administration ? 404784 CD5 4) A l'occasion d'une consultation de suivi, 6 mois après le début du traitement, les résultats de l'hémogramme sont les suivants : Sg Erythrocytes : 3,07 T/L Sg Hémoglobine : 108 g/L Sg Hématocrite : 33 5) Après 10 mois et malgré l'augmentation de la posologie du traitement de fond, la progression de la maladie est insuffisamment contrôlée. L'adalimumab est prescrit en association avec le traitement de 6) En cas de résultat positif de cet examen même en l'absence de symptômes liés, quel traitement doit être instauré avant traitement par adalimumab ? Préciser les médicaments et la durée. [Question [Type 7) Calculer le pH de la solution A. 8) Calculer la molarité de la solution A. 9) A 100 mL de la solution A, on ajoute 107 mole d'hydroxyde de sodium. Calculer la variation du pH, e",
+    "options": [],
+    "chapterSlugs": [
+     "iv-33-maladies-auto-immunes",
+     "iv-35-exploration-inflammation"
+    ],
+    "programItems": [
+     "IV-33",
+     "IV-35"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
    }
   ]
  },
  {
   "key": "2024",
   "label": "Décembre 2024",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2024 (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -4234,13 +4375,149 @@ export const annalesSessions = [
      "IV-22"
     ],
     "answer": "BCD"
+   },
+   {
+    "n": 1,
+    "type": "exercice",
+    "prompt": "On souhaite réaliser le dosage de la chloroquine dans un prélèvement sanguin après extraction liquide/liquide et par spectroscopie d'absorption à 345 nm. La chloroquine est une base faible de pKa = 10,32. · Questions : 1) Calculer le pH de la dilution de sang total après addition de la solution de KOH 0,1 M (on négligera le pouvoir tampon du sang total). L'extraction de la chloroquine est-elle optimale à ce pH ? Justif 2) A ce pH, le rendement global (R) d'extraction de la chloroquine est de 96 %. Quel est le coefficient de partage P de la chloroquine ? 3) L'absorbance à 345 nm de la chloroquine étalon à 1,00 mg.L-! en solution dans l'acide sulfurique 0,25 M est de 0,34. La solution extraite (solution A) a une absorbance à 345 nm de 0,28. Quelle est la 4) En déduire la concentration (en mg.L-!) de la chloroquine dans le sang total. 5) Lors de la mesure d'absorbance, sous quelle forme se trouve la chloroquine ? Ti BE2 Enoncé On souhaite réaliser le dosage de la chloroquine dans un prélèvement sanguin après extraction liquide/liquide 6) En dé",
+    "options": [],
+    "chapterSlugs": [
+     "i-1-extraction-separation"
+    ],
+    "programItems": [
+     "I-1"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 2,
+    "type": "exercice",
+    "prompt": "Un médicament, dont la pharmacocinétique suit un modèle monocompartimental, est perfusé à un patient par voie intraveineuse selon une vitesse de perfusion de 500 mg.h”. La perfusion a duré 24 heures. Les concentrations plasmatiques mesurées sont les suivantes : Temps (h) Conc (mg. · Questions : 1) Déterminer la clairance d'élimination plasmatique de ce médicament chez ce patient. 2) En tenant compte de la concentration au temps 2 h, déterminer la demi-vie d'élimination. 3) Déterminer le volume de distribution plasmatique. 4) Quelle est la quantité de médicament présent dans l'organisme : a) A la fin de la perfusion ? b) Quatre heures après la fin de la perfusion ? 5) Quelle est la vitesse d'élimination : a) A la fin de la perfusion ? b) Quatre heures après la fin de la perfusion ? 6) Sachant que la clairance rénale de ce médicament représente habituellement le quart de la clairance totale d'élimination, a) Calculer la vitesse d'élimination rénale à la fin de la perfusion. b) Quell 7) Quelle est la vitesse d'élimination : a) À la fin de la perfusion ? b) Quatre heures après la fin de la perfusion ?",
+    "options": [],
+    "chapterSlugs": [
+     "pharmaco-pk-base"
+    ],
+    "programItems": [
+     "V-4"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 3,
+    "type": "exercice",
+    "prompt": "Dans un hôpital, un nouveau test biologique (PCA3 pour Prostate Cancer Gene 3) est évalué dans le cadre du diagnostic du cancer de la prostate. · Questions : 1) Définir et calculer la sensibilité et la spécificité du test (tous stades de cancer de la prostate confondus). 2) En France, chez les hommes de plus de 65 ans, la prévalence du cancer de la prostate est de 10 %. Si le test précédent est appliqué à cette population, calculer alors la sensibilité, la spécificité, l 3) Si la prévalence du cancer de la prostate augmente dans la population masculine, comment évoluent la sensibilité, la spécificité, la valeur prédicitive positive et la valeur prédictive négative du tes 4) Quelle méthodologie faut-il utiliser pour savoir si ce nouveau test PCA3 est plus performant que le dosage sérique du PSA ? Justifier. Enoncé Dans un hôpital, un nouveau test biologique (PCA3 pour Pro",
+    "options": [],
+    "chapterSlugs": [
+     "transversal-sensibilite-specificite"
+    ],
+    "programItems": [],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 4,
+    "type": "exercice",
+    "prompt": "La droite A de la figure ci-dessous représente les résultats d'une étude cinétique de l'activité d'une enzyme E sur son substrat S dans des conditions bien définies. 1/Vo (10Ëmol-*.L.min) 7 / Es 0,7 =. 08 ‘ pd # A — 04 4 A 0,2 sir 0,1 -6 5 -4 3 -2 -1 1/[S] (10#mol-*. · Questions : 1) a) Donner l'équation correspondant à cette droite (sans valeur numérique). b) Calculer le Km de l'enzyme pour son substrat. c) Calculer la Vmax. d) A quoi correspond la pente de cette droite ? Calcule 2) La droite B représente les résultats d'une cinétique obtenue dans les mêmes conditions mais en présence dans le milieu d'incubation d'un inhibiteur (!) à une concentration de [I] = 8 x 10-5 mol.L*. Da 3) Calculer la constante d'inhibition (Ki) de l'inhibiteur | pour l'enzyme E. 4) a) Calculer le pourcentage d'inhibition pour une concentration en substrat [S] = 10 Km et une concentration en inhibiteur [I] = 8 x 105 mol.L*. b) Quelle est l'évolution prévisible de ce pourcentage d 5) à une concentration de [1] = 8 x 1075 mol.L*. Da",
+    "options": [],
+    "chapterSlugs": [
+     "ii-7-enzymologie-mesure-activite-enzymatique"
+    ],
+    "programItems": [
+     "II-7"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 5,
+    "type": "exercice",
+    "prompt": "L'actinium-225 est un isotope métallique émetteur de particules alpha, utilisé pour la radiothérapie interne vectorisée. · Questions : 1) L'approvisionnement européen en actinium-225 dépend d'une source d'uranium-233 détenue par un laboratoire. Cette source a permis d'isoler 5,55 GBq de thorium-229. Quelle est la masse (en mg) de thoriu 2) L'actinium-225 issu de cette source est obtenu sous la forme de sel de nitrate d'actinium et contient des impuretés métalliques non radioactives (principalement du fer) à hauteur de 0,25 jg par MBg d' 3) Un service de médecine nucléaire reçoit 37 MBq d'actinium-225 pour réaliser une préparation radiopharmaceutique à l'aide d'un peptide de masse molaire 987,9 g.mol!. Un mg de peptide marqué sera inject 4) La radiopharmacie reçoit 37 MBg le lundi matin à 8 h 00. La préparation du peptide radiomarqué s'effectue le mercredi matin et conduit à un volume final de préparation de 10 mL. Sachant que la posolog 5) Le médicament radiopharmaceutique injecté présente une demi-vie biologique de 6 heures. Quelle est la période effective de ce radiopharmaceutique ? 6) Après une succession d'émissions alpha et bêta moins, l'actinium-225 (Z = 7) aboutit au bismuth-209 (Z = 8) stable. Combien observe-t-on de particules alpha et de particules bêta moins, émises lors",
+    "options": [],
+    "chapterSlugs": [
+     "i-11-rayons-x-radio-isotopes"
+    ],
+    "programItems": [
+     "I-11"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 1,
+    "type": "dossier",
+    "prompt": "Une jeune femme de 19 ans est admise aux urgences pour une fièvre à 39,2 °C associée à des douleurs lombaires et une augmentation de la fréquence des mictions depuis la veille. Un examen cytobactériologique des urines (ECBU), des hémocultures et un hémogramme sont réalisés. ECBU : - Leucocytes : 1. · Questions : 1) Interpréter le bilan biologique. Quel est le diagnostic clinique évoqué ? Justifier. 2) Quel est l'agent le plus probablement responsable de cette infection ? Justifier. 3) Quelle est la raison essentielle expliquant que les infections urinaires sont plus fréquentes chez la femme que chez l'homme ? Saber DE DOSSIERS THERAPEUTIQUES ET BIOLOGIQUES = 4) Quel est le principe d'une hémoculture ? Quelles sont les modalités de prélèvement ? 5) Quel est le traitement probabiliste à instaurer chez cette patiente ? Quelles en sont les modalités (voie d'administration, durée) ? 6) Quelles sont les deux méthodes permettant de réaliser un antibiogramme ? Enoncé Une jeune femme de 19 ans est admise aux urgences pour une fièvre à 39,2 °C associée à des douleurs lombaires et une aug",
+    "options": [],
+    "chapterSlugs": [
+     "iv-3-infections-urinaires"
+    ],
+    "programItems": [
+     "IV-3"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 2,
+    "type": "dossier",
+    "prompt": "Ç Enoncé Une femme de 52 ans consulte pour une asthénie croissante depuis plusieurs mois. Elle se plaint de frilosité, de céphalées, de crampes musculaires, de sécheresse occulaire et de constipation. Eile est ménopausée depuis l'âge de 48 ans et pèse 70 kg pour 1,60 m. · Questions : 1) Emettre une hypothèse diagnostique en la justifiant à l'aide des signes cliniques et biologiques. 2) : Quel(s) examen(s) complémentaire(s) est (sont) à réaliser pour préciser l'origine de ce dysfonctionnement ? 3) Quel traitement peut être envisagé et quel suivi biologique nécessite-t-il ? Quels sont les risques si le suivi biologique indique que le traitement est mal équilibré ? ” 1569 BD3 Enoncé Une femme de",
+    "options": [],
+    "chapterSlugs": [
+     "iv-51-dysthyroidie",
+     "v-40-dysthyroidie"
+    ],
+    "programItems": [
+     "IV-51",
+     "V-40"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 3,
+    "type": "dossier",
+    "prompt": "Monsieur H, 54 ans, 1,61 m, 85 kg, ancien fumeur, a depuis quelques semaines une névralgie du nerf trjumeau droit. Il est hospitalisé pour un ictère cutanéo-muqueux. Ses urines sont foncées et ses selles décolorées. · Questions : 1) Préciser la nature de l'atteinte hépatique et les valeurs usuelles de chacun des paramètres biologiques de ce bilan. 2) Pour chacun des médicaments prescrits (hors carbamazépine), préciser l'indication thérapeutique probable chez ce patient ; indiquer la classe pharmacologique, le mécanisme d'action. 3) Quelle est la classe thérapeutique de la carbamazépine ? Préciser son mécanisme d'action et citer ses trois principales indications. Quel est l'objectif thérapeutique de la prescription de carbamazépi 4) Parmi les médicaments prescrits, quel(s) est (sont) celui (ceux) potentiellement hépatotoxique(s) ? 5) Comment évalue-t-on l'implication d'un médicament dans la survenue d'un effet indésirable ? Enoncé Monsieur H, 54 ans, 1,61 m, 85 kg, ancien fumeur, a depuis quelques semaines une névralgie du nerf tr 6) Parmi les médicaments prescrits, quel",
+    "options": [],
+    "chapterSlugs": [
+     "iv-44-cholestase-cytolyse",
+     "v-7-neurologie"
+    ],
+    "programItems": [
+     "IV-44",
+     "V-7"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 4,
+    "type": "dossier",
+    "prompt": "Un enfant de 6 ans vient d'être hospitalisé en urgence suite à des nausées et vomissements consécutifs à l'ingestion d'un liquide bleuté, sirupeux et de goût sucré, trouvé dans une bouteille d'eau minérale dans le garage de ses parents. · Questions : 1) Commenter les résultats du bilan biologique (en se référant aux valeurs usuelles de l'adulte). 2) Une intoxication est suspectée. Quel toxique peut être incriminé, compte tenu des circonstances et des signes biologiques et cliniques ? 3) Quel est le métabolisme du toxique suspecté ? Comment ce métabolisme permet-il d'expliquer les signes biologiques ? 4) Quelles sont les complications organiques spécifiques de ce type d'intoxication ? 5) Quelles sont les principales mesures thérapeutiques, spécifiques de cette intoxication, à mettre en œuvre ? Enoncé Un enfant de 6 ans vient d'être hospitalisé en urgence suite à des nausées et vomisse",
+    "options": [],
+    "chapterSlugs": [
+     "iii-11-toxicologie-alcools",
+     "iv-42-troubles-acidobasiques"
+    ],
+    "programItems": [
+     "III-11",
+     "IV-42"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 5,
+    "type": "dossier",
+    "prompt": "Un jeune garçon de 13 ans, dont les parents sont originaires du Gabon, est amené aux urgences de l'hôpital pour une douleur thoracique suite à un effort sportif prolongé. Il vit en France depuis sa naissance et n'a jamais voyagé hors de France. · Questions : 1) En dehors des échanges transfusionnels, quels sont les principes de la prise en charge thérapeutique immédiate ? 2) Un hémogramme est réalisé. Quelles sont les anomalies quantitatives et qualitatives caractéristiques attendues pour ce patient ? 3) L'interne des urgences souhaite confirmer et caractériser la maladie drépanocytaire. Quels examens biologiques complémentaires doivent être prescrits ? Par quelles techniques les réaliser ? Quels sont 4) Décrire l'anomalie moléculaire en cause et la physiopathologie de cette affection dans le cas d'une forme homozygote. 5) Ce patient est susceptible de développer, à terme, une hémochromatose secondaire. Pour quelle raison ? 6) Quel est le principe du traitement préventif de l''hémochromatose dans ce contexte ? Citer la DCI d'un médicament utilisé et la voie d'administration. 1500 Enoncé Un jeune garçon de 13 ans, dont les p 7) Dé",
+    "options": [],
+    "chapterSlugs": [
+     "iv-26-hemoglobinopathies",
+     "hemato-hemogramme"
+    ],
+    "programItems": [
+     "IV-26",
+     "IV-22"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
    }
   ]
  },
  {
   "key": "2023",
   "label": "Décembre 2023",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2023 (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -6341,13 +6618,155 @@ export const annalesSessions = [
      "I-4"
     ],
     "answer": "ADE"
+   },
+   {
+    "n": 1,
+    "type": "exercice",
+    "prompt": "Dans le but de déterminer la teneur en principes actifs X et Y dans un comprimé, on broie 10 comprimés que l'on met en solution dans 500 mL d'eau distillée pour obtenir la dissolution complète des principes actifs. · Questions : 1) Calculer les coefficients d'absorption molaire à λ1 et λ2 de X et Y, sachant que les solutions étalons de X et Y dans la solution tampon présentent, en cuve de 1 cm d'épaisseur, les absorbances suivan 2) Calculer la concentration de Y en mol.L-1 dans la solution diluée, à partir de l'aborbance à λ2. 3) 9 2023_EXO_P En déduire la concentration de X en mol.L-1 dans la solution diluée, à partir de l'absorbance à λ1. 4) Calculer les quantités (en mg) en X et Y dans un comprimé. 5) La quantité théorique pour un comprimé est de 15 mg de principe actif X et de 20 mg de principe actif Y. La spécification sur les quantités des principes actifs X et Y est de ± 5,0 %. Conclure sur la",
+    "options": [],
+    "chapterSlugs": [
+     "i-3-spectrophotometrie-uv-visible"
+    ],
+    "programItems": [
+     "I-3"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 2,
+    "type": "exercice",
+    "prompt": "LLeess2depuaxrtpiearstiAeseAt eBt sBosnotnitnidnédpépeennddaanntteess Partie A Enoncé Pour doser le pyruvate sérique, on le transforme totalement en lactate par réduction par la lactate déshydrogénase (LDH) en présence de NADH,H+ à pH 7,0. · Questions : 1) Ecrire la réaction catalysée par la LDH dans ce dosage. 2) Quelles sont les conditions à respecter concernant les concentrations en enzyme et en cofacteur dans ce dosage ? 3) Calculer la concentration en acide pyruvique dans le sérum en µmol.L-1 et en mg.L-1. Données : Masse molaire de l'acide pyruvique = 88 g.mol-1 Coefficient d'absorbance molaire du NADH,H+ à 340 nm = 63 4) Donner la définition de kcat. 5) Interpréter les effets provoqués par les substances A et B sur la cinétique enzymatique. Justifier.",
+    "options": [],
+    "chapterSlugs": [
+     "ii-7-enzymologie-mesure-activite-enzymatique"
+    ],
+    "programItems": [
+     "II-7"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 3,
+    "type": "exercice",
+    "prompt": "Un médicament est administré à un patient par voie intraveineuse en bolus à la dose de 200 mg. Les concentrations plasmatiques (Conc.) mesurées en fonction du temps sont : Temps Conc. (mg.L-1) (h) 38,0 0 25,6 2 19,3 4 11,6 16 10,5 24 7,9 48 5,9 72 4,4 96 (N.B. · Questions : 1) Quelle est l'équation qui décrit l'évolution des concentrations plasmatiques en fonction du temps ? 2) Durant quel intervalle de temps le phénomène de distribution peut-il être considéré comme terminé ? 3) En intégrant du temps 0 à l'infini l'équation décrivant l'évolution des concentrations en fonction du temps, calculer l'aire sous la courbe des concentrations et la clairance d'élimination plasmatique 4) Calculer le volume de distribution initial Vdi (également appelé le Vdcentral) et le volume de distribution β Vdβ (également appelé Vdarea). 5) Quelle serait la concentration plasmatique moyenne à l'équilibre si le médicament était injecté à ce patient à la dose de 200 mg une fois par jour ? 6) Calculer le facteur d'accumulation (R) correspondant à ce schéma d'administration (injection quotidienne de 200 mg) à partir de l'aire sous la courbe des concentrations du temps 0 au temps 24 h, corre",
+    "options": [],
+    "chapterSlugs": [
+     "pharmaco-pk-base"
+    ],
+    "programItems": [
+     "V-4"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 4,
+    "type": "exercice",
+    "prompt": "La polykystose rénale autosomique dominante (PKRAD) est une maladie génétique qui se manifeste par l'apparition lente et progressive de kystes, principalement au niveau des reins. Un médicament, le Tolvaptan, a été testé contre placebo dans une étude randomisée incluant 300 patients. N.B. · Questions : 1) Le volume rénal total augmente à un rythme constant propre à chaque patient atteint de PKRAD. Une augmentation plus rapide du volume rénal total est associée à un déclin plus rapide du débit de filtra 2) Le Tolvaptan peut provoquer des effets indésirables liés à la perte d'eau. La sensation de soif a été rapportée comme effet indésirable chez 81 des 150 patients traités par Tolvaptan et chez 30 des 15 3) Dans une autre étude, 50 patients atteints de PKRAD avec insuffisance rénale terminale font l'objet d'un suivi. Parmi eux, 20 patients avaient eu un diagnostic d'hypertension artérielle avant l'âge de 4) Le volume du rein est obtenu par deux méthodes : un volume mesuré et un volume calculé. Un coefficient de corrélation r = 0,9899 a été déterminé entre les volumes rénaux mesurés et les volumes calculé 5) 105 2023_EXO_P Chez les patients atteints de PKRAD, un score prédictif d'apparition d'insuffisance rénale terminale avant l'âge de 60 ans a été construit, en prenant en compte l'existence de mutations",
+    "options": [],
+    "chapterSlugs": [
+     "i-17-tests-parametriques"
+    ],
+    "programItems": [
+     "I-17"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 5,
+    "type": "exercice",
+    "prompt": "Le 11 mars 2011, un séisme suivi d'un tsunami a dévasté la centrale électrique japonaise de Fukushima-Daiichi. Ces évènements naturels ont été à l'origine, à partir du 12 mars, de la fusion de 3 des 6 cœurs de réacteurs nucléaires sur le site de la centrale. · Questions : 1) Dans une centrale nucléaire, les réactions de fission de l'uranium-236 peuvent être les suivantes : Calculer le nombre de neutrons x et y émis lors de ces deux réactions de fission. 2) L'iode-131 et le césium-137 sont 2 émetteurs bêta moins formant respectivement du xénon (Z = 3) et du baryum (Z = 4) . Ecrire les équations de désintégration de ces 2 éléments. 5) Afin de protéger la population japonnaise des conséquences thyroïdiennes de la libération d'iode-131 dans l'atmosphère, les autorités nipponnes se sont intéressées particulièrement aux propriétés phys 6) Les premières données sur la contamination de l'air en date du 22 mars 2011 à 18 h font état de la présence de 9.1016 Bq d'iode-131. L'iode-131 étant volatil on suppose que la totalité de l'iode-131 l 7) Calculer le nombre de noyaux radioactifs d'iode-131 libérés le 12 mars 2011 à 18 h dans l'atmosphère autour de la centrale (Navogadro = 6,02.1023 mol- 8) , ainsi que la masse correspondante. 9) A partir du 14 mars 2011, des vents de sud ont orienté le panache de rejets radioactifs vers Tokyo. Les autorités ont mesuré sur une période de 7 jours une contamination atmosphérique moyenne par l'io 10) Sachant que la dose efficace engagée par unité d'inc",
+    "options": [],
+    "chapterSlugs": [
+     "i-11-rayons-x-radio-isotopes"
+    ],
+    "programItems": [
+     "I-11"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 1,
+    "type": "dossier",
+    "prompt": "Madame D., 46 ans, sans domicile fixe, est hospitalisée aux urgences pour confusion mentale. Elle est alcoolo-tabagique. L'examen clinique met en évidence une discrète ascite, des œdèmes des membres inférieurs, une splénomégalie. · Questions : 1) Calculer les constantes érythrocytaires. Commenter les résultats de l'hémogramme et du bilan d'hémostase en rappelant les valeurs usuelles. 2) Au vu des éléments cliniques et biologiques, quel est le diagnostic le plus probable ? Comment expliquer les anomalies de l'hémogramme et du bilan d'hémostase ? 3) La patiente présentant une plaie récente, une dose d'immunoglobulines spécifiques antitétaniques est administrée par voie sous-cutanée. Pourquoi la voie sous-cutanée a-t-elle été choisie chez cette pa 4) Quelle autre mesure prophylactique doit être systématiquement mise en place suite à l'administration des immunoglobulines antitétaniques ? 5) La patiente sort de l'hôpital contre avis médical après quelques jours. Trois semaines plus tard, elle est hospitalisée pour hémorragie digestive importante, pour laquelle elle va recevoir en urgence 6) La patiente est hospitalisée un an plus tard avec une importante altération de l'état général et décompensation œdémato-ascitique majeure qui va justifier l'administration d'albumine à 20 % et de furo",
+    "options": [],
+    "chapterSlugs": [
+     "iv-44-cholestase-cytolyse",
+     "hemato-anemies",
+     "iv-36-allongement-tq-tca"
+    ],
+    "programItems": [
+     "IV-44",
+     "IV-22",
+     "IV-36"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 2,
+    "type": "dossier",
+    "prompt": "A l'occasion d'une visite médicale, le bilan biologique de Monsieur A. D. · Questions : 1) Commenter et interpréter les résultats biologiques. Quelle est l'hypothèse à évoquer ? 2) Quel examen virologique sanguin doit être effectué pour compléter le diagnostic ? 3) Sur quels éléments (biologiques et/ou d'exploration hépatique) repose l'indication du traitement antiviral ? 4) Quels sont les antiviraux actifs contre le VHB et leurs mécanismes d'action ? 5) Quels sont les marqueurs biologiques permettant le suivi de l'efficacité thérapeutique ? Préciser la cible attendue. 6) Quelles autres sérologies virales devraient être effectuées chez ce patient ? Justifier. 7) Quels sont les moyens de prévention contre l'hépatite virale B ? 1417 2023_DTB_P",
+    "options": [],
+    "chapterSlugs": [
+     "iv-8-hepatites-virales",
+     "v-32-antiviraux",
+     "iv-44-cholestase-cytolyse"
+    ],
+    "programItems": [
+     "IV-8",
+     "V-32",
+     "IV-44"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 3,
+    "type": "dossier",
+    "prompt": "Un homme de 32 ans se présente aux urgences d'un centre hospitalier pour hyperthermie (39 °C) depuis 3 jours, résistante au paracétamol et accompagnée de frissons. · Questions : 1) Sur quel prélèvement et par quelles techniques a-t-on mis en évidence le parasite ? 2) Quels stades parasitaires ont permis de poser le diagnostic microscopique ? Décrire pour chaque stade la morphologie pouvant être observée. 3) Comment le parasite est-il transmis à l'Homme dans les conditions naturelles ? 4) 1472 2023_DTB_P Quelle est la prise en charge thérapeutique de cet accès palustre (posologies non demandées) ? 5) Quel(s) est (sont) le(s) stade(s) parasitaire(s) ciblé(s) par cette (ces) molécule(s) ? 6) Plasmodium ovale peut-il être responsable d'un neuropaludisme ? Commenter. 7) Quels moyens de protection autres que la chimioprohylaxie peuvent être utilisés pour éviter de contracter cette maladie ?",
+    "options": [],
+    "chapterSlugs": [
+     "parasito-paludisme",
+     "v-35-antimalariques"
+    ],
+    "programItems": [
+     "IV-14",
+     "V-35"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 4,
+    "type": "dossier",
+    "prompt": "Mme L.P. est greffée cardiaque. Elle est âgée de 26 ans, pèse 41,6 kg et mesure 159 cm. · Questions : 1) Dans l'ordonnance, quels sont les médicaments immunosuppresseurs ? Justifier l'association de plusieurs immunosuppresseurs. 2) Quelle est l'utilité de la mesure de la concentration sanguine de ciclosporine ? Justifier le choix du sang total pour le dosage. 3) Justifier les traitements associés aux immunosuppresseurs. Préciser leur classe pharmacologique. 4) Une infection à Cryptococcus neoformans est diagnostiquée le mois suivant la greffe. La patiente est traitée par fluconazole 400 mg/j. Comment expliquer l'apparition de cet épisode infectieux ? Quel e 5) Quelques jours après la première prise de fluconazole, la concentration sanguine résiduelle de ciclosporine est de 1800 ng/mL. Comment expliquer l'augmentation de la ciclosporinémie résiduelle ? Quell 6) Six mois plus tard, une hypercholestérolémie est mise en évidence. Quelle classe d'hypolipémiants est recommandée chez cette patiente ? Parmi les médicaments de cette classe, lequel (lesquels) est (so",
+    "options": [],
+    "chapterSlugs": [
+     "v-38-immunosuppresseurs"
+    ],
+    "programItems": [
+     "V-38"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 5,
+    "type": "dossier",
+    "prompt": "Monsieur R., 45 ans, 78 kg, consulte son médecin en raison de deux épisodes d'hématurie, indolores et non accompagnés de fièvre, survenus dans la semaine qui précède. · Questions : 1) Commenter les résultats du bilan biologique et préciser l'état de la fonction rénale. 2) Au vu des résultats du bilan, quelles mesures diététiques seront préconisées ? Quelle surveillance clinico-biologique est à instaurer ? 1553 2023_DTB_P 3) Six mois plus tard, le résultat de l'estimation du débit de filtration glomérulaire (DFG) par la formule du CKD-EPI est de 6 mL/min/1,73 m2. Caractériser l'état de la fonction rénale. Quelle est la pr 4) Monsieur R. a été greffé d'un rein. Quelles sont les stratégies thérapeutiques à mettre en place, chronologiquement par rapport à la greffe, pour prévenir le rejet de greffe ? 5) Quels sont les mécanismes d'action des 5 principales classes pharmacologiques utilisées en prévention du rejet de greffe ? 6) Quelles sont les bases immunopathologiques du rejet aigu de greffe en transplantation d'organe ? 7) Le patient sort de l'hôpital deux semaines après sa transplantation et des bilans biologiques sont réalisés régulièrement. A la suite de l'un d'eux, il est ré-hospitalisé. Les résultats sont les suiva",
+    "options": [],
+    "chapterSlugs": [
+     "iv-46-insuffisance-renale",
+     "iv-48-hyperuricemies"
+    ],
+    "programItems": [
+     "IV-46",
+     "IV-48"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
    }
   ]
  },
  {
   "key": "2022",
   "label": "Décembre 2022",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2022 (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -8447,13 +8866,151 @@ export const annalesSessions = [
      "I-12"
     ],
     "answer": "BD"
+   },
+   {
+    "n": 1,
+    "type": "exercice",
+    "prompt": "Une solution A est obtenue en additionnant dans une fiole jaugée de 500 mL : - 1,90 g de monohydrogénophosphate de sodium cristallisé, Na2HPO4,12 H2O (MM = 358 g.mol-1), - 50 mL d'une solution 0,150 M de dihydrogénophosphate de sodium, NaH2PO4 QSP 500 mL d'eau ultrapure. · Questions : 1) Quel est le pH de la solution A ? 2) Quelle est la molarité du tampon A ? 3) Quel volume d'hydroxyde de sodium molaire doit-on ajouter à la solution tampon A pour amener le pH à 7,40 ? La solution obtenue est la solution tampon B. 5 2021_EXO_R 4) Quelle est l'osmolarité de la solution B ? On négligera la variation de volume associée à l'addition d'hydroxyde de sodium. 5) Quelle masse de chlorure de sodium faut-il ajouter à 500 mL de la solution B pour obtenir une solution iso-osmotique au plasma à 300 mOsmol.L-1 ? La masse molaire de NaCl est de 58,5 g.mol – 1.",
+    "options": [],
+    "chapterSlugs": [
+     "i-12-acide-base-ph-tampons"
+    ],
+    "programItems": [
+     "I-12"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 2,
+    "type": "exercice",
+    "prompt": "Un médicament antiviral A administré par voie intraveineuse a fait l'objet d'un essai clinique en double aveugle chez 200 patients adultes hospitalisés pour infection virale avec insuffisance respiratoire. N.B. : Les questions sont indépendantes. · Questions : 1) Tous les patients présentent à l'inclusion dans l'étude un score de statut clinique entre 4 et 7. Un score de 1 indique un complet rétablissement et un score de 8, le décès. La randomisation a été str 2) Parmi les 200 patients recrutés dans cet essai, 62 patients du groupe Antiviral A et 52 patients du groupe placebo se sont rétablis. Ces résultats sur la survenue du rétablissement sont-ils en faveur 3) Pour les 114 patients rétablis, la durée avant leur rétablissement est de 11 jours en moyenne dans le groupe Antiviral A (nA = 4) avec un écart-type estimé de 3 jours. Elle est de 15 jours en moyenne 5) La moyenne d'âge (x) des patients du groupe placebo (n = 6) est de 60 ans (écart-type estimé de 15 ans) et leur indice de masse corporelle (y) moyen est de 26,5 kg/m2 (écart-type estimé de 5,4 kg/m2",
+    "options": [],
+    "chapterSlugs": [
+     "i-17-tests-parametriques"
+    ],
+    "programItems": [
+     "I-17"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 3,
+    "type": "exercice",
+    "prompt": "Une dose de 2 grammes d'un médicament a été administrée à un patient A par perfusion intraveineuse pendant 24 heures. La figure ci-dessous représente la courbe des concentrations plasmatiques en fonction du temps. Ce patient a une clairance de la créatinine de 135 mL.min-1. · Questions : 1) A l'aide du graphique, déterminer la constante de vitesse d'élimination, la clairance d'élimination et le volume de distribution du médicament. Justifier les réponses. 2) Sachant que ce médicament est éliminé uniquement par voie rénale sous forme inchangée et qu'il ne subit ni réabsorption, ni sécrétion tubulaire au niveau rénal, quelle est sa fraction libre plasmatiqu 3) Soit un autre patient (B) présentant uunndeébciltadiraenfciletradtieonlaglocrmééatriunlianiere similaire à ccelulei du patient (A) mais chez qui la fraction libre du médicament est supérieure à celle",
+    "options": [],
+    "chapterSlugs": [
+     "pharmaco-pk-base"
+    ],
+    "programItems": [
+     "V-4"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 4,
+    "type": "exercice",
+    "prompt": "On souhaite déterminer l'activité enzymatique de la lactate déshydrogénase (LDH, EC 1.1.1.27) contenue dans une solution d'extrait de tissu musculaire partiellement purifié. · Questions : 1) Quels sont les composants présents dans le réactif ? Quelles sont les conditions liées à leurs concentrations respectives ? 2) Justifier le choix de la longueur d'onde pour réaliser les mesures d'absorbance. Préciser le sens de variation de l'absorbance à cette longueur d'onde. 3) Calculer la concentration en activité LDH (en U/L) contenue dans le milieu réactionnel et dans la solution d'extrait tissulaire partiellement purifié. On donne le coefficient d'absorbance linéique mol 4) Pour obtenir l'extrait tissulaire partiellement purifié, on est parti de 50 mL d'une solution centrifugée d'un homogénat initial ayant une concentration catalytique en LDH de 8300 U/L et contenant 15, 5) Préciser la structure macromoléculaire des isoenzymes de la LDH. Quelle est l'isoenzyme qui prédomine dans le muscle squelettique ? Quelle est l'isoenzyme qui prédomine dans le muscle cardiaque ?",
+    "options": [],
+    "chapterSlugs": [
+     "ii-7-enzymologie-mesure-activite-enzymatique"
+    ],
+    "programItems": [
+     "II-7"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 5,
+    "type": "exercice",
+    "prompt": "Le lutécium-177 (177Lu) est un radionucléide émetteur de particules bêta moins (β-). Des rayonnements gamma sont également émis lors de cette décroissance, principalement de 113 keV et 208 keV. La période physique du 177Lu est de 6,647 jours. · Questions : 1) Écrire l'équation de désintégration par émission β- du lutécium-177. Identifier la (les) particule(s) émise(s), ainsi que le noyau fils en précisant son symbole, son numéro atomique et son nombre de m 2) Calculer l'énergie cinétique maximale (en MeV) emportée par le rayonnement β-. 112 2021_EXO_R 3) Afin de réaliser le radiomarquage du PSMA, on dispose d'une solution de 9,5 GBq de lutécium-177 d'activité volumique 40 GBq/mL, dans de l'acide chlorhydrique 0,04 M. a. Calculer la masse totale de lut 4) Cette solution de [177Lu]-PSMA est ensuite immédiatement formulée pour injection (solution pour perfusion), calibrée au lundi 7 juin 2021 à 12 h, dans un volume total de 20 mL. Calculer l'activité vol 5) Dans le cadre de la prise en charge thérapeutique de son cancer de la prostate, cette solution de [177 Lu]-PSMA est perfusée à un patient le mardi 8 juin 2021 à 14 h. Quelle activité lui sera administ 6) Suite à cette administration de [177Lu]-PSMA, l'énergie absorbée par la tumeur (EAb), issue du rayonnement β- , est égale à 1,25.1012 MeV (rayonnement β- principal). Sachant que la tumeur de ce patien 7) Dans le cadre de la prise en charge de son carcinome prostatique, ce patient reçoit un total de 6 cycles de traitement par ",
+    "options": [],
+    "chapterSlugs": [
+     "i-11-rayons-x-radio-isotopes"
+    ],
+    "programItems": [
+     "I-11"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 1,
+    "type": "dossier",
+    "prompt": "Une enfant de 16 mois, d'une famille récemment arrivée en France, est hospitalisée pour hyperthermie à 40 °C, asthénie, somnolence et raideur modérée de la nuque. L'examen clinique ne montre par ailleurs pas d'éruption cutanée mais un tympan gauche congestif. · Questions : 1) Interpréter les résultats biologiques au regard des signes cliniques. Quel est le diagnostic envisagé ? 2) Quel est le micro-organisme probablement en cause ? Justifier. 3) Après la ponction lombaire, un traitement par céfotaxime par voie IV est instauré. Justifier le choix de ce traitement antibiotique. 4) Quel(s) est (sont) l'(les) examen(s) bactériologique(s) nécessaire(s) à la détermination de la sensibilité aux antibiotiques de la bactérie en cause ? 5) Décrire le mécanisme de résistance acquise aux bêta-lactamines chez l'espèce de bactéries en cause. 6) Quelles sont les autres espèces bactériennes responsables de ce type d'infection chez des enfants de cet âge ? 7) Par quel moyen l'infection de cette enfant aurait-elle pu être prévenue ?",
+    "options": [],
+    "chapterSlugs": [
+     "iv-1-infections-snc"
+    ],
+    "programItems": [
+     "IV-1"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 2,
+    "type": "dossier",
+    "prompt": "· Questions : 1) Quelle surveillance biologique particulière doit-on mettre en œuvre lors d'un traitement par le valproate de sodium ? 2) Un mois après l'instauration du traitement, une nouvelle crise survient. Un dosage de la concentration plasmatique de valproate de sodium est effectué. La concentration est de 32 mg/L (concentrations 3) Quelles sont les conditions de prescription du valproate de sodium chez cette patiente ? Quelle mesure doit systématiquement être associée à cette prescription ? 1386 2021_DTB_R",
+    "options": [],
+    "chapterSlugs": [
+     "v-7-neurologie",
+     "iv-53-affections-neurologiques"
+    ],
+    "programItems": [
+     "V-7",
+     "IV-53"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 3,
+    "type": "dossier",
+    "prompt": "Madame V., 82 ans, est admise aux urgences dans un état somnolent et confus. Son mari nous apprend que sa femme est diabétique, traitée par metformine depuis plus de vingt ans. · Questions : 1) Calculer le trou anionique plasmatique. Définir la nature du trouble acidobasique observé chez cette patiente. 2) Quelles sont les différentes causes possibles de ce type de trouble acidobasique ? 1403 2021_DTB_R 3) Quelles sont les différentes complications métaboliques aiguës susceptibles d'être observées au cours d'un diabète glucosé ? Comment les différencier au plan biochimique ? Quel(s) examen(s) complément 4) Quel est le trouble métabolique observé chez cette patiente ? Justifier. Quel examen complémentaire serait nécessaire pour confirmer le diagnostic ? Quelle est l'origine de cette complication ? 5) Quelle est l'alternative thérapeutique à instaurer immédiatement chez cette patiente pour la prise en charge de son diabète ? Justifier.",
+    "options": [],
+    "chapterSlugs": [
+     "iv-42-troubles-acidobasiques",
+     "v-22-antidiabetiques"
+    ],
+    "programItems": [
+     "IV-42",
+     "V-22"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 4,
+    "type": "dossier",
+    "prompt": "Un enfant de 6 ans, 22 kg, revient le 5 septembre d'un séjour au Sénégal. La chimioprophylaxie antimalarique quotidienne est arrêtée le 9 septembre. Le 14 septembre, sa température est de 39 °C et il refuse de s'alimenter. · Questions : 1) Un frottis sanguin est réalisé. Citer deux autres techniques microscopiques (et seulement deux) et deux techniques non microscopiques (et seulement deux) permettant de poser le diagnostic biologique d 2) A partir de la réception de l'échantillon biologique au laboratoire, en combien de temps le résultat du diagnostic biologique d'accès palustre doit-il être rendu au clinicien ? 3) L'espèce identifiée est Plasmodium falciparum. Quelles sont alors les caractéristiques du frottis réalisé (aspect général, aspect des hématies et des formes parasitaires présentes) ?",
+    "options": [],
+    "chapterSlugs": [
+     "parasito-paludisme",
+     "v-35-antimalariques"
+    ],
+    "programItems": [
+     "IV-14",
+     "V-35"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 5,
+    "type": "dossier",
+    "prompt": "Madame L., 28 ans, a eu une perte de connaissance brutale ayant occasionné un traumatisme facial. L'examen médical montre l'existence d'une amnésie post-critique, une confusion, ainsi qu'une morsure de la langue. Depuis, elle a des courbatures et des céphalées. · Questions : 1) Quelle hypothèse diagnostique peut être formulée ? Justifier. 2) Citer 5 autres médicaments (et seulement 3) (DCI) pouvant être prescrits en monothérapie chez cette patiente, en cas d'échec du valproate de sodium. 4) Citer trois facteurs favorisant les crises. 5) Madame L. doit se rendre au Cameroun pour 2 semaines en voyage d'affaires. Chez cette patiente, quel(s) est (sont) le(s) médicament(s) antipaludéen(s) contre-indiqué(s) ? Justifier.",
+    "options": [],
+    "chapterSlugs": [
+     "iv-53-affections-neurologiques",
+     "v-7-neurologie"
+    ],
+    "programItems": [
+     "IV-53",
+     "V-7"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
    }
   ]
  },
  {
   "key": "2021",
   "label": "Décembre 2021",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2021 (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -10560,7 +11117,7 @@ export const annalesSessions = [
  {
   "key": "2020",
   "label": "Décembre 2020",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2020 (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -12659,13 +13216,153 @@ export const annalesSessions = [
      "II-24"
     ],
     "answer": "CD"
+   },
+   {
+    "n": 1,
+    "type": "exercice",
+    "prompt": "Lorsque le risque n'est pas précisé, vous prendrez un risque α de 5 %. On effectue le dosage du principe actif dans la solution mère. On réalise 10 mesures et on obtient les résultats suivants (en g/L) : 104 98 102 102 100 100 96 98 100 100 N.B. : toutes les questions sont indépendantes. · Questions : 1) Calculer dans cette série, la teneur moyenne en principe actif et son intervalle de confiance à 95 %. A quelle(s) condition(s) la formule appliquée est-elle valide ? 2) La solution de référence a une teneur en principe actif de 101 g/L. Comparer la teneur moyenne observée dans cet échantillon à cette valeur de référence. 3) A partir de la solution mère précédente, on prépare deux solutions filles par dilution au dixième. On réalise 10 mesures de chaque solution fille et on obtient les résultats suivants (en g/L) : Soluti 4) Afin de faire une gamme d'étalonnage, la deuxième solution fille est diluée pour obtenir les concentrations théoriques rapportées dans le tableau ci-dessous. 61 2019_EXO_R La deuxième ligne de ce tabl",
+    "options": [],
+    "chapterSlugs": [
+     "i-16-statistique-descriptive-estimation"
+    ],
+    "programItems": [
+     "I-16"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 2,
+    "type": "exercice",
+    "prompt": "Les questions 1, 2 et 3 sont indépendantes Les solutions de pertechnétate de sodium (99mTcO4Na) injectables sont obtenues par élution d'un générateur 99Mo/99mTc. · Questions : 1) Technique n°1 - Essai préliminaire par atténuation La couche de demi-atténuation (CDA) des rayonnements gamma du 99mTc dans le plomb est de 0,35 mm. Celle des rayonnements gamma du 99Mo est de 6,93 mm 2) Technique n°2 - Essai définitif par décroissance Un aliquot de 258 MBq de 99mTc le 04/07/2019 à 10 h 00 est mis en décroissance et remesuré le 11/07/2019 à 10 h 00. L'activité mesurée en 99mTc est alo 3) Technique n°3 - Essai définitif par spectrométrie gamma Un échantillon de 37 MBq d'éluat est analysé à l'aide d'un spectromètre à scintillation blindé avec du plomb. Le spectre obtenu est le suivant :",
+    "options": [],
+    "chapterSlugs": [
+     "i-11-rayons-x-radio-isotopes"
+    ],
+    "programItems": [
+     "I-11"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 3,
+    "type": "exercice",
+    "prompt": "La glutamate déshydrogénase (GLDH, EC 1.4.1.3) catalyse la réaction suivante : α-cétoglutarate + NH4+ + NADPH,H+ <------> glutamate + H2O + NADP+ On utilise la GLDH pour doser la concentration en ion ammonium dans le plasma. · Questions : 1) En considérant l'équation de Michaelis-Menten, préciser les conditions (théorique et pratique) à respecter pour que la vitesse soit d'ordre 1 par rapport à la concentration en substrat S. 2) Quelle est l'absorbance théorique au temps t = 0 (après addition de la GLDH), sachant que le coefficient d'extinction molaire (coefficient d'absorbance linéique molaire) du NADPH,H+ à 340 nm est de 63 3) Sachant que dans les conditions du dosage, les Km de la GLDH pour l'α-cétoglutarate et le NADPH,H+ sont respectivement de 0,5 mM et 0,012 mM, exprimer les concentrations de ces réactifs (en unités Km) 4) En prenant comme limite supérieure de validité du dosage une concentration en ion ammonium dans la cuve réactionnelle inférieure à 0,1 Km, quelle serait la valeur maximale de la concentration en ammon",
+    "options": [],
+    "chapterSlugs": [
+     "ii-7-enzymologie-mesure-activite-enzymatique"
+    ],
+    "programItems": [
+     "II-7"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 4,
+    "type": "exercice",
+    "prompt": "Un médicament est administré à un patient par perfusion intraveineuse continue (5 g perfusés sur 96 heures). Les concentrations plasmatiques obtenues en fonction du temps sont présentées dans le tableau ci-dessous : Temps Concentration plasmatique (mg. · Questions : 1) Calculer la clairance d'élimination du médicament. Préciser la formule utilisée. 2) Quelle est l'équation qui décrit l'évolution des concentrations plasmatiques en fonction du temps pour ce mode d'administration ? En déduire l'expression de Ln [(Css – C) / Css] en fonction du temps, 3) Calculer puis reporter sur un graphe les valeurs de Ln[(Css-C) / Css] en fonction du temps de 0 à 24 heures. A partir de ce graphe, calculer le temps de demi-vie plasmatique et le volume de distributi 4) N.B. : la question 4 peut être traitée indépendamment des questions 2 et 3. Durant le dernier jour de traitement (temps 72 à 96 h), les urines ont été recueillies (850 mL). Leur concentration en médic",
+    "options": [],
+    "chapterSlugs": [
+     "pharmaco-pk-base"
+    ],
+    "programItems": [
+     "V-4"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 5,
+    "type": "exercice",
+    "prompt": "On extrait un soluté Z à partir de 5 mL d'une solution aqueuse à 10 mg.L-1 par 2 fois 2,5 mL d'heptane. Les phases heptaniques sont réunies. Le coefficient de partage (λ) heptane / eau de Z est égal à 4,2. · Questions : 1) Quel est le rendement de cette double extraction ? 2) Quelle est la quantité (en µg) de Z extraite ? 3) Cette extraction est suivie d'une analyse en chromatographie liquide. L'heptane est évaporé à sec et le résidu est repris par 500 µL d'acétonitrile (sans aucune perte de produit). Le chromatogramme ob",
+    "options": [],
+    "chapterSlugs": [
+     "i-1-extraction-separation"
+    ],
+    "programItems": [
+     "I-1"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 1,
+    "type": "dossier",
+    "prompt": "Madame X., 72 ans, est hospitalisée pour bilan d'une insuffisance rénale découverte fortuitement à la suite d'un bilan sanguin demandé lors d'un épisode de mastoïdite. · Questions : 1) Commenter le bilan biologique, en indiquant les valeurs usuelles. 2) Commenter l'état de l'équilibre acido-basique. 3) Calculer et interpréter la clairance de la créatinine. Quelle pathologie peut-on évoquer ? Justifier. 4) Pour quelle raison une épuration extra-rénale par hémodialyse doit-elle être mise en place ? Expliquer le principe, l'objectif et la mise en œuvre. 5) Indiquer le mécanisme d'action de la spironolactone. Commenter la prescription de ce médicament chez cette patiente. 6) 1323 2019_DTB_R Commenter la prescription de metformine chez cette patiente.",
+    "options": [],
+    "chapterSlugs": [
+     "iv-46-insuffisance-renale",
+     "iv-42-troubles-acidobasiques"
+    ],
+    "programItems": [
+     "IV-46",
+     "IV-42"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 2,
+    "type": "dossier",
+    "prompt": "Madame A., 30 ans, a passé l'après-midi sur la plage au soleil. Elle a pris un coup de soleil qui a disparu en quelques jours. · Questions : 1) Quelle est l'hypothèse diagnostique la plus probable ? Justifier votre réponse. 2) Les examens biologiques prescrits pour confirmer l'hypothèse diagnostique sont : - Hémogramme, CRP, VS - Recherche d'auto-anticorps : anticorps anti-nucléaires, anticorps anti-ADN natif, anticorps ant",
+    "options": [],
+    "chapterSlugs": [
+     "iv-33-maladies-auto-immunes",
+     "iv-35-exploration-inflammation"
+    ],
+    "programItems": [
+     "IV-33",
+     "IV-35"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 3,
+    "type": "dossier",
+    "prompt": "L'enfant T., 7 mois, présente depuis 12 heures des vomissements, une fièvre à 38 °C et une diarrhée profuse. A son admission en pédiatrie, le diagnostic de gastro-entérite à rotavirus est posé. · Questions : 1) Interpréter les résultats biologiques, en se référant aux valeurs biologiques usuelles de l'adulte, qui seront précisées pour chaque paramètre. 2) Préciser la classification et les principales caractéristiques structurales de l'agent viral en cause.",
+    "options": [],
+    "chapterSlugs": [
+     "iv-41-troubles-hydro-electrolytiques",
+     "iv-4-infections-digestives"
+    ],
+    "programItems": [
+     "IV-41",
+     "IV-4"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 4,
+    "type": "dossier",
+    "prompt": "Anticorps anti-ADN natif (ou bicaténaire ou double brin) : la recherche est moins souvent positive que celle des anticorps anti-nucléaires, mais ils sont beaucoup plus spécifiques du lupus. Leur absence n'exclut pas le diagnostic. · Questions : 1) En l'absence de manifestations cliniques autres que les atteintes cutanées et articulaires, quel est le schéma thérapeutique de 1ère intention à proposer à cette patiente ? Justifier. 2) Quels sont les points à aborder dans le cadre d'une éducation thérapeutique de cette patiente ? 3) Quelques années plus tard, Mme A. indique avoir pris 5 kg en quelques mois. Elle présente des œdèmes indolores des membres inférieurs. Elle est hospitalisée. Les résultats du bilan biologique prescrit 4) L'évolution de la pathologie justifie l'instauration d'un traitement spécifique. Quel type de traitement est recommandé ?",
+    "options": [],
+    "chapterSlugs": [
+     "iv-33-maladies-auto-immunes",
+     "v-20-anti-inflammatoires"
+    ],
+    "programItems": [
+     "IV-33",
+     "V-20"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
+   },
+   {
+    "n": 5,
+    "type": "dossier",
+    "prompt": "Madame V., au terme de sa grossesse, est admise à la maternité car elle présente des contractions rapprochées. · Questions : 1) Commenter les 2 bilans biologiques. Que suggèrent les différences observées entre ces 2 bilans ? Quel est le diagnostic le plus probable ? 2) Quels sont les examens d'hémostase complémentaires à réaliser pour établir le diagnostic biologique ? 1357 2019_DTB_R Quels sont les résultats attendus ? 3) Quels sont les principes thérapeutiques pour la prise en charge immédiate de cette patiente ? 4) Comment expliquer l'oligo-anurie, la tachycardie et la polypnée observées au moment du Bilan 2 ?",
+    "options": [],
+    "chapterSlugs": [
+     "iv-36-allongement-tq-tca",
+     "ii-26-physiologie-hemostase"
+    ],
+    "programItems": [
+     "IV-36",
+     "II-26"
+    ],
+    "sourceUrl": "https://www.cng.sante.fr/annales"
    }
   ]
  },
  {
   "key": "2019",
   "label": "Décembre 2019",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2019 (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -14769,7 +15466,7 @@ export const annalesSessions = [
  {
   "key": "2018",
   "label": "Décembre 2018",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2018 (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -16876,7 +17573,7 @@ export const annalesSessions = [
  {
   "key": "2017",
   "label": "Décembre 2017",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2017 (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -18983,7 +19680,7 @@ export const annalesSessions = [
  {
   "key": "2016",
   "label": "Décembre 2016",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2016 (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -21088,7 +21785,7 @@ export const annalesSessions = [
  {
   "key": "2015",
   "label": "Décembre 2015",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2015 (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -23195,7 +23892,7 @@ export const annalesSessions = [
  {
   "key": "2014",
   "label": "Décembre 2014",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2014 (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -25302,7 +25999,7 @@ export const annalesSessions = [
  {
   "key": "2013",
   "label": "Décembre 2013",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2013 (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -27409,7 +28106,7 @@ export const annalesSessions = [
  {
   "key": "2012",
   "label": "Décembre 2012",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2012 (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -29516,7 +30213,7 @@ export const annalesSessions = [
  {
   "key": "2011",
   "label": "Décembre 2011",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2011 (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -31383,7 +32080,7 @@ export const annalesSessions = [
  {
   "key": "2010-nord",
   "label": "Décembre 2010 — Nord",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2010 — Nord (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -33250,7 +33947,7 @@ export const annalesSessions = [
  {
   "key": "2010-sud",
   "label": "Décembre 2010 — Sud",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2010 — Sud (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -35117,7 +35814,7 @@ export const annalesSessions = [
  {
   "key": "2009-nord",
   "label": "Décembre 2009 — Nord",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2009 — Nord (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -36984,7 +37681,7 @@ export const annalesSessions = [
  {
   "key": "2009-sud",
   "label": "Décembre 2009 — Sud",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2009 — Sud (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -38851,7 +39548,7 @@ export const annalesSessions = [
  {
   "key": "2008-nord",
   "label": "Décembre 2008 — Nord",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2008 — Nord (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -40718,7 +41415,7 @@ export const annalesSessions = [
  {
   "key": "2008-sud",
   "label": "Décembre 2008 — Sud",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2008 — Sud (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -42585,7 +43282,7 @@ export const annalesSessions = [
  {
   "key": "2006-nord",
   "label": "Décembre 2006 — Nord",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2006 — Nord (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -44452,7 +45149,7 @@ export const annalesSessions = [
  {
   "key": "2006-sud",
   "label": "Décembre 2006 — Sud",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2006 — Sud (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -46319,7 +47016,7 @@ export const annalesSessions = [
  {
   "key": "2005-nord",
   "label": "Décembre 2005 — Nord",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2005 — Nord (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -48184,7 +48881,7 @@ export const annalesSessions = [
  {
   "key": "2005-sud",
   "label": "Décembre 2005 — Sud",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2005 — Sud (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -50051,7 +50748,7 @@ export const annalesSessions = [
  {
   "key": "2004-nord",
   "label": "Décembre 2004 — Nord",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2004 — Nord (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -51917,7 +52614,7 @@ export const annalesSessions = [
  {
   "key": "2004-sud",
   "label": "Décembre 2004 — Sud",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2004 — Sud (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -53784,7 +54481,7 @@ export const annalesSessions = [
  {
   "key": "2003-nord",
   "label": "Décembre 2003 — Nord",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2003 — Nord (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -55651,7 +56348,7 @@ export const annalesSessions = [
  {
   "key": "2003-sud",
   "label": "Décembre 2003 — Sud",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2003 — Sud (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -57518,7 +58215,7 @@ export const annalesSessions = [
  {
   "key": "2002-nord",
   "label": "Décembre 2002 — Nord",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2002 — Nord (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -59385,7 +60082,7 @@ export const annalesSessions = [
  {
   "key": "2002-sud",
   "label": "Décembre 2002 — Sud",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2002 — Sud (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -61252,7 +61949,7 @@ export const annalesSessions = [
  {
   "key": "2001-nord",
   "label": "Décembre 2001 — Nord",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2001 — Nord (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -63119,7 +63816,7 @@ export const annalesSessions = [
  {
   "key": "2001-sud",
   "label": "Décembre 2001 — Sud",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2001 — Sud (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -64986,7 +65683,7 @@ export const annalesSessions = [
  {
   "key": "2000",
   "label": "Décembre 2000",
-  "source": "Concours national d'internat en pharmacie — session de décembre 2000 (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -66853,7 +67550,7 @@ export const annalesSessions = [
  {
   "key": "1999",
   "label": "Décembre 1999",
-  "source": "Concours national d'internat en pharmacie — session de décembre 1999 (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -68720,7 +69417,7 @@ export const annalesSessions = [
  {
   "key": "1998",
   "label": "Décembre 1998",
-  "source": "Concours national d'internat en pharmacie — session de décembre 1998 (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -70587,7 +71284,7 @@ export const annalesSessions = [
  {
   "key": "1997",
   "label": "Décembre 1997",
-  "source": "Concours national d'internat en pharmacie — session de décembre 1997 (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -72454,7 +73151,7 @@ export const annalesSessions = [
  {
   "key": "1996",
   "label": "Décembre 1996",
-  "source": "Concours national d'internat en pharmacie — session de décembre 1996 (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -74321,7 +75018,7 @@ export const annalesSessions = [
  {
   "key": "1995",
   "label": "Décembre 1995",
-  "source": "Concours national d'internat en pharmacie — session de décembre 1995 (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -76188,7 +76885,7 @@ export const annalesSessions = [
  {
   "key": "1994",
   "label": "Décembre 1994",
-  "source": "Concours national d'internat en pharmacie — session de décembre 1994 (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -78055,7 +78752,7 @@ export const annalesSessions = [
  {
   "key": "1993",
   "label": "Décembre 1993",
-  "source": "Concours national d'internat en pharmacie — session de décembre 1993 (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -79922,7 +80619,7 @@ export const annalesSessions = [
  {
   "key": "1992",
   "label": "Décembre 1992",
-  "source": "Concours national d'internat en pharmacie — session de décembre 1992 (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -81789,7 +82486,7 @@ export const annalesSessions = [
  {
   "key": "1991",
   "label": "Décembre 1991",
-  "source": "Concours national d'internat en pharmacie — session de décembre 1991 (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
@@ -83656,7 +84353,7 @@ export const annalesSessions = [
  {
   "key": "1990",
   "label": "Décembre 1990",
-  "source": "Concours national d'internat en pharmacie — session de décembre 1990 (CNG). Réponses : propositions du Conseil Scientifique, recoupées avec les grilles medshake (concordance 100% sur les sessions vérifiées vs grille officielle).",
+  "source": "",
   "items": [
    {
     "n": 1,
