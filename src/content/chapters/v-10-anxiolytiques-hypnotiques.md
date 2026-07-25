@@ -16,8 +16,8 @@ quiz:
   - prompt: "Les benzodiazépines agissent en…"
     options:
       - "renforçant l'action du GABA sur le récepteur GABA-A (canal chlore)"
-      - "bloquant les récepteurs dopaminergiques D2"
-      - "inhibant la recapture de la sérotonine"
+      - "bloquant les récepteurs dopaminergiques D2 post-synaptiques"
+      - "inhibant la recapture de la sérotonine dans la fente synaptique"
     correct: 0
   - prompt: "L'antidote spécifique d'un surdosage en benzodiazépines est…"
     options:
@@ -28,8 +28,8 @@ quiz:
   - prompt: "La durée maximale recommandée d'un traitement anxiolytique par benzodiazépine est de l'ordre de…"
     options:
       - "12 semaines"
-      - "12 mois"
-      - "aucune limite"
+      - "4 semaines"
+      - "6 mois"
     correct: 0
 ---
 

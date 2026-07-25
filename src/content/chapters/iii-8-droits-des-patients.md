@@ -16,14 +16,14 @@ quiz:
   - prompt: "La loi fondatrice des droits des patients (2002) est la loi…"
     options:
       - "du 4 mars 2002 (loi Kouchner)"
-      - "du 9 août 2004"
-      - "HPST du 21 juillet 2009"
+      - "du 9 août 2004 (santé publique)"
+      - "du 21 juillet 2009 (loi HPST)"
     correct: 0
   - prompt: "La personne de confiance…"
     options:
       - "est désignée par écrit et consultée si le patient ne peut plus exprimer sa volonté"
-      - "décide seule à la place du patient en toute circonstance"
-      - "est obligatoirement un membre de la famille"
+      - "prend les décisions médicales à la place du patient devenu incapable de s'exprimer"
+      - "est obligatoirement choisie parmi les membres de la famille proche du patient"
     correct: 0
   - prompt: "L'indemnisation d'un aléa thérapeutique (sans faute) relève de…"
     options:

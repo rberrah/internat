@@ -22,14 +22,14 @@ quiz:
   - prompt: "La DE50 d'un médicament reflète…"
     options:
       - "sa puissance (dose produisant 50 % de l'effet maximal)"
-      - "son efficacité maximale (Emax)"
-      - "sa demi-vie d'élimination"
+      - "son efficacité, la hauteur maximale du plateau d'effet"
+      - "sa toxicité (dose létale chez 50 % des sujets traités)"
     correct: 0
   - prompt: "Un médicament à marge thérapeutique étroite (digoxine, lithium, AVK) justifie…"
     options:
       - "un suivi thérapeutique pharmacologique"
-      - "aucune surveillance particulière"
-      - "une dose unique à vie"
+      - "une surveillance clinique sans dosage plasmatique"
+      - "une adaptation de la dose au seul poids du patient"
     correct: 0
 ---
 

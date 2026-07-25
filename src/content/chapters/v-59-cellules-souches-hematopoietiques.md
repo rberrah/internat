@@ -28,8 +28,8 @@ quiz:
   - prompt: "La complication immunologique spécifique de l'allogreffe est…"
     options:
       - "la maladie du greffon contre l'hôte (GVH)"
-      - "l'anémie ferriprive"
-      - "l'allergie médicamenteuse"
+      - "le rejet du greffon par l'hôte receveur"
+      - "l'effet du greffon contre la leucémie (GVL)"
     correct: 0
 ---
 

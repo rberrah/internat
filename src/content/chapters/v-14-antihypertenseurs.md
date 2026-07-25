@@ -16,8 +16,8 @@ quiz:
   - prompt: "Quel effet indésirable est spécifique des IEC et absent des ARA II ?"
     options:
       - "la toux sèche (accumulation de bradykinine)"
-      - "l'hyperkaliémie"
-      - "l'insuffisance rénale fonctionnelle"
+      - "l'hyperkaliémie (blocage de l'aldostérone)"
+      - "l'insuffisance rénale fonctionnelle (baisse du DFG)"
     correct: 0
   - prompt: "Parmi les classes suivantes, laquelle n'est PAS recommandée en première intention dans l'HTA non compliquée ?"
     options:
@@ -28,8 +28,8 @@ quiz:
   - prompt: "L'association IEC + ARA II est déconseillée car elle expose surtout à…"
     options:
       - "une hyperkaliémie et une insuffisance rénale"
-      - "une toux majorée"
-      - "une hypertension paradoxale"
+      - "une majoration de la toux et des angio-œdèmes"
+      - "une hypotension sévère et un risque de collapsus"
     correct: 0
 ---
 

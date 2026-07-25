@@ -15,15 +15,15 @@ reviewed_on: "2026-07-09"
 quiz:
   - prompt: "La PUI d'un établissement de santé est obligatoirement dirigée par…"
     options:
-      - "un pharmacien"
-      - "le directeur de l'établissement"
+      - "un pharmacien gérant"
+      - "le directeur de l'hôpital"
       - "le président de la CME"
     correct: 0
   - prompt: "Un GHT (groupement hospitalier de territoire) a pour but…"
     options:
       - "de mutualiser une stratégie de soins entre établissements publics d'un territoire"
-      - "de fusionner tous les hôpitaux privés d'une région"
-      - "de fixer le prix des médicaments à l'hôpital"
+      - "de fusionner administrativement les hôpitaux publics et privés d'une région"
+      - "de répartir les dotations budgétaires entre établissements sous contrôle de l'ARS"
     correct: 0
   - prompt: "La certification des établissements de santé est réalisée par…"
     options:

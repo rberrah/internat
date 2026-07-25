@@ -22,7 +22,7 @@ quiz:
   - prompt: "Pour étudier une maladie rare, l'enquête la plus adaptée est…"
     options:
       - "l'enquête cas-témoins"
-      - "l'enquête de cohorte prospective"
+      - "l'enquête de cohorte"
       - "l'enquête transversale"
     correct: 0
   - prompt: "Chez les exposés, la fraction étiologique du risque vaut…"

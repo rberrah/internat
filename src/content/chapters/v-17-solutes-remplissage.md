@@ -16,8 +16,8 @@ quiz:
   - prompt: "En première intention, l'expansion volémique repose sur…"
     options:
       - "les cristalloïdes (NaCl 0,9 % ou Ringer Lactate)"
-      - "l'albumine 20 %"
-      - "les hydroxyéthylamidons"
+      - "les colloïdes de synthèse (HEA ou gélatines fluides)"
+      - "l'albumine humaine, seul colloïde d'origine naturelle"
     correct: 0
   - prompt: "Les hydroxyéthylamidons (HEA) sont contre-indiqués en cas de…"
     options:

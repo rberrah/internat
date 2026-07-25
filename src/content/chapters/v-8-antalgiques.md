@@ -16,8 +16,8 @@ quiz:
   - prompt: "Les antalgiques de palier 3 de l'OMS sont…"
     options:
       - "les opioïdes forts (morphine, oxycodone, fentanyl)"
-      - "le paracétamol et les AINS"
-      - "la codéine et le tramadol"
+      - "les non-opioïdes (paracétamol, AINS, aspirine)"
+      - "les opioïdes faibles (codéine, tramadol, opium)"
     correct: 0
   - prompt: "L'antidote d'un surdosage en morphine est…"
     options:
@@ -28,8 +28,8 @@ quiz:
   - prompt: "La codéine exerce son effet antalgique après transformation en…"
     options:
       - "morphine par le CYP2D6"
-      - "paracétamol par le foie"
-      - "tramadol par le rein"
+      - "morphine par le CYP3A4"
+      - "morphine par glucuronoconjugaison"
     correct: 0
 ---
 

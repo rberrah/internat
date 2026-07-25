@@ -16,8 +16,8 @@ quiz:
   - prompt: "Le furosémide agit au niveau…"
     options:
       - "de la branche ascendante de l'anse de Henle (cotransporteur Na-K-2Cl)"
-      - "du tube contourné distal"
-      - "du tube collecteur"
+      - "du tube contourné distal (cotransporteur Na-Cl)"
+      - "du tube collecteur cortical (canaux sodium et potassium)"
     correct: 0
   - prompt: "Quel diurétique expose à une HYPERkaliémie ?"
     options:
@@ -28,8 +28,8 @@ quiz:
   - prompt: "Dans l'œdème aigu du poumon, le diurétique de choix est…"
     options:
       - "un diurétique de l'anse (furosémide IV)"
-      - "un thiazidique"
-      - "un épargneur potassique"
+      - "un thiazidique (hydrochlorothiazide)"
+      - "un épargneur potassique (spironolactone)"
     correct: 0
 ---
 

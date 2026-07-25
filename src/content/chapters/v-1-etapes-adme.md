@@ -16,20 +16,20 @@ quiz:
   - prompt: "La biotransformation de phase I fait surtout intervenir…"
     options:
       - "les cytochromes P450 (réactions d'oxydation)"
-      - "la seule glucuronoconjugaison"
-      - "la filtration glomérulaire"
+      - "les enzymes de conjugaison (glucuronosyltransférases)"
+      - "la filtration et la sécrétion tubulaire rénales"
     correct: 0
   - prompt: "L'effet de premier passage hépatique…"
     options:
       - "réduit la biodisponibilité d'un médicament pris par voie orale"
       - "augmente la fraction qui atteint la circulation générale"
-      - "n'existe que pour la voie intraveineuse"
+      - "ne concerne que les formes administrées par voie intraveineuse"
     correct: 0
   - prompt: "La réabsorption tubulaire d'un médicament acide faible est favorisée par…"
     options:
       - "une urine acide (forme non ionisée)"
-      - "une urine alcaline"
-      - "une insuffisance rénale"
+      - "une urine alcaline (forme ionisée)"
+      - "une forte liaison aux protéines plasmatiques"
     correct: 0
 ---
 

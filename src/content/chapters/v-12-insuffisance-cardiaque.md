@@ -22,14 +22,14 @@ quiz:
   - prompt: "Les classes améliorant la survie dans l'IC à FE réduite incluent…"
     options:
       - "IEC, bêta-bloquants et anti-aldostérone"
-      - "les diurétiques de l'anse"
-      - "la digoxine"
+      - "les diurétiques de l'anse et la digoxine"
+      - "l'ivabradine et les dérivés nitrés"
     correct: 0
   - prompt: "La digoxine est un médicament…"
     options:
       - "à marge thérapeutique étroite, surveillé par digoxinémie"
-      - "de première intention dans l'IC"
-      - "sans risque en cas d'hypokaliémie"
+      - "de première intention dans l'insuffisance cardiaque"
+      - "dont la toxicité est atténuée par l'hypokaliémie"
     correct: 0
 ---
 

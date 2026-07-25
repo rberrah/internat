@@ -28,7 +28,7 @@ quiz:
   - prompt: "L'infection nosocomiale la plus fréquente en France est…"
     options:
       - "l'infection urinaire"
-      - "l'infection du site opératoire"
+      - "l'infection pulmonaire"
       - "la bactériémie sur cathéter"
     correct: 0
 ---

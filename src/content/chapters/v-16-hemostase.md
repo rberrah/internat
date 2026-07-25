@@ -15,15 +15,15 @@ reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Les antivitamines K (AVK) inhibent la synthèse hépatique des facteurs…"
     options:
-      - "II, VII, IX et X (vitamine K-dépendants)"
-      - "V et VIII"
-      - "du fibrinogène uniquement"
+      - "II, VII, IX et X"
+      - "V, VIII, XI et XII"
+      - "I, V, VIII et XIII"
     correct: 0
   - prompt: "La surveillance biologique d'un traitement par AVK repose sur…"
     options:
       - "l'INR"
-      - "le TCA"
-      - "la numération plaquettaire seule"
+      - "le TCA (temps de céphaline activée)"
+      - "l'activité anti-Xa plasmatique"
     correct: 0
   - prompt: "L'antidote d'un surdosage en héparine non fractionnée est…"
     options:

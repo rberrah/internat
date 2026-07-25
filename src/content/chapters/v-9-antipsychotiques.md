@@ -17,19 +17,19 @@ quiz:
     options:
       - "le blocage des récepteurs dopaminergiques D2"
       - "l'inhibition de la recapture de la sérotonine"
-      - "le blocage des canaux calciques"
+      - "le renforcement de la transmission GABAergique"
     correct: 0
   - prompt: "Le syndrome malin des neuroleptiques associe…"
     options:
       - "hyperthermie, rigidité, troubles de conscience et élévation des CPK"
-      - "myosis et bradypnée"
-      - "une simple somnolence"
+      - "mydriase, agitation, myoclonies et hyperréflexie ostéotendineuse"
+      - "myosis, bradypnée et dépression respiratoire avec coma calme"
     correct: 0
   - prompt: "Par rapport aux neuroleptiques typiques, les atypiques donnent…"
     options:
       - "moins d'effets extrapyramidaux mais plus d'effets métaboliques"
-      - "plus d'effets extrapyramidaux"
-      - "aucun effet indésirable"
+      - "plus d'effets extrapyramidaux mais moins d'effets métaboliques"
+      - "moins d'effets extrapyramidaux et moins d'effets métaboliques"
     correct: 0
 ---
 

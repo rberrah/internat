@@ -16,20 +16,20 @@ quiz:
   - prompt: "Le traitement de la crise d'angor repose en première intention sur…"
     options:
       - "la trinitrine sublinguale (dérivé nitré d'action rapide)"
-      - "un bêta-bloquant per os"
-      - "l'ivabradine"
+      - "un bêta-bloquant par voie orale à libération immédiate"
+      - "l'ivabradine (bradycardisant du nœud sinusal)"
     correct: 0
   - prompt: "Quelle association est formellement contre-indiquée avec les dérivés nitrés ?"
     options:
       - "les inhibiteurs de la PDE5 (sildénafil)"
-      - "les statines"
-      - "l'aspirine à faible dose"
+      - "les bêta-bloquants (effet hypotenseur additif)"
+      - "les inhibiteurs calciques dihydropyridines"
     correct: 0
   - prompt: "L'ivabradine agit en…"
     options:
       - "inhibant sélectivement le courant If du nœud sinusal"
-      - "bloquant les récepteurs bêta-adrénergiques"
-      - "libérant du monoxyde d'azote"
+      - "bloquant les récepteurs bêta-adrénergiques cardiaques"
+      - "libérant du monoxyde d'azote dans la paroi vasculaire"
     correct: 0
 ---
 

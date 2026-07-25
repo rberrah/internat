@@ -16,20 +16,20 @@ quiz:
   - prompt: "Les antidépresseurs de première intention dans la dépression sont…"
     options:
       - "les ISRS (inhibiteurs sélectifs de la recapture de la sérotonine)"
-      - "les antidépresseurs tricycliques"
-      - "les IMAO non sélectifs"
+      - "les tricycliques (inhibiteurs non sélectifs de la recapture)"
+      - "les IMAO non sélectifs (inhibiteurs de la monoamine oxydase)"
     correct: 0
   - prompt: "L'effet antidépresseur clinique apparaît habituellement après un délai de…"
     options:
       - "2 à 4 semaines"
       - "quelques heures"
-      - "6 mois"
+      - "plusieurs mois"
     correct: 0
   - prompt: "Le lithium impose une surveillance par…"
     options:
       - "la lithémie (marge thérapeutique étroite)"
-      - "l'INR"
-      - "la glycémie à jeun uniquement"
+      - "l'INR (comme pour les antivitamines K)"
+      - "la glycémie à jeun (surveillance métabolique)"
     correct: 0
 ---
 

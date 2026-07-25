@@ -15,21 +15,21 @@ reviewed_on: "2026-07-09"
 quiz:
   - prompt: "Dans la maladie de Parkinson, le traitement de référence est…"
     options:
-      - "la L-dopa associée à un inhibiteur de la dopa-décarboxylase périphérique"
-      - "un anticholinestérasique"
-      - "un triptan"
+      - "la L-dopa associée à un inhibiteur de la décarboxylase périphérique"
+      - "un anticholinestérasique augmentant l'acétylcholine cérébrale"
+      - "un agoniste 5-HT1B/1D vasoconstricteur des artères cérébrales"
     correct: 0
-  - prompt: "Le traitement de fond de la crise de migraine par un triptan repose sur…"
+  - prompt: "Le traitement de la crise de migraine par un triptan repose sur…"
     options:
-      - "un agonisme des récepteurs sérotoninergiques 5-HT1B/1D (vasoconstriction)"
-      - "un blocage dopaminergique"
-      - "un agonisme GABAergique"
+      - "un agonisme des récepteurs 5-HT1B/1D entraînant une vasoconstriction"
+      - "un blocage des récepteurs dopaminergiques D2, comme un antiémétique"
+      - "un renforcement de la transmission GABAergique inhibitrice centrale"
     correct: 0
   - prompt: "Dans la maladie d'Alzheimer, les anticholinestérasiques (donépézil) visent à…"
     options:
       - "augmenter l'acétylcholine en inhibant sa dégradation"
-      - "bloquer les récepteurs NMDA exclusivement"
-      - "restaurer la dopamine"
+      - "bloquer les récepteurs NMDA du glutamate excitateur"
+      - "restaurer la transmission dopaminergique déficitaire"
     correct: 0
 ---
 
