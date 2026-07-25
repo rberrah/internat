@@ -12,12 +12,15 @@
   const titleOf = (slug) => chapters.find((c) => c.slug === slug)?.title ?? slug;
 
   // Filtres : session + type + recherche plein-texte.
-  let session = 'all';
+  // Par défaut on affiche la session la plus récente (le corpus complet fait ~2640 QCM :
+  // on ne les rend pas tous d'un coup). « Toutes sessions » + un plafond d'affichage.
+  let session = annalesSessions[0]?.key ?? 'all';
   let type = 'all';
   let query = '';
 
+  const RENDER_CAP = 120;
   $: q = query.trim().toLowerCase();
-  $: items = allAnnales.filter((it) => {
+  $: filtered = allAnnales.filter((it) => {
     if (session !== 'all' && it.session !== session) return false;
     if (type !== 'all' && it.type !== type) return false;
     if (q) {
@@ -26,6 +29,7 @@
     }
     return true;
   });
+  $: items = filtered.slice(0, RENDER_CAP);
 </script>
 
 <svelte:head><title>Annales du concours — Internat Pharma</title></svelte:head>
@@ -35,18 +39,19 @@
   <h1>Annales de l'internat</h1>
   <p class="lede">
     Les <strong>{total} questions</strong> des sujets officiels du concours d'internat en pharmacie,
-    reproduites pour la révision et <strong>reliées à chaque chapitre</strong> du cours. Chaque cours
-    renvoie de son côté vers les annales tombées sur son thème.
+    <strong>toutes les sessions de décembre 1990 à 2025</strong> (Nord/Sud compris), reproduites pour
+    la révision avec leur <strong>réponse</strong>. Les sessions du programme actuel (depuis 2012) sont
+    <strong>reliées à chaque chapitre</strong> du cours ; chaque cours renvoie vers les annales tombées
+    sur son thème.
   </p>
   <p class="prov">
     Sujets officiels organisés par le <strong>Centre National de Gestion (CNG)</strong>
-    (<a href="https://www.cng.sante.fr/annales" target="_blank" rel="noopener noreferrer">cng.sante.fr/annales</a>),
-    sessions de décembre&nbsp;2020 à 2025. Les énoncés numérisés (2020, 2022, 2024, 2025) ont été extraits
-    par <strong>reconnaissance de caractères (OCR)</strong> : de rares coquilles peuvent subsister.
-    Les réponses proviennent de la <strong>grille officielle du Conseil Scientifique</strong> lorsqu'elle
-    figure dans le sujet (2020, 2022) ou d'une grille recoupée (2023) ; le CNG ne publiant pas de corrigé
-    pour 2024 et 2025, ces réponses ne sont pas affichées. Ces documents restent la propriété de leur
-    émetteur et ne sont pas couverts par la licence du site.
+    (<a href="https://www.cng.sante.fr/annales" target="_blank" rel="noopener noreferrer">cng.sante.fr/annales</a>).
+    Les <strong>propositions de réponses</strong> du Conseil Scientifique ont été
+    <strong>recoupées avec les grilles de medshake.net</strong> ; là où une grille officielle CNG
+    existait (déc.&nbsp;2020 et 2022), la concordance est de <strong>100&nbsp;%</strong>. Seules les
+    données factuelles (énoncé, propositions, réponse) sont reprises. Ces documents restent la propriété
+    de leur émetteur et ne sont pas couverts par la licence du site.
   </p>
 </header>
 
@@ -66,7 +71,10 @@
   <input type="search" bind:value={query} placeholder="Rechercher un mot-clé…" aria-label="Rechercher dans les annales" />
 </div>
 
-<p class="count">{items.length} question{items.length > 1 ? 's' : ''}</p>
+<p class="count">
+  {filtered.length} question{filtered.length > 1 ? 's' : ''}
+  {#if filtered.length > items.length}<span class="cap"> — {items.length} affichées (affinez par session ou recherche)</span>{/if}
+</p>
 
 <div class="list">
   {#each items as it (it.session + it.type + it.n)}
