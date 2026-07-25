@@ -40,8 +40,13 @@
   </p>
   <p class="prov">
     Sujets officiels organisés par le <strong>Centre National de Gestion (CNG)</strong>
-    (<a href="https://www.cng.sante.fr/annales" target="_blank" rel="noopener noreferrer">cng.sante.fr/annales</a>).
-    Ils restent la propriété de leur émetteur et ne sont pas couverts par la licence du site.
+    (<a href="https://www.cng.sante.fr/annales" target="_blank" rel="noopener noreferrer">cng.sante.fr/annales</a>),
+    sessions de décembre&nbsp;2020 à 2025. Les énoncés numérisés (2020, 2022, 2024, 2025) ont été extraits
+    par <strong>reconnaissance de caractères (OCR)</strong> : de rares coquilles peuvent subsister.
+    Les réponses proviennent de la <strong>grille officielle du Conseil Scientifique</strong> lorsqu'elle
+    figure dans le sujet (2020, 2022) ou d'une grille recoupée (2023) ; le CNG ne publiant pas de corrigé
+    pour 2024 et 2025, ces réponses ne sont pas affichées. Ces documents restent la propriété de leur
+    émetteur et ne sont pas couverts par la licence du site.
   </p>
 </header>
 
