@@ -8,7 +8,9 @@
   import ExerciseBlock from '$lib/components/ui/ExerciseBlock.svelte';
   import CasClinique from '$lib/components/ui/CasClinique.svelte';
   import MemoPanel from '$lib/components/ui/MemoPanel.svelte';
+  import ChapterByline from '$lib/components/ui/ChapterByline.svelte';
   import ChapterFooter from '$lib/components/ui/ChapterFooter.svelte';
+  import { AUTHOR, COURSE_NAME, LICENSE_URL, SITE_URL, canonicalUrl, jsonLdScript } from '$lib/site';
   import { markSeen } from '$lib/stores/progress';
   import { exercisesForChapter } from '$lib/content/exercises';
   import { casForChapter } from '$lib/content/casCliniques';
@@ -37,6 +39,33 @@
     .map((/** @type {any} */ c) => ({ slug: c.slug, title: c.title }));
   $: glossaryTerms = chapter?.glossary ?? [];
   $: hasRecall = prereqs.length > 0 || glossaryTerms.length > 0;
+
+  // Données structurées de la page (schema.org). `dateModified` n'est posé que si le
+  // frontmatter porte une date de révision : pas de date inventée.
+  $: chapterLd = chapter
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'LearningResource',
+        name: chapter.title,
+        description: chapter.description,
+        url: canonicalUrl($page.url.pathname),
+        inLanguage: 'fr',
+        learningResourceType: 'Chapitre de cours',
+        license: LICENSE_URL,
+        author: {
+          '@type': 'Person',
+          name: AUTHOR.name,
+          identifier: AUTHOR.orcid,
+          url: AUTHOR.url
+        },
+        isPartOf: {
+          '@type': 'Course',
+          name: COURSE_NAME,
+          url: SITE_URL
+        },
+        ...(chapter.reviewed_on ? { dateModified: chapter.reviewed_on } : {})
+      }
+    : null;
 
   let activeIndex = 0;
   /** @type {HTMLElement[]} */
@@ -117,6 +146,9 @@
   {#if chapter}
     <title>{chapter.title} — Internat Pharma</title>
   {/if}
+  {#if chapterLd}
+    {@html jsonLdScript(chapterLd)}
+  {/if}
 </svelte:head>
 
 {#if !chapter}
@@ -131,6 +163,7 @@
     <a class="back" href={`${base}/chapitres`}>← Disciplines</a>
     <p class="eyebrow">{track?.title ?? ''}</p>
     <h1>{chapter.title}</h1>
+    <ChapterByline reviewedOn={chapter.reviewed_on} />
     <p class="desc">{chapter.description}</p>
 
     {#if hasRecall}
@@ -239,7 +272,7 @@
   .chap-head { max-width: 720px; margin-bottom: var(--space-8); }
   .back { font-family: var(--font-mono); font-size: var(--text-sm); text-decoration: none; color: var(--text-secondary); }
   .chap-head h1 { font-size: var(--text-3xl); margin: var(--space-2) 0; }
-  .chap-head .desc { color: var(--text-secondary); font-size: var(--text-lg); }
+  .chap-head .desc { color: var(--text-secondary); font-size: var(--text-lg); margin-top: var(--space-4); }
 
   .scrolly { display: grid; grid-template-columns: 1fr; gap: var(--space-8); }
   @media (min-width: 920px) { .scrolly { grid-template-columns: minmax(0, 1fr) minmax(420px, 1.1fr); gap: var(--space-12); align-items: start; } }

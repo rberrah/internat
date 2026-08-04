@@ -1,8 +1,12 @@
 <script>
   // @ts-nocheck
-  // Pied de chapitre : sources vérifiables (pool fermé), date de dernière révision,
-  // statut de relecture, et signalement d'erreur pré-rempli avec l'id du chapitre.
+  // Pied de chapitre : sources vérifiables (pool fermé), statut de relecture,
+  // signalement d'erreur pré-rempli avec l'id du chapitre, puis « Citer cette page ».
+  // La date de dernière révision est affichée en TÊTE de chapitre (ChapterByline) :
+  // elle n'est pas répétée ici.
   import { resolveSources, refIdentifier } from '$lib/content/references';
+  import CiteBlock from './CiteBlock.svelte';
+  import { citationYear } from '$lib/site';
 
   /** @type {any} */
   export let chapter = null;
@@ -43,9 +47,14 @@
 
   <div class="meta">
     {#if st}<span class="badge {st.cls}">{st.label}</span>{/if}
-    {#if chapter?.reviewed_on}<span class="rev">Dernière révision : {chapter.reviewed_on}</span>{/if}
     <a class="report" href={issueUrl} target="_blank" rel="noopener noreferrer">Signaler une erreur</a>
   </div>
+
+  <CiteBlock
+    title={chapter?.title ?? ''}
+    id={chapter?.slug ?? ''}
+    year={citationYear(chapter?.reviewed_on)}
+  />
 </footer>
 
 <style>
@@ -63,7 +72,6 @@
   .badge.ok { background: color-mix(in srgb, var(--accent-pk) 16%, var(--bg-primary)); color: var(--accent-pk); }
   .badge.read { background: var(--bg-secondary); color: var(--text-secondary); }
   .badge.draft { background: color-mix(in srgb, #c0392b 12%, var(--bg-primary)); color: #c0392b; }
-  .rev { color: var(--text-muted); }
   .report { margin-left: auto; color: var(--accent-pk); text-decoration: none; }
   .report:hover { text-decoration: underline; }
 </style>

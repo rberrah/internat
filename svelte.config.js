@@ -15,7 +15,9 @@ const config = {
 		prerender: {
 			// Les URLs de chapitres sont dérivées automatiquement (voir
 			// src/routes/chapitres/[slug]/+page.js). `*` explore les liens restants.
-			entries: ['*']
+			// `/sitemap.xml` est nommé explicitement : aucune page du site ne pointe
+			// vers lui (seul robots.txt le fait), le crawler ne le trouverait pas.
+			entries: ['*', '/sitemap.xml']
 		}
 	}
 };

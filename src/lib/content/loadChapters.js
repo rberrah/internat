@@ -62,7 +62,7 @@ const files = import.meta.glob('../../content/chapters/*.md', { query: '?raw', i
 
 /**
  * @typedef {{title:string, html:string, viz?:string}} Step
- * @typedef {{id:string, slug:string, title:string, description:string, order:number, track:string, duration:string, tags:string[], prerequisites:string[], glossary:string[], quiz:{prompt:string,options:string[],correct:number}[], steps:Step[]}} Chapter
+ * @typedef {{id:string, slug:string, title:string, description:string, order:number, track:string, duration:string, programItem:string, theme:string, level:string, layer:string, tags:string[], prerequisites:string[], glossary:string[], sources:string[], reviewed_on:string, status:string, quiz:{prompt:string,options:string[],correct:number}[], steps:Step[]}} Chapter
  */
 
 const chapters = Object.entries(files)
@@ -92,12 +92,25 @@ function parseChapter(path, raw) {
     glossary: data.glossary ?? [],
     // Schéma commun aux 3 sites : vérifiabilité
     sources: data.sources ?? [],
-    reviewed_on: data.reviewed_on ? String(data.reviewed_on) : '',
+    reviewed_on: normalizeDate(data.reviewed_on),
     status: data.status ?? '',
     quiz: data.quiz ?? [],
     steps
   };
   return chapter;
+}
+
+/**
+ * Normalise une date de frontmatter en AAAA-MM-JJ. YAML convertit une date écrite
+ * SANS guillemets en objet Date : sans ce garde-fou, la ligne de révision et le
+ * JSON-LD afficheraient « Wed Jul 09 2026 … » au lieu de la date ISO.
+ * @param {unknown} value
+ * @returns {string}
+ */
+function normalizeDate(value) {
+  if (!value) return '';
+  if (value instanceof Date) return value.toISOString().slice(0, 10);
+  return String(value);
 }
 
 /** @type {Chapter[]} */

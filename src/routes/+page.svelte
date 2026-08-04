@@ -2,10 +2,40 @@
   import { base } from '$app/paths';
   import chapters from '$lib/content/loadChapters';
   import { tracks, chaptersByTrack } from '$lib/content/tracks';
+  import {
+    AUTHOR,
+    COURSE_DESCRIPTION,
+    COURSE_NAME,
+    LICENSE_URL,
+    SITE_URL,
+    jsonLdScript
+  } from '$lib/site';
 
   const grouped = chaptersByTrack(chapters);
   const total = chapters.length;
+
+  // Données structurées du cours — posées UNE SEULE FOIS, sur son accueil.
+  // Les pages de chapitre s'y rattachent via `isPartOf`.
+  const courseLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Course',
+    name: COURSE_NAME,
+    description: COURSE_DESCRIPTION,
+    url: SITE_URL,
+    inLanguage: 'fr',
+    license: LICENSE_URL,
+    author: {
+      '@type': 'Person',
+      name: AUTHOR.name,
+      identifier: AUTHOR.orcid,
+      url: AUTHOR.url
+    }
+  };
 </script>
+
+<svelte:head>
+  {@html jsonLdScript(courseLd)}
+</svelte:head>
 
 <section class="hero">
   <p class="eyebrow">Concours de l'internat en pharmacie</p>
@@ -19,7 +49,10 @@
     <a class="btn btn-primary" href={`${base}/chapitres`}>Explorer les disciplines</a>
     <a class="btn btn-outline" href={`${base}/exercices`}>S'entraîner</a>
   </div>
-  <p class="stat">{total} chapitre{total > 1 ? 's' : ''} · programme officiel (5 sections)</p>
+  <p class="stat">
+    {total} chapitre{total > 1 ? 's' : ''} · organisés selon le programme officiel de
+    l'internat en pharmacie tel que publié par l'arrêté du 12 avril 2012 (5 sections)
+  </p>
 </section>
 
 <section class="grid">

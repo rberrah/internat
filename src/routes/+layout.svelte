@@ -3,6 +3,7 @@
   import '$lib/styles/theme.css';
   import { base } from '$app/paths';
   import { page } from '$app/stores';
+  import { AUTHOR, LICENSE_LABEL, LICENSE_URL, canonicalUrl } from '$lib/site';
   let { children } = $props();
 
   const links = [
@@ -28,6 +29,9 @@
 
 <svelte:head>
   <title>Internat Pharma</title>
+  <!-- URL canonique : dérivée de la route, jamais d'une valeur lue dans le
+       navigateur, pour que le prérendu écrive la bonne adresse publique. -->
+  <link rel="canonical" href={canonicalUrl($page.url.pathname)} />
 </svelte:head>
 
 <a class="skip-link" href="#main-content">Aller au contenu</a>
@@ -56,9 +60,16 @@
   </main>
 
   <footer>
-    <span>Contenu pédagogique original · CC BY-NC-SA 4.0</span>
+    <span>
+      Contenu pédagogique original ·
+      <a href={LICENSE_URL} target="_blank" rel="license noopener noreferrer">{LICENSE_LABEL}</a>
+      — réutilisable, y compris en enseignement, à condition de citer l'auteur et de
+      partager aux mêmes conditions. Le code du site reste sous licence MIT.
+    </span>
     <span class="muted">
-      Écrit et maintenu par Racym Berrah, PharmD, doctorant en pharmacométrie ·
+      Écrit et maintenu par
+      <a href={AUTHOR.url}>Racym Berrah</a>, PharmD, doctorant en pharmacologie ·
+      <a href={AUTHOR.orcid} target="_blank" rel="noopener noreferrer me">ORCID</a> ·
       <a href="https://github.com/rberrah/internat/issues/new" target="_blank" rel="noopener noreferrer">Une erreur ? Signalez-la</a>
     </span>
   </footer>
@@ -104,6 +115,9 @@
     color: var(--text-secondary); font-size: var(--text-sm);
     border-top: 1px solid var(--border-subtle); background: var(--bg-secondary);
   }
+  footer span { max-width: 68ch; margin: 0 auto; }
+  footer a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+  footer a:hover { color: var(--accent-pk); }
   .disclaimer {
     position: fixed; bottom: 0; left: 0; width: 100%; z-index: 100;
     background: var(--disclaimer-bg); color: var(--disclaimer-text);

@@ -46,4 +46,19 @@ Le site est prévu pour être servi sous `/internat`. En CI, définir `BASE_PATH
 avant `npm run build` (voir `svelte.config.js`), publier le dossier `build/`.
 En local, laisser `BASE_PATH` vide.
 
+L'identité publique du site (origine, chemin, auteur, licence) est centralisée dans
+`src/lib/site.js` : c'est de là que viennent les URLs canoniques, les JSON-LD, les
+citations et `sitemap.xml`. `base` ($app/paths) ne porte jamais l'origine, il ne suffit
+donc pas pour écrire une URL absolue.
+
+## Licence
+
+- **Contenu** (textes, schémas, exercices) : [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).
+  Réutilisation libre, y compris en enseignement et dans un cadre payant, à condition de
+  citer l'auteur et de partager aux mêmes conditions.
+- **Code** du site : licence **MIT**.
+
+Les annales (`src/lib/content/annales.js`) reprennent des sujets officiels du CNG et ne
+relèvent pas de cette licence.
+
 > Support pédagogique — ne remplace pas les référentiels officiels.

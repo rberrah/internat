@@ -1,5 +1,6 @@
 <script>
   import { base } from '$app/paths';
+  import { AUTHOR, LICENSE_LABEL, LICENSE_URL } from '$lib/site';
 </script>
 
 <article class="about">
@@ -25,6 +26,25 @@
     Ce projet est un support d'entraide, construit pour être compréhensible et honnête sur ce
     qu'il n'est pas : il <strong>ne remplace pas</strong> les référentiels officiels ni les
     ouvrages de référence. Toute erreur ou imprécision peut — et doit — être corrigée.
+  </p>
+
+  <h2>Qui écrit</h2>
+  <p>
+    Ce site est écrit et maintenu par <a href={AUTHOR.url}>Racym Berrah</a>, PharmD,
+    doctorant en pharmacologie
+    (<a href={AUTHOR.orcid} target="_blank" rel="noopener noreferrer me">ORCID</a>).
+    Chaque chapitre porte, sous son titre, la date de sa dernière révision ; il se termine
+    par ses sources et par la forme sous laquelle le citer.
+  </p>
+
+  <h2>Réutilisation</h2>
+  <p>
+    Le texte, les schémas et les exercices sont publiés sous licence
+    <a href={LICENSE_URL} target="_blank" rel="license noopener noreferrer">{LICENSE_LABEL}</a>.
+    Vous pouvez donc les reprendre, les traduire et les adapter — y compris pour enseigner,
+    y compris dans un cadre payant — à deux conditions : <strong>citer l'auteur</strong> et
+    <strong>partager le résultat aux mêmes conditions</strong>. Le code du site, lui, reste
+    sous licence <strong>MIT</strong>.
   </p>
 
   <div class="cta">

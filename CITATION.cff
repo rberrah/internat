@@ -1,0 +1,50 @@
+# Citation File Format 1.2.0 — https://citation-file-format.github.io/
+# Ce fichier doit rester à la RACINE du dépôt et sur la branche par défaut :
+# c'est la seule position où GitHub affiche l'encadré « Cite this repository ».
+#
+# Choix de `type: dataset` — CFF 1.2.0 n'admet que deux valeurs, `software` et
+# `dataset`. Ce dépôt est avant tout un corpus pédagogique : ce qui est cité est
+# le texte des chapitres, pas le moteur de rendu. `dataset` est donc le terme le
+# moins inexact des deux. Le code, lui, est couvert par LICENSE (MIT) et sera
+# déposé séparément comme logiciel (HAL / Software Heritage).
+cff-version: 1.2.0
+message: "Merci de citer cette ressource si vous l'utilisez, la réutilisez ou l'adaptez."
+type: dataset
+title: "Internat Pharma"
+abstract: >-
+  Cours ouvert en français préparant le concours de l'internat en pharmacie,
+  comptant 186 chapitres et 30 visualisations interactives, organisé selon le
+  programme officiel tel que publié. Couverture : chimie analytique et chimie
+  organique, physicochimie, biochimie, hématologie, bactériologie, virologie,
+  parasitologie, immunologie, physiologie, pharmacologie, pharmacocinétique,
+  toxicologie, biologie médicale et interprétation des examens. Chaque chapitre
+  propose une fiche de synthèse, des arbres de décision, un lexique clinique et
+  des questions corrigées ; il porte ses références et la date de sa dernière
+  révision.
+authors:
+  - family-names: Berrah
+    given-names: Racym
+    orcid: "https://orcid.org/0009-0001-6432-2880"
+    affiliation: "UMR 1248 Pharmacologie et Transplantation, INSERM, Université de Limoges, CHU de Limoges"
+keywords:
+  - pharmacy residency
+  - clinical biology
+  - medical biology
+  - pharmacology
+  - clinical laboratory interpretation
+  - open educational resources
+  - internat en pharmacie
+  - biologie médicale
+  - ressource éducative libre
+license: CC-BY-SA-4.0
+repository-code: "https://github.com/rberrah/internat"
+url: "https://rberrah.github.io/internat/"
+version: "2026.1"
+date-released: "2026-08-04"
+# À compléter après la première release archivée (DOI de concept, qui résout
+# toujours vers la dernière version). Ne pas laisser de valeur fictive ici :
+# un identifiant faux est pire qu'un identifiant absent.
+# identifiers:
+#   - type: doi
+#     value: 10.5281/zenodo.XXXXXXX
+#     description: "DOI de concept — résout vers la dernière version"
